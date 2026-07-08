@@ -73,6 +73,17 @@ export function Footer() {
             Assessments are for personal insight and education — not clinical
             diagnosis.
           </p>
+          <p>
+            Designed &amp; developed by{" "}
+            <a
+              href="https://me-mj.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-brand-300 transition hover:text-white"
+            >
+              MJ
+            </a>
+          </p>
         </div>
       </div>
     </footer>
