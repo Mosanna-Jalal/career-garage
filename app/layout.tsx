@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { FeedbackWidget } from "@/components/feedback-widget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,8 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        {/* Review tool. Set NEXT_PUBLIC_FEEDBACK_WIDGET=off before public launch. */}
+        {process.env.NEXT_PUBLIC_FEEDBACK_WIDGET !== "off" && <FeedbackWidget />}
       </body>
     </html>
   );

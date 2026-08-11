@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { ArrowRightIcon, Icon, SparkIcon } from "@/components/icons";
 import { FrameworkScene } from "@/components/decor";
 import { careerClusters, frameworks } from "@/lib/frameworks";
+import { careers } from "@/lib/careers";
 
 export const metadata: Metadata = {
   title: "Career Road Map — Courses, careers and personality frameworks",
@@ -138,33 +139,68 @@ export default function CareerRoadMapPage() {
           </p>
 
           <div className="stagger mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {careerClusters.map((c) => (
-              <div
-                key={c.name}
-                className="hover-lift rounded-3xl bg-white p-6 shadow-sm hover:shadow-xl hover:shadow-brand-900/10"
-              >
-                <span className="inline-flex rounded-2xl bg-brand-50 p-3 text-brand-700">
-                  <Icon name={c.icon} className="h-6 w-6" />
-                </span>
-                <h3 className="mt-4 text-base font-bold text-ink">{c.name}</h3>
-                <div className="mt-3 flex flex-wrap gap-1.5">
-                  {c.fields.map((f) => (
-                    <span
-                      key={f}
-                      className="rounded-full bg-cream px-2.5 py-1 text-xs font-medium text-ink/60"
-                    >
-                      {f}
+            {careerClusters.map((c) => {
+              const count = careers.filter((x) => x.cluster === c.name).length;
+              const Card = (
+                <>
+                  <div className="flex items-start justify-between gap-3">
+                    <span className="inline-flex rounded-2xl bg-brand-50 p-3 text-brand-700">
+                      <Icon name={c.icon} className="h-6 w-6" />
                     </span>
-                  ))}
+                    {count > 0 && (
+                      <span className="rounded-full bg-brand-600 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-white">
+                        {count} guide{count > 1 ? "s" : ""}
+                      </span>
+                    )}
+                  </div>
+                  <h3 className="mt-4 text-base font-bold text-ink">{c.name}</h3>
+                  <div className="mt-3 flex flex-wrap gap-1.5">
+                    {c.fields.map((f) => (
+                      <span
+                        key={f}
+                        className="rounded-full bg-cream px-2.5 py-1 text-xs font-medium text-ink/60"
+                      >
+                        {f}
+                      </span>
+                    ))}
+                  </div>
+                </>
+              );
+
+              return count > 0 ? (
+                <Link
+                  key={c.name}
+                  href={`/career-road-map/careers?cluster=${encodeURIComponent(
+                    c.name
+                  )}`}
+                  className="hover-lift group rounded-3xl bg-white p-6 shadow-sm hover:shadow-xl hover:shadow-brand-900/10"
+                >
+                  {Card}
+                </Link>
+              ) : (
+                <div
+                  key={c.name}
+                  className="rounded-3xl bg-white/60 p-6 shadow-sm"
+                >
+                  {Card}
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
-          <p className="mt-8 text-sm text-ink/50">
-            Detailed course pages, entrance requirements and college listings
-            are being built out cluster by cluster.
-          </p>
+          <div className="mt-10 flex flex-wrap items-center gap-4">
+            <Link
+              href="/career-road-map/careers"
+              className="inline-flex items-center gap-2 rounded-full bg-brand-600 px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-brand-600/25 transition hover:-translate-y-0.5 hover:bg-brand-700"
+            >
+              Browse the full career library
+              <ArrowRightIcon className="h-5 w-5" />
+            </Link>
+            <p className="text-sm text-ink/50">
+              {careers.length} detailed guides published, more added cluster by
+              cluster.
+            </p>
+          </div>
         </div>
       </section>
     </>

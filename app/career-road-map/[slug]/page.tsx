@@ -3,10 +3,19 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ArrowRightIcon, CheckIcon, Icon, SparkIcon } from "@/components/icons";
 import { FrameworkScene } from "@/components/decor";
+import { CareerDetail } from "@/components/career-detail";
 import { frameworks, getFramework } from "@/lib/frameworks";
+import { careers, getCareer } from "@/lib/careers";
 
+/**
+ * A single flat segment serves both the personality frameworks and the
+ * career library, matching the /career-road-map/<name> URL shape.
+ */
 export function generateStaticParams() {
-  return frameworks.map((f) => ({ slug: f.slug }));
+  return [
+    ...frameworks.map((f) => ({ slug: f.slug })),
+    ...careers.map((c) => ({ slug: c.slug })),
+  ];
 }
 
 export async function generateMetadata(
@@ -14,14 +23,27 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { slug } = await props.params;
   const framework = getFramework(slug);
-  if (!framework) return {};
-  return { title: framework.label, description: framework.intro[0] };
+  if (framework)
+    return { title: framework.label, description: framework.intro[0] };
+
+  const career = getCareer(slug);
+  if (career)
+    return {
+      title: `${career.name} — career guide`,
+      description: career.about[0],
+    };
+
+  return {};
 }
 
-export default async function FrameworkPage(
+export default async function RoadMapEntryPage(
   props: PageProps<"/career-road-map/[slug]">
 ) {
   const { slug } = await props.params;
+
+  const career = getCareer(slug);
+  if (career) return <CareerDetail career={career} />;
+
   const framework = getFramework(slug);
   if (!framework) notFound();
 

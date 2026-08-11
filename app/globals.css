@@ -339,6 +339,14 @@ body {
   animation: shimmer 3s linear infinite;
 }
 
+/* Feedback widget: crosshair while the reviewer picks a spot */
+html.cg-picking,
+html.cg-picking * {
+  cursor: crosshair !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+}
+
 /* Hover lift used across cards */
 .hover-lift {
   transition:
