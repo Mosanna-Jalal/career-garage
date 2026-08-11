@@ -173,13 +173,248 @@ body {
   animation-delay: 0.7s;
 }
 
+/* ---------- Playful set (children's sections) ---------- */
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+}
+
+@keyframes hop {
+  0%,
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+  35% {
+    transform: translateY(-18px) scaleY(1.05);
+  }
+  70% {
+    transform: translateY(0) scaleY(0.92);
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes jelly {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  30% {
+    transform: scale(1.12, 0.88);
+  }
+  50% {
+    transform: scale(0.9, 1.1);
+  }
+  70% {
+    transform: scale(1.05, 0.95);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.8) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.25) rotate(90deg);
+  }
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    transform: translateX(0) rotate(-3deg);
+  }
+  50% {
+    transform: translateX(14px) rotate(3deg);
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(46px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(46px) rotate(-360deg);
+  }
+}
+
+/* ---------- Professional set (older audiences, programmes) ---------- */
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-26px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes draw-line {
+  from {
+    stroke-dashoffset: 400;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-wiggle {
+  animation: wiggle 2.4s ease-in-out infinite;
+  transform-origin: 50% 90%;
+}
+.animate-hop {
+  animation: hop 2.2s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+}
+.animate-pop-in {
+  animation: pop-in 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+.animate-jelly {
+  animation: jelly 3.4s ease-in-out infinite;
+}
+.animate-twinkle {
+  animation: twinkle 2.8s ease-in-out infinite;
+}
+.animate-sway {
+  animation: sway 6s ease-in-out infinite;
+}
+.animate-orbit {
+  animation: orbit 14s linear infinite;
+}
+.animate-slide-in-left {
+  animation: slide-in-left 0.7s ease-out both;
+}
+.animate-reveal-up {
+  animation: reveal-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.animate-draw-line {
+  stroke-dasharray: 400;
+  animation: draw-line 2.4s ease-out both;
+}
+.animate-shimmer {
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+
+/* Hover lift used across cards */
+.hover-lift {
+  transition:
+    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.25s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-6px);
+}
+
+/* Playful cards get a springier lift with a slight tilt */
+.hover-bounce {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.hover-bounce:hover {
+  transform: translateY(-8px) rotate(-1.5deg) scale(1.02);
+}
+
+/* Stagger helpers for grids */
+.stagger > * {
+  animation: reveal-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.stagger > *:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.stagger > *:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.stagger > *:nth-child(3) {
+  animation-delay: 0.15s;
+}
+.stagger > *:nth-child(4) {
+  animation-delay: 0.2s;
+}
+.stagger > *:nth-child(5) {
+  animation-delay: 0.25s;
+}
+.stagger > *:nth-child(6) {
+  animation-delay: 0.3s;
+}
+.stagger > *:nth-child(7) {
+  animation-delay: 0.35s;
+}
+.stagger > *:nth-child(8) {
+  animation-delay: 0.4s;
+}
+.stagger > *:nth-child(n + 9) {
+  animation-delay: 0.45s;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-float,
   .animate-float-x,
   .animate-blob,
   .animate-spin-slow,
   .animate-spin-slower-reverse,
-  .animate-pulse-soft {
+  .animate-pulse-soft,
+  .animate-wiggle,
+  .animate-hop,
+  .animate-jelly,
+  .animate-twinkle,
+  .animate-sway,
+  .animate-orbit,
+  .animate-shimmer {
     animation: none;
+  }
+  .animate-pop-in,
+  .animate-slide-in-left,
+  .animate-reveal-up,
+  .animate-draw-line,
+  .stagger > * {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+  }
+  .hover-lift:hover,
+  .hover-bounce:hover {
+    transform: none;
   }
 }
