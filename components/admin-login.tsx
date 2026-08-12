@@ -41,14 +41,17 @@ export function AdminLogin({ configured }: { configured: boolean }) {
         {configured ? (
           <>
             <p className="mt-2 text-sm text-ink/60">
-              Enter the shared admin token to view the review queue.
+              Enter the password to view the review queue. You&apos;ll stay
+              signed in on this browser for a year.
             </p>
             <form onSubmit={submit} className="mt-6 space-y-4">
               <input
                 type="password"
+                name="password"
+                autoComplete="current-password"
                 value={token}
                 onChange={(e) => setToken(e.target.value)}
-                placeholder="Admin token"
+                placeholder="Password"
                 autoFocus
                 className="w-full rounded-xl border border-brand-100 px-3.5 py-2.5 text-sm focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200"
               />
@@ -68,9 +71,9 @@ export function AdminLogin({ configured }: { configured: boolean }) {
         ) : (
           <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-4">
             <p className="text-sm leading-relaxed text-amber-900">
-              <strong>ADMIN_TOKEN is not set.</strong> Add a line like{" "}
+              <strong>No password is set.</strong> Add{" "}
               <code className="rounded bg-amber-100 px-1.5 py-0.5 text-xs">
-                ADMIN_TOKEN=some-long-random-string
+                ADMIN_TOKEN=King2026
               </code>{" "}
               to <code className="text-xs">.env.local</code> and restart the dev
               server.

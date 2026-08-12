@@ -320,7 +320,18 @@ export function LogoMark(props: IconProps) {
   );
 }
 
+export function DownloadIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M12 3v12" />
+      <path d="m7 12 5 5 5-5" />
+      <path d="M5 21h14" />
+    </svg>
+  );
+}
+
 export const iconMap = {
+  download: DownloadIcon,
   brain: BrainIcon,
   compass: CompassIcon,
   heart: HeartIcon,

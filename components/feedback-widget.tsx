@@ -312,6 +312,15 @@ export function FeedbackWidget() {
               </button>
             </div>
           )}
+
+          <div className="border-t border-brand-100 px-5 py-3">
+            <a
+              href="/admin/feedback"
+              className="text-xs font-semibold text-ink/45 transition hover:text-brand-600"
+            >
+              Open the feedback queue →
+            </a>
+          </div>
         </div>
       )}
 

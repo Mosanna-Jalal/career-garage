@@ -28,7 +28,9 @@ export async function POST(request: Request) {
     sameSite: "lax",
     secure: process.env.NODE_ENV === "production",
     path: "/",
-    maxAge: 60 * 60 * 24 * 30,
+    // Stay signed in for a year — this is an internal review tool and
+    // re-entering the password on every visit is friction we don't need.
+    maxAge: 60 * 60 * 24 * 365,
   });
   return res;
 }

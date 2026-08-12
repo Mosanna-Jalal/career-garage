@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowRightIcon, CloseIcon } from "@/components/icons";
+import { ArrowRightIcon, CloseIcon, DownloadIcon } from "@/components/icons";
 import {
   CATEGORY_META,
   FEEDBACK_STATUSES,
@@ -12,6 +12,112 @@ import {
 } from "@/lib/feedback";
 
 type Filter = FeedbackStatus | "all";
+
+/** "Today" / "Yesterday" / "Tuesday, 12 August 2026" */
+function dayLabel(key: string) {
+  if (key === "Unknown date") return key;
+  const d = new Date(key);
+  const today = new Date();
+  const yesterday = new Date();
+  yesterday.setDate(today.getDate() - 1);
+
+  if (d.toDateString() === today.toDateString()) return "Today";
+  if (d.toDateString() === yesterday.toDateString()) return "Yesterday";
+  return d.toLocaleDateString(undefined, {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+/** YYYY-MM-DD, for filenames. */
+function isoDay(key: string) {
+  const d = new Date(key);
+  if (Number.isNaN(d.getTime())) return "unknown-date";
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+/**
+ * Render a day's comments as Markdown, grouped by page.
+ * Written to be handed straight to a developer: every item carries the page,
+ * the section, the exact element that was clicked, and the position.
+ */
+function toMarkdown(dayKey: string, list: FeedbackRecord[]) {
+  const byPath = new Map<string, FeedbackRecord[]>();
+  for (const i of list) {
+    const arr = byPath.get(i.pathname) ?? [];
+    arr.push(i);
+    byPath.set(i.pathname, arr);
+  }
+
+  const counts = FEEDBACK_STATUSES.map((s) => {
+    const n = list.filter((i) => i.status === s).length;
+    return n ? `${n} ${STATUS_META[s].label.toLowerCase()}` : null;
+  })
+    .filter(Boolean)
+    .join(" · ");
+
+  const lines: string[] = [
+    `# Career Garage — feedback for ${dayLabel(dayKey)}`,
+    "",
+    `**${dayKey}** · ${list.length} comment${list.length > 1 ? "s" : ""}${
+      counts ? ` · ${counts}` : ""
+    }`,
+    "",
+    `Exported ${new Date().toLocaleString()}`,
+    "",
+    "---",
+    "",
+  ];
+
+  for (const [pathname, items] of Array.from(byPath.entries()).sort(
+    (a, b) => b[1].length - a[1].length
+  )) {
+    lines.push(`## ${pathname}  (${items.length})`, "");
+
+    items.forEach((i, n) => {
+      const time = i.createdAt
+        ? new Date(i.createdAt).toLocaleTimeString([], {
+            hour: "2-digit",
+            minute: "2-digit",
+          })
+        : "—";
+
+      lines.push(`### ${n + 1}. ${i.message}`, "");
+      lines.push(`- **Status:** ${STATUS_META[i.status].label}`);
+      lines.push(
+        `- **Category:** ${CATEGORY_META[i.category]?.label ?? i.category}`
+      );
+      if (i.section) lines.push(`- **Section:** ${i.section}`);
+      if (i.elementText)
+        lines.push(
+          `- **Clicked on:** "${i.elementText.replace(/\s+/g, " ").slice(0, 160)}"`
+        );
+      if (i.elementPath) lines.push(`- **Element:** \`${i.elementPath}\``);
+      lines.push(
+        `- **Position:** ${i.x}×${i.y}px (${i.xPct}%, ${i.yPct}%) · viewport ${i.viewportW}×${i.viewportH}`
+      );
+      lines.push(`- **By:** ${i.author || "Anonymous"} at ${time}`);
+      lines.push("");
+    });
+  }
+
+  return lines.join("\n");
+}
+
+function downloadFile(filename: string, content: string) {
+  const blob = new Blob([content], { type: "text/markdown;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
 
 export function FeedbackBoard() {
   const [items, setItems] = useState<FeedbackRecord[]>([]);
@@ -87,15 +193,22 @@ export function FeedbackBoard() {
     [items, filter]
   );
 
-  // Group by page so related comments read together.
-  const grouped = useMemo(() => {
+  // One card per day, newest first.
+  const byDay = useMemo(() => {
     const map = new Map<string, FeedbackRecord[]>();
     for (const item of visible) {
-      const list = map.get(item.pathname) ?? [];
+      const d = item.createdAt ? new Date(item.createdAt) : null;
+      const key =
+        d && !Number.isNaN(d.getTime()) ? d.toDateString() : "Unknown date";
+      const list = map.get(key) ?? [];
       list.push(item);
-      map.set(item.pathname, list);
+      map.set(key, list);
     }
-    return Array.from(map.entries()).sort((a, b) => b[1].length - a[1].length);
+    return Array.from(map.entries()).sort((a, b) => {
+      const ta = a[0] === "Unknown date" ? 0 : new Date(a[0]).getTime();
+      const tb = b[0] === "Unknown date" ? 0 : new Date(b[0]).getTime();
+      return tb - ta;
+    });
   }, [visible]);
 
   return (
@@ -109,7 +222,21 @@ export function FeedbackBoard() {
             Comments pinned by reviewers, grouped by page.
           </p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
+          <button
+            onClick={() => {
+              if (!items.length) return;
+              const all = byDay
+                .map(([day, list]) => toMarkdown(day, list))
+                .join("\n\n---\n\n");
+              downloadFile("career-garage-feedback-all.md", all);
+            }}
+            disabled={!items.length}
+            className="inline-flex items-center gap-1.5 rounded-full bg-brand-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-700 disabled:opacity-40"
+          >
+            <DownloadIcon className="h-4 w-4" />
+            Download all
+          </button>
           <button
             onClick={load}
             className="rounded-full border border-brand-200 px-4 py-2 text-sm font-semibold text-brand-700 hover:bg-brand-50"
@@ -162,32 +289,81 @@ export function FeedbackBoard() {
           </p>
         </div>
       ) : (
-        <div className="mt-8 space-y-10">
-          {grouped.map(([pathname, list]) => (
-            <section key={pathname}>
-              <div className="flex flex-wrap items-center gap-3 border-b border-brand-100 pb-2">
-                <h2 className="font-mono text-sm font-bold text-ink">
-                  {pathname}
+        <div className="mt-8 space-y-8">
+          {byDay.map(([dayKey, list]) => (
+            <section
+              key={dayKey}
+              className="overflow-hidden rounded-3xl border border-brand-100 bg-white shadow-sm"
+            >
+              {/* one card header per day */}
+              <div className="flex flex-wrap items-center gap-3 border-b border-brand-100 bg-cream/60 px-6 py-4">
+                <h2 className="text-lg font-extrabold tracking-tight text-ink">
+                  {dayLabel(dayKey)}
                 </h2>
-                <span className="rounded-full bg-cream px-2.5 py-0.5 text-xs font-semibold text-ink/50">
-                  {list.length}
+                <span className="rounded-full bg-brand-600 px-2.5 py-0.5 text-xs font-bold text-white">
+                  {list.length} comment{list.length > 1 ? "s" : ""}
                 </span>
-                <Link
-                  href={pathname}
-                  className="ml-auto inline-flex items-center gap-1 text-xs font-semibold text-brand-600 hover:underline"
-                >
-                  Open page <ArrowRightIcon className="h-3.5 w-3.5" />
-                </Link>
+
+                <div className="ml-auto flex flex-wrap items-center gap-1.5">
+                  {FEEDBACK_STATUSES.map((s) => {
+                    const n = list.filter((i) => i.status === s).length;
+                    if (!n) return null;
+                    return (
+                      <span
+                        key={s}
+                        className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs font-semibold ${STATUS_META[s].chip}`}
+                      >
+                        <span
+                          className={`h-1.5 w-1.5 rounded-full ${STATUS_META[s].dot}`}
+                        />
+                        {n} {STATUS_META[s].label.toLowerCase()}
+                      </span>
+                    );
+                  })}
+
+                  <button
+                    onClick={() =>
+                      downloadFile(
+                        `career-garage-feedback-${isoDay(dayKey)}.md`,
+                        toMarkdown(dayKey, list)
+                      )
+                    }
+                    title="Download this day's feedback as Markdown"
+                    className="ml-1 inline-flex items-center gap-1.5 rounded-full bg-brand-600 px-3.5 py-1.5 text-xs font-bold text-white transition hover:bg-brand-700"
+                  >
+                    <DownloadIcon className="h-3.5 w-3.5" />
+                    Download
+                  </button>
+                </div>
               </div>
 
-              <ul className="mt-4 space-y-4">
+              <ul className="divide-y divide-brand-100">
                 {list.map((item) => (
                   <li
                     key={item.id}
-                    className={`rounded-2xl border border-brand-100 bg-white p-5 shadow-sm transition ${
+                    className={`p-6 transition ${
                       busyId === item.id ? "opacity-50" : ""
                     }`}
                   >
+                    {/* which page this comment belongs to */}
+                    <div className="mb-3 flex flex-wrap items-center gap-2">
+                      <Link
+                        href={item.pathname}
+                        className="inline-flex items-center gap-1 font-mono text-xs font-bold text-brand-700 hover:underline"
+                      >
+                        {item.pathname}
+                        <ArrowRightIcon className="h-3 w-3" />
+                      </Link>
+                      <span className="text-xs text-ink/40">
+                        {item.createdAt
+                          ? new Date(item.createdAt).toLocaleTimeString([], {
+                              hour: "2-digit",
+                              minute: "2-digit",
+                            })
+                          : ""}
+                      </span>
+                    </div>
+
                     <div className="flex flex-wrap items-start gap-3">
                       <span
                         className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-bold ${
