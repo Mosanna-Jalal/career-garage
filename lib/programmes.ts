@@ -42,13 +42,13 @@ export const programmes: Programme[] = [
     eyebrow: "Internship & Training Programme",
     headline: "Real experience,",
     headlineAccent: "before you need it.",
-    subhead: "Seventeen ways to turn learning into work-ready capability",
+    subhead: "Eleven ways to turn learning into work-ready capability",
     intro: [
       "Career Garage runs internships and training in every format a learner might need — remote, on-site, hybrid, micro, seasonal and international — each with an assigned industry mentor, structured reviews and a verifiable certificate at the end.",
       "Programmes combine practical projects, professional skills training and employer evaluation so students leave with evidence of what they can do, not just a line on a résumé.",
     ],
     badges: [
-      { icon: "briefcase", label: "17 internship formats" },
+      { icon: "briefcase", label: "11 internship formats" },
       { icon: "handshake", label: "Industry mentor assigned" },
       { icon: "shield", label: "Verified certificates" },
       { icon: "trending", label: "Internship-to-job pathway" },
@@ -143,53 +143,15 @@ export const programmes: Programme[] = [
             ],
           },
           {
-            title: "7. Live Industry Projects",
-            text: "Students work on startup, NGO, consulting, marketing, software, research, content and product briefs — delivering a final report, presentation, portfolio piece and project evaluation.",
-          },
-          {
-            title: "8. Skill Certification Program",
+            title: "7. Skill Certification Program",
             text: "Industry-recognised certification awarded after training completion, assessment, project submission, viva and mentor approval.",
           },
           {
-            title: "9. Micro Internships",
-            text: "One week, two weeks or one month — suited to school students, beginners and career exploration.",
-          },
-          {
-            title: "10. Summer Internship",
-            items: [
-              "4–8 weeks",
-              "College students",
-              "Domain-specific projects",
-              "Final evaluation",
-            ],
-          },
-          {
-            title: "11. Winter Internship",
-            items: [
-              "Holiday internships",
-              "Skill enhancement",
-              "Short-term projects",
-            ],
-          },
-          {
-            title: "12. Apprenticeship Program",
-            items: [
-              "Long-term industry learning",
-              "Practical exposure",
-              "Employer evaluation",
-              "Career transition support",
-            ],
-          },
-          {
-            title: "13. Startup Internship",
+            title: "8. Startup Internship",
             text: "Work directly with startups across marketing, sales, product management, technology, finance, operations and customer support.",
           },
           {
-            title: "14. Research Internship",
-            text: "For science, engineering, psychology, education, business and social sciences — covering research methodology, data analysis, publication support and paper presentation.",
-          },
-          {
-            title: "15. Entrepreneurship Internship",
+            title: "9. Entrepreneurship Internship",
             items: [
               "Startup ideation",
               "Business planning",
@@ -202,11 +164,11 @@ export const programmes: Programme[] = [
             ],
           },
           {
-            title: "16. Social Impact Internship",
+            title: "10. Social Impact Internship",
             text: "Partner with NGOs, government initiatives and community organisations across healthcare, environment, rural development and women's empowerment.",
           },
           {
-            title: "17. International Virtual Internship",
+            title: "11. International Virtual Internship",
             items: [
               "Global mentors",
               "Cross-cultural collaboration",
@@ -526,13 +488,13 @@ export const programmes: Programme[] = [
     headline: "Recognise talent.",
     headlineAccent: "Remove the barrier.",
     subhead:
-      "Twelve scholarship categories funded by Career Garage, schools, CSR, NGOs and corporate sponsors",
+      "Scholarships funded by Career Garage, schools, CSR, NGOs and corporate sponsors",
     intro: [
       "The Career Garage Scholarship Programme is designed to recognise talent, support financially deserving students, and encourage continuous learning.",
       "Scholarships can be funded by Career Garage, partner schools, CSR initiatives, NGOs, universities and corporate sponsors — with a transparent digital application and selection process throughout.",
     ],
     badges: [
-      { icon: "star", label: "12 scholarship categories" },
+      { icon: "star", label: "2 scholarship categories" },
       { icon: "scale", label: "Transparent selection" },
       { icon: "shield", label: "QR-verified awards" },
       { icon: "handshake", label: "CSR & NGO funded" },
@@ -547,47 +509,7 @@ export const programmes: Programme[] = [
             text: "Awarded to students with outstanding academic performance. Eligibility considers academic scores, scholarship test performance, consistent attendance and an optional teacher recommendation.",
           },
           {
-            title: "2. Need-Based Scholarship",
-            text: "For students from economically disadvantaged backgrounds, assessed on family income criteria, supporting documents, a scholarship assessment and a verification process.",
-          },
-          {
-            title: "3. Talent Scholarship",
-            text: "For exceptional ability in coding, robotics, AI, mathematics, arts, sports, music, public speaking or writing.",
-          },
-          {
-            title: "4. Career Excellence Scholarship",
-            text: "Based on Career Garage assessments — career aptitude, personality, Big Five, emotional intelligence and learning style.",
-          },
-          {
-            title: "5. Innovation Scholarship",
-            text: "For students who build innovative projects, develop prototypes, create startups, solve community problems or take part in hackathons.",
-          },
-          {
-            title: "6. Leadership Scholarship",
-            text: "Recognises student leaders, community volunteers, social impact initiatives, school leadership and youth ambassadors.",
-          },
-          {
-            title: "7. Girls Education Scholarship",
-            text: "Supports girls pursuing quality education and career development.",
-          },
-          {
-            title: "8. STEM Scholarship",
-            text: "For students excelling in science, technology, engineering and mathematics.",
-          },
-          {
-            title: "9. Entrepreneurship Scholarship",
-            text: "For aspiring entrepreneurs with promising business ideas or startups.",
-          },
-          {
-            title: "10. Sports & Arts Scholarship",
-            text: "Supports talented students in dance, theatre, fine arts and photography.",
-          },
-          {
-            title: "11. Skill Development Scholarship",
-            text: "For students completing Career Garage training programmes and earning high skill scores.",
-          },
-          {
-            title: "12. National Scholarship Challenge",
+            title: "2. National Scholarship Challenge",
             text: "A competitive scholarship exam open to students across India, with awards based on performance and category-wise rankings.",
           },
         ],
@@ -637,64 +559,12 @@ export const programmes: Programme[] = [
         ],
       },
       {
-        kind: "features",
-        heading: "Dashboards",
-        intro: "Every stakeholder gets a view built for their role.",
-        groups: [
-          {
-            title: "Student Dashboard",
-            items: [
-              "Scholarship eligibility checker",
-              "Recommended scholarships",
-              "Application tracker",
-              "Test schedule",
-              "Results and rankings",
-              "Award history",
-              "Document upload",
-              "Renewal reminders",
-            ],
-          },
-          {
-            title: "Parent Dashboard",
-            items: [
-              "Application status",
-              "Eligibility updates",
-              "Scholarship notifications",
-              "Award details",
-              "Progress reports",
-            ],
-          },
-          {
-            title: "School Dashboard",
-            items: [
-              "Student nominations",
-              "Scholarship statistics",
-              "School-wise rankings",
-              "Performance analytics",
-              "CSR partnership opportunities",
-            ],
-          },
-          {
-            title: "Sponsor Dashboard",
-            items: [
-              "Scholarship creation and funding",
-              "Eligibility criteria management",
-              "Application review",
-              "Selection workflow",
-              "Fund utilization reports",
-              "Impact analytics",
-            ],
-          },
-        ],
-      },
-      {
         kind: "table",
         heading: "Annual Scholarship Calendar",
         columns: ["Period", "Activity"],
         rows: [
           ["January–February", "National Scholarship Test"],
           ["April", "Merit Scholarship Applications"],
-          ["June", "Need-Based Scholarship Drive"],
           ["August", "STEM & Innovation Scholarships"],
           ["October", "Talent & Leadership Scholarships"],
           ["December", "Career Garage Grand Scholarship Awards"],
@@ -711,14 +581,6 @@ export const programmes: Programme[] = [
           "Automated document verification",
           "Fraud detection",
           "AI-based essay evaluation (where applicable)",
-        ],
-      },
-      {
-        kind: "prose",
-        heading: "Strategic Partnership Opportunities",
-        paragraphs: [
-          "Career Garage can collaborate with schools and educational institutions, universities and colleges, corporate CSR programmes, foundations and NGOs, skill development organisations, industry associations, and alumni or individual donors.",
-          "These partnerships can fund scholarships while also providing mentoring, internships, training and employment pathways.",
         ],
       },
     ],
@@ -741,54 +603,12 @@ export const programmes: Programme[] = [
       "Every contest connects back to the wider platform — assessments, learning modules, mentorship, internships and certifications — so a strong performance opens real doors.",
     ],
     badges: [
-      { icon: "trending", label: "18 contest categories" },
+      { icon: "trending", label: "Year-round contest calendar" },
       { icon: "globe", label: "District, state & national levels" },
       { icon: "brain", label: "AI-assisted evaluation" },
       { icon: "star", label: "Prizes & scholarships" },
     ],
     sections: [
-      {
-        kind: "pills",
-        heading: "Contest Categories",
-        items: [
-          "Career Quiz Challenge",
-          "Aptitude Challenge",
-          "Coding Challenge",
-          "AI & Innovation Challenge",
-          "Science & STEM Competition",
-          "Business & Entrepreneurship Challenge",
-          "Design Challenge",
-          "Creative Arts Competition",
-          "Writing Competition",
-          "Public Speaking Competition",
-          "Innovation & Research Competition",
-          "Financial Literacy Challenge",
-          "Career Exploration Challenge",
-          "Social Impact Challenge",
-          "Digital Skills Competition",
-          "Language Competition",
-          "School Olympiads",
-          "Career Garage National Championship",
-        ],
-      },
-      {
-        kind: "pills",
-        heading: "Competition Formats",
-        items: [
-          "Individual",
-          "Team-based",
-          "School vs School",
-          "College vs College",
-          "District Level",
-          "State Level",
-          "National Level",
-          "Online",
-          "Offline",
-          "Hybrid",
-          "Live events",
-          "Time-bound challenges",
-        ],
-      },
       {
         kind: "features",
         heading: "How contests run",
@@ -919,27 +739,6 @@ export const programmes: Programme[] = [
           ["October", "Research & Innovation Expo"],
           ["November", "National Aptitude Championship"],
           ["December", "Career Garage Grand National Championship"],
-        ],
-      },
-      {
-        kind: "pills",
-        heading: "Common Features for All Online Contests",
-        items: [
-          "Age and class-specific difficulty levels",
-          "Individual and team competitions",
-          "Weekly, monthly, quarterly and annual contests",
-          "Live and scheduled participation options",
-          "AI-powered proctoring for major competitions",
-          "Auto-evaluation for objective questions",
-          "Expert evaluation for subjective submissions",
-          "Real-time leaderboards",
-          "National, state, district, school and class rankings",
-          "Performance analytics and improvement reports",
-          "QR-code verified digital certificates",
-          "Medals, trophies, scholarships and cash prizes",
-          "Parent and teacher progress dashboards",
-          "Multilingual support (English, Hindi and regional languages)",
-          "Mobile, tablet and desktop compatibility",
         ],
       },
     ],

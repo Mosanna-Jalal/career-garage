@@ -83,19 +83,15 @@ export default async function AudiencePage(props: PageProps<"/for/[slug]">) {
               ))}
             </div>
 
+            {/* "Explore Programs" removed per client feedback (all four
+                audience pages). The assessment CTA is now primary. */}
             <div className="mt-9 flex flex-wrap items-center gap-4">
               <Link
-                href="/register/student"
+                href="/tests"
                 className="inline-flex items-center gap-2 rounded-full bg-accent-500 px-7 py-3.5 text-base font-semibold text-white shadow-xl shadow-accent-500/25 transition hover:-translate-y-0.5 hover:bg-accent-600"
               >
-                Explore Programs
-                <ArrowRightIcon className="h-5 w-5" />
-              </Link>
-              <Link
-                href="/tests"
-                className="inline-flex items-center gap-2 rounded-full border-2 border-brand-200 bg-white px-7 py-3.5 text-base font-semibold text-brand-700 transition hover:border-brand-400 hover:bg-brand-50"
-              >
                 Take an assessment
+                <ArrowRightIcon className="h-5 w-5" />
               </Link>
             </div>
           </div>
