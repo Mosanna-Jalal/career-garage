@@ -50,7 +50,7 @@ export const programmeLinks: NavLink[] = [
   {
     href: "/programmes/internships",
     label: "Internship & Training",
-    blurb: "17 internship formats with mentors, projects and certificates",
+    blurb: "11 internship formats with mentors, projects and certificates",
     icon: "briefcase",
   },
   {
@@ -62,7 +62,7 @@ export const programmeLinks: NavLink[] = [
   {
     href: "/programmes/scholarships",
     label: "Scholarship with CG",
-    blurb: "12 scholarship categories from merit to social impact",
+    blurb: "Merit and national challenge scholarships, CSR-funded",
     icon: "star",
   },
   {
