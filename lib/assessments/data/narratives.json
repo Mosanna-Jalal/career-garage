@@ -1,0 +1,2500 @@
+{
+ "big-five": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Lower expression",
+    "meaning": "The trait direction was endorsed less often in this item set."
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Middle / flexible range",
+    "meaning": "Responses suggest a mixed or context-dependent pattern."
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Higher expression",
+    "meaning": "The trait direction was endorsed relatively often."
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Very high expression",
+    "meaning": "The trait direction was endorsed very consistently."
+   }
+  ],
+  "dims": {
+   "OPE": {
+    "name": "Openness to Experience",
+    "tagline": "Curiosity, imagination, receptiveness to ideas and willingness to explore unfamiliar experiences.",
+    "definition": "Openness describes how strongly a person is drawn to novelty, complex ideas, imagination, aesthetics, alternative perspectives and experimentation. It is not the same as intelligence: a learner can be highly capable while preferring familiar, concrete methods, or highly open while still needing skill development.",
+    "levels": [
+     [
+      "Lower",
+      "May prefer concrete information, proven methods, familiar routines and practical applications. Can bring focus, realism and consistency when novelty is distracting."
+     ],
+     [
+      "Middle / flexible",
+      "May explore when the purpose is clear while still valuing reliable methods. Often able to translate between imaginative and practical viewpoints."
+     ],
+     [
+      "Higher",
+      "May seek new ideas, varied experiences, creative possibilities and conceptual complexity. Can energise innovation and interdisciplinary learning."
+     ]
+    ],
+    "strengths": [
+     "Idea generation and reframing",
+     "Curiosity and self-directed exploration",
+     "Tolerance for ambiguity",
+     "Interest in art, design, research or emerging fields"
+    ],
+    "careers": "Exploratory, creative, research-oriented, interdisciplinary or rapidly changing environments may feel energising. Lower openness can fit equally well where precision, standardisation, proven procedures and concrete results are central.",
+    "actions": [
+     "Compare one familiar and one unfamiliar method for the same task.",
+     "Keep an idea log, then choose one idea to test with evidence.",
+     "Practise explaining a complex idea in simple, concrete language."
+    ],
+    "reflection": "When has trying a new method improved your result, and when has a proven method been the wiser choice?"
+   },
+   "CON": {
+    "name": "Conscientiousness",
+    "tagline": "Planning, organisation, dependability, persistence and attention to standards.",
+    "definition": "Conscientiousness describes the tendency to organise effort, follow through, control impulses and work toward goals. It does not mean perfectionism, obedience or constant productivity. Healthy conscientiousness combines reliable execution with the ability to adapt when circumstances change.",
+    "levels": [
+     [
+      "Lower",
+      "May work spontaneously, respond to immediate opportunities and resist excessive structure. Can adapt quickly, but may need external systems for deadlines, details and sustained follow-through."
+     ],
+     [
+      "Middle / flexible",
+      "May use structure for important commitments while remaining flexible about lower-priority tasks. Often balances planning with adaptation."
+     ],
+     [
+      "Higher",
+      "May plan ahead, maintain routines, persist through repetitive work and check important details. Can become a dependable finisher in teams."
+     ]
+    ],
+    "strengths": [
+     "Goal setting and follow-through",
+     "Dependability",
+     "Attention to detail",
+     "Persistence through routine or difficulty"
+    ],
+    "careers": "Structured projects, regulated work, technical execution, operations, finance, healthcare, engineering and long-term study can reward conscientious behaviour. More spontaneous environments still benefit from lightweight planning systems.",
+    "actions": [
+     "Convert one weekly goal into three dated next actions.",
+     "Define 'good enough' before beginning a low-risk task.",
+     "Use a short pre-submission checklist for important work."
+    ],
+    "reflection": "Which system helps you follow through without making you feel over-controlled?"
+   },
+   "EXT": {
+    "name": "Extraversion",
+    "tagline": "Social energy, assertiveness, expressiveness and comfort with active interaction.",
+    "definition": "Extraversion describes the tendency to seek and feel energised by social engagement, activity and outward expression. Lower extraversion is not shyness or poor communication; it may reflect a preference for lower stimulation, deeper one-to-one contact and time to think before speaking.",
+    "levels": [
+     [
+      "Lower",
+      "May prefer quiet concentration, smaller groups, written communication or time to prepare. Can contribute depth, listening and independent focus."
+     ],
+     [
+      "Middle / flexible",
+      "May engage comfortably when a role requires it but also value solitary recovery time. Often adapts to both collaborative and independent tasks."
+     ],
+     [
+      "Higher",
+      "May speak readily, initiate contact, seek group activity and gain energy from interaction. Can help mobilise teams and create visible momentum."
+     ]
+    ],
+    "strengths": [
+     "Initiating conversations",
+     "Verbal participation and visibility",
+     "Social confidence",
+     "Creating energy in groups"
+    ],
+    "careers": "High-interaction work such as teaching, sales, facilitation, community work, events and leadership may suit higher extraversion. Research, writing, programming, design and specialist work can suit lower extraversion, especially with planned collaboration.",
+    "actions": [
+     "Use a two-minute listening rule before offering your view in a group.",
+     "Prepare one contribution before a meeting or class discussion.",
+     "Choose a communication channel that matches both the task and your energy."
+    ],
+    "reflection": "Which social settings increase your energy, and which ones require recovery time?"
+   },
+   "AGR": {
+    "name": "Agreeableness",
+    "tagline": "Compassion, cooperation, trust, patience and concern for other people.",
+    "definition": "Agreeableness describes the tendency to preserve cooperation, understand others and respond with compassion. Lower agreeableness can include candour, scepticism and comfort with competition or debate. The useful question is not whether harmony or challenge is always better, but which response serves the situation ethically.",
+    "levels": [
+     [
+      "Lower",
+      "May question motives, challenge weak reasoning and prioritise objective standards over harmony. Can be direct and decisive, but may need to communicate impact carefully."
+     ],
+     [
+      "Middle / flexible",
+      "May cooperate while still raising concerns. Often able to support relationships and maintain boundaries."
+     ],
+     [
+      "Higher",
+      "May empathise, cooperate, offer help and protect group harmony. Can build trust and psychological safety."
+     ]
+    ],
+    "strengths": [
+     "Empathy and perspective-taking",
+     "Cooperation",
+     "Patience and support",
+     "Trust-building"
+    ],
+    "careers": "Helping professions, education, counselling, healthcare, HR, service and collaborative teams can reward agreeableness. Debate, negotiation, auditing and high-stakes decision work may require deliberate candour and boundary-setting at any score level.",
+    "actions": [
+     "Practise a respectful disagreement using evidence and a clear request.",
+     "Set one boundary on time or workload this week.",
+     "Ask what support is actually wanted before stepping in."
+    ],
+    "reflection": "How can you stay kind while still saying something difficult and necessary?"
+   },
+   "EMR": {
+    "name": "Emotional Reactivity",
+    "tagline": "Sensitivity to stress, uncertainty, setbacks and criticism - the Neuroticism direction of OCEAN.",
+    "definition": "Emotional Reactivity describes how strongly and how long a person tends to experience worry, tension or difficult emotions after stress. Career Garage uses this neutral label instead of presenting 'Neuroticism' to students. It is a personality tendency, not a diagnosis, disorder or measure of weakness.",
+    "levels": [
+     [
+      "Lower",
+      "May recover quickly, remain calm under pressure and worry less about uncertain outcomes. Can support crisis response, but may sometimes under-notice risks or emotional signals."
+     ],
+     [
+      "Middle / flexible",
+      "May notice pressure and possible problems while usually returning to a workable state. Often combines vigilance with recovery."
+     ],
+     [
+      "Higher",
+      "May detect threats, criticism and uncertainty quickly and experience them intensely. Can support caution and preparation, but may consume attention or confidence when stress is frequent."
+     ]
+    ],
+    "strengths": [
+     "Risk sensitivity",
+     "Awareness of possible problems",
+     "Emotional depth",
+     "Motivation to prepare and prevent mistakes"
+    ],
+    "careers": "No career should be ruled in or out by this score. Learners benefit from matching workload, support, predictability, recovery time and coping skills to the demands of an environment. High-pressure roles require sustainable regulation practices at every score level.",
+    "actions": [
+     "Separate facts, predictions and actions when worry rises.",
+     "Use a short recovery routine after criticism or a setback.",
+     "Seek support when stress is persistent, severe or disrupting daily life."
+    ],
+    "reflection": "What helps you return to effective action after pressure, uncertainty or criticism?"
+   }
+  }
+ },
+ "mbti": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 9,
+    "label": "Balanced / unclear",
+    "meaning": "Do not force a letter; show X and explore context or retest need"
+   },
+   {
+    "min": 10,
+    "max": 24,
+    "label": "Slight preference",
+    "meaning": "Use tentative language and show both pole scores prominently"
+   },
+   {
+    "min": 25,
+    "max": 49,
+    "label": "Moderate preference",
+    "meaning": "A meaningful current leaning that still allows flexible behaviour"
+   },
+   {
+    "min": 50,
+    "max": 100,
+    "label": "Marked preference",
+    "meaning": "A large current score difference; still not ability, permanence or identity"
+   }
+  ],
+  "dims": {
+   "E": {
+    "name": "Outward Engagement",
+    "pair": "Social Energy",
+    "tagline": "Outward Engagement and Inward Reflection describe preferred sources of stimulation, processing and recovery.",
+    "definition": "Often thinks by talking, seeks active exchange, initiates contact and gains momentum from interaction.",
+    "strengths": [
+     "Rapid exchange",
+     "visible participation",
+     "initiating conversations",
+     "mobilising groups"
+    ],
+    "watch": "Speaking before listening, overfilling social time, overlooking quiet contributors",
+    "careers": "Compare interaction frequency, presentation load, independent work, meeting style and recovery time. Do not infer communication skill from this pair.",
+    "actions": [
+     "Test the same idea in a live discussion and a written reflection.",
+     "Plan one contribution before a group session and one quiet recovery block after it.",
+     "Track which interactions energise you and which merely feel familiar."
+    ],
+    "reflection": "When does interaction improve your thinking, and when does quiet preparation improve it?"
+   },
+   "I": {
+    "name": "Inward Reflection",
+    "pair": "Social Energy",
+    "tagline": "Outward Engagement and Inward Reflection describe preferred sources of stimulation, processing and recovery.",
+    "definition": "Often thinks before speaking, prefers depth and preparation, and restores energy through quieter reflection.",
+    "strengths": [
+     "Depth",
+     "preparation",
+     "focused listening",
+     "independent concentration"
+    ],
+    "watch": "Withholding useful ideas, delaying contact, becoming depleted by unplanned interaction",
+    "careers": "Compare interaction frequency, presentation load, independent work, meeting style and recovery time. Do not infer communication skill from this pair.",
+    "actions": [
+     "Test the same idea in a live discussion and a written reflection.",
+     "Plan one contribution before a group session and one quiet recovery block after it.",
+     "Track which interactions energise you and which merely feel familiar."
+    ],
+    "reflection": "When does interaction improve your thinking, and when does quiet preparation improve it?"
+   },
+   "S": {
+    "name": "Concrete Detail",
+    "pair": "Information Focus",
+    "tagline": "Concrete Detail and Pattern Possibility describe what information a learner tends to notice and trust first.",
+    "definition": "Often begins with observable facts, sequence, examples, practical constraints and present realities.",
+    "strengths": [
+     "Accuracy",
+     "practical application",
+     "stepwise learning",
+     "noticing what is happening now"
+    ],
+    "watch": "Staying too close to precedent, missing wider patterns, requesting detail before exploration",
+    "careers": "Compare how much a field requires concrete procedure, conceptual ambiguity, pattern detection, experimentation and implementation detail.",
+    "actions": [
+     "Summarise one topic as facts first and patterns second.",
+     "Turn one broad idea into a testable next step with a deadline.",
+     "Ask which details materially change the conclusion and which do not."
+    ],
+    "reflection": "Do you understand a new topic better from a worked example or from the big picture first?"
+   },
+   "N": {
+    "name": "Pattern Possibility",
+    "pair": "Information Focus",
+    "tagline": "Concrete Detail and Pattern Possibility describe what information a learner tends to notice and trust first.",
+    "definition": "Often begins with connections, concepts, interpretations, alternatives and future possibilities.",
+    "strengths": [
+     "Conceptual synthesis",
+     "imagination",
+     "reframing",
+     "seeing future opportunities"
+    ],
+    "watch": "Skipping evidence, losing implementation detail, generating more possibilities than can be tested",
+    "careers": "Compare how much a field requires concrete procedure, conceptual ambiguity, pattern detection, experimentation and implementation detail.",
+    "actions": [
+     "Summarise one topic as facts first and patterns second.",
+     "Turn one broad idea into a testable next step with a deadline.",
+     "Ask which details materially change the conclusion and which do not."
+    ],
+    "reflection": "Do you understand a new topic better from a worked example or from the big picture first?"
+   },
+   "T": {
+    "name": "Analytical Logic",
+    "pair": "Decision Approach",
+    "tagline": "Analytical Logic and People Impact describe the criteria a learner tends to foreground when reaching conclusions.",
+    "definition": "Often starts with consistency, cause-and-effect, standards, trade-offs and impersonal criteria.",
+    "strengths": [
+     "Clear criteria",
+     "critical comparison",
+     "principled consistency",
+     "direct problem diagnosis"
+    ],
+    "watch": "Underweighting emotion or context, sounding harsher than intended, debating when support is needed",
+    "careers": "All careers need both evidence and human judgment. Compare feedback culture, stakeholder consequences, ethical trade-offs and decision transparency.",
+    "actions": [
+     "Write the decision criteria and the affected stakeholders before choosing.",
+     "Give feedback using one fact, one impact and one clear request.",
+     "Practise disagreeing respectfully without withdrawing your reasoning."
+    ],
+    "reflection": "Which important decision improved when you considered both consistency and human impact?"
+   },
+   "F": {
+    "name": "People Impact",
+    "pair": "Decision Approach",
+    "tagline": "Analytical Logic and People Impact describe the criteria a learner tends to foreground when reaching conclusions.",
+    "definition": "Often starts with values, relationships, individual circumstances and likely human consequences.",
+    "strengths": [
+     "Perspective-taking",
+     "values alignment",
+     "trust-building",
+     "anticipating stakeholder impact"
+    ],
+    "watch": "Avoiding necessary challenge, varying standards without explanation, carrying too much responsibility for harmony",
+    "careers": "All careers need both evidence and human judgment. Compare feedback culture, stakeholder consequences, ethical trade-offs and decision transparency.",
+    "actions": [
+     "Write the decision criteria and the affected stakeholders before choosing.",
+     "Give feedback using one fact, one impact and one clear request.",
+     "Practise disagreeing respectfully without withdrawing your reasoning."
+    ],
+    "reflection": "Which important decision improved when you considered both consistency and human impact?"
+   },
+   "J": {
+    "name": "Planned Closure",
+    "pair": "Lifestyle Structure",
+    "tagline": "Planned Closure and Adaptive Openness describe preferred ways of organising activity and responding to emerging information.",
+    "definition": "Often prefers schedules, decisions, defined milestones, completion and knowing what happens next.",
+    "strengths": [
+     "Planning",
+     "coordination",
+     "timely closure",
+     "visible progress and dependable routines"
+    ],
+    "watch": "Closing too early, overplanning, treating change as failure, pressuring others for premature certainty",
+    "careers": "Compare deadline structure, uncertainty, schedule control, rate of change, need for improvisation and cost of late decisions.",
+    "actions": [
+     "Use fixed milestones with a clearly labelled flexible zone.",
+     "Choose a decision date for one open question.",
+     "Run a small experiment before making either a rigid plan or an indefinite delay."
+    ],
+    "reflection": "Which parts of your week need firm closure, and where does flexibility create better work?"
+   },
+   "P": {
+    "name": "Adaptive Openness",
+    "pair": "Lifestyle Structure",
+    "tagline": "Planned Closure and Adaptive Openness describe preferred ways of organising activity and responding to emerging information.",
+    "definition": "Often prefers options, flexible timing, exploration, adaptation and room for new information.",
+    "strengths": [
+     "Adaptability",
+     "improvisation",
+     "opportunity recognition",
+     "revising when evidence changes"
+    ],
+    "watch": "Keeping options open too long, deadline compression, uneven follow-through, avoidable last-minute stress",
+    "careers": "Compare deadline structure, uncertainty, schedule control, rate of change, need for improvisation and cost of late decisions.",
+    "actions": [
+     "Use fixed milestones with a clearly labelled flexible zone.",
+     "Choose a decision date for one open question.",
+     "Run a small experiment before making either a rigid plan or an indefinite delay."
+    ],
+    "reflection": "Which parts of your week need firm closure, and where does flexibility create better work?"
+   }
+  },
+  "pairs": [
+   {
+    "pair": "Social Energy",
+    "a": "E",
+    "b": "I"
+   },
+   {
+    "pair": "Information Focus",
+    "a": "S",
+    "b": "N"
+   },
+   {
+    "pair": "Decision Approach",
+    "a": "T",
+    "b": "F"
+   },
+   {
+    "pair": "Lifestyle Structure",
+    "a": "J",
+    "b": "P"
+   }
+  ],
+  "patterns": {
+   "ISTJ": {
+    "name": "Methodical Implementer",
+    "brings": "Careful sequencing, factual follow-through and stable systems",
+    "stretch": "Check when a new option is worth testing"
+   },
+   "ISFJ": {
+    "name": "Dependable Supporter",
+    "brings": "Practical care, consistency and attention to people's needs",
+    "stretch": "State boundaries and question inefficient routines"
+   },
+   "INFJ": {
+    "name": "Reflective Developer",
+    "brings": "Long-range insight, values and thoughtful support for growth",
+    "stretch": "Test interpretations against concrete evidence"
+   },
+   "INTJ": {
+    "name": "Systems Strategist",
+    "brings": "Independent analysis, future structure and complex problem framing",
+    "stretch": "Invite feedback before locking the model"
+   },
+   "ISTP": {
+    "name": "Hands-on Diagnostician",
+    "brings": "Calm troubleshooting, technical observation and adaptive action",
+    "stretch": "Make progress and communication visible"
+   },
+   "ISFP": {
+    "name": "Considerate Improviser",
+    "brings": "Responsive practical work, personal values and situational awareness",
+    "stretch": "Set milestones before options become delays"
+   },
+   "INFP": {
+    "name": "Purpose-led Creator",
+    "brings": "Original possibilities guided by meaning and personal values",
+    "stretch": "Translate ideals into evidence and deadlines"
+   },
+   "INTP": {
+    "name": "Independent Model-Builder",
+    "brings": "Conceptual analysis, logical exploration and questioning assumptions",
+    "stretch": "Decide when analysis is sufficient for action"
+   },
+   "ESTP": {
+    "name": "Rapid Problem-Solver",
+    "brings": "Immediate action, practical experimentation and social responsiveness",
+    "stretch": "Pause for long-term consequence and documentation"
+   },
+   "ESFP": {
+    "name": "Engaging Contributor",
+    "brings": "Visible energy, practical support and responsiveness to people",
+    "stretch": "Protect focus and prepare for less stimulating tasks"
+   },
+   "ENFP": {
+    "name": "Opportunity Explorer",
+    "brings": "Connecting people and possibilities with adaptable enthusiasm",
+    "stretch": "Narrow priorities and finish the chosen experiment"
+   },
+   "ENTP": {
+    "name": "Conceptual Experimenter",
+    "brings": "Inventive debate, pattern recognition and strategic alternatives",
+    "stretch": "Separate useful challenge from endless novelty"
+   },
+   "ESTJ": {
+    "name": "Execution Organiser",
+    "brings": "Clear standards, coordination and decisive practical implementation",
+    "stretch": "Keep space for context, dissent and revision"
+   },
+   "ESFJ": {
+    "name": "Relationship Coordinator",
+    "brings": "Organised service, communication and dependable group support",
+    "stretch": "Address disagreement without over-owning harmony"
+   },
+   "ENFJ": {
+    "name": "People-and-Vision Facilitator",
+    "brings": "Purposeful communication, development and coordinated momentum",
+    "stretch": "Avoid assuming others share the same priorities"
+   },
+   "ENTJ": {
+    "name": "Direction-setting Planner",
+    "brings": "Strategic structure, decisive mobilisation and objective prioritisation",
+    "stretch": "Listen for human cost and emerging evidence"
+   }
+  }
+ },
+ "enneagram": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Lower current expression",
+    "meaning": "Theme was endorsed less often in this administration"
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Context-dependent expression",
+    "meaning": "Theme may appear in selected settings"
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Clear expression",
+    "meaning": "Theme is frequently endorsed"
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Strong expression",
+    "meaning": "Theme is very frequently endorsed"
+   }
+  ],
+  "dims": {
+   "P1": {
+    "name": "Principled Improver",
+    "tagline": "Integrity, improvement and responsibility",
+    "definition": "Raises quality, notices preventable errors and turns principles into dependable practice.",
+    "lens": [
+     [
+      "Motivational theme",
+      "Integrity, improvement and responsibility"
+     ],
+     [
+      "Attention habit",
+      "Standards, fairness, correctness and what could be improved"
+     ],
+     [
+      "Helpful conditions",
+      "Clear expectations, permission to improve systems and enough time to do work carefully."
+     ],
+     [
+      "Pressure trade-off",
+      "May over-correct, become impatient, delay completion or judge self and others too harshly."
+     ]
+    ],
+    "strengths": [
+     "Quality awareness and ethical consistency",
+     "Dependable follow-through on standards",
+     "Constructive process improvement"
+    ],
+    "actions": [
+     "Define the minimum acceptable standard before polishing beyond it.",
+     "Separate an important correction from a personal criticism.",
+     "Practise naming what is already working before suggesting improvements."
+    ],
+    "careers": "Quality assurance, engineering processes, audit, law and policy, education, public administration, research integrity and operations improvement. These are exploration examples, not job assignments. Interest, aptitude, qualifications, opportunity and experience must also support the direction.",
+    "reflection": "Which standards genuinely protect quality, and which standards only create pressure?"
+   },
+   "P2": {
+    "name": "Supportive Contributor",
+    "tagline": "Helpfulness, connection and meaningful contribution",
+    "definition": "Builds trust, notices people needs and strengthens service-oriented teamwork.",
+    "lens": [
+     [
+      "Motivational theme",
+      "Helpfulness, connection and meaningful contribution"
+     ],
+     [
+      "Attention habit",
+      "Who needs support, encouragement, inclusion or practical assistance"
+     ],
+     [
+      "Helpful conditions",
+      "Reciprocal relationships, appreciation that is not manipulative and room to state personal needs."
+     ],
+     [
+      "Pressure trade-off",
+      "May over-help, seek approval indirectly, neglect boundaries or assume responsibility for others' feelings."
+     ]
+    ],
+    "strengths": [
+     "Empathy and practical support",
+     "Trust-building and encouragement",
+     "Service awareness in teams"
+    ],
+    "actions": [
+     "Ask before helping instead of assuming what another person needs.",
+     "State one personal need directly each week.",
+     "Measure contribution by usefulness, not by whether everyone is pleased."
+    ],
+    "careers": "Education, counselling support, healthcare services, human resources, customer success, community programs, hospitality and mentoring. These are exploration examples, not job assignments. Interest, aptitude, qualifications, opportunity and experience must also support the direction.",
+    "reflection": "How can I contribute without making my value depend on being needed?"
+   },
+   "P3": {
+    "name": "Achievement Driver",
+    "tagline": "Achievement, effectiveness and visible progress",
+    "definition": "Creates momentum, adapts to objectives and converts effort into measurable outcomes.",
+    "lens": [
+     [
+      "Motivational theme",
+      "Achievement, effectiveness and visible progress"
+     ],
+     [
+      "Attention habit",
+      "Goals, results, recognition, efficiency and signals of success"
+     ],
+     [
+      "Helpful conditions",
+      "Clear goals, honest feedback, fair recognition and permission to learn from imperfect attempts."
+     ],
+     [
+      "Pressure trade-off",
+      "May over-identify with performance, manage impressions, compete unnecessarily or neglect recovery."
+     ]
+    ],
+    "strengths": [
+     "Goal focus and adaptable execution",
+     "Confidence under visible responsibility",
+     "Progress tracking and momentum"
+    ],
+    "actions": [
+     "Track one learning measure alongside every performance measure.",
+     "Choose a goal whose value remains even when nobody sees it.",
+     "Schedule recovery as part of the plan rather than as a reward."
+    ],
+    "careers": "Project management, entrepreneurship, sales, marketing, finance, consulting, operations, event delivery and performance-focused teams. These are exploration examples, not job assignments. Interest, aptitude, qualifications, opportunity and experience must also support the direction.",
+    "reflection": "What would meaningful success look like if recognition were removed?"
+   },
+   "P4": {
+    "name": "Authentic Creator",
+    "tagline": "Authenticity, personal meaning and originality",
+    "definition": "Brings depth, originality, empathy and a distinctive point of view to ideas and experiences.",
+    "lens": [
+     [
+      "Motivational theme",
+      "Authenticity, personal meaning and originality"
+     ],
+     [
+      "Attention habit",
+      "Identity, emotional nuance, distinctiveness and whether work feels genuine"
+     ],
+     [
+      "Helpful conditions",
+      "Space for reflection, meaningful expression, constructive feedback and routines that support completion."
+     ],
+     [
+      "Pressure trade-off",
+      "May compare excessively, wait for the right mood, over-personalise feedback or reject useful ordinary methods."
+     ]
+    ],
+    "strengths": [
+     "Original expression and emotional nuance",
+     "Meaning-centred design or communication",
+     "Sensitivity to identity and experience"
+    ],
+    "actions": [
+     "Create a first version before evaluating whether it feels distinctive.",
+     "Translate emotion into one observable action or design choice.",
+     "Practise using a proven method while adding one original element."
+    ],
+    "careers": "Design, writing, media, user experience, branding, arts, culture, research communication, psychology-related study and social innovation. These are exploration examples, not job assignments. Interest, aptitude, qualifications, opportunity and experience must also support the direction.",
+    "reflection": "How can I express what matters while still finishing and testing the work?"
+   },
+   "P5": {
+    "name": "Analytical Observer",
+    "tagline": "Knowledge, competence and independent understanding",
+    "definition": "Investigates deeply, protects accuracy and offers calm, well-reasoned expertise.",
+    "lens": [
+     [
+      "Motivational theme",
+      "Knowledge, competence and independent understanding"
+     ],
+     [
+      "Attention habit",
+      "Information gaps, systems, evidence, complexity and demands on time or energy"
+     ],
+     [
+      "Helpful conditions",
+      "Focused time, intellectual autonomy, clear information requests and gradual exposure to action."
+     ],
+     [
+      "Pressure trade-off",
+      "May withdraw, keep knowledge private, over-prepare or delay participation until certainty feels complete."
+     ]
+    ],
+    "strengths": [
+     "Deep analysis and evidence seeking",
+     "Independent expertise and concentration",
+     "Calm reasoning in complex problems"
+    ],
+    "actions": [
+     "Set an evidence threshold for action before beginning research.",
+     "Share one provisional insight and invite correction.",
+     "Use a time box so preparation leads to a visible decision or prototype."
+    ],
+    "careers": "Research, data, engineering, information technology, analytics, laboratories, technical writing, academia and specialist advisory work. These are exploration examples, not job assignments. Interest, aptitude, qualifications, opportunity and experience must also support the direction.",
+    "reflection": "What is the smallest responsible action I can take before I know everything?"
+   },
+   "P6": {
+    "name": "Responsible Planner",
+    "tagline": "Security, preparedness and trustworthy commitment",
+    "definition": "Anticipates failure points, tests assumptions and protects teams through preparation and loyalty.",
+    "lens": [
+     [
+      "Motivational theme",
+      "Security, preparedness and trustworthy commitment"
+     ],
+     [
+      "Attention habit",
+      "Risks, reliability, authority, missing safeguards and who can be trusted"
+     ],
+     [
+      "Helpful conditions",
+      "Reliable information, clear roles, contingency plans and permission to question without being labelled negative."
+     ],
+     [
+      "Pressure trade-off",
+      "May over-check, seek repeated reassurance, anticipate worst cases or alternate between caution and reaction."
+     ]
+    ],
+    "strengths": [
+     "Risk awareness and contingency thinking",
+     "Dependable loyalty and preparation",
+     "Healthy questioning of weak assumptions"
+    ],
+    "actions": [
+     "Classify risks by likelihood, impact and controllability.",
+     "Ask once for the evidence needed, then set a decision deadline.",
+     "Name one resource or person that supports independent confidence."
+    ],
+    "careers": "Risk, cybersecurity, compliance, logistics, operations, public safety, quality systems, finance controls and dependable team coordination. These are exploration examples, not job assignments. Interest, aptitude, qualifications, opportunity and experience must also support the direction.",
+    "reflection": "Which concern needs a plan, and which concern needs a decision?"
+   },
+   "P7": {
+    "name": "Possibility Explorer",
+    "tagline": "Variety, possibility and forward movement",
+    "definition": "Generates ideas, reframes setbacks and helps teams see opportunity during uncertainty.",
+    "lens": [
+     [
+      "Motivational theme",
+      "Variety, possibility and forward movement"
+     ],
+     [
+      "Attention habit",
+      "New options, exciting connections, future experiences and ways around limitations"
+     ],
+     [
+      "Helpful conditions",
+      "Variety with boundaries, visible progress, experimentation and accountability for completion."
+     ],
+     [
+      "Pressure trade-off",
+      "May overcommit, avoid discomfort, change direction too quickly or confuse stimulation with value."
+     ]
+    ],
+    "strengths": [
+     "Idea generation and optimism",
+     "Rapid connection of possibilities",
+     "Energy for experimentation and change"
+    ],
+    "actions": [
+     "Choose one idea to finish before opening another project.",
+     "Stay with an uncomfortable task for a defined twenty-minute block.",
+     "Evaluate options against three fixed criteria, including long-term value."
+    ],
+    "careers": "Product innovation, entrepreneurship, media, travel, events, creative strategy, emerging technology, partnerships and fast-changing projects. These are exploration examples, not job assignments. Interest, aptitude, qualifications, opportunity and experience must also support the direction.",
+    "reflection": "Which possibility deserves commitment after the excitement fades?"
+   },
+   "P8": {
+    "name": "Protective Challenger",
+    "tagline": "Autonomy, strength and protection",
+    "definition": "Acts decisively, speaks directly and protects people or principles when pressure is high.",
+    "lens": [
+     [
+      "Motivational theme",
+      "Autonomy, strength and protection"
+     ],
+     [
+      "Attention habit",
+      "Power, boundaries, vulnerability, unfair control and decisions others avoid"
+     ],
+     [
+      "Helpful conditions",
+      "Real responsibility, honest communication, respected boundaries and feedback that is direct but not adversarial."
+     ],
+     [
+      "Pressure trade-off",
+      "May dominate, escalate intensity, dismiss softer information or treat every disagreement as a contest."
+     ]
+    ],
+    "strengths": [
+     "Directness and decisive responsibility",
+     "Courage during conflict or pressure",
+     "Protection of people, principles and boundaries"
+    ],
+    "actions": [
+     "Ask one question before stating the position strongly.",
+     "Match intensity to actual risk rather than personal frustration.",
+     "Use power to increase others' agency, not only to secure an outcome."
+    ],
+    "careers": "Advocacy, negotiation, law, emergency response, entrepreneurship, operations leadership, public administration and high-accountability roles. These are exploration examples, not job assignments. Interest, aptitude, qualifications, opportunity and experience must also support the direction.",
+    "reflection": "How can I protect what matters while leaving room for other voices?"
+   },
+   "P9": {
+    "name": "Harmonious Mediator",
+    "tagline": "Harmony, inclusion and steady connection",
+    "definition": "Calms conflict, integrates perspectives and sustains patient cooperation across differences.",
+    "lens": [
+     [
+      "Motivational theme",
+      "Harmony, inclusion and steady connection"
+     ],
+     [
+      "Attention habit",
+      "Common ground, other viewpoints, tension levels and what keeps a group stable"
+     ],
+     [
+      "Helpful conditions",
+      "Time to form a position, respectful invitations to speak and structures that make priorities visible."
+     ],
+     [
+      "Pressure trade-off",
+      "May delay decisions, minimise disagreement, merge with others' priorities or maintain peace without resolution."
+     ]
+    ],
+    "strengths": [
+     "Perspective integration and patience",
+     "Conflict calming and inclusive listening",
+     "Steady coordination across differences"
+    ],
+    "actions": [
+     "State a preference before asking what everyone else wants.",
+     "Turn one avoided disagreement into a scheduled, bounded conversation.",
+     "Choose the day's most important task before responding to requests."
+    ],
+    "careers": "Mediation, facilitation, human resources, community programs, coordination, education, customer relations and steady operations. These are exploration examples, not job assignments. Interest, aptitude, qualifications, opportunity and experience must also support the direction.",
+    "reflection": "What important difference needs to be expressed for genuine harmony?"
+   }
+  }
+ },
+ "disc": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Lower current expression",
+    "meaning": "Behaviour was endorsed less often in this administration"
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Context-dependent expression",
+    "meaning": "Behaviour may appear in selected situations"
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Clear expression",
+    "meaning": "Behaviour was frequently endorsed"
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Strong expression",
+    "meaning": "Behaviour was very frequently endorsed"
+   }
+  ],
+  "dims": {
+   "DIR": {
+    "name": "Directing",
+    "tagline": "Fast decisions, ownership, challenge and visible results",
+    "definition": "Directing describes a tendency to move toward goals quickly, state expectations clearly and accept responsibility for difficult choices. It concerns an observable work approach, not authority, aggression, intelligence or leadership potential.",
+    "lens": [
+     [
+      "Observable behaviours",
+      "Sets direction; makes timely choices; addresses obstacles directly; accepts accountability; pushes for progress; challenges weak assumptions."
+     ],
+     [
+      "Potentially energising conditions",
+      "Clear outcomes, decision scope, meaningful challenge, concise communication and freedom to act within known boundaries."
+     ],
+     [
+      "Balanced contribution",
+      "Creates momentum, clarifies priorities and helps a group act when delay carries a cost."
+     ],
+     [
+      "Trade-offs to monitor",
+      "May move before enough evidence is available, sound abrupt, overlook consultation or treat every obstacle as a contest. When underused: May delay decisions, avoid necessary disagreement or wait for others when direction is required."
+     ]
+    ],
+    "strengths": [
+     "Timely decision making",
+     "Direct goal communication",
+     "Ownership under pressure"
+    ],
+    "communication": "Lead with the objective, the decision needed, key constraints and the next action. Invite one challenge question before closing.",
+    "careers": "Project delivery, operations, entrepreneurship, negotiation, business development, emergency coordination, advocacy, product ownership and roles with clear decision responsibility. These are examples only; verify interest, aptitude, qualifications, opportunity, values and experience.",
+    "actions": [
+     "For one decision, write the evidence threshold before acting.",
+     "Ask one person for a contrary view before closing a high-impact choice.",
+     "Separate urgency from impatience by naming the real deadline and consequence."
+    ],
+    "reflection": "When did a directing approach help recently, and when would a different approach have improved the result?"
+   },
+   "ENG": {
+    "name": "Engaging",
+    "tagline": "Participation, enthusiasm, connection and persuasive communication",
+    "definition": "Engaging describes a tendency to build energy through conversation, optimism, participation and social connection. It is not a popularity score, extraversion diagnosis, sales aptitude or proof of interpersonal skill.",
+    "lens": [
+     [
+      "Observable behaviours",
+      "Communicates ideas with energy; connects with new people; invites participation; tells stories; recognises effort; builds visible enthusiasm."
+     ],
+     [
+      "Potentially energising conditions",
+      "Human interaction, opportunities to communicate, varied activity, responsive audiences and room to generate shared energy."
+     ],
+     [
+      "Balanced contribution",
+      "Builds involvement, makes ideas memorable and helps people feel invited into a task or change."
+     ],
+     [
+      "Trade-offs to monitor",
+      "May promise too quickly, speak before listening, prefer excitement to detail or avoid messages that could reduce approval. When underused: May keep useful ideas private, miss opportunities to build support or appear detached when encouragement is needed."
+     ]
+    ],
+    "strengths": [
+     "Enthusiastic communication",
+     "Relationship initiation",
+     "Participation and morale building"
+    ],
+    "communication": "Begin with purpose and human relevance, allow interaction, then finish with written commitments, owners and dates.",
+    "careers": "Communication, teaching, marketing, partnerships, customer success, community programs, events, fundraising, media, recruitment and collaborative innovation. These are examples only; verify interest, aptitude, qualifications, opportunity, values and experience.",
+    "actions": [
+     "End an enthusiastic discussion with three written commitments.",
+     "Ask two questions before explaining your preferred idea.",
+     "Practise giving a difficult message with warmth and specific evidence."
+    ],
+    "reflection": "When did a engaging approach help recently, and when would a different approach have improved the result?"
+   },
+   "STA": {
+    "name": "Stabilising",
+    "tagline": "Patience, support, continuity and dependable teamwork",
+    "definition": "Stabilising describes a tendency to listen patiently, provide dependable support and maintain continuity during change. It is not passivity, low ambition, agreeableness or an obligation to absorb other people's needs.",
+    "lens": [
+     [
+      "Observable behaviours",
+      "Listens before responding; supports steady routines; notices the effect of change on others; follows through; reduces disruption; preserves trust."
+     ],
+     [
+      "Potentially energising conditions",
+      "Respectful relationships, reasonable preparation, dependable expectations, time to adapt and work where continuity matters."
+     ],
+     [
+      "Balanced contribution",
+      "Creates reliability, supports inclusion and helps teams sustain effort after the initial excitement or decision."
+     ],
+     [
+      "Trade-offs to monitor",
+      "May delay needed change, avoid open disagreement, take on too much support work or protect harmony without resolving the issue. When underused: May appear inconsistent, overlook transition needs or create avoidable disruption through repeated changes."
+     ]
+    ],
+    "strengths": [
+     "Patient listening",
+     "Dependable coordination",
+     "Continuity during change"
+    ],
+    "communication": "Provide context, explain what will remain stable, invite concerns without pressure and agree on a realistic transition sequence.",
+    "careers": "Education, healthcare support, human resources, service operations, administration, customer care, project coordination, community work and long-cycle team delivery. These are examples only; verify interest, aptitude, qualifications, opportunity, values and experience.",
+    "actions": [
+     "State one concern directly instead of expressing agreement too early.",
+     "Distinguish support from taking ownership of another person's task.",
+     "Plan one small experiment that introduces change without removing all stability."
+    ],
+    "reflection": "When did a stabilising approach help recently, and when would a different approach have improved the result?"
+   },
+   "SYS": {
+    "name": "Systematic",
+    "tagline": "Evidence, structure, accuracy and dependable standards",
+    "definition": "Systematic describes a tendency to check evidence, organise details and apply clear quality criteria. It is not intelligence, perfectionism, emotional coldness or proof of technical aptitude.",
+    "lens": [
+     [
+      "Observable behaviours",
+      "Checks evidence; organises information; defines criteria; detects avoidable errors; documents decisions; improves dependable processes."
+     ],
+     [
+      "Potentially energising conditions",
+      "Clear standards, access to reliable information, time for responsible checking, logical workflows and respect for precision."
+     ],
+     [
+      "Balanced contribution",
+      "Protects accuracy, makes reasoning inspectable and helps a team produce work that can be trusted and repeated."
+     ],
+     [
+      "Trade-offs to monitor",
+      "May over-check, delay action, communicate criticism without context or reject a useful experiment because certainty is incomplete. When underused: May accept avoidable errors, rely on memory where records are needed or make quality hard to verify."
+     ]
+    ],
+    "strengths": [
+     "Evidence and quality checking",
+     "Orderly information handling",
+     "Clear standards and documentation"
+    ],
+    "communication": "Provide the evidence, criteria, assumptions and requested decision. Distinguish essential standards from optional refinements.",
+    "careers": "Data, finance, research, engineering, technology, audit, compliance, quality, legal operations, planning and precision-intensive project work. These are examples only; verify interest, aptitude, qualifications, opportunity, values and experience.",
+    "actions": [
+     "Set a minimum evidence threshold and decision deadline before analysis.",
+     "Name the two most important standards instead of checking everything equally.",
+     "Share a provisional conclusion and ask what evidence would change it."
+    ],
+    "reflection": "When did a systematic approach help recently, and when would a different approach have improved the result?"
+   }
+  }
+ },
+ "riasec": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Lower current attraction",
+    "meaning": "This activity family was less often endorsed"
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Context-dependent attraction",
+    "meaning": "Interest may depend on the task or setting"
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Clear attraction",
+    "meaning": "This activity family was frequently endorsed"
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Strong attraction",
+    "meaning": "This activity family was very frequently endorsed"
+   }
+  ],
+  "dims": {
+   "R": {
+    "name": "Realistic",
+    "tagline": "Practical action, tools, materials, equipment and visible results",
+    "definition": "Realistic interest reflects attraction to hands-on activity: making, repairing, operating, growing, moving or working directly with physical systems. The theme concerns what a learner may enjoy doing; it does not prove mechanical skill, physical strength or a preference for low-complexity work.",
+    "lens": [
+     [
+      "Attractive activities",
+      "Building or assembling; troubleshooting equipment; working outdoors; using tools or machines; handling materials; operating technical systems; producing a concrete result."
+     ],
+     [
+      "Potentially energising conditions",
+      "Clear tasks, tangible feedback, practical problem solving, physical or field activity and opportunities to learn by doing."
+     ],
+     [
+      "Possible friction",
+      "Long periods of purely abstract discussion, ambiguous outputs or work detached from observable application may feel less energising. This is a possibility to test, not a rule."
+     ]
+    ],
+    "strengths": [
+     "Practical experimentation",
+     "Attention to how things work",
+     "Persistence with tangible problems"
+    ],
+    "careers": "Engineering workshops, skilled trades, agriculture, logistics, manufacturing, field technology, aviation, construction, environmental operations, emergency services and laboratory support. These examples refer to activity patterns, not a guaranteed fit. Each field contains multiple roles and requires its own qualifications, abilities, values and opportunities.",
+    "actions": [
+     "Complete a supervised build, repair or field project.",
+     "Interview a technician or engineer about a normal workday.",
+     "Compare enjoyment of design, operation, maintenance and outdoor work rather than treating them as one activity."
+    ],
+    "reflection": "Which recent activity shows genuine realistic interest, and what part of that activity was actually enjoyable?"
+   },
+   "I": {
+    "name": "Investigative",
+    "tagline": "Inquiry, evidence, analysis, explanation and discovery",
+    "definition": "Investigative interest reflects attraction to questions that require observation, research, diagnosis, modelling or evidence-based explanation. It is not an intelligence score and does not mean that the learner must pursue science or enjoy every kind of academic study.",
+    "lens": [
+     [
+      "Attractive activities",
+      "Researching causes; analysing data; testing ideas; diagnosing problems; reading technical material; designing investigations; explaining complex systems."
+     ],
+     [
+      "Potentially energising conditions",
+      "Time to think, access to information, meaningful questions, intellectual challenge and permission to revise a conclusion when evidence changes."
+     ],
+     [
+      "Possible friction",
+      "Repetitive activity with no problem to solve, unsupported claims or constant action without analysis may feel less engaging."
+     ]
+    ],
+    "strengths": [
+     "Evidence seeking",
+     "Complex problem framing",
+     "Curiosity about causes and systems"
+    ],
+    "careers": "Science, medicine and health research, data analytics, computing, economics, psychology research, policy analysis, environmental science, laboratories and technical consulting. These examples refer to activity patterns, not a guaranteed fit. Each field contains multiple roles and requires its own qualifications, abilities, values and opportunities.",
+    "actions": [
+     "Investigate one question using at least two evidence sources.",
+     "Try a data, laboratory, coding or research-method task.",
+     "Ask a professional how uncertainty is handled in their field."
+    ],
+    "reflection": "Which recent activity shows genuine investigative interest, and what part of that activity was actually enjoyable?"
+   },
+   "A": {
+    "name": "Artistic",
+    "tagline": "Original expression, imagination, design and open-ended creation",
+    "definition": "Artistic interest reflects attraction to creating, interpreting or communicating original ideas and experiences. It may appear through visual design, writing, performance, media, storytelling, food, fashion or concept development. It is broader than fine arts and is not a judgement of talent.",
+    "lens": [
+     [
+      "Attractive activities",
+      "Writing or storytelling; visual or interaction design; performance; composing; creative direction; producing media; inventing forms, experiences or messages."
+     ],
+     [
+      "Potentially energising conditions",
+      "Choice in how to approach a task, space for experimentation, meaningful expression, exposure to ideas and constructive feedback on original work."
+     ],
+     [
+      "Possible friction",
+      "Highly prescribed tasks with one permitted method, repetitive routines or environments that discourage experimentation may feel less attractive."
+     ]
+    ],
+    "strengths": [
+     "Idea generation",
+     "Sensitivity to expression and experience",
+     "Comfort with open-ended possibilities"
+    ],
+    "careers": "Design, media, writing, advertising, animation, architecture, user experience, content strategy, performing arts, fashion, publishing, creative technology and cultural work. These examples refer to activity patterns, not a guaranteed fit. Each field contains multiple roles and requires its own qualifications, abilities, values and opportunities.",
+    "actions": [
+     "Produce a small portfolio piece for a real audience.",
+     "Compare solo creation with collaborative production.",
+     "Request feedback on both originality and usefulness."
+    ],
+    "reflection": "Which recent activity shows genuine artistic interest, and what part of that activity was actually enjoyable?"
+   },
+   "S": {
+    "name": "Social",
+    "tagline": "Helping, teaching, guiding, caring and developing people",
+    "definition": "Social interest reflects attraction to activities that support learning, health, development, inclusion or wellbeing. It does not mean a learner is automatically highly sociable, emotionally skilled or suited to every service role; the nature and intensity of contact matter.",
+    "lens": [
+     [
+      "Attractive activities",
+      "Teaching; coaching; listening; counselling support; caring; facilitating; explaining; resolving needs; strengthening community or team capability."
+     ],
+     [
+      "Potentially energising conditions",
+      "Meaningful human impact, respectful relationships, opportunities to explain or support and feedback that another person or group has benefited."
+     ],
+     [
+      "Possible friction",
+      "Isolated work with little human purpose, competitive interaction without service value or constant exposure to intense needs without support may feel draining."
+     ]
+    ],
+    "strengths": [
+     "Developmental support",
+     "Perspective taking",
+     "Clear explanation and encouragement"
+    ],
+    "careers": "Education, healthcare, counselling, social work, learning and development, human resources, community programs, customer success, public health and rehabilitation. These examples refer to activity patterns, not a guaranteed fit. Each field contains multiple roles and requires its own qualifications, abilities, values and opportunities.",
+    "actions": [
+     "Tutor, mentor or facilitate a short learning activity.",
+     "Observe the difference between helping, teaching, caring and persuading.",
+     "Ask a practitioner about emotional load, boundaries and supervision."
+    ],
+    "reflection": "Which recent activity shows genuine social interest, and what part of that activity was actually enjoyable?"
+   },
+   "E": {
+    "name": "Enterprising",
+    "tagline": "Influence, initiative, negotiation, enterprise and leadership",
+    "definition": "Enterprising interest reflects attraction to mobilising people and resources toward an outcome through persuasion, decision making, selling, leading or creating ventures. It does not establish ethical judgement, leadership ability, business knowledge or a desire for formal authority.",
+    "lens": [
+     [
+      "Attractive activities",
+      "Pitching ideas; negotiating; organising people; selling; campaigning; setting direction; launching initiatives; making commercial or strategic decisions."
+     ],
+     [
+      "Potentially energising conditions",
+      "Visible goals, autonomy, responsibility, contact with stakeholders, scope to influence outcomes and feedback through results."
+     ],
+     [
+      "Possible friction",
+      "Roles with no decision scope, little contact, limited ownership or procedures that block all initiative may feel less engaging."
+     ]
+    ],
+    "strengths": [
+     "Initiative and mobilisation",
+     "Persuasive communication",
+     "Goal and opportunity orientation"
+    ],
+    "careers": "Business development, entrepreneurship, management, sales, marketing, politics and public affairs, fundraising, law, consulting, partnerships and project leadership. These examples refer to activity patterns, not a guaranteed fit. Each field contains multiple roles and requires its own qualifications, abilities, values and opportunities.",
+    "actions": [
+     "Pitch a useful idea and record the questions it receives.",
+     "Lead a small project with clear success criteria.",
+     "Compare enjoyment of selling, negotiating, organising and taking financial risk."
+    ],
+    "reflection": "Which recent activity shows genuine enterprising interest, and what part of that activity was actually enjoyable?"
+   },
+   "C": {
+    "name": "Conventional",
+    "tagline": "Structure, accuracy, records, procedures and orderly information",
+    "definition": "Conventional interest reflects attraction to organising information, applying dependable procedures and maintaining accuracy or control. It does not mean a learner lacks creativity, prefers low-status work or should be placed only in administration.",
+    "lens": [
+     [
+      "Attractive activities",
+      "Organising records; checking details; budgeting; scheduling; processing transactions; applying regulations; managing data; maintaining reliable workflows."
+     ],
+     [
+      "Potentially energising conditions",
+      "Clear standards, dependable systems, accurate information, visible completion, defined responsibilities and opportunities to improve orderly processes."
+     ],
+     [
+      "Possible friction",
+      "Constantly changing expectations, missing information, avoidable disorder or roles where accuracy is undervalued may reduce engagement."
+     ]
+    ],
+    "strengths": [
+     "Organisation and control",
+     "Accuracy and process discipline",
+     "Dependable information handling"
+    ],
+    "careers": "Finance, accounting, banking operations, administration, compliance, data management, supply-chain planning, quality systems, legal operations, records and project control. These examples refer to activity patterns, not a guaranteed fit. Each field contains multiple roles and requires its own qualifications, abilities, values and opportunities.",
+    "actions": [
+     "Design a simple tracking or budgeting system.",
+     "Shadow a role where accuracy prevents real harm or loss.",
+     "Compare enjoyment of data, finance, scheduling, regulation and process improvement."
+    ],
+    "reflection": "Which recent activity shows genuine conventional interest, and what part of that activity was actually enjoyable?"
+   }
+  }
+ },
+ "emotional-intelligence": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Emerging practice",
+    "meaning": "Behaviour was endorsed less often in this administration"
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Developing practice",
+    "meaning": "Behaviour may appear in selected situations"
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Strong practice signal",
+    "meaning": "Behaviour was frequently endorsed"
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Distinctive practice signal",
+    "meaning": "Behaviour was very frequently endorsed"
+   }
+  ],
+  "dims": {
+   "SAW": {
+    "name": "Self-Awareness",
+    "tagline": "Recognising emotions, triggers and their effect on judgement",
+    "definition": "Self-Awareness describes how clearly a learner reports noticing and naming current emotions, recognising common triggers and observing how mood may influence decisions or behaviour. It is not introspection alone, self-confidence, honesty, or a mental-health screen.",
+    "lens": [
+     [
+      "Observable behaviours",
+      "Names emotions with useful precision; notices bodily and situational cues; identifies triggers; links mood with attention and judgement; checks personal impact before acting."
+     ],
+     [
+      "Supportive conditions",
+      "Time to pause, psychologically safe reflection, specific feedback, emotion vocabulary and recent examples rather than abstract self-description."
+     ],
+     [
+      "Balanced contribution",
+      "Creates an earlier decision point: the learner can notice an emotional signal before it automatically shapes communication or action."
+     ],
+     [
+      "Trade-offs to monitor",
+      "May become rumination, excessive self-monitoring or repeated analysis without action. When less visible: May notice an emotion only after the reaction, confuse intensity with accuracy or overlook the effect of mood on choices."
+     ]
+    ],
+    "strengths": [
+     "Emotion recognition",
+     "Trigger awareness",
+     "Reflective decision checks"
+    ],
+    "careers": "Learning, counselling, creative work, leadership development, client service and any setting where reflection and feedback improve decisions. These examples require separate evidence of interest, aptitude, qualifications, values and opportunity.",
+    "actions": [
+     "Use a three-part check once a day: emotion, trigger and likely action urge.",
+     "Before an important decision, record what evidence is independent of the current mood.",
+     "Ask a trusted person for one example of how your emotional state affected a recent interaction."
+    ],
+    "reflection": "Which emotion was easiest to recognise this week, and which signal did you miss until later?"
+   },
+   "SRG": {
+    "name": "Self-Regulation",
+    "tagline": "Pausing, managing impulses and choosing a constructive response",
+    "definition": "Self-Regulation describes how often a learner reports creating space between emotion and action, managing impulses and choosing behaviour that protects the goal and the people involved. It does not mean suppressing emotion, staying calm at all times or tolerating mistreatment.",
+    "lens": [
+     [
+      "Observable behaviours",
+      "Pauses when provoked; reduces impulsive reactions; reframes a situation; uses coping routines; communicates frustration without directing it at others; recovers and re-engages."
+     ],
+     [
+      "Supportive conditions",
+      "Clear boundaries, access to healthy regulation strategies, permission to pause, realistic workload and support when demands exceed ordinary coping."
+     ],
+     [
+      "Balanced contribution",
+      "Protects decision quality and relationships when emotion is intense, without treating emotion as an enemy."
+     ],
+     [
+      "Trade-offs to monitor",
+      "May become emotional masking, avoidance of necessary expression or appearing controlled while stress accumulates. When less visible: May react before checking consequences, direct frustration at others or abandon a useful plan during a temporary emotional peak."
+     ]
+    ],
+    "strengths": [
+     "Impulse management",
+     "Constructive response choice",
+     "Recovery after disruption"
+    ],
+    "careers": "Customer service, healthcare, operations, education, negotiation, project delivery and roles involving feedback, uncertainty or pressure. These examples require separate evidence of interest, aptitude, qualifications, values and opportunity.",
+    "actions": [
+     "Practise one ninety-second pause routine before responding to a low-risk frustration.",
+     "Write a respectful boundary sentence for a situation that usually triggers an impulsive response.",
+     "After a difficult event, compare the action urge with the action that best serves the longer-term goal."
+    ],
+    "reflection": "What helps you pause without denying what you feel?"
+   },
+   "IMO": {
+    "name": "Internal Motivation",
+    "tagline": "Purposeful effort, persistence and self-directed momentum",
+    "definition": "Internal Motivation describes how often a learner reports connecting effort to a meaningful goal, restarting after setbacks and creating momentum without constant external prompting. It is a competency in Career Garage's mixed framework, not a pure emotional ability and not proof of ambition, discipline or future success.",
+    "lens": [
+     [
+      "Observable behaviours",
+      "Connects tasks to purpose; starts without repeated prompting; persists through uneven progress; learns from setbacks; protects attention; revises the route without abandoning the goal automatically."
+     ],
+     [
+      "Supportive conditions",
+      "Meaningful goals, visible progress, appropriate challenge, autonomy, feedback and practical support for barriers outside the learner's control."
+     ],
+     [
+      "Balanced contribution",
+      "Helps translate emotional information and personal meaning into sustained, goal-directed action."
+     ],
+     [
+      "Trade-offs to monitor",
+      "May become overwork, self-pressure, refusal to rest or persistence with a goal that evidence no longer supports. When less visible: May depend heavily on reminders, stop after slow progress or struggle to connect daily tasks with a valued outcome."
+     ]
+    ],
+    "strengths": [
+     "Purpose-linked effort",
+     "Self-starting momentum",
+     "Persistence with adjustment"
+    ],
+    "careers": "Long-cycle study, research, entrepreneurship, project work, skill development, independent assignments and roles requiring sustained follow-through. These examples require separate evidence of interest, aptitude, qualifications, values and opportunity.",
+    "actions": [
+     "Link one weekly task to the learner outcome or value it serves.",
+     "Turn a delayed goal into a fifteen-minute restart action with a visible completion point.",
+     "Set a review rule that distinguishes useful persistence from continuing only because time was already invested."
+    ],
+    "reflection": "Which goal creates energy because it matters to you, and what is the smallest evidence-building step?"
+   },
+   "EMP": {
+    "name": "Empathy",
+    "tagline": "Noticing emotional cues and considering another perspective",
+    "definition": "Empathy describes how often a learner reports noticing possible emotional cues, considering another person's perspective and adjusting a response with respect. It does not prove that an inference is correct, require agreement, remove boundaries or authorise reading hidden motives.",
+    "lens": [
+     [
+      "Observable behaviours",
+      "Listens for meaning and emotion; notices mismatches between words and cues; considers context; checks an interpretation; adapts tone; distinguishes understanding from agreement."
+     ],
+     [
+      "Supportive conditions",
+      "Curiosity, time to listen, cultural humility, permission to ask rather than assume and boundaries that prevent emotional over-involvement."
+     ],
+     [
+      "Balanced contribution",
+      "Improves the quality of questions, service and collaboration by keeping another person's experience in view."
+     ],
+     [
+      "Trade-offs to monitor",
+      "May become emotional over-identification, weak boundaries, assumption disguised as understanding or avoidance of necessary challenge. When less visible: May miss discomfort, minimise a different emotional response or make people-centred decisions without enough input from the people affected."
+     ]
+    ],
+    "strengths": [
+     "Perspective taking",
+     "Emotional-cue awareness",
+     "Respectful response adaptation"
+    ],
+    "careers": "Education, healthcare, counselling support, design research, customer experience, community work, human resources and collaborative leadership. These examples require separate evidence of interest, aptitude, qualifications, values and opportunity.",
+    "actions": [
+     "Replace one assumption with a checking question: 'Am I understanding this correctly?'",
+     "Summarise the other person's perspective before explaining your own.",
+     "Practise an empathy boundary: understand the concern, name your role and agree on the next responsible action."
+    ],
+    "reflection": "When did asking instead of assuming change your understanding of someone?"
+   },
+   "RMG": {
+    "name": "Relationship Management",
+    "tagline": "Clear communication, feedback, influence and conflict repair",
+    "definition": "Relationship Management describes how often a learner reports addressing tension, communicating respectfully, giving useful feedback and helping people move toward constructive action. It does not measure popularity, compliance, charisma or the absence of conflict.",
+    "lens": [
+     [
+      "Observable behaviours",
+      "Raises issues early; gives specific feedback; listens and responds; clarifies shared outcomes; repairs misunderstandings; negotiates next steps; follows through on relational commitments."
+     ],
+     [
+      "Supportive conditions",
+      "Clear norms, mutual respect, psychological safety, fair power boundaries, permission to disagree and accountability for harmful behaviour."
+     ],
+     [
+      "Balanced contribution",
+      "Turns awareness and regulation into observable interaction that can preserve trust while still addressing a real issue."
+     ],
+     [
+      "Trade-offs to monitor",
+      "May become over-managing others, harmony seeking, persuasive pressure or taking responsibility for relationships that require reciprocal effort. When less visible: May avoid necessary conversations, allow tension to grow or communicate a valid concern in a way that blocks joint action."
+     ]
+    ],
+    "strengths": [
+     "Respectful feedback",
+     "Conflict repair",
+     "Collaborative movement toward action"
+    ],
+    "careers": "Team leadership, teaching, partnerships, client work, project coordination, sales, service recovery, negotiation and community programs. These examples require separate evidence of interest, aptitude, qualifications, values and opportunity.",
+    "actions": [
+     "Use an observation-impact-request structure in one low-risk feedback conversation.",
+     "Address a small tension within forty-eight hours instead of waiting for certainty or frustration.",
+     "End a difficult conversation with the agreed action, owner, timing and follow-up point."
+    ],
+    "reflection": "Which relationship would benefit from one clear, respectful conversation this week?"
+   }
+  }
+ },
+ "work-values": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Lower current priority",
+    "meaning": "This condition was less important within the response pattern"
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Considered priority",
+    "meaning": "The condition matters but may be negotiable"
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Strong priority",
+    "meaning": "The condition should be investigated in opportunity comparisons"
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Defining priority",
+    "meaning": "The condition may strongly shape current decisions and trade-offs"
+   }
+  ],
+  "dims": {
+   "ACH": {
+    "name": "Achievement",
+    "tagline": "Challenge, mastery, visible progress and meaningful accomplishment",
+    "definition": "Achievement describes how important it is for a learner to use abilities fully, master demanding responsibilities and see evidence that effort produced a worthwhile result. It is a work-reward priority, not a measure of talent, grades, competitiveness or future success.",
+    "lens": [
+     [
+      "What the value seeks",
+      "Seeks stretching goals; notices progress; wants standards for a strong result; values mastery; prefers work where contribution and completion are visible."
+     ],
+     [
+      "Workplace supplies",
+      "Real challenge, achievable standards, useful feedback, enough resources, visible milestones and recognition of contribution without turning every task into a contest."
+     ],
+     [
+      "Career contribution",
+      "Directs attention toward roles that provide mastery, progress and a clear sense of accomplishment."
+     ],
+     [
+      "Likely tension",
+      "Can conflict with Security when growth requires uncertainty, or with Relationships when competitive systems reward individual results over shared success."
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower current priority may mean the learner values other conditions more; it does not mean low ambition or weak performance."
+     ]
+    ],
+    "careers": "Project-based work, research, performance improvement, professional practice, entrepreneurship, technical mastery and roles with clear outcomes.",
+    "actions": [
+     "Compare two roles by the challenge, feedback and completion evidence each provides.",
+     "Ask a professional how progress is defined during the first year in the role.",
+     "Run a short project that produces a visible result and record which parts felt rewarding."
+    ],
+    "reflection": "What kind of accomplishment would make a difficult year of learning feel worthwhile?"
+   },
+   "AUT": {
+    "name": "Autonomy",
+    "tagline": "Choice, ownership, judgement and latitude in how work is completed",
+    "definition": "Autonomy describes how important it is for a learner to have meaningful choice, responsibility and room to use judgement when planning and completing work. It does not mean working alone, rejecting supervision, ignoring standards or having no accountability.",
+    "lens": [
+     [
+      "What the value seeks",
+      "Values decision latitude; prefers ownership of an approach; wants reasons rather than only instructions; likes flexibility within clear outcomes; accepts responsibility for choices."
+     ],
+     [
+      "Workplace supplies",
+      "Clear goals, appropriate authority, access to information, trust, feedback, transparent boundaries and competence matched to the level of independence."
+     ],
+     [
+      "Career contribution",
+      "Helps distinguish roles that permit self-direction from those built around tightly prescribed procedures."
+     ],
+     [
+      "Likely tension",
+      "Can conflict with Security when independent paths are less predictable, or with Relationships when autonomy is mistaken for isolation."
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower current priority may reflect comfort with structure, collaboration or guided learning; it does not imply dependence or weak initiative."
+     ]
+    ],
+    "careers": "Consulting, design, research, entrepreneurship, skilled professional practice, field roles and accountable positions with outcome-based supervision.",
+    "actions": [
+     "Ask how decisions, approvals and ownership are divided in a target role.",
+     "Complete one project with a self-designed plan and request feedback on the outcome.",
+     "Separate the freedom you want from the standards and accountability you are willing to accept."
+    ],
+    "reflection": "Which decisions do you want to own, and which guidance would help you use that freedom well?"
+   },
+   "SEC": {
+    "name": "Security",
+    "tagline": "Predictability, continuity, dependable income and clear working conditions",
+    "definition": "Security describes how important dependable employment, predictable income, clear expectations and continuity are when evaluating work. It is not fearfulness, low risk tolerance in every domain or a guarantee that a particular employer will remain stable.",
+    "lens": [
+     [
+      "What the value seeks",
+      "Checks contract and continuity; values dependable pay and benefits; prefers clear expectations; considers organisational resilience; notices risk and transition support."
+     ],
+     [
+      "Workplace supplies",
+      "Transparent terms, lawful employment, financial predictability, safe work, fair policies, credible continuity and honest communication about change."
+     ],
+     [
+      "Career contribution",
+      "Makes practical constraints visible so career planning does not confuse aspiration with avoidable financial or employment risk."
+     ],
+     [
+      "Likely tension",
+      "Can conflict with Growth and Variety or Autonomy when new opportunities involve temporary uncertainty; the trade-off depends on obligations and risk capacity."
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower current priority may reflect flexibility or greater risk capacity; it does not prove recklessness and should never be used to justify unsafe work."
+     ]
+    ],
+    "careers": "Established organisations, regulated sectors, public service, essential services, long-term programmes and roles with clear contracts and progression structures.",
+    "actions": [
+     "Define the minimum income, benefit, location and continuity conditions your plan must meet.",
+     "Compare advertised stability with evidence such as contract type, turnover and funding model.",
+     "Build one risk-managed experiment before rejecting a growth opportunity as too uncertain."
+    ],
+    "reflection": "Which forms of stability are essential now, and which uncertainty could you manage with preparation?"
+   },
+   "IMP": {
+    "name": "Service and Impact",
+    "tagline": "Purpose, positive contribution and a beneficiary the learner can respect",
+    "definition": "Service and Impact describes how important it is for work to address a real human, community or environmental need and contribute to a purpose the learner can respect. It does not require unpaid work, self-sacrifice, one particular sector or agreement with every organisational claim.",
+    "lens": [
+     [
+      "What the value seeks",
+      "Asks who benefits; examines mission and consequences; values useful contribution; wants ethical coherence; looks for evidence that work solves a real problem."
+     ],
+     [
+      "Workplace supplies",
+      "Credible purpose, responsible practice, visible beneficiaries, ethical safeguards, sustainable workload and evidence that impact claims match operations."
+     ],
+     [
+      "Career contribution",
+      "Adds meaning and social consequence to career comparison instead of evaluating roles only by title, salary or prestige."
+     ],
+     [
+      "Likely tension",
+      "Can conflict with Security or Achievement when mission-led roles offer fewer resources or slower visible results; purpose should not erase fair-pay and safety needs."
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower current priority does not mean selfishness or weak ethics; contribution may be expressed outside paid work or through responsible performance in any sector."
+     ]
+    ],
+    "careers": "Healthcare, education, public service, sustainability, social enterprise, responsible technology, community development and mission-led functions in any sector.",
+    "actions": [
+     "Write a one-sentence impact hypothesis for a target role: action, beneficiary and evidence.",
+     "Interview someone doing the work and ask where the mission is visible in ordinary tasks.",
+     "Check whether the organisation's policies, incentives and outcomes support its public purpose."
+    ],
+    "reflection": "Whose problem do you want your work to help solve, and what evidence would show real benefit?"
+   },
+   "REL": {
+    "name": "Relationships",
+    "tagline": "Respect, trust, belonging, cooperation and supportive contact",
+    "definition": "Relationships describes how important respectful, trustworthy and supportive working relationships are to a learner. It does not mean needing constant social contact, avoiding disagreement, being popular or accepting poor boundaries in the name of teamwork.",
+    "lens": [
+     [
+      "What the value seeks",
+      "Values trust and belonging; prefers respectful communication; notices cooperation and credit-sharing; wants reliable support; considers team climate when judging a role."
+     ],
+     [
+      "Workplace supplies",
+      "Fair treatment, psychological safety, inclusive norms, constructive conflict, reciprocal support, clear boundaries and leaders who address harmful behaviour."
+     ],
+     [
+      "Career contribution",
+      "Keeps social climate visible because the same occupation can feel very different across teams, supervisors and organisations."
+     ],
+     [
+      "Likely tension",
+      "Can conflict with Achievement in highly competitive settings or with Autonomy when collaboration becomes constant coordination; healthy fit preserves both connection and boundaries."
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower current priority may reflect preference for task focus or independent work; it does not mean poor social skill or lack of care for others."
+     ]
+    ],
+    "careers": "Collaborative teams, education, health and care, community programmes, client partnerships, people operations and organisations with strong support cultures.",
+    "actions": [
+     "Ask how teams share credit, handle disagreement and support new members.",
+     "Observe one target workplace or project team and record behavioural evidence of trust.",
+     "Define the relationship conditions you require separately from a wish for universal harmony."
+    ],
+    "reflection": "What observable team behaviour would make you feel respected and able to contribute?"
+   },
+   "GRV": {
+    "name": "Growth and Variety",
+    "tagline": "Learning, development, novelty and changing challenges",
+    "definition": "Growth and Variety describes how important ongoing learning, exposure to different challenges and a visible path for development are to a learner. It does not mean disliking routine, changing jobs frequently or needing constant excitement.",
+    "lens": [
+     [
+      "What the value seeks",
+      "Looks for learning access; values skill development; prefers some changing challenge; asks about rotation and progression; notices whether work expands future options."
+     ],
+     [
+      "Workplace supplies",
+      "Stretch with support, learning resources, feedback, varied exposure, mobility pathways and enough continuity to convert experience into competence."
+     ],
+     [
+      "Career contribution",
+      "Highlights whether a role can keep building capability and future options rather than only satisfying immediate conditions."
+     ],
+     [
+      "Likely tension",
+      "Can conflict with Security when development requires movement or with Relationships when rotation changes teams; variety without depth can also weaken mastery."
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower current priority may reflect satisfaction with depth, continuity or familiar craft; it does not imply resistance to all learning."
+     ]
+    ],
+    "careers": "Consulting, technology, research, graduate programmes, rotational roles, creative production, entrepreneurship and rapidly evolving professional fields.",
+    "actions": [
+     "Compare roles by first-year learning, feedback, rotation and progression opportunities.",
+     "Test a new task for four weeks while tracking energy, learning and desire for deeper practice.",
+     "Ask whether advertised variety builds transferable capability or only adds fragmented workload."
+    ],
+    "reflection": "Which kind of variety builds the future capability you most want, rather than only preventing boredom?"
+   }
+  }
+ },
+ "learning-preferences": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Lower current preference",
+    "meaning": "This method was less strongly endorsed in the response pattern"
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Context-dependent preference",
+    "meaning": "The method may help in some tasks or conditions"
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Regular preference",
+    "meaning": "The method often feels useful and is worth testing deliberately"
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Strongly expressed preference",
+    "meaning": "The method feels especially useful now but should not become an exclusive style"
+   }
+  ],
+  "dims": {
+   "VIS": {
+    "name": "Visual Organisation",
+    "tagline": "Seeing relationships, structure, position and sequence clearly",
+    "definition": "Visual Organisation describes a current preference for arranging information through diagrams, maps, timelines, tables, colour, spatial position and other visible structures. It does not mean the learner has a fixed visual type, superior visual memory or a need for pictures in every task.",
+    "lens": [
+     [
+      "What it seeks",
+      "Visible structure, relationships, grouping, sequence and overview"
+     ],
+     [
+      "Useful strategies",
+      "Concept maps, annotated diagrams, process charts, worked layouts, timelines and well-designed slides"
+     ],
+     [
+      "Common misuse",
+      "Decorating notes without thinking, copying diagrams passively or assuming every idea is best represented visually"
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower score may mean words, practice or stepwise reflection feel more useful; it is not a visual-ability deficit"
+     ]
+    ],
+    "actions": [
+     "Convert one chapter into a one-page concept map, then retrieve it from memory.",
+     "Compare a decorative diagram with a labelled explanatory diagram and test recall.",
+     "Use a timeline or flowchart only when sequence or relationship is central to the task."
+    ],
+    "reflection": "Which relationship becomes clearer when you draw it, and how will you test whether the drawing improved learning?"
+   },
+   "VER": {
+    "name": "Verbal Explanation",
+    "tagline": "Building meaning through reading, writing, discussion and explanation",
+    "definition": "Verbal Explanation describes a current preference for processing ideas through words: reading, writing, questioning, discussion, self-explanation and teaching another person. It does not mean listening alone is sufficient or that the learner should avoid diagrams and practice.",
+    "lens": [
+     [
+      "What it seeks",
+      "Clear language, definitions, reasoning, questions, dialogue and explanatory links"
+     ],
+     [
+      "Useful strategies",
+      "Self-explanation, summaries from memory, teach-back, question generation, discussion and structured notes"
+     ],
+     [
+      "Common misuse",
+      "Rereading fluently without retrieval, producing long notes with little selection or mistaking talk for mastery"
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower score may mean words alone feel insufficient; it is not a language, reading or intelligence deficit"
+     ]
+    ],
+    "actions": [
+     "Explain a difficult idea without notes, identify gaps and revise the explanation.",
+     "Write three why/how questions and answer them in plain language.",
+     "Use a study partner for teach-back, then complete an independent retrieval check."
+    ],
+    "reflection": "Can you explain the idea accurately without looking, and which part of your explanation still needs evidence?"
+   },
+   "ACT": {
+    "name": "Active Experience",
+    "tagline": "Learning through purposeful application, rehearsal, demonstration and feedback",
+    "definition": "Active Experience describes a current preference for trying, applying, rehearsing, experimenting or demonstrating a skill in a realistic task. Activity is useful when it requires relevant thinking and feedback; being busy, clicking, moving or watching a demonstration is not automatically learning.",
+    "lens": [
+     [
+      "What it seeks",
+      "Practice, examples, manipulation, simulation, experimentation and visible consequences"
+     ],
+     [
+      "Useful strategies",
+      "Worked problems, labs, role plays, projects, prototypes, demonstrations, simulations and deliberate rehearsal"
+     ],
+     [
+      "Common misuse",
+      "Trial without explanation, practice without feedback, repeating errors or avoiding foundational knowledge"
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower score may mean preparation and observation are preferred before action; it is not low motivation or practical ability"
+     ]
+    ],
+    "actions": [
+     "Turn one concept into a small task with a clear success criterion.",
+     "Practise a difficult step, obtain feedback and repeat only after correcting the error.",
+     "Predict an outcome before an experiment, then explain the difference between prediction and result."
+    ],
+    "reflection": "What can you safely try now, and what evidence will show that the practice improved performance?"
+   },
+   "REF": {
+    "name": "Reflective Structure",
+    "tagline": "Planning, sequencing, monitoring understanding and learning from review",
+    "definition": "Reflective Structure describes a current preference for pausing, organising a sequence, monitoring understanding, reviewing errors and planning the next learning step. Reflection is productive when it changes a strategy or decision; delay, overplanning and repeated review without action are not the goal.",
+    "lens": [
+     [
+      "What it seeks",
+      "Time to think, ordered steps, criteria, progress monitoring and error review"
+     ],
+     [
+      "Useful strategies",
+      "Study plans, worked sequences, error logs, self-checks, learning journals, rubrics and post-task reflection"
+     ],
+     [
+      "Common misuse",
+      "Overplanning, perfectionism, avoiding timely practice or reflecting without testing a revised approach"
+     ],
+     [
+      "Meaning of a lower score",
+      "A lower score may mean the learner prefers quicker interaction or practice; it is not carelessness or weak metacognition"
+     ]
+    ],
+    "actions": [
+     "Use a before-during-after plan for one study session.",
+     "Keep an error log that records cause, correction and the next retrieval date.",
+     "Set a short reflection limit, then convert the insight into one changed action."
+    ],
+    "reflection": "What did the last attempt reveal, and which specific change will you test next?"
+   }
+  }
+ },
+ "digital-skills-readiness": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Emerging confidence",
+    "meaning": "Provide access, modelling and a supported foundation task"
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Developing confidence",
+    "meaning": "Practise core behaviours and verify with a simple rubric"
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Strong confidence",
+    "meaning": "Test independent performance and transfer"
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Highly expressed confidence",
+    "meaning": "Seek counter-evidence and verify responsible execution"
+   }
+  ],
+  "dims": {
+   "IDL": {
+    "name": "Information and Data Literacy",
+    "tagline": "Finding, evaluating, organising and interpreting digital information and data",
+    "definition": "Information and Data Literacy is confidence in defining an information need, searching effectively, evaluating sources and evidence, organising files or data, and recognising incomplete or misleading claims. It does not certify research expertise or guarantee that a judgement is correct.",
+    "lens": [
+     [
+      "Looks for",
+      "Relevant evidence, source quality, context, data meaning, retrievability and traceability"
+     ],
+     [
+      "Useful methods",
+      "Search plans, lateral reading, source comparison, file naming, data dictionaries and simple analysis"
+     ],
+     [
+      "Possible overuse",
+      "Information overload, endless searching, confirmation bias or confusing a polished source with a reliable one"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect limited access, language, instruction or practice; it is not low intelligence"
+     ]
+    ],
+    "actions": [
+     "Use three different search formulations and record which produces the strongest evidence.",
+     "Compare author, date, purpose, evidence and corroboration for three sources on one claim.",
+     "Create a folder and file-naming system, then retrieve five items without browsing manually."
+    ],
+    "reflection": "What evidence makes this source or dataset fit for the decision you are making?"
+   },
+   "DCC": {
+    "name": "Digital Communication and Collaboration",
+    "tagline": "Communicating clearly, choosing suitable channels and collaborating responsibly online",
+    "definition": "Digital Communication and Collaboration is confidence in selecting an appropriate channel, writing for the intended audience, contributing in shared workspaces, managing permissions and working respectfully across distance. It is not a measure of popularity, sociability or spoken-language ability.",
+    "lens": [
+     [
+      "Looks for",
+      "Audience, purpose, channel fit, clarity, shared ownership, feedback, boundaries and security"
+     ],
+     [
+      "Useful methods",
+      "Email and chat conventions, shared documents, version notes, meeting records and access controls"
+     ],
+     [
+      "Possible overuse",
+      "Over-communication, unclear tone, accidental disclosure, exclusion, harassment or untracked decisions"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect limited opportunity or platform familiarity rather than poor teamwork"
+     ]
+    ],
+    "actions": [
+     "Rewrite one message for chat, email and a formal shared document; explain the channel choice.",
+     "Use comments, task owners and a decision log in a small group project.",
+     "Audit the audience and permissions before sharing a file or link."
+    ],
+    "reflection": "Can the intended audience understand, act and collaborate without receiving unnecessary information?"
+   },
+   "DCR": {
+    "name": "Digital Content Creation",
+    "tagline": "Creating clear, accessible and lawful digital material for a defined purpose",
+    "definition": "Digital Content Creation is confidence in planning, producing, formatting and revising documents, presentations, visuals or media for a specific audience. It includes attribution, permissions and accessibility. It does not measure artistic talent or professional production mastery.",
+    "lens": [
+     [
+      "Looks for",
+      "Purpose, audience, structure, clarity, accuracy, accessibility, ownership and revision evidence"
+     ],
+     [
+      "Useful methods",
+      "Documents, slides, spreadsheets, visuals, audio/video, templates, captions and source records"
+     ],
+     [
+      "Possible overuse",
+      "Decoration without meaning, copying without permission, misinformation, inaccessible design or hidden AI use"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect tool access or exposure; it is not proof of low creativity"
+     ]
+    ],
+    "actions": [
+     "Create a one-page explanation for a defined audience and test whether two users understand it.",
+     "Add headings, alt text, captions, readable contrast and a source list to an existing artifact.",
+     "Document the title, author, source, licence and changes for reused material."
+    ],
+    "reflection": "Does this artifact communicate accurately, accessibly and lawfully to its intended audience?"
+   },
+   "DSP": {
+    "name": "Safety and Privacy",
+    "tagline": "Protecting accounts, devices, personal information and other people in digital environments",
+    "definition": "Safety and Privacy is confidence in using strong authentication, checking sharing settings, recognising suspicious requests, protecting sensitive data and responding to incidents. A high score does not guarantee security or qualify a learner as a cybersecurity professional.",
+    "lens": [
+     [
+      "Looks for",
+      "Least disclosure, verification, strong authentication, updates, backups, secure sharing and recovery"
+     ],
+     [
+      "Useful methods",
+      "Password managers, multi-factor authentication, phishing checks, privacy settings and incident routes"
+     ],
+     [
+      "Possible overuse",
+      "False confidence, unsafe testing, victim blaming, oversharing screenshots or trying to investigate alone"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score is a priority for supported practice, not evidence of blame or irresponsibility"
+     ]
+    ],
+    "actions": [
+     "Review account recovery, multi-factor authentication and unique-password coverage with an approved adult.",
+     "Classify practice messages as trusted, suspicious or unsafe and explain the verification step.",
+     "Write a lost-device or compromised-account response card using official support routes."
+    ],
+    "reflection": "What must be verified before you click, share, install, pay or disclose information?"
+   },
+   "DPS": {
+    "name": "Digital Problem Solving",
+    "tagline": "Learning tools, diagnosing common problems and choosing safe troubleshooting steps",
+    "definition": "Digital Problem Solving is confidence in breaking a technical problem into smaller checks, interpreting error information, testing reversible steps, learning a new tool and knowing when to seek help. It is not a coding aptitude or professional technical-support certificate.",
+    "lens": [
+     [
+      "Looks for",
+      "Symptoms, context, recent change, probable causes, reversible tests, documentation and escalation"
+     ],
+     [
+      "Useful methods",
+      "Checklists, safe restarts, settings review, error searches, help documentation and learning by testing"
+     ],
+     [
+      "Possible overuse",
+      "Random changes, data loss, unauthorised access, unsafe downloads or continuing beyond competence"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect anxiety or limited practice; it is not evidence of low reasoning ability"
+     ]
+    ],
+    "actions": [
+     "Use a symptom-context-change-test-result log for one low-risk technical problem.",
+     "Compare two official help sources before changing a setting or installing software.",
+     "Learn one core function in a new tool, produce an output and explain the steps to another learner."
+    ],
+    "reflection": "Which reversible check will reduce uncertainty without risking data, privacy or device integrity?"
+   },
+   "AIL": {
+    "name": "AI Literacy",
+    "tagline": "Using AI purposefully while preserving verification, privacy, transparency and human judgement",
+    "definition": "AI Literacy is confidence in understanding what an AI tool can and cannot do, giving clear instructions, checking outputs, protecting data, recognising bias and keeping humans accountable. It is not permission to use AI in every task or proof of technical AI expertise.",
+    "lens": [
+     [
+      "Looks for",
+      "Purpose, context, constraints, evidence, uncertainty, bias, disclosure, privacy and human oversight"
+     ],
+     [
+      "Useful methods",
+      "Prompt planning, source verification, comparison, error analysis, disclosure and decision review"
+     ],
+     [
+      "Possible overuse",
+      "Automation bias, fabricated sources, privacy leakage, hidden assistance, unfair outcomes or skill atrophy"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect limited safe access or experience; it is not resistance to technology"
+     ]
+    ],
+    "actions": [
+     "Give an AI tool a purpose, audience, context and constraints, then identify what remains uncertain.",
+     "Verify three factual claims and every cited source using independent evidence.",
+     "Create an AI-use note stating the tool, purpose, human changes and verification performed."
+    ],
+    "reflection": "What evidence, permission and human judgement are still required after the AI output is produced?"
+   }
+  }
+ },
+ "entrepreneurial-mindset": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Emerging",
+    "meaning": "Create supported exposure and one small practice task"
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Developing",
+    "meaning": "Build consistency and examine barriers"
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Strong",
+    "meaning": "Apply in a real task and test balance with other dimensions"
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Highly expressed",
+    "meaning": "Seek counter-evidence and watch for overuse"
+   }
+  ],
+  "dims": {
+   "OPR": {
+    "name": "Opportunity Recognition",
+    "tagline": "Noticing unmet needs and framing possibilities for useful value creation",
+    "definition": "Opportunity Recognition is the tendency to notice problems, changes, gaps and underserved needs that may support a useful product, service, process or social solution. It is disciplined attention, not a claim that every idea is commercially viable.",
+    "lens": [
+     [
+      "Looks for",
+      "Unmet needs, changing patterns, friction, waste, access gaps and value for others"
+     ],
+     [
+      "Useful methods",
+      "Problem interviews, observation, trend scanning, need statements and opportunity logs"
+     ],
+     [
+      "Possible overuse",
+      "Falling in love with an idea before checking who has the problem and whether it matters"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect limited exposure, confidence or practice; it does not mean low creativity"
+     ]
+    ],
+    "actions": [
+     "Record five repeated problems in one school, household, workplace or community setting.",
+     "Interview three people about the problem without pitching a solution.",
+     "Write an opportunity statement naming the user, need, present workaround and evidence."
+    ],
+    "reflection": "What evidence shows that the need is real, repeated and important to someone other than you?"
+   },
+   "INI": {
+    "name": "Initiative",
+    "tagline": "Taking an appropriate first step and creating momentum without perfect conditions",
+    "definition": "Initiative is the tendency to begin useful, proportionate action, seek resources and create a next step when instructions are incomplete. It is not impulsiveness, rule breaking or acting beyond one's competence or authority.",
+    "lens": [
+     [
+      "Looks for",
+      "Ownership, first steps, momentum, useful experiments and timely follow-through"
+     ],
+     [
+      "Useful methods",
+      "Action plans, outreach, small pilots, resource requests and visible commitments"
+     ],
+     [
+      "Possible overuse",
+      "Starting too many activities, bypassing consent or acting before essential safety checks"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect ambiguity, low psychological safety or insufficient support rather than laziness"
+     ]
+    ],
+    "actions": [
+     "Define a reversible 30-minute first step for one useful idea.",
+     "Ask one specific person for a resource, introduction or piece of feedback.",
+     "Set a two-day evidence deadline and record what moved, stalled and why."
+    ],
+    "reflection": "What is the smallest lawful and safe action that will create information or momentum today?"
+   },
+   "RJK": {
+    "name": "Risk Judgement",
+    "tagline": "Distinguishing calculated experiments from careless or irreversible gambles",
+    "definition": "Risk Judgement is the tendency to compare potential gains, losses, safeguards and alternatives before acting under uncertainty. A strong score means considered experimentation, not high risk appetite or confidence that losses will not occur.",
+    "lens": [
+     [
+      "Looks for",
+      "Downside limits, assumptions, evidence, reversibility, alternatives and stop rules"
+     ],
+     [
+      "Useful methods",
+      "Pre-mortems, risk registers, small tests, budgets, decision gates and contingency plans"
+     ],
+     [
+      "Possible overuse",
+      "Analysis paralysis at one extreme or overconfidence and avoidable harm at the other"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score is a development signal, not proof of irresponsibility or financial incompetence"
+     ]
+    ],
+    "actions": [
+     "List the biggest assumption, smallest test, maximum acceptable loss and stop condition.",
+     "Separate reversible choices from legal, financial, safety or reputation commitments.",
+     "Ask a qualified adult or subject expert to challenge the downside analysis."
+    ],
+    "reflection": "What could go wrong, how much can be safely lost, and which evidence changes the decision?"
+   },
+   "RES": {
+    "name": "Resilience",
+    "tagline": "Learning from setbacks, regulating the response and attempting a thoughtful revision",
+    "definition": "Resilience is the tendency to maintain perspective, learn from rejection and revise an approach after difficulty. It is not endless persistence, emotional invulnerability or a requirement to tolerate harmful, unsafe or exploitative conditions.",
+    "lens": [
+     [
+      "Looks for",
+      "Learning, recovery, perspective, revision, support and evidence-based persistence"
+     ],
+     [
+      "Useful methods",
+      "After-action reviews, feedback logs, recovery plans, help-seeking and pivot criteria"
+     ],
+     [
+      "Possible overuse",
+      "Treating persistence as a moral test, ignoring wellbeing or continuing an idea after evidence says stop"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect current stress, access barriers or context; it is not a mental-health diagnosis"
+     ]
+    ],
+    "actions": [
+     "Separate what happened, what it means and what can be changed next.",
+     "Request one behavioural piece of feedback instead of seeking general reassurance.",
+     "Choose deliberately among persist, pause, pivot, seek support or stop."
+    ],
+    "reflection": "Which lesson is supported by evidence, and is the responsible next move to persist, pivot or stop?"
+   },
+   "RSF": {
+    "name": "Resourcefulness",
+    "tagline": "Combining available skills, people and materials to progress under constraints",
+    "definition": "Resourcefulness is the tendency to find workable alternatives, combine available capabilities and simplify an idea to test its essential value. It does not justify unsafe improvisation, unpaid exploitation, unlicensed content or working beyond competence.",
+    "lens": [
+     [
+      "Looks for",
+      "Available means, partners, substitutes, minimum tests, learning and practical trade-offs"
+     ],
+     [
+      "Useful methods",
+      "Resource maps, prototypes, skill swaps, open resources, constraint redesign and partnerships"
+     ],
+     [
+      "Possible overuse",
+      "Hidden quality or safety compromises, dependency on favours or unauthorised use of others' work"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect limited networks or resources; it is not proof of weak problem-solving ability"
+     ]
+    ],
+    "actions": [
+     "Map what you know, whom you can ask and what can be accessed lawfully now.",
+     "Remove features until the smallest useful test remains.",
+     "Document every borrowed asset, permission, cost, dependency and quality limit."
+    ],
+    "reflection": "Which existing means can create a responsible test, and where is specialist help non-negotiable?"
+   },
+   "CUS": {
+    "name": "Customer Orientation",
+    "tagline": "Understanding users, testing value and changing direction when evidence requires it",
+    "definition": "Customer Orientation is the tendency to understand a user's real problem, define value from the user's perspective and seek feedback before heavy investment. 'Customer' can mean buyer, user, beneficiary or stakeholder, but ethical duties remain distinct.",
+    "lens": [
+     [
+      "Looks for",
+      "User context, jobs to be done, evidence, value, accessibility, trust and feedback"
+     ],
+     [
+      "Useful methods",
+      "Discovery interviews, observation, service journeys, usability tests and feedback loops"
+     ],
+     [
+      "Possible overuse",
+      "Leading interviews, extracting sensitive data, manipulating demand or confusing attention with value"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score is a cue to build discovery practice; it does not mean low empathy or social skill"
+     ]
+    ],
+    "actions": [
+     "Interview users with neutral questions about current behaviour and workarounds.",
+     "Write the strongest evidence against the preferred solution.",
+     "Test comprehension, usefulness, accessibility and willingness to act separately."
+    ],
+    "reflection": "What did users actually do or say, and how did that evidence change the solution?"
+   }
+  }
+ },
+ "career-readiness": {
+  "bands": [
+   {
+    "min": 0,
+    "max": 39,
+    "label": "Emerging",
+    "meaning": "Provide explanation, access and a supported foundation activity"
+   },
+   {
+    "min": 40,
+    "max": 59,
+    "label": "Developing",
+    "meaning": "Practise core behaviours and create one usable artifact"
+   },
+   {
+    "min": 60,
+    "max": 79,
+    "label": "Strong",
+    "meaning": "Test independent application and transfer to a new context"
+   },
+   {
+    "min": 80,
+    "max": 100,
+    "label": "Distinctive",
+    "meaning": "Seek counter-evidence, stretch application and support others carefully"
+   }
+  ],
+  "dims": {
+   "CSA": {
+    "name": "Self-Awareness",
+    "tagline": "Understanding strengths, values, skills and development needs through evidence",
+    "definition": "Self-Awareness is confidence in describing strengths with examples, recognising skills to develop, explaining important work values and identifying environments in which one performs well. It supports realistic choice without turning a current self-description into a fixed identity.",
+    "lens": [
+     [
+      "Looks for",
+      "Strength evidence, transferable skills, values, interests, motivation, preferred conditions and learning needs"
+     ],
+     [
+      "Useful methods",
+      "Achievement inventories, portfolio review, feedback comparison, skills audits and values reflection"
+     ],
+     [
+      "Possible overuse",
+      "Relying only on praise, confusing aspiration with evidence or treating one assessment label as permanent"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect limited feedback or reflection practice; it is not evidence of low potential"
+     ]
+    ],
+    "actions": [
+     "Create an evidence inventory linking five strengths to projects, responsibilities or outcomes.",
+     "Compare self-ratings with feedback from two trusted people and note agreements and surprises.",
+     "Rank six work values, then explain one realistic trade-off between the top three."
+    ],
+    "reflection": "Which claim about yourself is supported by evidence, and which still needs testing?"
+   },
+   "CEX": {
+    "name": "Career Exploration",
+    "tagline": "Investigating careers through current information, people, projects and work exposure",
+    "definition": "Career Exploration is confidence in researching the daily work behind a title, comparing entry routes and conditions, speaking with informed people and testing possibilities through projects, courses, visits or work exposure. Exploration widens evidence; it does not promise access to every option.",
+    "lens": [
+     [
+      "Looks for",
+      "Tasks, work settings, qualifications, skills, demand, progression, conditions, rewards and constraints"
+     ],
+     [
+      "Useful methods",
+      "Occupational research, informational interviews, career talks, job shadowing, projects and short courses"
+     ],
+     [
+      "Possible overuse",
+      "Choosing by prestige, family pressure, social-media visibility, one success story or outdated information"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect unequal exposure or information access rather than lack of ambition"
+     ]
+    ],
+    "actions": [
+     "Compare three pathways using official information on tasks, entry routes, costs, conditions and progression.",
+     "Conduct one informational conversation and separate first-hand experience from general advice.",
+     "Complete a low-risk project, visit, course or work-exposure activity and record what changed."
+    ],
+    "reflection": "What new evidence would most reduce uncertainty about this pathway?"
+   },
+   "CDM": {
+    "name": "Career Decision Making",
+    "tagline": "Comparing options with clear criteria and deciding when enough evidence is available",
+    "definition": "Career Decision Making is confidence in setting criteria, comparing trade-offs, balancing short-term feasibility with long-term fit, separating useful advice from pressure and making a revisable choice when enough evidence is available. It is structured judgement, not perfect certainty.",
+    "lens": [
+     [
+      "Looks for",
+      "Criteria, alternatives, evidence quality, trade-offs, feasibility, reversibility and decision ownership"
+     ],
+     [
+      "Useful methods",
+      "Decision matrices, scenario testing, advice maps, pre-mortems, checkpoints and contingency routes"
+     ],
+     [
+      "Possible overuse",
+      "Analysis paralysis, premature closure, copying another person's route or treating uncertainty as failure"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect a complex decision or missing information; it is not indecisive character"
+     ]
+    ],
+    "actions": [
+     "Build a weighted decision matrix using fit, feasibility, learning, access and future flexibility.",
+     "Label each influence as evidence, advice, preference, pressure, constraint or assumption.",
+     "Set a decision date, evidence threshold and review point rather than seeking total certainty."
+    ],
+    "reflection": "Which criterion matters most, and what evidence justifies its weight?"
+   },
+   "CES": {
+    "name": "Employability Skills",
+    "tagline": "Using transferable behaviours that support dependable learning and work",
+    "definition": "Employability Skills is confidence in communicating progress, collaborating across differences, meeting standards, managing deadlines and using feedback to improve. It concerns transferable behaviours across study and work, not technical mastery, job entitlement or employer endorsement.",
+    "lens": [
+     [
+      "Looks for",
+      "Communication, teamwork, reliability, self-management, problem solving, feedback use and adaptability"
+     ],
+     [
+      "Useful methods",
+      "Team projects, role briefs, work simulations, feedback cycles, deadline plans and reflective logs"
+     ],
+     [
+      "Possible overuse",
+      "Making generic skill claims without evidence, overpromising independence or confusing compliance with judgement"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may identify specific habits to practise; it is not a global employability verdict"
+     ]
+    ],
+    "actions": [
+     "Complete a team task with a clear role, progress update, deadline and decision record.",
+     "Request behavioural feedback, revise the work and show the before-and-after evidence.",
+     "Use a weekly plan to meet one agreed quality standard without repeated reminders."
+    ],
+    "reflection": "Which observable behaviour would convince another person that this skill is dependable?"
+   },
+   "COP": {
+    "name": "Opportunity Preparation",
+    "tagline": "Preparing truthful, tailored evidence for applications, interviews and opportunities",
+    "definition": "Opportunity Preparation is confidence in maintaining evidence of projects and achievements, tailoring applications, preparing skill examples and explaining motivation in an interview or professional conversation. It supports opportunity pursuit without guaranteeing selection.",
+    "lens": [
+     [
+      "Looks for",
+      "Opportunity fit, eligibility, evidence, truthful claims, tailoring, communication, verification and follow-up"
+     ],
+     [
+      "Useful methods",
+      "Evidence banks, resumes, applications, portfolios, mock interviews, outreach and opportunity checks"
+     ],
+     [
+      "Possible overuse",
+      "Mass applications, inflated claims, privacy leakage, scam opportunities or hidden AI-generated content"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score may reflect limited opportunity access or mentoring; it is not lack of capability"
+     ]
+    ],
+    "actions": [
+     "Build six concise situation-action-result examples from genuine projects or responsibilities.",
+     "Tailor one resume or application to stated criteria and map every claim to evidence.",
+     "Complete a mock interview and verify the organisation, contact, fees, privacy and selection process."
+    ],
+    "reflection": "What evidence shows both that you meet the requirement and that this opportunity is legitimate?"
+   },
+   "CAP": {
+    "name": "Action Planning",
+    "tagline": "Turning goals into dated steps, support routes, evidence and adaptable alternatives",
+    "definition": "Action Planning is confidence in translating a career goal into dated next steps, identifying required resources and people, reviewing progress and maintaining an alternative route. It is practical follow-through, not rigid prediction of a changing future.",
+    "lens": [
+     [
+      "Looks for",
+      "Goal clarity, milestones, ownership, resources, support, barriers, evidence, review and alternatives"
+     ],
+     [
+      "Useful methods",
+      "Ninety-day plans, milestone boards, resource maps, implementation intentions and review routines"
+     ],
+     [
+      "Possible overuse",
+      "Vague goals, unrealistic schedules, activity without outcomes, dependency on one route or failure to revise"
+     ],
+     [
+      "Lower-score reading",
+      "A lower score is a planning priority; it does not mean the learner lacks motivation or ambition"
+     ]
+    ],
+    "actions": [
+     "Create a 90-day plan with weekly actions, owners, evidence, costs and review dates.",
+     "Run a pre-mortem to identify likely obstacles, early warning signs and support routes.",
+     "Design one alternative education, skill-building or opportunity route that preserves the main goal."
+    ],
+    "reflection": "What is the next dated action, and what evidence will show that it moved the goal forward?"
+   }
+  }
+ },
+ "cognitive-aptitude": {
+  "dims": {
+   "VER": {
+    "name": "Verbal Reasoning",
+    "definition": "Understanding relationships, arguments and meaning in written information.",
+    "tagline": "Understands language, arguments, written evidence and relationships between ideas.",
+    "strengths": [
+     "Reading, explaining, persuading, interpreting and producing clear written or spoken work."
+    ],
+    "careers": "Law; communication; education; policy; consulting; journalism; humanities research.. Example roles: Lawyer; editor; teacher; policy analyst; journalist; communications specialist.",
+    "actions": [
+     "Build domain knowledge and practise concise, audience-specific communication."
+    ],
+    "watch": "Roles dominated by advanced quantitative or mechanical reasoning may require additional preparation."
+   },
+   "NUM": {
+    "name": "Numerical Reasoning",
+    "definition": "Interpreting quantities, ratios, patterns and numerical evidence.",
+    "tagline": "Interprets quantities, ratios, trends and numerical evidence accurately.",
+    "strengths": [
+     "Calculating, modelling, comparing data and making evidence-based financial or operational decisions."
+    ],
+    "careers": "Finance and accounting; data analysis; economics; engineering; actuarial work; operations.. Example roles: Financial analyst; accountant; data analyst; economist; engineer; operations analyst.",
+    "actions": [
+     "Connect calculations to business meaning and communicate assumptions clearly."
+    ],
+    "watch": "Language-intensive persuasion or counselling may underuse this strength unless deliberately combined."
+   },
+   "LOG": {
+    "name": "Logical and Abstract Reasoning",
+    "definition": "Drawing valid conclusions from rules, conditions and sequences.",
+    "tagline": "Identifies patterns, rules and valid conclusions in unfamiliar information.",
+    "strengths": [
+     "Complex diagnosis, systems thinking, algorithms and solving novel structured problems."
+    ],
+    "careers": "Technology and AI; science; engineering; research; strategy; quantitative consulting.. Example roles: Software developer; AI specialist; researcher; systems engineer; strategy analyst.",
+    "actions": [
+     "Test logic against real users, constraints and incomplete evidence."
+    ],
+    "watch": "Highly repetitive execution may feel under-stimulating when no problem solving is required."
+   },
+   "SPA": {
+    "name": "Spatial Reasoning",
+    "definition": "Recognising transformations, structures and visual relationships.",
+    "tagline": "Mentally visualises shapes, layouts, movement and relationships in space.",
+    "strengths": [
+     "Designing structures, interpreting maps or diagrams and manipulating visual-spatial information."
+    ],
+    "careers": "Architecture and design; engineering; aviation; geospatial work; animation; surgery and technical imaging.. Example roles: Architect; civil engineer; pilot; GIS analyst; animator; industrial designer.",
+    "actions": [
+     "Develop drawing, CAD, modelling or visualisation tools relevant to the chosen field."
+    ],
+    "watch": "Work relying mainly on extended verbal interaction may not fully use this ability."
+   },
+   "DAT": {
+    "name": "Data Interpretation",
+    "definition": "Reading tables, charts and multi-step quantitative information.",
+    "tagline": "Combines information from different sources to select practical solutions.",
+    "strengths": [
+     "Diagnosis, trade-off decisions, case analysis and coordinating action under constraints."
+    ],
+    "careers": "Consulting; medicine; product management; engineering; operations; public policy.. Example roles: Consultant; doctor; product manager; engineer; operations manager; policy analyst.",
+    "actions": [
+     "Make decision criteria explicit and review outcomes to improve judgement."
+    ],
+    "watch": "Narrow repetitive roles may underuse broad reasoning capacity."
+   },
+   "ATT": {
+    "name": "Attention and Accuracy",
+    "definition": "Maintaining accuracy, choosing strategies and checking work.",
+    "tagline": "Detects errors, maintains concentration and handles detailed information reliably.",
+    "strengths": [
+     "Checking, coding, reviewing records, monitoring quality and following critical procedures."
+    ],
+    "careers": "Audit and accounting; quality assurance; laboratory work; coding; pharmacy; compliance; operations control.. Example roles: Auditor; QA analyst; laboratory technologist; pharmacist; compliance associate; software tester.",
+    "actions": [
+     "Use risk-based checking so precision is focused where consequences are highest."
+    ],
+    "watch": "Highly chaotic roles that reward speed over accuracy may create conflict or fatigue."
+   }
+  }
+ }
+}

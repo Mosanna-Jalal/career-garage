@@ -311,7 +311,7 @@ export const frameworks: Framework[] = [
     itemNoun: "style",
     nodes: ["Dominance", "Influence", "Steadiness", "Conscientiousness"],
     relatedTest: {
-      href: "/tests/workstyle-compass",
+      href: "/tests/disc",
       label: "Take the Workstyle assessment",
     },
     items: [
@@ -389,7 +389,7 @@ export const frameworks: Framework[] = [
       "Conventional",
     ],
     relatedTest: {
-      href: "/tests/career-explorer",
+      href: "/tests/riasec",
       label: "Take the Career Interest Explorer",
     },
     items: [

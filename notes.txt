@@ -7,3 +7,118 @@ page-7 how questions will be set
 page-22 Unique Career Garage Features- how scholarship will get distributed
 page-40 mobile application mentiioned
 page-70 available facilities- computer lab, auditorium etc. + MODE
+
+25/09/2026
+1. use this drive link "https://drive.google.com/drive/folders/1Ypfd5Vs3VYWVvA9KWGMGC0I7HegAeYrg?usp=drive_link" to get contents and assesments questions which I will be explaining below. this drive link is having contents use your sense to match the names of files to search the contents of relevant sections/pages I am describing below moslty are assesments which are not completed yet in the site. Also make the website look engaging by adding doodles and animations (these things are important as we are trying to make it visually best too). 
+
+2. Career_Garage_Big_Five_OCEAN_Handbook.pdf in big five ocean button from this pdf use all the content. add creativitvity from your side like doodles and animations. there are 30 pages in big ocean but we will use only 
+- what is big five
+- dont use taxanomy headline but use its its content use it as an answer of what is big five
+- How personality assesment works use only how traits are continua not boxes contents to define this without the headline how traits...
+- in admin panel give option to add questions as trial to make it look working page before getting subscribed.
+- carrer garage big five assesment architecture- use only table content to define . remove line which says about version
+- under administration and learner experience there is sub heading recocomended student instruction use only sub heading as student instruction without using other content of administration and learner... heading
+- use formulae from heading Technical specification at a glance to analyse questions answer
+- frequently asked questions : use all of its content. 
+
+3. under assesment questions/ Career_Garage_772_Questions_List.docx
+- for demo of trying big five ocean use 10 questions from this list of questions and sample report will be created using the formulae . as this will be demo test so only few points of report will be visible to the user because to see full report user needs to subscribe.
+- From "How to use this list": use learner instructions as heading instructions and use first 4 points 
+- in demo as i said there will be only 10 question for demo but in full fledge test use all 60 questions having standard agreement scales as choosing scales. the questions will be in sequence and dont use category of questions in users view like openness etc. 
+
+4. under "Career_Garage_Enneagram_Inspired_Handbook.docx"
+- use executive overview diagram along with its brief explanation
+- from "What is an ennegram-inspired framework?" use subheading content "the broader tradition" without using this subheading. 
+- "How the career garage model works" use only table details. 
+- "Assesment architecture" use only table details. 
+- " frequently asked question" use all of its content. 
+- from set of 772 question use enneagram related questions are fron questions number 125-196 out of which use 10 for demo test of enneagram but in full fledge test use all from125-196 questions. 
+- use pseudocode formaulae code for assessing enneagram test from file 13 assesment technical course which was earlier used. 
+
+5. 16 TYPES MBTI
+- START THIS PAGE USING OVERVIEW ALONG WITH EXECUTIVE overview
+- "what career garage does" use all of its content. 
+- "what is a type reference framework" use its content till line 16- four letter combinations. 
+- "Sixteen original career garage pattern summaries" use only 1st and 2nd table contents to define this. 
+- "career garage assesment architecture" use all of its contents. 
+- use its pseudocode to assess the demo 10 questions from questions 61-124 and use all questions 61-124 for full test. give few points of reports as demo as stated in earlier test details. 
+- use all frequently asked questions. 
+
+6. DISC-Style
+- give its overview from executive overview section along with the diagram
+   also use its points without table details.
+- "what is a work style assesment" from here use its intro point without using table details. 
+- "Historical roots and modern landscape" from here use its intro points without using table details. 
+- "how the career garage model works" use all of its content. 
+- use this sections assesment architecture. 
+- use pseudocode of this section for asessing demo test and full fledge test. 
+- use questions from set of 172 questions from assesment no five q. 257 to 304 for this question. 
+- use all frequently asked questions. 
+
+7. RIASEC_Holland_handbook
+- give its overview from executive overview section along with the diagram
+   also use its points without table details.
+- "what are vocational interests": from here use its intro point without using table details after it. 
+- "Holland RIASEC theory": from here ise its intro without usiung table details.
+-  "how this career garage model works" use all of its content. in above numbered points modify how the career garage model works to how this career garage model works because in each specific page we are telling about this relevant career garage sub models not about the career garage itself. 
+- use assesment architecture, pseudocode and faq just like above points in the same manner but specific to this section.
+- question for this assesment is in assesment no4 from q 197 to 256. make demo test and main test in the same manner as stated above but specific to this section. 
+
+8. Emotional intelligence
+- give its overview from executive overview section along with the diagram
+   also use its points without table details.
+- "what is emotional intelligence": from here use its intro point without using table details after it.
+-  "how this career garage model works" use all of its content.  
+- use assesment architecture, pseudocode and faq just like above points in the same manner but specific to this section.
+question for this assesment is in assesment no6 from q 305 to 364. make demo test and main test in the same manner as stated above but specific to this section. 
+
+9. career readiness
+- give its overview from executive overview section along with the diagram
+   also use its points without table details.
+- "what is career readiness": from here use its intro point without using table details after it.
+-  "how this career garage model works" use all of its content.  
+- use assesment architecture, pseudocode and faq just like above points in the same manner but specific to this section.
+- question for this assesment is in assesment no12 from q 653 to 712. make demo test and main test in the same manner as stated above but specific to this section. 
+
+10. work values
+- give its overview from executive overview section along with the diagram
+   also use its points without table details.
+- "what is work values": from here use its intro point without using table details after it.
+-  "how this career garage model works" use all of its content.  
+- use assesment architecture, pseudocode and faq just like above points in the same manner but specific to this section.
+- question for this assesment is in assesment no7 from q 365 to 424. make demo test and main test in the same manner as stated above but specific to this section. 
+
+11. "Learning Preferences" 
+ - give its overview from executive overview section along with the diagram
+   also use its points without table details.
+- "what is Learning Preferences": from here use its intro point without using table details after it.
+-  "how this career garage model works" use all of its content.  
+- use assesment architecture, pseudocode and faq just like above points in the same manner but specific to this section.
+- question for this assesment is in assesment no9 from q 485 to 532. make demo test and main test in the same manner as stated above but specific to this section.
+
+12. "Digital skills readiness"
+- give its overview from executive overview section along with the diagram
+   also use its points without table details.
+- "what is Digital skills readiness": from here use its intro point without using table details after it.
+-  "how this career garage model works" use all of its content.  
+- use assesment architecture, pseudocode and faq just like above points in the same manner but specific to this section.
+- question for this assesment is in assesment no11 from q 593 to 652. make demo test and main test in the same manner as stated above but specific to this section.
+
+13. "Enterpreneurial mindset"
+- give its overview from executive overview section along with the diagram
+   also use its points without table details.
+- "what is Enterpreneurial mindset": from here use its intro point without using table details after it.
+-  "how this career garage model works" use all of its content.  
+- use assesment architecture, pseudocode and faq just like above points in the same manner but specific to this section.
+- question for this assesment is in assesment no10 from q 533 to 592. make demo test and main test in the same manner as stated above but specific to this section.
+
+14. "Cognitive aptitude"
+This section doesnt inlude many overviews like other sections so put it as per your add ons and knowledge which will be suited accordingly. 
+- question for this assesment is in assesment no8 from q 425 to 484. make demo test and main test in the same manner as stated above but specific to this section.
+
+15. career roadmap dropdown will be removed and shifted to student and parents dropdown as a submenu. all of the submenu under career roadmap will be removed and it will open a page containing contents from index.html from drive use folder site content/ career_garage_library. 
+
+16. under "psychometric assesment" dropdown remove scholarship test and employability test.
+
+17. use animations like rockets moving in background/ children running/ or getting award and things like that in negative spaces so that if a user is not doing anything it makes him/her engaged in the website.
+

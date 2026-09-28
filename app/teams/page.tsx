@@ -117,7 +117,7 @@ export default function TeamsPage() {
                 See pricing <ArrowRightIcon className="h-5 w-5" />
               </a>
               <Link
-                href="/tests/workstyle-compass"
+                href="/tests/disc"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-brand-700 px-7 py-3.5 font-semibold text-brand-100 transition hover:border-brand-500 hover:bg-brand-900"
               >
                 Try the workstyle test

@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { FeedbackWidget } from "@/components/feedback-widget";
+import { AmbientPlay } from "@/components/ambient-play";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,6 +39,8 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        {/* Doodles in empty gutters + idle scenes (rocket, runners, trophy) */}
+        <AmbientPlay />
         {/* Review tool. Set NEXT_PUBLIC_FEEDBACK_WIDGET=off before public launch. */}
         {process.env.NEXT_PUBLIC_FEEDBACK_WIDGET !== "off" && <FeedbackWidget />}
       </body>

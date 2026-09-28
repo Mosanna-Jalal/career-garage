@@ -236,7 +236,7 @@ export function CareerDetail({ career }: { career: Career }) {
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
-              href="/tests/career-explorer"
+              href="/tests/riasec"
               className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-brand-700 transition hover:-translate-y-0.5"
             >
               Take the interest test <ArrowRightIcon className="h-4 w-4" />

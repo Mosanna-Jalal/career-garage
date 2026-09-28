@@ -339,6 +339,218 @@ body {
   animation: shimmer 3s linear infinite;
 }
 
+/* ---------- Doodles & ambient play (assessments, idle scenes) ---------- */
+
+@keyframes leg-swing {
+  from {
+    transform: rotate(32deg);
+  }
+  to {
+    transform: rotate(-32deg);
+  }
+}
+
+@keyframes arm-swing {
+  from {
+    transform: rotate(-40deg);
+  }
+  to {
+    transform: rotate(40deg);
+  }
+}
+
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes run-across {
+  from {
+    transform: translateX(-180px);
+  }
+  to {
+    transform: translateX(calc(100vw + 180px));
+  }
+}
+
+@keyframes rocket-flight {
+  0% {
+    transform: translate(-14vw, 108vh) rotate(40deg);
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  55% {
+    transform: translate(46vw, 38vh) rotate(44deg);
+  }
+  92% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(114vw, -28vh) rotate(50deg);
+    opacity: 0;
+  }
+}
+
+@keyframes plane-glide {
+  0% {
+    transform: translate(-12vw, 22vh) rotate(10deg);
+  }
+  35% {
+    transform: translate(32vw, 9vh) rotate(-8deg);
+  }
+  55% {
+    transform: translate(55vw, 16vh) rotate(12deg);
+  }
+  100% {
+    transform: translate(114vw, 5vh) rotate(-6deg);
+  }
+}
+
+@keyframes flame {
+  0%,
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scaleY(1.45);
+    opacity: 0.8;
+  }
+}
+
+@keyframes confetti-burst {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--dx), var(--dy)) rotate(var(--rot));
+    opacity: 0;
+  }
+}
+
+@keyframes trophy-raise {
+  0% {
+    transform: translateY(26px) scale(0.9);
+    opacity: 0;
+  }
+  25%,
+  85% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes draw-doodle {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(6px, -10px) rotate(4deg);
+  }
+  75% {
+    transform: translate(-6px, 6px) rotate(-4deg);
+  }
+}
+
+.animate-bob {
+  animation: bob 0.5s ease-in-out infinite;
+}
+.animate-flame {
+  animation: flame 0.35s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: top center;
+}
+.animate-drift {
+  animation: drift 9s ease-in-out infinite;
+}
+.animate-run-across {
+  animation: run-across 9s linear both;
+}
+.animate-rocket-flight {
+  animation: rocket-flight 7s cubic-bezier(0.45, 0, 0.3, 1) both;
+}
+.animate-plane-glide {
+  animation: plane-glide 10s ease-in-out both;
+}
+.animate-trophy-raise {
+  animation: trophy-raise 7s ease-out both;
+}
+.animate-confetti {
+  animation: confetti-burst 1.6s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+}
+
+/* running figure: limbs swing from the hip / shoulder */
+.kid-leg,
+.kid-arm {
+  transform-box: fill-box;
+  transform-origin: top center;
+}
+.kid-leg {
+  animation: leg-swing 0.32s ease-in-out infinite alternate;
+}
+.kid-leg.alt {
+  animation-direction: alternate-reverse;
+}
+.kid-arm {
+  animation: arm-swing 0.32s ease-in-out infinite alternate;
+}
+.kid-arm.alt {
+  animation-direction: alternate-reverse;
+}
+
+/* hand-drawn stroke that draws itself in */
+.doodle-draw {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  animation: draw-doodle 1.8s ease-out 0.2s forwards;
+}
+
+/* scroll reveal (see components/reveal.tsx) */
+.reveal-pending {
+  opacity: 0;
+  transform: translateY(26px);
+}
+.reveal-in {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 0.7s ease-out,
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* blurred placeholder behind locked report sections */
+.locked-blur {
+  filter: blur(6px);
+  user-select: none;
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+}
+
 /* Feedback widget: crosshair while the reviewer picks a spot */
 html.cg-picking,
 html.cg-picking * {
@@ -410,8 +622,21 @@ html.cg-picking * {
   .animate-twinkle,
   .animate-sway,
   .animate-orbit,
-  .animate-shimmer {
+  .animate-shimmer,
+  .animate-bob,
+  .animate-flame,
+  .animate-drift,
+  .kid-leg,
+  .kid-arm {
     animation: none;
+  }
+  .doodle-draw {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+  .reveal-pending {
+    opacity: 1;
+    transform: none;
   }
   .animate-pop-in,
   .animate-slide-in-left,

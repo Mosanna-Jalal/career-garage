@@ -16,7 +16,8 @@ import {
   TargetIcon,
   UsersIcon,
 } from "@/components/icons";
-import { tests } from "@/lib/tests";
+import { DoodleField, RunningKid } from "@/components/doodles";
+import { getAssessment } from "@/lib/assessments/catalog";
 import { personalityTypes, typeGroups } from "@/lib/personality-types";
 import { articles } from "@/lib/articles";
 
@@ -71,7 +72,7 @@ const testimonials = [
 ];
 
 export default function HomePage() {
-  const popular = tests.filter((t) => t.popular);
+  const popular = ["big-five", "mbti", "riasec", "career-readiness"].map((s) => getAssessment(s)!);
   const featuredTypes = personalityTypes.slice(0, 8);
 
   return (
@@ -81,12 +82,19 @@ export default function HomePage() {
         {/* animated background blobs */}
         <div className="pointer-events-none absolute -left-24 top-10 h-72 w-72 animate-blob bg-brand-200/40 blur-2xl" />
         <div className="pointer-events-none absolute -right-20 top-40 h-80 w-80 animate-blob bg-accent-200/30 blur-2xl [animation-delay:-4s]" />
+        <DoodleField variant="hero" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 hidden h-16 overflow-hidden sm:block" aria-hidden="true">
+          <div className="absolute inset-x-0 bottom-2 border-b-2 border-dashed border-brand-100" />
+          <div className="absolute bottom-3 left-0 animate-run-across [animation-duration:15s] [animation-iteration-count:infinite]">
+            <RunningKid className="h-12 w-9" />
+          </div>
+        </div>
 
         <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-24">
           <div className="animate-fade-up">
             <p className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white px-4 py-1.5 text-xs font-semibold text-brand-700">
               <SparkIcon className="h-3.5 w-3.5 text-accent-500" />
-              Free · Instant results · No sign-up required
+              Free demos · Instant sample reports · No sign-up to try
             </p>
             <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
               Understand yourself.{" "}
@@ -99,7 +107,7 @@ export default function HomePage() {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <Link
-                href="/tests/personality-type"
+                href="/tests/mbti"
                 className="inline-flex items-center gap-2 rounded-full bg-accent-500 px-7 py-3.5 text-base font-semibold text-white shadow-xl shadow-accent-500/25 transition hover:-translate-y-0.5 hover:bg-accent-600"
               >
                 Find your type
@@ -175,11 +183,11 @@ export default function HomePage() {
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <h2 className="text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">
-              Our most popular tests
+              Our most popular assessments
             </h2>
             <p className="mt-3 max-w-xl text-ink/70">
-              Every assessment is free to take, takes minutes to finish, and
-              delivers results you can actually use.
+              Every assessment starts with a free demo and a sample of your
+              report — subscribe for the full questionnaire and report.
             </p>
           </div>
           <Link
@@ -211,9 +219,9 @@ export default function HomePage() {
               <p className="mt-4 flex items-center gap-3 text-xs font-semibold text-ink/50">
                 <span>{t.minutes} min</span>
                 <span className="h-1 w-1 rounded-full bg-ink/30" />
-                <span>{t.questions.length} questions</span>
+                <span>{t.range[1] - t.range[0] + 1} questions</span>
                 <span className="h-1 w-1 rounded-full bg-ink/30" />
-                <span className="text-brand-600">Free</span>
+                <span className="text-brand-600">Free demo</span>
               </p>
             </Link>
           ))}
@@ -474,7 +482,7 @@ export default function HomePage() {
             strengths, and the careers where people like you thrive.
           </p>
           <Link
-            href="/tests/personality-type"
+            href="/tests/mbti"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-base font-bold text-brand-700 shadow-2xl transition hover:-translate-y-0.5 hover:bg-brand-50"
           >
             Start the free test <ArrowRightIcon className="h-5 w-5" />

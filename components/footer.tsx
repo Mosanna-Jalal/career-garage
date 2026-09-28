@@ -4,8 +4,8 @@ import {
   audienceLinks,
   legalLinks,
   programmeLinks,
-  roadMapLinks,
 } from "@/lib/site";
+import { assessments } from "@/lib/assessments/catalog";
 
 const columns = [
   {
@@ -17,10 +17,10 @@ const columns = [
     links: programmeLinks.map((l) => ({ href: l.href, label: l.label })),
   },
   {
-    heading: "Career Road Map",
-    links: roadMapLinks.slice(0, 4).map((l) => ({
-      href: l.href,
-      label: l.label,
+    heading: "Assessments",
+    links: assessments.slice(0, 4).map((a) => ({
+      href: `/tests/${a.slug}`,
+      label: a.name,
     })),
   },
   {

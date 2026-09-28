@@ -3,7 +3,13 @@
 import { useState } from "react";
 import { ShieldIcon } from "@/components/icons";
 
-export function AdminLogin({ configured }: { configured: boolean }) {
+export function AdminLogin({
+  configured,
+  title = "Feedback panel",
+}: {
+  configured: boolean;
+  title?: string;
+}) {
   const [token, setToken] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
@@ -35,7 +41,7 @@ export function AdminLogin({ configured }: { configured: boolean }) {
           <ShieldIcon className="h-6 w-6" />
         </span>
         <h1 className="mt-4 text-2xl font-extrabold tracking-tight text-ink">
-          Feedback panel
+          {title}
         </h1>
 
         {configured ? (

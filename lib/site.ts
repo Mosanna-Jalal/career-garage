@@ -1,4 +1,5 @@
 import type { IconName } from "@/components/icons";
+import { assessments } from "@/lib/assessments/catalog";
 
 /**
  * Single source of truth for the Career Garage information architecture.
@@ -44,6 +45,12 @@ export const audienceLinks: NavLink[] = [
     blurb: "Turn your education into employability and a first job",
     icon: "briefcase",
   },
+  {
+    href: "/career-road-map",
+    label: "Career Roadmap",
+    blurb: "154 career profiles across 21 families — pathways, courses, skills",
+    icon: "compass",
+  },
 ];
 
 export const programmeLinks: NavLink[] = [
@@ -73,45 +80,6 @@ export const programmeLinks: NavLink[] = [
   },
 ];
 
-export const roadMapLinks: NavLink[] = [
-  {
-    href: "/career-road-map",
-    label: "Courses",
-    blurb: "Explore careers, courses and entry routes",
-    icon: "compass",
-  },
-  {
-    href: "/personality-types",
-    label: "The 16 Personality Types",
-    blurb: "Type profiles, strengths and career fits",
-    icon: "puzzle",
-  },
-  {
-    href: "/career-road-map/enneagram",
-    label: "The 9 Enneagram Types",
-    blurb: "Core motivations, fears and growth paths",
-    icon: "heart",
-  },
-  {
-    href: "/career-road-map/big-five",
-    label: "The Big Five Traits",
-    blurb: "The most research-backed model of personality",
-    icon: "chart",
-  },
-  {
-    href: "/career-road-map/disc",
-    label: "DISC Styles",
-    blurb: "How you communicate and work with others",
-    icon: "users",
-  },
-  {
-    href: "/career-road-map/riasec",
-    label: "RIASEC (Holland Codes)",
-    blurb: "Six interest themes that map to real occupations",
-    icon: "wrench",
-  },
-];
-
 export const aboutLinks: NavLink[] = [
   { href: "/about", label: "Who Are We?" },
   { href: "/about/philosophy", label: "Our Philosophy" },
@@ -131,69 +99,12 @@ export const legalLinks: NavLink[] = [
 ];
 
 /**
- * The 15 psychometric assessments named in the specification.
- * `available` marks the ones already implemented as playable tests.
+ * Psychometric Assessment menu: the twelve handbook-based assessments plus
+ * the existing leadership test. `available` greys out anything not built.
  */
 export const assessmentLinks: (NavLink & { available: boolean })[] = [
-  { href: "/tests/big-five", label: "Big Five (OCEAN)", available: true },
-  {
-    href: "/tests/personality-type",
-    label: "16 Types (MBTI-style)",
-    available: true,
-  },
-  { href: "/tests/enneagram", label: "Enneagram-inspired", available: true },
-  {
-    href: "/tests/career-explorer",
-    label: "RIASEC (Holland)",
-    available: true,
-  },
-  { href: "/tests/workstyle-compass", label: "DISC-style", available: true },
-  {
-    href: "/tests/leadership-blueprint",
-    label: "Leadership Potential",
-    available: true,
-  },
-  {
-    href: "/tests/emotional-intelligence",
-    label: "Emotional Intelligence",
-    available: false,
-  },
-  {
-    href: "/tests/cognitive-aptitude",
-    label: "Cognitive Aptitude",
-    available: false,
-  },
-  { href: "/tests/work-values", label: "Work Values", available: false },
-  {
-    href: "/tests/learning-preferences",
-    label: "Learning Preferences",
-    available: false,
-  },
-  {
-    href: "/tests/entrepreneurial-mindset",
-    label: "Entrepreneurial Mindset",
-    available: false,
-  },
-  {
-    href: "/tests/career-readiness",
-    label: "Career Readiness",
-    available: false,
-  },
-  {
-    href: "/tests/digital-skills-readiness",
-    label: "Digital Skills Readiness",
-    available: false,
-  },
-  {
-    href: "/tests/employability-skills",
-    label: "Employability Skills",
-    available: false,
-  },
-  {
-    href: "/tests/scholarship-test",
-    label: "Scholarship Test",
-    available: false,
-  },
+  ...assessments.map((a) => ({ href: `/tests/${a.slug}`, label: a.name, available: true })),
+  { href: "/tests/leadership-blueprint", label: "Leadership Potential", available: true },
 ];
 
 /**
@@ -252,10 +163,6 @@ export const navSections: NavSection[] = [
   {
     label: "Institutions & Events",
     groups: [{ heading: "Programmes", links: programmeLinks }],
-  },
-  {
-    label: "Career Road Map",
-    groups: [{ heading: "Explore", links: roadMapLinks }],
   },
   {
     label: "Assessments",

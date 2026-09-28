@@ -1,0 +1,4850 @@
+{
+ "CG-BF": [
+  {
+   "n": 1,
+   "id": "CG-BF-OPE-01",
+   "dim": "OPE",
+   "text": "I explore unfamiliar ideas before judging them."
+  },
+  {
+   "n": 2,
+   "id": "CG-BF-OPE-02",
+   "dim": "OPE",
+   "text": "I enjoy imagining several ways a problem could be solved."
+  },
+  {
+   "n": 3,
+   "id": "CG-BF-OPE-03",
+   "dim": "OPE",
+   "text": "I seek experiences that broaden how I see the world."
+  },
+  {
+   "n": 4,
+   "id": "CG-BF-OPE-04",
+   "dim": "OPE",
+   "text": "During study, projects, or work, I explore unfamiliar ideas before judging them."
+  },
+  {
+   "n": 5,
+   "id": "CG-BF-OPE-05",
+   "dim": "OPE",
+   "text": "During study, projects, or work, I enjoy imagining several ways a problem could be solved."
+  },
+  {
+   "n": 6,
+   "id": "CG-BF-OPE-06",
+   "dim": "OPE",
+   "text": "During study, projects, or work, I seek experiences that broaden how I see the world."
+  },
+  {
+   "n": 7,
+   "id": "CG-BF-OPE-07",
+   "dim": "OPE",
+   "text": "When a situation becomes demanding, I still explore unfamiliar ideas before judging them."
+  },
+  {
+   "n": 8,
+   "id": "CG-BF-OPE-08",
+   "dim": "OPE",
+   "text": "When a situation becomes demanding, I still enjoy imagining several ways a problem could be solved."
+  },
+  {
+   "n": 9,
+   "id": "CG-BF-OPE-09",
+   "dim": "OPE",
+   "text": "When a situation becomes demanding, I still seek experiences that broaden how I see the world."
+  },
+  {
+   "n": 10,
+   "id": "CG-BF-OPE-10",
+   "dim": "OPE",
+   "text": "I prefer familiar methods even when a new approach could help.",
+   "rev": true
+  },
+  {
+   "n": 11,
+   "id": "CG-BF-OPE-11",
+   "dim": "OPE",
+   "text": "During study, projects, or work, I prefer familiar methods even when a new approach could help.",
+   "rev": true
+  },
+  {
+   "n": 12,
+   "id": "CG-BF-OPE-12",
+   "dim": "OPE",
+   "text": "When a situation becomes demanding, I still prefer familiar methods even when a new approach could help.",
+   "rev": true
+  },
+  {
+   "n": 13,
+   "id": "CG-BF-CON-01",
+   "dim": "CON",
+   "text": "I plan my work before I begin."
+  },
+  {
+   "n": 14,
+   "id": "CG-BF-CON-02",
+   "dim": "CON",
+   "text": "I follow through on commitments even when they are routine."
+  },
+  {
+   "n": 15,
+   "id": "CG-BF-CON-03",
+   "dim": "CON",
+   "text": "I check important details before submitting work."
+  },
+  {
+   "n": 16,
+   "id": "CG-BF-CON-04",
+   "dim": "CON",
+   "text": "During study, projects, or work, I plan my work before I begin."
+  },
+  {
+   "n": 17,
+   "id": "CG-BF-CON-05",
+   "dim": "CON",
+   "text": "During study, projects, or work, I follow through on commitments even when they are routine."
+  },
+  {
+   "n": 18,
+   "id": "CG-BF-CON-06",
+   "dim": "CON",
+   "text": "During study, projects, or work, I check important details before submitting work."
+  },
+  {
+   "n": 19,
+   "id": "CG-BF-CON-07",
+   "dim": "CON",
+   "text": "When a situation becomes demanding, I still plan my work before I begin."
+  },
+  {
+   "n": 20,
+   "id": "CG-BF-CON-08",
+   "dim": "CON",
+   "text": "When a situation becomes demanding, I still follow through on commitments even when they are routine."
+  },
+  {
+   "n": 21,
+   "id": "CG-BF-CON-09",
+   "dim": "CON",
+   "text": "When a situation becomes demanding, I still check important details before submitting work."
+  },
+  {
+   "n": 22,
+   "id": "CG-BF-CON-10",
+   "dim": "CON",
+   "text": "I leave important tasks unfinished when something more interesting appears.",
+   "rev": true
+  },
+  {
+   "n": 23,
+   "id": "CG-BF-CON-11",
+   "dim": "CON",
+   "text": "During study, projects, or work, I leave important tasks unfinished when something more interesting appears.",
+   "rev": true
+  },
+  {
+   "n": 24,
+   "id": "CG-BF-CON-12",
+   "dim": "CON",
+   "text": "When a situation becomes demanding, I still leave important tasks unfinished when something more interesting appears.",
+   "rev": true
+  },
+  {
+   "n": 25,
+   "id": "CG-BF-EXT-01",
+   "dim": "EXT",
+   "text": "I gain energy from interacting with other people."
+  },
+  {
+   "n": 26,
+   "id": "CG-BF-EXT-02",
+   "dim": "EXT",
+   "text": "I speak up readily in group discussions."
+  },
+  {
+   "n": 27,
+   "id": "CG-BF-EXT-03",
+   "dim": "EXT",
+   "text": "I feel comfortable starting conversations with new people."
+  },
+  {
+   "n": 28,
+   "id": "CG-BF-EXT-04",
+   "dim": "EXT",
+   "text": "During study, projects, or work, I gain energy from interacting with other people."
+  },
+  {
+   "n": 29,
+   "id": "CG-BF-EXT-05",
+   "dim": "EXT",
+   "text": "During study, projects, or work, I speak up readily in group discussions."
+  },
+  {
+   "n": 30,
+   "id": "CG-BF-EXT-06",
+   "dim": "EXT",
+   "text": "During study, projects, or work, I feel comfortable starting conversations with new people."
+  },
+  {
+   "n": 31,
+   "id": "CG-BF-EXT-07",
+   "dim": "EXT",
+   "text": "When a situation becomes demanding, I still gain energy from interacting with other people."
+  },
+  {
+   "n": 32,
+   "id": "CG-BF-EXT-08",
+   "dim": "EXT",
+   "text": "When a situation becomes demanding, I still speak up readily in group discussions."
+  },
+  {
+   "n": 33,
+   "id": "CG-BF-EXT-09",
+   "dim": "EXT",
+   "text": "When a situation becomes demanding, I still feel comfortable starting conversations with new people."
+  },
+  {
+   "n": 34,
+   "id": "CG-BF-EXT-10",
+   "dim": "EXT",
+   "text": "I avoid joining discussions even when I have something useful to add.",
+   "rev": true
+  },
+  {
+   "n": 35,
+   "id": "CG-BF-EXT-11",
+   "dim": "EXT",
+   "text": "During study, projects, or work, I avoid joining discussions even when I have something useful to add.",
+   "rev": true
+  },
+  {
+   "n": 36,
+   "id": "CG-BF-EXT-12",
+   "dim": "EXT",
+   "text": "When a situation becomes demanding, I still avoid joining discussions even when I have something useful to add.",
+   "rev": true
+  },
+  {
+   "n": 37,
+   "id": "CG-BF-AGR-01",
+   "dim": "AGR",
+   "text": "I try to understand another person's point of view."
+  },
+  {
+   "n": 38,
+   "id": "CG-BF-AGR-02",
+   "dim": "AGR",
+   "text": "I cooperate even when I would choose a different method."
+  },
+  {
+   "n": 39,
+   "id": "CG-BF-AGR-03",
+   "dim": "AGR",
+   "text": "I show patience when someone needs extra help."
+  },
+  {
+   "n": 40,
+   "id": "CG-BF-AGR-04",
+   "dim": "AGR",
+   "text": "During study, projects, or work, I try to understand another person's point of view."
+  },
+  {
+   "n": 41,
+   "id": "CG-BF-AGR-05",
+   "dim": "AGR",
+   "text": "During study, projects, or work, I cooperate even when I would choose a different method."
+  },
+  {
+   "n": 42,
+   "id": "CG-BF-AGR-06",
+   "dim": "AGR",
+   "text": "During study, projects, or work, I show patience when someone needs extra help."
+  },
+  {
+   "n": 43,
+   "id": "CG-BF-AGR-07",
+   "dim": "AGR",
+   "text": "When a situation becomes demanding, I still try to understand another person's point of view."
+  },
+  {
+   "n": 44,
+   "id": "CG-BF-AGR-08",
+   "dim": "AGR",
+   "text": "When a situation becomes demanding, I still cooperate even when I would choose a different method."
+  },
+  {
+   "n": 45,
+   "id": "CG-BF-AGR-09",
+   "dim": "AGR",
+   "text": "When a situation becomes demanding, I still show patience when someone needs extra help."
+  },
+  {
+   "n": 46,
+   "id": "CG-BF-AGR-10",
+   "dim": "AGR",
+   "text": "I dismiss other people's concerns when they slow down my plans.",
+   "rev": true
+  },
+  {
+   "n": 47,
+   "id": "CG-BF-AGR-11",
+   "dim": "AGR",
+   "text": "During study, projects, or work, I dismiss other people's concerns when they slow down my plans.",
+   "rev": true
+  },
+  {
+   "n": 48,
+   "id": "CG-BF-AGR-12",
+   "dim": "AGR",
+   "text": "When a situation becomes demanding, I still dismiss other people's concerns when they slow down my plans.",
+   "rev": true
+  },
+  {
+   "n": 49,
+   "id": "CG-BF-EMR-01",
+   "dim": "EMR",
+   "text": "I feel tense for a long time after a setback."
+  },
+  {
+   "n": 50,
+   "id": "CG-BF-EMR-02",
+   "dim": "EMR",
+   "text": "I worry about possible problems before I have enough evidence."
+  },
+  {
+   "n": 51,
+   "id": "CG-BF-EMR-03",
+   "dim": "EMR",
+   "text": "I find it hard to settle my emotions after criticism."
+  },
+  {
+   "n": 52,
+   "id": "CG-BF-EMR-04",
+   "dim": "EMR",
+   "text": "During study, projects, or work, I feel tense for a long time after a setback."
+  },
+  {
+   "n": 53,
+   "id": "CG-BF-EMR-05",
+   "dim": "EMR",
+   "text": "During study, projects, or work, I worry about possible problems before I have enough evidence."
+  },
+  {
+   "n": 54,
+   "id": "CG-BF-EMR-06",
+   "dim": "EMR",
+   "text": "During study, projects, or work, I find it hard to settle my emotions after criticism."
+  },
+  {
+   "n": 55,
+   "id": "CG-BF-EMR-07",
+   "dim": "EMR",
+   "text": "When a situation becomes demanding, I still feel tense for a long time after a setback."
+  },
+  {
+   "n": 56,
+   "id": "CG-BF-EMR-08",
+   "dim": "EMR",
+   "text": "When a situation becomes demanding, I still worry about possible problems before I have enough evidence."
+  },
+  {
+   "n": 57,
+   "id": "CG-BF-EMR-09",
+   "dim": "EMR",
+   "text": "When a situation becomes demanding, I still find it hard to settle my emotions after criticism."
+  },
+  {
+   "n": 58,
+   "id": "CG-BF-EMR-10",
+   "dim": "EMR",
+   "text": "I return to a calm state quickly after ordinary pressure.",
+   "rev": true
+  },
+  {
+   "n": 59,
+   "id": "CG-BF-EMR-11",
+   "dim": "EMR",
+   "text": "During study, projects, or work, I return to a calm state quickly after ordinary pressure.",
+   "rev": true
+  },
+  {
+   "n": 60,
+   "id": "CG-BF-EMR-12",
+   "dim": "EMR",
+   "text": "When a situation becomes demanding, I still return to a calm state quickly after ordinary pressure.",
+   "rev": true
+  }
+ ],
+ "CG-MB": [
+  {
+   "n": 61,
+   "id": "CG-MB-SE-E-01",
+   "dim": "E",
+   "text": "I think more clearly while talking ideas through."
+  },
+  {
+   "n": 62,
+   "id": "CG-MB-SE-E-02",
+   "dim": "E",
+   "text": "I feel energised by active group interaction."
+  },
+  {
+   "n": 63,
+   "id": "CG-MB-SE-E-03",
+   "dim": "E",
+   "text": "I introduce myself easily in unfamiliar groups."
+  },
+  {
+   "n": 64,
+   "id": "CG-MB-SE-E-04",
+   "dim": "E",
+   "text": "I prefer a lively setting with frequent contact."
+  },
+  {
+   "n": 65,
+   "id": "CG-MB-SE-E-05",
+   "dim": "E",
+   "text": "During study, projects, or work, I think more clearly while talking ideas through."
+  },
+  {
+   "n": 66,
+   "id": "CG-MB-SE-E-06",
+   "dim": "E",
+   "text": "During study, projects, or work, I feel energised by active group interaction."
+  },
+  {
+   "n": 67,
+   "id": "CG-MB-SE-E-07",
+   "dim": "E",
+   "text": "During study, projects, or work, I introduce myself easily in unfamiliar groups."
+  },
+  {
+   "n": 68,
+   "id": "CG-MB-SE-E-08",
+   "dim": "E",
+   "text": "During study, projects, or work, I prefer a lively setting with frequent contact."
+  },
+  {
+   "n": 69,
+   "id": "CG-MB-SE-I-01",
+   "dim": "I",
+   "text": "I think best after quiet reflection."
+  },
+  {
+   "n": 70,
+   "id": "CG-MB-SE-I-02",
+   "dim": "I",
+   "text": "I restore my energy through time alone."
+  },
+  {
+   "n": 71,
+   "id": "CG-MB-SE-I-03",
+   "dim": "I",
+   "text": "I prefer a few focused conversations to many brief ones."
+  },
+  {
+   "n": 72,
+   "id": "CG-MB-SE-I-04",
+   "dim": "I",
+   "text": "I prepare my thoughts before speaking in a group."
+  },
+  {
+   "n": 73,
+   "id": "CG-MB-SE-I-05",
+   "dim": "I",
+   "text": "During study, projects, or work, I think best after quiet reflection."
+  },
+  {
+   "n": 74,
+   "id": "CG-MB-SE-I-06",
+   "dim": "I",
+   "text": "During study, projects, or work, I restore my energy through time alone."
+  },
+  {
+   "n": 75,
+   "id": "CG-MB-SE-I-07",
+   "dim": "I",
+   "text": "During study, projects, or work, I prefer a few focused conversations to many brief ones."
+  },
+  {
+   "n": 76,
+   "id": "CG-MB-SE-I-08",
+   "dim": "I",
+   "text": "During study, projects, or work, I prepare my thoughts before speaking in a group."
+  },
+  {
+   "n": 77,
+   "id": "CG-MB-IF-S-01",
+   "dim": "S",
+   "text": "I notice practical details that others may overlook."
+  },
+  {
+   "n": 78,
+   "id": "CG-MB-IF-S-02",
+   "dim": "S",
+   "text": "I trust information I can verify through experience."
+  },
+  {
+   "n": 79,
+   "id": "CG-MB-IF-S-03",
+   "dim": "S",
+   "text": "I prefer step-by-step instructions for a new task."
+  },
+  {
+   "n": 80,
+   "id": "CG-MB-IF-S-04",
+   "dim": "S",
+   "text": "I focus first on what is happening now."
+  },
+  {
+   "n": 81,
+   "id": "CG-MB-IF-S-05",
+   "dim": "S",
+   "text": "During study, projects, or work, I notice practical details that others may overlook."
+  },
+  {
+   "n": 82,
+   "id": "CG-MB-IF-S-06",
+   "dim": "S",
+   "text": "During study, projects, or work, I trust information I can verify through experience."
+  },
+  {
+   "n": 83,
+   "id": "CG-MB-IF-S-07",
+   "dim": "S",
+   "text": "During study, projects, or work, I prefer step-by-step instructions for a new task."
+  },
+  {
+   "n": 84,
+   "id": "CG-MB-IF-S-08",
+   "dim": "S",
+   "text": "During study, projects, or work, I focus first on what is happening now."
+  },
+  {
+   "n": 85,
+   "id": "CG-MB-IF-N-01",
+   "dim": "N",
+   "text": "I look for patterns connecting different ideas."
+  },
+  {
+   "n": 86,
+   "id": "CG-MB-IF-N-02",
+   "dim": "N",
+   "text": "I imagine possibilities beyond the immediate facts."
+  },
+  {
+   "n": 87,
+   "id": "CG-MB-IF-N-03",
+   "dim": "N",
+   "text": "I enjoy working with concepts and future scenarios."
+  },
+  {
+   "n": 88,
+   "id": "CG-MB-IF-N-04",
+   "dim": "N",
+   "text": "I start with the overall meaning before the details."
+  },
+  {
+   "n": 89,
+   "id": "CG-MB-IF-N-05",
+   "dim": "N",
+   "text": "During study, projects, or work, I look for patterns connecting different ideas."
+  },
+  {
+   "n": 90,
+   "id": "CG-MB-IF-N-06",
+   "dim": "N",
+   "text": "During study, projects, or work, I imagine possibilities beyond the immediate facts."
+  },
+  {
+   "n": 91,
+   "id": "CG-MB-IF-N-07",
+   "dim": "N",
+   "text": "During study, projects, or work, I enjoy working with concepts and future scenarios."
+  },
+  {
+   "n": 92,
+   "id": "CG-MB-IF-N-08",
+   "dim": "N",
+   "text": "During study, projects, or work, I start with the overall meaning before the details."
+  },
+  {
+   "n": 93,
+   "id": "CG-MB-DA-T-01",
+   "dim": "T",
+   "text": "I separate personal feelings from the main decision criteria."
+  },
+  {
+   "n": 94,
+   "id": "CG-MB-DA-T-02",
+   "dim": "T",
+   "text": "I test whether an argument is logically consistent."
+  },
+  {
+   "n": 95,
+   "id": "CG-MB-DA-T-03",
+   "dim": "T",
+   "text": "I prefer clear principles when choices are difficult."
+  },
+  {
+   "n": 96,
+   "id": "CG-MB-DA-T-04",
+   "dim": "T",
+   "text": "I give honest analysis even when it may be unpopular."
+  },
+  {
+   "n": 97,
+   "id": "CG-MB-DA-T-05",
+   "dim": "T",
+   "text": "During study, projects, or work, I separate personal feelings from the main decision criteria."
+  },
+  {
+   "n": 98,
+   "id": "CG-MB-DA-T-06",
+   "dim": "T",
+   "text": "During study, projects, or work, I test whether an argument is logically consistent."
+  },
+  {
+   "n": 99,
+   "id": "CG-MB-DA-T-07",
+   "dim": "T",
+   "text": "During study, projects, or work, I prefer clear principles when choices are difficult."
+  },
+  {
+   "n": 100,
+   "id": "CG-MB-DA-T-08",
+   "dim": "T",
+   "text": "During study, projects, or work, I give honest analysis even when it may be unpopular."
+  },
+  {
+   "n": 101,
+   "id": "CG-MB-DA-F-01",
+   "dim": "F",
+   "text": "I consider how a decision will affect each person involved."
+  },
+  {
+   "n": 102,
+   "id": "CG-MB-DA-F-02",
+   "dim": "F",
+   "text": "I look for choices that respect important personal values."
+  },
+  {
+   "n": 103,
+   "id": "CG-MB-DA-F-03",
+   "dim": "F",
+   "text": "I notice the emotional tone when giving feedback."
+  },
+  {
+   "n": 104,
+   "id": "CG-MB-DA-F-04",
+   "dim": "F",
+   "text": "I try to preserve trust while solving a problem."
+  },
+  {
+   "n": 105,
+   "id": "CG-MB-DA-F-05",
+   "dim": "F",
+   "text": "During study, projects, or work, I consider how a decision will affect each person involved."
+  },
+  {
+   "n": 106,
+   "id": "CG-MB-DA-F-06",
+   "dim": "F",
+   "text": "During study, projects, or work, I look for choices that respect important personal values."
+  },
+  {
+   "n": 107,
+   "id": "CG-MB-DA-F-07",
+   "dim": "F",
+   "text": "During study, projects, or work, I notice the emotional tone when giving feedback."
+  },
+  {
+   "n": 108,
+   "id": "CG-MB-DA-F-08",
+   "dim": "F",
+   "text": "During study, projects, or work, I try to preserve trust while solving a problem."
+  },
+  {
+   "n": 109,
+   "id": "CG-MB-LS-J-01",
+   "dim": "J",
+   "text": "I feel more comfortable when deadlines and steps are settled."
+  },
+  {
+   "n": 110,
+   "id": "CG-MB-LS-J-02",
+   "dim": "J",
+   "text": "I make decisions early enough to organise the work."
+  },
+  {
+   "n": 111,
+   "id": "CG-MB-LS-J-03",
+   "dim": "J",
+   "text": "I prefer completing one priority before opening several more."
+  },
+  {
+   "n": 112,
+   "id": "CG-MB-LS-J-04",
+   "dim": "J",
+   "text": "I use plans to keep my time under control."
+  },
+  {
+   "n": 113,
+   "id": "CG-MB-LS-J-05",
+   "dim": "J",
+   "text": "During study, projects, or work, I feel more comfortable when deadlines and steps are settled."
+  },
+  {
+   "n": 114,
+   "id": "CG-MB-LS-J-06",
+   "dim": "J",
+   "text": "During study, projects, or work, I make decisions early enough to organise the work."
+  },
+  {
+   "n": 115,
+   "id": "CG-MB-LS-J-07",
+   "dim": "J",
+   "text": "During study, projects, or work, I prefer completing one priority before opening several more."
+  },
+  {
+   "n": 116,
+   "id": "CG-MB-LS-J-08",
+   "dim": "J",
+   "text": "During study, projects, or work, I use plans to keep my time under control."
+  },
+  {
+   "n": 117,
+   "id": "CG-MB-LS-P-01",
+   "dim": "P",
+   "text": "I keep options open until I need to decide."
+  },
+  {
+   "n": 118,
+   "id": "CG-MB-LS-P-02",
+   "dim": "P",
+   "text": "I adapt easily when a plan changes at short notice."
+  },
+  {
+   "n": 119,
+   "id": "CG-MB-LS-P-03",
+   "dim": "P",
+   "text": "I enjoy discovering the next step while working."
+  },
+  {
+   "n": 120,
+   "id": "CG-MB-LS-P-04",
+   "dim": "P",
+   "text": "I prefer flexible schedules that allow new opportunities."
+  },
+  {
+   "n": 121,
+   "id": "CG-MB-LS-P-05",
+   "dim": "P",
+   "text": "During study, projects, or work, I keep options open until I need to decide."
+  },
+  {
+   "n": 122,
+   "id": "CG-MB-LS-P-06",
+   "dim": "P",
+   "text": "During study, projects, or work, I adapt easily when a plan changes at short notice."
+  },
+  {
+   "n": 123,
+   "id": "CG-MB-LS-P-07",
+   "dim": "P",
+   "text": "During study, projects, or work, I enjoy discovering the next step while working."
+  },
+  {
+   "n": 124,
+   "id": "CG-MB-LS-P-08",
+   "dim": "P",
+   "text": "During study, projects, or work, I prefer flexible schedules that allow new opportunities."
+  }
+ ],
+ "CG-EN": [
+  {
+   "n": 125,
+   "id": "CG-EN-P1-01",
+   "dim": "P1",
+   "text": "I feel responsible for improving work that falls below a fair standard."
+  },
+  {
+   "n": 126,
+   "id": "CG-EN-P1-02",
+   "dim": "P1",
+   "text": "I notice when rules or processes could be more correct."
+  },
+  {
+   "n": 127,
+   "id": "CG-EN-P1-03",
+   "dim": "P1",
+   "text": "I try to act according to clear principles."
+  },
+  {
+   "n": 128,
+   "id": "CG-EN-P1-04",
+   "dim": "P1",
+   "text": "During study, projects, or work, I feel responsible for improving work that falls below a fair standard."
+  },
+  {
+   "n": 129,
+   "id": "CG-EN-P1-05",
+   "dim": "P1",
+   "text": "During study, projects, or work, I notice when rules or processes could be more correct."
+  },
+  {
+   "n": 130,
+   "id": "CG-EN-P1-06",
+   "dim": "P1",
+   "text": "During study, projects, or work, I try to act according to clear principles."
+  },
+  {
+   "n": 131,
+   "id": "CG-EN-P1-07",
+   "dim": "P1",
+   "text": "I ignore avoidable mistakes because raising them feels inconvenient.",
+   "rev": true
+  },
+  {
+   "n": 132,
+   "id": "CG-EN-P1-08",
+   "dim": "P1",
+   "text": "During study, projects, or work, I ignore avoidable mistakes because raising them feels inconvenient.",
+   "rev": true
+  },
+  {
+   "n": 133,
+   "id": "CG-EN-P2-01",
+   "dim": "P2",
+   "text": "I notice when someone needs encouragement or practical help."
+  },
+  {
+   "n": 134,
+   "id": "CG-EN-P2-02",
+   "dim": "P2",
+   "text": "I feel fulfilled when my contribution helps another person succeed."
+  },
+  {
+   "n": 135,
+   "id": "CG-EN-P2-03",
+   "dim": "P2",
+   "text": "I build connection by being useful and considerate."
+  },
+  {
+   "n": 136,
+   "id": "CG-EN-P2-04",
+   "dim": "P2",
+   "text": "During study, projects, or work, I notice when someone needs encouragement or practical help."
+  },
+  {
+   "n": 137,
+   "id": "CG-EN-P2-05",
+   "dim": "P2",
+   "text": "During study, projects, or work, I feel fulfilled when my contribution helps another person succeed."
+  },
+  {
+   "n": 138,
+   "id": "CG-EN-P2-06",
+   "dim": "P2",
+   "text": "During study, projects, or work, I build connection by being useful and considerate."
+  },
+  {
+   "n": 139,
+   "id": "CG-EN-P2-07",
+   "dim": "P2",
+   "text": "I avoid offering support unless I receive something first.",
+   "rev": true
+  },
+  {
+   "n": 140,
+   "id": "CG-EN-P2-08",
+   "dim": "P2",
+   "text": "During study, projects, or work, I avoid offering support unless I receive something first.",
+   "rev": true
+  },
+  {
+   "n": 141,
+   "id": "CG-EN-P3-01",
+   "dim": "P3",
+   "text": "I set visible goals and track progress toward them."
+  },
+  {
+   "n": 142,
+   "id": "CG-EN-P3-02",
+   "dim": "P3",
+   "text": "I adapt my approach to produce a strong result."
+  },
+  {
+   "n": 143,
+   "id": "CG-EN-P3-03",
+   "dim": "P3",
+   "text": "I feel motivated when my effort leads to achievement."
+  },
+  {
+   "n": 144,
+   "id": "CG-EN-P3-04",
+   "dim": "P3",
+   "text": "During study, projects, or work, I set visible goals and track progress toward them."
+  },
+  {
+   "n": 145,
+   "id": "CG-EN-P3-05",
+   "dim": "P3",
+   "text": "During study, projects, or work, I adapt my approach to produce a strong result."
+  },
+  {
+   "n": 146,
+   "id": "CG-EN-P3-06",
+   "dim": "P3",
+   "text": "During study, projects, or work, I feel motivated when my effort leads to achievement."
+  },
+  {
+   "n": 147,
+   "id": "CG-EN-P3-07",
+   "dim": "P3",
+   "text": "I lose interest when no one will notice the outcome.",
+   "rev": true
+  },
+  {
+   "n": 148,
+   "id": "CG-EN-P3-08",
+   "dim": "P3",
+   "text": "During study, projects, or work, I lose interest when no one will notice the outcome.",
+   "rev": true
+  },
+  {
+   "n": 149,
+   "id": "CG-EN-P4-01",
+   "dim": "P4",
+   "text": "I want my work to express something personally meaningful."
+  },
+  {
+   "n": 150,
+   "id": "CG-EN-P4-02",
+   "dim": "P4",
+   "text": "I notice subtle feelings and differences in perspective."
+  },
+  {
+   "n": 151,
+   "id": "CG-EN-P4-03",
+   "dim": "P4",
+   "text": "I seek an original way to communicate an idea."
+  },
+  {
+   "n": 152,
+   "id": "CG-EN-P4-04",
+   "dim": "P4",
+   "text": "During study, projects, or work, I want my work to express something personally meaningful."
+  },
+  {
+   "n": 153,
+   "id": "CG-EN-P4-05",
+   "dim": "P4",
+   "text": "During study, projects, or work, I notice subtle feelings and differences in perspective."
+  },
+  {
+   "n": 154,
+   "id": "CG-EN-P4-06",
+   "dim": "P4",
+   "text": "During study, projects, or work, I seek an original way to communicate an idea."
+  },
+  {
+   "n": 155,
+   "id": "CG-EN-P4-07",
+   "dim": "P4",
+   "text": "I copy the expected approach even when it feels false to me.",
+   "rev": true
+  },
+  {
+   "n": 156,
+   "id": "CG-EN-P4-08",
+   "dim": "P4",
+   "text": "During study, projects, or work, I copy the expected approach even when it feels false to me.",
+   "rev": true
+  },
+  {
+   "n": 157,
+   "id": "CG-EN-P5-01",
+   "dim": "P5",
+   "text": "I gather enough knowledge before committing to an answer."
+  },
+  {
+   "n": 158,
+   "id": "CG-EN-P5-02",
+   "dim": "P5",
+   "text": "I step back to understand a complex situation objectively."
+  },
+  {
+   "n": 159,
+   "id": "CG-EN-P5-03",
+   "dim": "P5",
+   "text": "I protect focused time for independent thinking."
+  },
+  {
+   "n": 160,
+   "id": "CG-EN-P5-04",
+   "dim": "P5",
+   "text": "During study, projects, or work, I gather enough knowledge before committing to an answer."
+  },
+  {
+   "n": 161,
+   "id": "CG-EN-P5-05",
+   "dim": "P5",
+   "text": "During study, projects, or work, I step back to understand a complex situation objectively."
+  },
+  {
+   "n": 162,
+   "id": "CG-EN-P5-06",
+   "dim": "P5",
+   "text": "During study, projects, or work, I protect focused time for independent thinking."
+  },
+  {
+   "n": 163,
+   "id": "CG-EN-P5-07",
+   "dim": "P5",
+   "text": "I act as if I understand a topic without checking the facts.",
+   "rev": true
+  },
+  {
+   "n": 164,
+   "id": "CG-EN-P5-08",
+   "dim": "P5",
+   "text": "During study, projects, or work, I act as if I understand a topic without checking the facts.",
+   "rev": true
+  },
+  {
+   "n": 165,
+   "id": "CG-EN-P6-01",
+   "dim": "P6",
+   "text": "I anticipate what could go wrong and prepare a response."
+  },
+  {
+   "n": 166,
+   "id": "CG-EN-P6-02",
+   "dim": "P6",
+   "text": "I look for trustworthy information before taking a risk."
+  },
+  {
+   "n": 167,
+   "id": "CG-EN-P6-03",
+   "dim": "P6",
+   "text": "I remain loyal to people and commitments I can rely on."
+  },
+  {
+   "n": 168,
+   "id": "CG-EN-P6-04",
+   "dim": "P6",
+   "text": "During study, projects, or work, I anticipate what could go wrong and prepare a response."
+  },
+  {
+   "n": 169,
+   "id": "CG-EN-P6-05",
+   "dim": "P6",
+   "text": "During study, projects, or work, I look for trustworthy information before taking a risk."
+  },
+  {
+   "n": 170,
+   "id": "CG-EN-P6-06",
+   "dim": "P6",
+   "text": "During study, projects, or work, I remain loyal to people and commitments I can rely on."
+  },
+  {
+   "n": 171,
+   "id": "CG-EN-P6-07",
+   "dim": "P6",
+   "text": "I dismiss warning signs because planning feels unnecessary.",
+   "rev": true
+  },
+  {
+   "n": 172,
+   "id": "CG-EN-P6-08",
+   "dim": "P6",
+   "text": "During study, projects, or work, I dismiss warning signs because planning feels unnecessary.",
+   "rev": true
+  },
+  {
+   "n": 173,
+   "id": "CG-EN-P7-01",
+   "dim": "P7",
+   "text": "I generate exciting options when a situation feels limited."
+  },
+  {
+   "n": 174,
+   "id": "CG-EN-P7-02",
+   "dim": "P7",
+   "text": "I look forward to new experiences and projects."
+  },
+  {
+   "n": 175,
+   "id": "CG-EN-P7-03",
+   "dim": "P7",
+   "text": "I reframe setbacks by finding another possibility."
+  },
+  {
+   "n": 176,
+   "id": "CG-EN-P7-04",
+   "dim": "P7",
+   "text": "During study, projects, or work, I generate exciting options when a situation feels limited."
+  },
+  {
+   "n": 177,
+   "id": "CG-EN-P7-05",
+   "dim": "P7",
+   "text": "During study, projects, or work, I look forward to new experiences and projects."
+  },
+  {
+   "n": 178,
+   "id": "CG-EN-P7-06",
+   "dim": "P7",
+   "text": "During study, projects, or work, I reframe setbacks by finding another possibility."
+  },
+  {
+   "n": 179,
+   "id": "CG-EN-P7-07",
+   "dim": "P7",
+   "text": "I stay with an unpleasant task only when it remains interesting.",
+   "rev": true
+  },
+  {
+   "n": 180,
+   "id": "CG-EN-P7-08",
+   "dim": "P7",
+   "text": "During study, projects, or work, I stay with an unpleasant task only when it remains interesting.",
+   "rev": true
+  },
+  {
+   "n": 181,
+   "id": "CG-EN-P8-01",
+   "dim": "P8",
+   "text": "I speak directly when I believe something important is at risk."
+  },
+  {
+   "n": 182,
+   "id": "CG-EN-P8-02",
+   "dim": "P8",
+   "text": "I protect people who have less power in a situation."
+  },
+  {
+   "n": 183,
+   "id": "CG-EN-P8-03",
+   "dim": "P8",
+   "text": "I take charge when others avoid a difficult decision."
+  },
+  {
+   "n": 184,
+   "id": "CG-EN-P8-04",
+   "dim": "P8",
+   "text": "During study, projects, or work, I speak directly when I believe something important is at risk."
+  },
+  {
+   "n": 185,
+   "id": "CG-EN-P8-05",
+   "dim": "P8",
+   "text": "During study, projects, or work, I protect people who have less power in a situation."
+  },
+  {
+   "n": 186,
+   "id": "CG-EN-P8-06",
+   "dim": "P8",
+   "text": "During study, projects, or work, I take charge when others avoid a difficult decision."
+  },
+  {
+   "n": 187,
+   "id": "CG-EN-P8-07",
+   "dim": "P8",
+   "text": "I hide my position to avoid any chance of confrontation.",
+   "rev": true
+  },
+  {
+   "n": 188,
+   "id": "CG-EN-P8-08",
+   "dim": "P8",
+   "text": "During study, projects, or work, I hide my position to avoid any chance of confrontation.",
+   "rev": true
+  },
+  {
+   "n": 189,
+   "id": "CG-EN-P9-01",
+   "dim": "P9",
+   "text": "I help people find common ground during disagreement."
+  },
+  {
+   "n": 190,
+   "id": "CG-EN-P9-02",
+   "dim": "P9",
+   "text": "I create a steady atmosphere when others are tense."
+  },
+  {
+   "n": 191,
+   "id": "CG-EN-P9-03",
+   "dim": "P9",
+   "text": "I listen to different views before pushing my own."
+  },
+  {
+   "n": 192,
+   "id": "CG-EN-P9-04",
+   "dim": "P9",
+   "text": "During study, projects, or work, I help people find common ground during disagreement."
+  },
+  {
+   "n": 193,
+   "id": "CG-EN-P9-05",
+   "dim": "P9",
+   "text": "During study, projects, or work, I create a steady atmosphere when others are tense."
+  },
+  {
+   "n": 194,
+   "id": "CG-EN-P9-06",
+   "dim": "P9",
+   "text": "During study, projects, or work, I listen to different views before pushing my own."
+  },
+  {
+   "n": 195,
+   "id": "CG-EN-P9-07",
+   "dim": "P9",
+   "text": "I agree outwardly while leaving important differences unresolved.",
+   "rev": true
+  },
+  {
+   "n": 196,
+   "id": "CG-EN-P9-08",
+   "dim": "P9",
+   "text": "During study, projects, or work, I agree outwardly while leaving important differences unresolved.",
+   "rev": true
+  }
+ ],
+ "CG-RI": [
+  {
+   "n": 197,
+   "id": "CG-RI-R-01",
+   "dim": "R",
+   "text": "I enjoy building, repairing, or assembling useful things."
+  },
+  {
+   "n": 198,
+   "id": "CG-RI-R-02",
+   "dim": "R",
+   "text": "I like working with tools, equipment, materials, or physical systems."
+  },
+  {
+   "n": 199,
+   "id": "CG-RI-R-03",
+   "dim": "R",
+   "text": "I prefer practical tasks that produce a visible result."
+  },
+  {
+   "n": 200,
+   "id": "CG-RI-R-04",
+   "dim": "R",
+   "text": "I enjoy outdoor, technical, or hands-on activity."
+  },
+  {
+   "n": 201,
+   "id": "CG-RI-R-05",
+   "dim": "R",
+   "text": "During study, projects, or work, I enjoy building, repairing, or assembling useful things."
+  },
+  {
+   "n": 202,
+   "id": "CG-RI-R-06",
+   "dim": "R",
+   "text": "During study, projects, or work, I like working with tools, equipment, materials, or physical systems."
+  },
+  {
+   "n": 203,
+   "id": "CG-RI-R-07",
+   "dim": "R",
+   "text": "During study, projects, or work, I prefer practical tasks that produce a visible result."
+  },
+  {
+   "n": 204,
+   "id": "CG-RI-R-08",
+   "dim": "R",
+   "text": "During study, projects, or work, I enjoy outdoor, technical, or hands-on activity."
+  },
+  {
+   "n": 205,
+   "id": "CG-RI-R-09",
+   "dim": "R",
+   "text": "I avoid tasks that require hands-on work with objects or equipment.",
+   "rev": true
+  },
+  {
+   "n": 206,
+   "id": "CG-RI-R-10",
+   "dim": "R",
+   "text": "During study, projects, or work, I avoid tasks that require hands-on work with objects or equipment.",
+   "rev": true
+  },
+  {
+   "n": 207,
+   "id": "CG-RI-I-01",
+   "dim": "I",
+   "text": "I enjoy finding evidence to explain why something happens."
+  },
+  {
+   "n": 208,
+   "id": "CG-RI-I-02",
+   "dim": "I",
+   "text": "I like solving scientific, mathematical, or analytical problems."
+  },
+  {
+   "n": 209,
+   "id": "CG-RI-I-03",
+   "dim": "I",
+   "text": "I prefer questions that require careful investigation."
+  },
+  {
+   "n": 210,
+   "id": "CG-RI-I-04",
+   "dim": "I",
+   "text": "I enjoy testing ideas before accepting a conclusion."
+  },
+  {
+   "n": 211,
+   "id": "CG-RI-I-05",
+   "dim": "I",
+   "text": "During study, projects, or work, I enjoy finding evidence to explain why something happens."
+  },
+  {
+   "n": 212,
+   "id": "CG-RI-I-06",
+   "dim": "I",
+   "text": "During study, projects, or work, I like solving scientific, mathematical, or analytical problems."
+  },
+  {
+   "n": 213,
+   "id": "CG-RI-I-07",
+   "dim": "I",
+   "text": "During study, projects, or work, I prefer questions that require careful investigation."
+  },
+  {
+   "n": 214,
+   "id": "CG-RI-I-08",
+   "dim": "I",
+   "text": "During study, projects, or work, I enjoy testing ideas before accepting a conclusion."
+  },
+  {
+   "n": 215,
+   "id": "CG-RI-I-09",
+   "dim": "I",
+   "text": "I lose interest when a task requires research or detailed reasoning.",
+   "rev": true
+  },
+  {
+   "n": 216,
+   "id": "CG-RI-I-10",
+   "dim": "I",
+   "text": "During study, projects, or work, I lose interest when a task requires research or detailed reasoning.",
+   "rev": true
+  },
+  {
+   "n": 217,
+   "id": "CG-RI-A-01",
+   "dim": "A",
+   "text": "I enjoy creating original visual, written, musical, or performance work."
+  },
+  {
+   "n": 218,
+   "id": "CG-RI-A-02",
+   "dim": "A",
+   "text": "I like expressing ideas in imaginative ways."
+  },
+  {
+   "n": 219,
+   "id": "CG-RI-A-03",
+   "dim": "A",
+   "text": "I prefer tasks that allow personal style and interpretation."
+  },
+  {
+   "n": 220,
+   "id": "CG-RI-A-04",
+   "dim": "A",
+   "text": "I notice design, language, or aesthetic details."
+  },
+  {
+   "n": 221,
+   "id": "CG-RI-A-05",
+   "dim": "A",
+   "text": "During study, projects, or work, I enjoy creating original visual, written, musical, or performance work."
+  },
+  {
+   "n": 222,
+   "id": "CG-RI-A-06",
+   "dim": "A",
+   "text": "During study, projects, or work, I like expressing ideas in imaginative ways."
+  },
+  {
+   "n": 223,
+   "id": "CG-RI-A-07",
+   "dim": "A",
+   "text": "During study, projects, or work, I prefer tasks that allow personal style and interpretation."
+  },
+  {
+   "n": 224,
+   "id": "CG-RI-A-08",
+   "dim": "A",
+   "text": "During study, projects, or work, I notice design, language, or aesthetic details."
+  },
+  {
+   "n": 225,
+   "id": "CG-RI-A-09",
+   "dim": "A",
+   "text": "I avoid tasks with open-ended creative choices.",
+   "rev": true
+  },
+  {
+   "n": 226,
+   "id": "CG-RI-A-10",
+   "dim": "A",
+   "text": "During study, projects, or work, I avoid tasks with open-ended creative choices.",
+   "rev": true
+  },
+  {
+   "n": 227,
+   "id": "CG-RI-S-01",
+   "dim": "S",
+   "text": "I enjoy helping someone learn or overcome a difficulty."
+  },
+  {
+   "n": 228,
+   "id": "CG-RI-S-02",
+   "dim": "S",
+   "text": "I like listening, guiding, teaching, or caring for people."
+  },
+  {
+   "n": 229,
+   "id": "CG-RI-S-03",
+   "dim": "S",
+   "text": "I prefer work that improves another person's wellbeing."
+  },
+  {
+   "n": 230,
+   "id": "CG-RI-S-04",
+   "dim": "S",
+   "text": "I feel interested in understanding people's needs."
+  },
+  {
+   "n": 231,
+   "id": "CG-RI-S-05",
+   "dim": "S",
+   "text": "During study, projects, or work, I enjoy helping someone learn or overcome a difficulty."
+  },
+  {
+   "n": 232,
+   "id": "CG-RI-S-06",
+   "dim": "S",
+   "text": "During study, projects, or work, I like listening, guiding, teaching, or caring for people."
+  },
+  {
+   "n": 233,
+   "id": "CG-RI-S-07",
+   "dim": "S",
+   "text": "During study, projects, or work, I prefer work that improves another person's wellbeing."
+  },
+  {
+   "n": 234,
+   "id": "CG-RI-S-08",
+   "dim": "S",
+   "text": "During study, projects, or work, I feel interested in understanding people's needs."
+  },
+  {
+   "n": 235,
+   "id": "CG-RI-S-09",
+   "dim": "S",
+   "text": "I avoid roles that require regular support or guidance of others.",
+   "rev": true
+  },
+  {
+   "n": 236,
+   "id": "CG-RI-S-10",
+   "dim": "S",
+   "text": "During study, projects, or work, I avoid roles that require regular support or guidance of others.",
+   "rev": true
+  },
+  {
+   "n": 237,
+   "id": "CG-RI-E-01",
+   "dim": "E",
+   "text": "I enjoy persuading people to support an idea."
+  },
+  {
+   "n": 238,
+   "id": "CG-RI-E-02",
+   "dim": "E",
+   "text": "I like taking initiative to organise people or resources."
+  },
+  {
+   "n": 239,
+   "id": "CG-RI-E-03",
+   "dim": "E",
+   "text": "I prefer opportunities to lead, negotiate, sell, or influence."
+  },
+  {
+   "n": 240,
+   "id": "CG-RI-E-04",
+   "dim": "E",
+   "text": "I feel energised by ambitious goals and visible results."
+  },
+  {
+   "n": 241,
+   "id": "CG-RI-E-05",
+   "dim": "E",
+   "text": "During study, projects, or work, I enjoy persuading people to support an idea."
+  },
+  {
+   "n": 242,
+   "id": "CG-RI-E-06",
+   "dim": "E",
+   "text": "During study, projects, or work, I like taking initiative to organise people or resources."
+  },
+  {
+   "n": 243,
+   "id": "CG-RI-E-07",
+   "dim": "E",
+   "text": "During study, projects, or work, I prefer opportunities to lead, negotiate, sell, or influence."
+  },
+  {
+   "n": 244,
+   "id": "CG-RI-E-08",
+   "dim": "E",
+   "text": "During study, projects, or work, I feel energised by ambitious goals and visible results."
+  },
+  {
+   "n": 245,
+   "id": "CG-RI-E-09",
+   "dim": "E",
+   "text": "I avoid situations where I need to influence a decision.",
+   "rev": true
+  },
+  {
+   "n": 246,
+   "id": "CG-RI-E-10",
+   "dim": "E",
+   "text": "During study, projects, or work, I avoid situations where I need to influence a decision.",
+   "rev": true
+  },
+  {
+   "n": 247,
+   "id": "CG-RI-C-01",
+   "dim": "C",
+   "text": "I enjoy organising information so it is accurate and easy to use."
+  },
+  {
+   "n": 248,
+   "id": "CG-RI-C-02",
+   "dim": "C",
+   "text": "I like following a clear procedure to complete detailed work."
+  },
+  {
+   "n": 249,
+   "id": "CG-RI-C-03",
+   "dim": "C",
+   "text": "I prefer tasks involving records, schedules, numbers, or systems."
+  },
+  {
+   "n": 250,
+   "id": "CG-RI-C-04",
+   "dim": "C",
+   "text": "I feel satisfied when information is correctly classified."
+  },
+  {
+   "n": 251,
+   "id": "CG-RI-C-05",
+   "dim": "C",
+   "text": "During study, projects, or work, I enjoy organising information so it is accurate and easy to use."
+  },
+  {
+   "n": 252,
+   "id": "CG-RI-C-06",
+   "dim": "C",
+   "text": "During study, projects, or work, I like following a clear procedure to complete detailed work."
+  },
+  {
+   "n": 253,
+   "id": "CG-RI-C-07",
+   "dim": "C",
+   "text": "During study, projects, or work, I prefer tasks involving records, schedules, numbers, or systems."
+  },
+  {
+   "n": 254,
+   "id": "CG-RI-C-08",
+   "dim": "C",
+   "text": "During study, projects, or work, I feel satisfied when information is correctly classified."
+  },
+  {
+   "n": 255,
+   "id": "CG-RI-C-09",
+   "dim": "C",
+   "text": "I dislike work that requires orderly records or consistent procedures.",
+   "rev": true
+  },
+  {
+   "n": 256,
+   "id": "CG-RI-C-10",
+   "dim": "C",
+   "text": "During study, projects, or work, I dislike work that requires orderly records or consistent procedures.",
+   "rev": true
+  }
+ ],
+ "CG-DS": [
+  {
+   "n": 257,
+   "id": "CG-DS-DIR-01",
+   "dim": "DIR",
+   "text": "I move quickly toward a decision when the goal is clear."
+  },
+  {
+   "n": 258,
+   "id": "CG-DS-DIR-02",
+   "dim": "DIR",
+   "text": "I state expectations directly when results are at risk."
+  },
+  {
+   "n": 259,
+   "id": "CG-DS-DIR-03",
+   "dim": "DIR",
+   "text": "I take responsibility for difficult choices."
+  },
+  {
+   "n": 260,
+   "id": "CG-DS-DIR-04",
+   "dim": "DIR",
+   "text": "During study, projects, or work, I move quickly toward a decision when the goal is clear."
+  },
+  {
+   "n": 261,
+   "id": "CG-DS-DIR-05",
+   "dim": "DIR",
+   "text": "During study, projects, or work, I state expectations directly when results are at risk."
+  },
+  {
+   "n": 262,
+   "id": "CG-DS-DIR-06",
+   "dim": "DIR",
+   "text": "During study, projects, or work, I take responsibility for difficult choices."
+  },
+  {
+   "n": 263,
+   "id": "CG-DS-DIR-07",
+   "dim": "DIR",
+   "text": "When a situation becomes demanding, I still move quickly toward a decision when the goal is clear."
+  },
+  {
+   "n": 264,
+   "id": "CG-DS-DIR-08",
+   "dim": "DIR",
+   "text": "When a situation becomes demanding, I still state expectations directly when results are at risk."
+  },
+  {
+   "n": 265,
+   "id": "CG-DS-DIR-09",
+   "dim": "DIR",
+   "text": "When a situation becomes demanding, I still take responsibility for difficult choices."
+  },
+  {
+   "n": 266,
+   "id": "CG-DS-DIR-10",
+   "dim": "DIR",
+   "text": "I wait for others to act even when timely direction is needed.",
+   "rev": true
+  },
+  {
+   "n": 267,
+   "id": "CG-DS-DIR-11",
+   "dim": "DIR",
+   "text": "During study, projects, or work, I wait for others to act even when timely direction is needed.",
+   "rev": true
+  },
+  {
+   "n": 268,
+   "id": "CG-DS-DIR-12",
+   "dim": "DIR",
+   "text": "When a situation becomes demanding, I still wait for others to act even when timely direction is needed.",
+   "rev": true
+  },
+  {
+   "n": 269,
+   "id": "CG-DS-ENG-01",
+   "dim": "ENG",
+   "text": "I build enthusiasm by communicating ideas with energy."
+  },
+  {
+   "n": 270,
+   "id": "CG-DS-ENG-02",
+   "dim": "ENG",
+   "text": "I connect easily with new people."
+  },
+  {
+   "n": 271,
+   "id": "CG-DS-ENG-03",
+   "dim": "ENG",
+   "text": "I encourage participation through optimism and conversation."
+  },
+  {
+   "n": 272,
+   "id": "CG-DS-ENG-04",
+   "dim": "ENG",
+   "text": "During study, projects, or work, I build enthusiasm by communicating ideas with energy."
+  },
+  {
+   "n": 273,
+   "id": "CG-DS-ENG-05",
+   "dim": "ENG",
+   "text": "During study, projects, or work, I connect easily with new people."
+  },
+  {
+   "n": 274,
+   "id": "CG-DS-ENG-06",
+   "dim": "ENG",
+   "text": "During study, projects, or work, I encourage participation through optimism and conversation."
+  },
+  {
+   "n": 275,
+   "id": "CG-DS-ENG-07",
+   "dim": "ENG",
+   "text": "When a situation becomes demanding, I still build enthusiasm by communicating ideas with energy."
+  },
+  {
+   "n": 276,
+   "id": "CG-DS-ENG-08",
+   "dim": "ENG",
+   "text": "When a situation becomes demanding, I still connect easily with new people."
+  },
+  {
+   "n": 277,
+   "id": "CG-DS-ENG-09",
+   "dim": "ENG",
+   "text": "When a situation becomes demanding, I still encourage participation through optimism and conversation."
+  },
+  {
+   "n": 278,
+   "id": "CG-DS-ENG-10",
+   "dim": "ENG",
+   "text": "I hold back positive energy even when a group needs encouragement.",
+   "rev": true
+  },
+  {
+   "n": 279,
+   "id": "CG-DS-ENG-11",
+   "dim": "ENG",
+   "text": "During study, projects, or work, I hold back positive energy even when a group needs encouragement.",
+   "rev": true
+  },
+  {
+   "n": 280,
+   "id": "CG-DS-ENG-12",
+   "dim": "ENG",
+   "text": "When a situation becomes demanding, I still hold back positive energy even when a group needs encouragement.",
+   "rev": true
+  },
+  {
+   "n": 281,
+   "id": "CG-DS-STA-01",
+   "dim": "STA",
+   "text": "I provide calm and dependable support during change."
+  },
+  {
+   "n": 282,
+   "id": "CG-DS-STA-02",
+   "dim": "STA",
+   "text": "I listen patiently before responding to a concern."
+  },
+  {
+   "n": 283,
+   "id": "CG-DS-STA-03",
+   "dim": "STA",
+   "text": "I maintain steady routines that help a team function."
+  },
+  {
+   "n": 284,
+   "id": "CG-DS-STA-04",
+   "dim": "STA",
+   "text": "During study, projects, or work, I provide calm and dependable support during change."
+  },
+  {
+   "n": 285,
+   "id": "CG-DS-STA-05",
+   "dim": "STA",
+   "text": "During study, projects, or work, I listen patiently before responding to a concern."
+  },
+  {
+   "n": 286,
+   "id": "CG-DS-STA-06",
+   "dim": "STA",
+   "text": "During study, projects, or work, I maintain steady routines that help a team function."
+  },
+  {
+   "n": 287,
+   "id": "CG-DS-STA-07",
+   "dim": "STA",
+   "text": "When a situation becomes demanding, I still provide calm and dependable support during change."
+  },
+  {
+   "n": 288,
+   "id": "CG-DS-STA-08",
+   "dim": "STA",
+   "text": "When a situation becomes demanding, I still listen patiently before responding to a concern."
+  },
+  {
+   "n": 289,
+   "id": "CG-DS-STA-09",
+   "dim": "STA",
+   "text": "When a situation becomes demanding, I still maintain steady routines that help a team function."
+  },
+  {
+   "n": 290,
+   "id": "CG-DS-STA-10",
+   "dim": "STA",
+   "text": "I withdraw support when change makes other people uncertain.",
+   "rev": true
+  },
+  {
+   "n": 291,
+   "id": "CG-DS-STA-11",
+   "dim": "STA",
+   "text": "During study, projects, or work, I withdraw support when change makes other people uncertain.",
+   "rev": true
+  },
+  {
+   "n": 292,
+   "id": "CG-DS-STA-12",
+   "dim": "STA",
+   "text": "When a situation becomes demanding, I still withdraw support when change makes other people uncertain.",
+   "rev": true
+  },
+  {
+   "n": 293,
+   "id": "CG-DS-SYS-01",
+   "dim": "SYS",
+   "text": "I check evidence and standards before approving work."
+  },
+  {
+   "n": 294,
+   "id": "CG-DS-SYS-02",
+   "dim": "SYS",
+   "text": "I organise details so errors are less likely."
+  },
+  {
+   "n": 295,
+   "id": "CG-DS-SYS-03",
+   "dim": "SYS",
+   "text": "I prefer clear criteria for judging quality."
+  },
+  {
+   "n": 296,
+   "id": "CG-DS-SYS-04",
+   "dim": "SYS",
+   "text": "During study, projects, or work, I check evidence and standards before approving work."
+  },
+  {
+   "n": 297,
+   "id": "CG-DS-SYS-05",
+   "dim": "SYS",
+   "text": "During study, projects, or work, I organise details so errors are less likely."
+  },
+  {
+   "n": 298,
+   "id": "CG-DS-SYS-06",
+   "dim": "SYS",
+   "text": "During study, projects, or work, I prefer clear criteria for judging quality."
+  },
+  {
+   "n": 299,
+   "id": "CG-DS-SYS-07",
+   "dim": "SYS",
+   "text": "When a situation becomes demanding, I still check evidence and standards before approving work."
+  },
+  {
+   "n": 300,
+   "id": "CG-DS-SYS-08",
+   "dim": "SYS",
+   "text": "When a situation becomes demanding, I still organise details so errors are less likely."
+  },
+  {
+   "n": 301,
+   "id": "CG-DS-SYS-09",
+   "dim": "SYS",
+   "text": "When a situation becomes demanding, I still prefer clear criteria for judging quality."
+  },
+  {
+   "n": 302,
+   "id": "CG-DS-SYS-10",
+   "dim": "SYS",
+   "text": "I accept avoidable inaccuracies to finish sooner.",
+   "rev": true
+  },
+  {
+   "n": 303,
+   "id": "CG-DS-SYS-11",
+   "dim": "SYS",
+   "text": "During study, projects, or work, I accept avoidable inaccuracies to finish sooner.",
+   "rev": true
+  },
+  {
+   "n": 304,
+   "id": "CG-DS-SYS-12",
+   "dim": "SYS",
+   "text": "When a situation becomes demanding, I still accept avoidable inaccuracies to finish sooner.",
+   "rev": true
+  }
+ ],
+ "CG-EI": [
+  {
+   "n": 305,
+   "id": "CG-EI-SAW-01",
+   "dim": "SAW",
+   "text": "I identify what I am feeling before I react."
+  },
+  {
+   "n": 306,
+   "id": "CG-EI-SAW-02",
+   "dim": "SAW",
+   "text": "I notice how my mood affects my judgement."
+  },
+  {
+   "n": 307,
+   "id": "CG-EI-SAW-03",
+   "dim": "SAW",
+   "text": "I recognise the situations that trigger my strongest emotions."
+  },
+  {
+   "n": 308,
+   "id": "CG-EI-SAW-04",
+   "dim": "SAW",
+   "text": "During study, projects, or work, I identify what I am feeling before I react."
+  },
+  {
+   "n": 309,
+   "id": "CG-EI-SAW-05",
+   "dim": "SAW",
+   "text": "During study, projects, or work, I notice how my mood affects my judgement."
+  },
+  {
+   "n": 310,
+   "id": "CG-EI-SAW-06",
+   "dim": "SAW",
+   "text": "During study, projects, or work, I recognise the situations that trigger my strongest emotions."
+  },
+  {
+   "n": 311,
+   "id": "CG-EI-SAW-07",
+   "dim": "SAW",
+   "text": "When a situation becomes demanding, I still identify what I am feeling before I react."
+  },
+  {
+   "n": 312,
+   "id": "CG-EI-SAW-08",
+   "dim": "SAW",
+   "text": "When a situation becomes demanding, I still notice how my mood affects my judgement."
+  },
+  {
+   "n": 313,
+   "id": "CG-EI-SAW-09",
+   "dim": "SAW",
+   "text": "When a situation becomes demanding, I still recognise the situations that trigger my strongest emotions."
+  },
+  {
+   "n": 314,
+   "id": "CG-EI-SAW-10",
+   "dim": "SAW",
+   "text": "I realise what I was feeling only after a situation has ended.",
+   "rev": true
+  },
+  {
+   "n": 315,
+   "id": "CG-EI-SAW-11",
+   "dim": "SAW",
+   "text": "During study, projects, or work, I realise what I was feeling only after a situation has ended.",
+   "rev": true
+  },
+  {
+   "n": 316,
+   "id": "CG-EI-SAW-12",
+   "dim": "SAW",
+   "text": "When a situation becomes demanding, I still realise what I was feeling only after a situation has ended.",
+   "rev": true
+  },
+  {
+   "n": 317,
+   "id": "CG-EI-SRG-01",
+   "dim": "SRG",
+   "text": "I pause before responding when I feel provoked."
+  },
+  {
+   "n": 318,
+   "id": "CG-EI-SRG-02",
+   "dim": "SRG",
+   "text": "I choose a constructive action even when I am upset."
+  },
+  {
+   "n": 319,
+   "id": "CG-EI-SRG-03",
+   "dim": "SRG",
+   "text": "I manage frustration without taking it out on others."
+  },
+  {
+   "n": 320,
+   "id": "CG-EI-SRG-04",
+   "dim": "SRG",
+   "text": "During study, projects, or work, I pause before responding when I feel provoked."
+  },
+  {
+   "n": 321,
+   "id": "CG-EI-SRG-05",
+   "dim": "SRG",
+   "text": "During study, projects, or work, I choose a constructive action even when I am upset."
+  },
+  {
+   "n": 322,
+   "id": "CG-EI-SRG-06",
+   "dim": "SRG",
+   "text": "During study, projects, or work, I manage frustration without taking it out on others."
+  },
+  {
+   "n": 323,
+   "id": "CG-EI-SRG-07",
+   "dim": "SRG",
+   "text": "When a situation becomes demanding, I still pause before responding when I feel provoked."
+  },
+  {
+   "n": 324,
+   "id": "CG-EI-SRG-08",
+   "dim": "SRG",
+   "text": "When a situation becomes demanding, I still choose a constructive action even when I am upset."
+  },
+  {
+   "n": 325,
+   "id": "CG-EI-SRG-09",
+   "dim": "SRG",
+   "text": "When a situation becomes demanding, I still manage frustration without taking it out on others."
+  },
+  {
+   "n": 326,
+   "id": "CG-EI-SRG-10",
+   "dim": "SRG",
+   "text": "I say or do things impulsively when emotions become intense.",
+   "rev": true
+  },
+  {
+   "n": 327,
+   "id": "CG-EI-SRG-11",
+   "dim": "SRG",
+   "text": "During study, projects, or work, I say or do things impulsively when emotions become intense.",
+   "rev": true
+  },
+  {
+   "n": 328,
+   "id": "CG-EI-SRG-12",
+   "dim": "SRG",
+   "text": "When a situation becomes demanding, I still say or do things impulsively when emotions become intense.",
+   "rev": true
+  },
+  {
+   "n": 329,
+   "id": "CG-EI-IMO-01",
+   "dim": "IMO",
+   "text": "I continue working toward a meaningful goal after a setback."
+  },
+  {
+   "n": 330,
+   "id": "CG-EI-IMO-02",
+   "dim": "IMO",
+   "text": "I create momentum without needing constant reminders."
+  },
+  {
+   "n": 331,
+   "id": "CG-EI-IMO-03",
+   "dim": "IMO",
+   "text": "I connect daily effort to a longer-term purpose."
+  },
+  {
+   "n": 332,
+   "id": "CG-EI-IMO-04",
+   "dim": "IMO",
+   "text": "During study, projects, or work, I continue working toward a meaningful goal after a setback."
+  },
+  {
+   "n": 333,
+   "id": "CG-EI-IMO-05",
+   "dim": "IMO",
+   "text": "During study, projects, or work, I create momentum without needing constant reminders."
+  },
+  {
+   "n": 334,
+   "id": "CG-EI-IMO-06",
+   "dim": "IMO",
+   "text": "During study, projects, or work, I connect daily effort to a longer-term purpose."
+  },
+  {
+   "n": 335,
+   "id": "CG-EI-IMO-07",
+   "dim": "IMO",
+   "text": "When a situation becomes demanding, I still continue working toward a meaningful goal after a setback."
+  },
+  {
+   "n": 336,
+   "id": "CG-EI-IMO-08",
+   "dim": "IMO",
+   "text": "When a situation becomes demanding, I still create momentum without needing constant reminders."
+  },
+  {
+   "n": 337,
+   "id": "CG-EI-IMO-09",
+   "dim": "IMO",
+   "text": "When a situation becomes demanding, I still connect daily effort to a longer-term purpose."
+  },
+  {
+   "n": 338,
+   "id": "CG-EI-IMO-10",
+   "dim": "IMO",
+   "text": "I stop trying when progress is slower than I expected.",
+   "rev": true
+  },
+  {
+   "n": 339,
+   "id": "CG-EI-IMO-11",
+   "dim": "IMO",
+   "text": "During study, projects, or work, I stop trying when progress is slower than I expected.",
+   "rev": true
+  },
+  {
+   "n": 340,
+   "id": "CG-EI-IMO-12",
+   "dim": "IMO",
+   "text": "When a situation becomes demanding, I still stop trying when progress is slower than I expected.",
+   "rev": true
+  },
+  {
+   "n": 341,
+   "id": "CG-EI-EMP-01",
+   "dim": "EMP",
+   "text": "I notice when someone's words and emotions do not fully match."
+  },
+  {
+   "n": 342,
+   "id": "CG-EI-EMP-02",
+   "dim": "EMP",
+   "text": "I consider what another person may be experiencing."
+  },
+  {
+   "n": 343,
+   "id": "CG-EI-EMP-03",
+   "dim": "EMP",
+   "text": "I adjust my response when someone appears uncomfortable."
+  },
+  {
+   "n": 344,
+   "id": "CG-EI-EMP-04",
+   "dim": "EMP",
+   "text": "During study, projects, or work, I notice when someone's words and emotions do not fully match."
+  },
+  {
+   "n": 345,
+   "id": "CG-EI-EMP-05",
+   "dim": "EMP",
+   "text": "During study, projects, or work, I consider what another person may be experiencing."
+  },
+  {
+   "n": 346,
+   "id": "CG-EI-EMP-06",
+   "dim": "EMP",
+   "text": "During study, projects, or work, I adjust my response when someone appears uncomfortable."
+  },
+  {
+   "n": 347,
+   "id": "CG-EI-EMP-07",
+   "dim": "EMP",
+   "text": "When a situation becomes demanding, I still notice when someone's words and emotions do not fully match."
+  },
+  {
+   "n": 348,
+   "id": "CG-EI-EMP-08",
+   "dim": "EMP",
+   "text": "When a situation becomes demanding, I still consider what another person may be experiencing."
+  },
+  {
+   "n": 349,
+   "id": "CG-EI-EMP-09",
+   "dim": "EMP",
+   "text": "When a situation becomes demanding, I still adjust my response when someone appears uncomfortable."
+  },
+  {
+   "n": 350,
+   "id": "CG-EI-EMP-10",
+   "dim": "EMP",
+   "text": "I assume people are overreacting when their feelings differ from mine.",
+   "rev": true
+  },
+  {
+   "n": 351,
+   "id": "CG-EI-EMP-11",
+   "dim": "EMP",
+   "text": "During study, projects, or work, I assume people are overreacting when their feelings differ from mine.",
+   "rev": true
+  },
+  {
+   "n": 352,
+   "id": "CG-EI-EMP-12",
+   "dim": "EMP",
+   "text": "When a situation becomes demanding, I still assume people are overreacting when their feelings differ from mine.",
+   "rev": true
+  },
+  {
+   "n": 353,
+   "id": "CG-EI-RMG-01",
+   "dim": "RMG",
+   "text": "I address tension before it damages a working relationship."
+  },
+  {
+   "n": 354,
+   "id": "CG-EI-RMG-02",
+   "dim": "RMG",
+   "text": "I give feedback in a clear and respectful way."
+  },
+  {
+   "n": 355,
+   "id": "CG-EI-RMG-03",
+   "dim": "RMG",
+   "text": "I help a group move from disagreement toward action."
+  },
+  {
+   "n": 356,
+   "id": "CG-EI-RMG-04",
+   "dim": "RMG",
+   "text": "During study, projects, or work, I address tension before it damages a working relationship."
+  },
+  {
+   "n": 357,
+   "id": "CG-EI-RMG-05",
+   "dim": "RMG",
+   "text": "During study, projects, or work, I give feedback in a clear and respectful way."
+  },
+  {
+   "n": 358,
+   "id": "CG-EI-RMG-06",
+   "dim": "RMG",
+   "text": "During study, projects, or work, I help a group move from disagreement toward action."
+  },
+  {
+   "n": 359,
+   "id": "CG-EI-RMG-07",
+   "dim": "RMG",
+   "text": "When a situation becomes demanding, I still address tension before it damages a working relationship."
+  },
+  {
+   "n": 360,
+   "id": "CG-EI-RMG-08",
+   "dim": "RMG",
+   "text": "When a situation becomes demanding, I still give feedback in a clear and respectful way."
+  },
+  {
+   "n": 361,
+   "id": "CG-EI-RMG-09",
+   "dim": "RMG",
+   "text": "When a situation becomes demanding, I still help a group move from disagreement toward action."
+  },
+  {
+   "n": 362,
+   "id": "CG-EI-RMG-10",
+   "dim": "RMG",
+   "text": "I avoid necessary conversations until a relationship problem becomes worse.",
+   "rev": true
+  },
+  {
+   "n": 363,
+   "id": "CG-EI-RMG-11",
+   "dim": "RMG",
+   "text": "During study, projects, or work, I avoid necessary conversations until a relationship problem becomes worse.",
+   "rev": true
+  },
+  {
+   "n": 364,
+   "id": "CG-EI-RMG-12",
+   "dim": "RMG",
+   "text": "When a situation becomes demanding, I still avoid necessary conversations until a relationship problem becomes worse.",
+   "rev": true
+  }
+ ],
+ "CG-WV": [
+  {
+   "n": 365,
+   "id": "CG-WV-ACH-01",
+   "dim": "ACH",
+   "text": "I value work that lets me accomplish challenging goals."
+  },
+  {
+   "n": 366,
+   "id": "CG-WV-ACH-02",
+   "dim": "ACH",
+   "text": "I want clear evidence that my effort produced a result."
+  },
+  {
+   "n": 367,
+   "id": "CG-WV-ACH-03",
+   "dim": "ACH",
+   "text": "I prefer opportunities to use my abilities fully."
+  },
+  {
+   "n": 368,
+   "id": "CG-WV-ACH-04",
+   "dim": "ACH",
+   "text": "I feel motivated by mastering difficult responsibilities."
+  },
+  {
+   "n": 369,
+   "id": "CG-WV-ACH-05",
+   "dim": "ACH",
+   "text": "During study, projects, or work, I value work that lets me accomplish challenging goals."
+  },
+  {
+   "n": 370,
+   "id": "CG-WV-ACH-06",
+   "dim": "ACH",
+   "text": "During study, projects, or work, I want clear evidence that my effort produced a result."
+  },
+  {
+   "n": 371,
+   "id": "CG-WV-ACH-07",
+   "dim": "ACH",
+   "text": "During study, projects, or work, I prefer opportunities to use my abilities fully."
+  },
+  {
+   "n": 372,
+   "id": "CG-WV-ACH-08",
+   "dim": "ACH",
+   "text": "During study, projects, or work, I feel motivated by mastering difficult responsibilities."
+  },
+  {
+   "n": 373,
+   "id": "CG-WV-ACH-09",
+   "dim": "ACH",
+   "text": "I would be satisfied with work that rarely asks me to improve or achieve.",
+   "rev": true
+  },
+  {
+   "n": 374,
+   "id": "CG-WV-ACH-10",
+   "dim": "ACH",
+   "text": "During study, projects, or work, I would be satisfied with work that rarely asks me to improve or achieve.",
+   "rev": true
+  },
+  {
+   "n": 375,
+   "id": "CG-WV-AUT-01",
+   "dim": "AUT",
+   "text": "I value freedom to decide how I complete my work."
+  },
+  {
+   "n": 376,
+   "id": "CG-WV-AUT-02",
+   "dim": "AUT",
+   "text": "I want room to use my own judgement."
+  },
+  {
+   "n": 377,
+   "id": "CG-WV-AUT-03",
+   "dim": "AUT",
+   "text": "I prefer responsibility for planning my approach."
+  },
+  {
+   "n": 378,
+   "id": "CG-WV-AUT-04",
+   "dim": "AUT",
+   "text": "I feel motivated when I can make meaningful choices."
+  },
+  {
+   "n": 379,
+   "id": "CG-WV-AUT-05",
+   "dim": "AUT",
+   "text": "During study, projects, or work, I value freedom to decide how I complete my work."
+  },
+  {
+   "n": 380,
+   "id": "CG-WV-AUT-06",
+   "dim": "AUT",
+   "text": "During study, projects, or work, I want room to use my own judgement."
+  },
+  {
+   "n": 381,
+   "id": "CG-WV-AUT-07",
+   "dim": "AUT",
+   "text": "During study, projects, or work, I prefer responsibility for planning my approach."
+  },
+  {
+   "n": 382,
+   "id": "CG-WV-AUT-08",
+   "dim": "AUT",
+   "text": "During study, projects, or work, I feel motivated when I can make meaningful choices."
+  },
+  {
+   "n": 383,
+   "id": "CG-WV-AUT-09",
+   "dim": "AUT",
+   "text": "I prefer others to decide nearly every step of my work.",
+   "rev": true
+  },
+  {
+   "n": 384,
+   "id": "CG-WV-AUT-10",
+   "dim": "AUT",
+   "text": "During study, projects, or work, I prefer others to decide nearly every step of my work.",
+   "rev": true
+  },
+  {
+   "n": 385,
+   "id": "CG-WV-SEC-01",
+   "dim": "SEC",
+   "text": "I value predictable income and dependable employment."
+  },
+  {
+   "n": 386,
+   "id": "CG-WV-SEC-02",
+   "dim": "SEC",
+   "text": "I want clear expectations and stable working conditions."
+  },
+  {
+   "n": 387,
+   "id": "CG-WV-SEC-03",
+   "dim": "SEC",
+   "text": "I prefer an organisation that plans for long-term continuity."
+  },
+  {
+   "n": 388,
+   "id": "CG-WV-SEC-04",
+   "dim": "SEC",
+   "text": "I consider benefits and future stability when choosing work."
+  },
+  {
+   "n": 389,
+   "id": "CG-WV-SEC-05",
+   "dim": "SEC",
+   "text": "During study, projects, or work, I value predictable income and dependable employment."
+  },
+  {
+   "n": 390,
+   "id": "CG-WV-SEC-06",
+   "dim": "SEC",
+   "text": "During study, projects, or work, I want clear expectations and stable working conditions."
+  },
+  {
+   "n": 391,
+   "id": "CG-WV-SEC-07",
+   "dim": "SEC",
+   "text": "During study, projects, or work, I prefer an organisation that plans for long-term continuity."
+  },
+  {
+   "n": 392,
+   "id": "CG-WV-SEC-08",
+   "dim": "SEC",
+   "text": "During study, projects, or work, I consider benefits and future stability when choosing work."
+  },
+  {
+   "n": 393,
+   "id": "CG-WV-SEC-09",
+   "dim": "SEC",
+   "text": "I would ignore job stability when evaluating an opportunity.",
+   "rev": true
+  },
+  {
+   "n": 394,
+   "id": "CG-WV-SEC-10",
+   "dim": "SEC",
+   "text": "During study, projects, or work, I would ignore job stability when evaluating an opportunity.",
+   "rev": true
+  },
+  {
+   "n": 395,
+   "id": "CG-WV-IMP-01",
+   "dim": "IMP",
+   "text": "I value work that improves lives or communities."
+  },
+  {
+   "n": 396,
+   "id": "CG-WV-IMP-02",
+   "dim": "IMP",
+   "text": "I want my effort to contribute to a meaningful purpose."
+  },
+  {
+   "n": 397,
+   "id": "CG-WV-IMP-03",
+   "dim": "IMP",
+   "text": "I prefer organisations whose impact I can respect."
+  },
+  {
+   "n": 398,
+   "id": "CG-WV-IMP-04",
+   "dim": "IMP",
+   "text": "I feel motivated when my work solves a real human problem."
+  },
+  {
+   "n": 399,
+   "id": "CG-WV-IMP-05",
+   "dim": "IMP",
+   "text": "During study, projects, or work, I value work that improves lives or communities."
+  },
+  {
+   "n": 400,
+   "id": "CG-WV-IMP-06",
+   "dim": "IMP",
+   "text": "During study, projects, or work, I want my effort to contribute to a meaningful purpose."
+  },
+  {
+   "n": 401,
+   "id": "CG-WV-IMP-07",
+   "dim": "IMP",
+   "text": "During study, projects, or work, I prefer organisations whose impact I can respect."
+  },
+  {
+   "n": 402,
+   "id": "CG-WV-IMP-08",
+   "dim": "IMP",
+   "text": "During study, projects, or work, I feel motivated when my work solves a real human problem."
+  },
+  {
+   "n": 403,
+   "id": "CG-WV-IMP-09",
+   "dim": "IMP",
+   "text": "I would not care whether my work helps or harms the wider community.",
+   "rev": true
+  },
+  {
+   "n": 404,
+   "id": "CG-WV-IMP-10",
+   "dim": "IMP",
+   "text": "During study, projects, or work, I would not care whether my work helps or harms the wider community.",
+   "rev": true
+  },
+  {
+   "n": 405,
+   "id": "CG-WV-REL-01",
+   "dim": "REL",
+   "text": "I value respectful and supportive working relationships."
+  },
+  {
+   "n": 406,
+   "id": "CG-WV-REL-02",
+   "dim": "REL",
+   "text": "I want to feel that I belong in my team."
+  },
+  {
+   "n": 407,
+   "id": "CG-WV-REL-03",
+   "dim": "REL",
+   "text": "I prefer a culture where people cooperate and share credit."
+  },
+  {
+   "n": 408,
+   "id": "CG-WV-REL-04",
+   "dim": "REL",
+   "text": "I consider trust an important part of a good workplace."
+  },
+  {
+   "n": 409,
+   "id": "CG-WV-REL-05",
+   "dim": "REL",
+   "text": "During study, projects, or work, I value respectful and supportive working relationships."
+  },
+  {
+   "n": 410,
+   "id": "CG-WV-REL-06",
+   "dim": "REL",
+   "text": "During study, projects, or work, I want to feel that I belong in my team."
+  },
+  {
+   "n": 411,
+   "id": "CG-WV-REL-07",
+   "dim": "REL",
+   "text": "During study, projects, or work, I prefer a culture where people cooperate and share credit."
+  },
+  {
+   "n": 412,
+   "id": "CG-WV-REL-08",
+   "dim": "REL",
+   "text": "During study, projects, or work, I consider trust an important part of a good workplace."
+  },
+  {
+   "n": 413,
+   "id": "CG-WV-REL-09",
+   "dim": "REL",
+   "text": "I would accept a hostile team climate if the tasks were interesting.",
+   "rev": true
+  },
+  {
+   "n": 414,
+   "id": "CG-WV-REL-10",
+   "dim": "REL",
+   "text": "During study, projects, or work, I would accept a hostile team climate if the tasks were interesting.",
+   "rev": true
+  },
+  {
+   "n": 415,
+   "id": "CG-WV-GRV-01",
+   "dim": "GRV",
+   "text": "I value regular opportunities to learn new skills."
+  },
+  {
+   "n": 416,
+   "id": "CG-WV-GRV-02",
+   "dim": "GRV",
+   "text": "I prefer work that changes enough to keep me growing."
+  },
+  {
+   "n": 417,
+   "id": "CG-WV-GRV-03",
+   "dim": "GRV",
+   "text": "I want exposure to different tasks and challenges."
+  },
+  {
+   "n": 418,
+   "id": "CG-WV-GRV-04",
+   "dim": "GRV",
+   "text": "I feel motivated by a visible path for development."
+  },
+  {
+   "n": 419,
+   "id": "CG-WV-GRV-05",
+   "dim": "GRV",
+   "text": "During study, projects, or work, I value regular opportunities to learn new skills."
+  },
+  {
+   "n": 420,
+   "id": "CG-WV-GRV-06",
+   "dim": "GRV",
+   "text": "During study, projects, or work, I prefer work that changes enough to keep me growing."
+  },
+  {
+   "n": 421,
+   "id": "CG-WV-GRV-07",
+   "dim": "GRV",
+   "text": "During study, projects, or work, I want exposure to different tasks and challenges."
+  },
+  {
+   "n": 422,
+   "id": "CG-WV-GRV-08",
+   "dim": "GRV",
+   "text": "During study, projects, or work, I feel motivated by a visible path for development."
+  },
+  {
+   "n": 423,
+   "id": "CG-WV-GRV-09",
+   "dim": "GRV",
+   "text": "I would choose work with no learning opportunities if it stayed familiar.",
+   "rev": true
+  },
+  {
+   "n": 424,
+   "id": "CG-WV-GRV-10",
+   "dim": "GRV",
+   "text": "During study, projects, or work, I would choose work with no learning opportunities if it stayed familiar.",
+   "rev": true
+  }
+ ],
+ "CG-CA": [
+  {
+   "n": 425,
+   "id": "CG-CA-VER-01",
+   "dim": "VER",
+   "text": "Seed is to plant as egg is to ____.",
+   "opts": [
+    "nest",
+    "bird",
+    "feather",
+    "shell"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 426,
+   "id": "CG-CA-VER-02",
+   "dim": "VER",
+   "text": "Which word is closest in meaning to 'brief' in the sentence 'She gave a brief update' ?",
+   "opts": [
+    "concise",
+    "uncertain",
+    "private",
+    "delayed"
+   ],
+   "ans": "A"
+  },
+  {
+   "n": 427,
+   "id": "CG-CA-VER-03",
+   "dim": "VER",
+   "text": "Which word is the best opposite of 'scarce' ?",
+   "opts": [
+    "hidden",
+    "valuable",
+    "abundant",
+    "fragile"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 428,
+   "id": "CG-CA-VER-04",
+   "dim": "VER",
+   "text": "Although the task was difficult, the team remained ____ and completed it.",
+   "opts": [
+    "persistent",
+    "careless",
+    "silent",
+    "ordinary"
+   ],
+   "ans": "A"
+  },
+  {
+   "n": 429,
+   "id": "CG-CA-VER-05",
+   "dim": "VER",
+   "text": "A student must first review the instructions, then complete the form, and finally submit it. What should the student do first?",
+   "opts": [
+    "Submit the form",
+    "Review the instructions",
+    "Complete the form",
+    "Request the result"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 430,
+   "id": "CG-CA-VER-06",
+   "dim": "VER",
+   "text": "All interns attend orientation. Riya is an intern. Which conclusion follows?",
+   "opts": [
+    "Riya leads orientation",
+    "Riya attends orientation",
+    "Only interns attend orientation",
+    "Riya attends every meeting"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 431,
+   "id": "CG-CA-VER-07",
+   "dim": "VER",
+   "text": "Which item does not belong with the others?",
+   "opts": [
+    "violin",
+    "flute",
+    "drum",
+    "telescope"
+   ],
+   "ans": "D"
+  },
+  {
+   "n": 432,
+   "id": "CG-CA-VER-08",
+   "dim": "VER",
+   "text": "Blueprint is to building as recipe is to ____.",
+   "opts": [
+    "kitchen",
+    "meal",
+    "chef",
+    "plate"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 433,
+   "id": "CG-CA-VER-09",
+   "dim": "VER",
+   "text": "In the sentence 'The team proposed a feasible plan,' what does 'feasible' mean?",
+   "opts": [
+    "expensive",
+    "possible to carry out",
+    "already completed",
+    "highly original"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 434,
+   "id": "CG-CA-VER-10",
+   "dim": "VER",
+   "text": "Which sentence expresses cause and effect most clearly?",
+   "opts": [
+    "The road was wet, and cars were moving.",
+    "Because heavy rain flooded the road, the event was delayed.",
+    "The event was delayed near the road.",
+    "Heavy rain and the event were discussed."
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 435,
+   "id": "CG-CA-NUM-01",
+   "dim": "NUM",
+   "text": "What is 15% of 240?",
+   "opts": [
+    "24",
+    "30",
+    "36",
+    "40"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 436,
+   "id": "CG-CA-NUM-02",
+   "dim": "NUM",
+   "text": "A group has a boys-to-girls ratio of 3:5 and 64 students in total. How many are boys?",
+   "opts": [
+    "18",
+    "24",
+    "32",
+    "40"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 437,
+   "id": "CG-CA-NUM-03",
+   "dim": "NUM",
+   "text": "What number comes next: 2, 6, 12, 20, ____?",
+   "opts": [
+    "26",
+    "28",
+    "30",
+    "32"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 438,
+   "id": "CG-CA-NUM-04",
+   "dim": "NUM",
+   "text": "What is the average of 12, 15, 18, and 21?",
+   "opts": [
+    "15",
+    "16",
+    "16.5",
+    "17"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 439,
+   "id": "CG-CA-NUM-05",
+   "dim": "NUM",
+   "text": "An item priced at ₹800 is discounted by 10%. What is the sale price?",
+   "opts": [
+    "₹700",
+    "₹720",
+    "₹740",
+    "₹780"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 440,
+   "id": "CG-CA-NUM-06",
+   "dim": "NUM",
+   "text": "Four notebooks cost ₹120 at the same unit price. What will seven notebooks cost?",
+   "opts": [
+    "₹180",
+    "₹200",
+    "₹210",
+    "₹240"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 441,
+   "id": "CG-CA-NUM-07",
+   "dim": "NUM",
+   "text": "What is 3/4 + 1/8?",
+   "opts": [
+    "4/12",
+    "5/8",
+    "7/8",
+    "1"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 442,
+   "id": "CG-CA-NUM-08",
+   "dim": "NUM",
+   "text": "A train covers 150 km in 3 hours at a constant speed. What is its speed?",
+   "opts": [
+    "45 km/h",
+    "50 km/h",
+    "55 km/h",
+    "60 km/h"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 443,
+   "id": "CG-CA-NUM-09",
+   "dim": "NUM",
+   "text": "What is the simple interest on ₹5,000 at 6% per year for 2 years?",
+   "opts": [
+    "₹300",
+    "₹500",
+    "₹600",
+    "₹1,200"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 444,
+   "id": "CG-CA-NUM-10",
+   "dim": "NUM",
+   "text": "If 3x + 5 = 26, what is x?",
+   "opts": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 445,
+   "id": "CG-CA-LOG-01",
+   "dim": "LOG",
+   "text": "What letter comes next: A, C, F, J, O, ____?",
+   "opts": [
+    "T",
+    "U",
+    "V",
+    "W"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 446,
+   "id": "CG-CA-LOG-02",
+   "dim": "LOG",
+   "text": "All poets are writers. Some writers are teachers. Which statement must be true?",
+   "opts": [
+    "All teachers are poets",
+    "Some poets are teachers",
+    "All poets are writers",
+    "No writer is a teacher"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 447,
+   "id": "CG-CA-LOG-03",
+   "dim": "LOG",
+   "text": "If every red object is heavy and an object is not heavy, what follows?",
+   "opts": [
+    "It is red",
+    "It is not red",
+    "It may be both red and not red",
+    "Its colour cannot be discussed"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 448,
+   "id": "CG-CA-LOG-04",
+   "dim": "LOG",
+   "text": "Complete the pattern: 2, 4, 8; 3, 6, 12; 5, 10, ____.",
+   "opts": [
+    "15",
+    "18",
+    "20",
+    "25"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 449,
+   "id": "CG-CA-LOG-05",
+   "dim": "LOG",
+   "text": "Using A=1, B=2, …, Z=26, CAT is 3-1-20. How is DOG written?",
+   "opts": [
+    "4-14-7",
+    "4-15-6",
+    "4-15-7",
+    "5-15-7"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 450,
+   "id": "CG-CA-LOG-06",
+   "dim": "LOG",
+   "text": "A sits to the left of B. C sits to the right of B. Which order is correct from left to right?",
+   "opts": [
+    "A-B-C",
+    "B-A-C",
+    "C-B-A",
+    "A-C-B"
+   ],
+   "ans": "A"
+  },
+  {
+   "n": 451,
+   "id": "CG-CA-LOG-07",
+   "dim": "LOG",
+   "text": "What number comes next: 1, 1, 2, 3, 5, 8, ____?",
+   "opts": [
+    "11",
+    "12",
+    "13",
+    "16"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 452,
+   "id": "CG-CA-LOG-08",
+   "dim": "LOG",
+   "text": "No managers are interns. All trainees are interns. Which conclusion follows?",
+   "opts": [
+    "No trainee is a manager",
+    "All managers are trainees",
+    "Some interns are managers",
+    "All interns are trainees"
+   ],
+   "ans": "A"
+  },
+  {
+   "n": 453,
+   "id": "CG-CA-LOG-09",
+   "dim": "LOG",
+   "text": "Rule: If a task is urgent, it receives a red flag. A task has no red flag. What follows under this rule?",
+   "opts": [
+    "The task is urgent",
+    "The task is not urgent",
+    "The task is complete",
+    "The flag colour is unknown"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 454,
+   "id": "CG-CA-LOG-10",
+   "dim": "LOG",
+   "text": "Which symbol comes next in the alternating pattern: circle, square, circle, square, ____?",
+   "opts": [
+    "triangle",
+    "circle",
+    "square",
+    "rectangle"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 455,
+   "id": "CG-CA-SPA-01",
+   "dim": "SPA",
+   "text": "You are facing north. You turn right, then turn right again. Which direction are you facing?",
+   "opts": [
+    "north",
+    "east",
+    "south",
+    "west"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 456,
+   "id": "CG-CA-SPA-02",
+   "dim": "SPA",
+   "text": "A point starts at (2,3), moves 4 units east and 2 units south. Where does it finish?",
+   "opts": [
+    "(6,1)",
+    "(6,5)",
+    "(-2,1)",
+    "(4,5)"
+   ],
+   "ans": "A"
+  },
+  {
+   "n": 457,
+   "id": "CG-CA-SPA-03",
+   "dim": "SPA",
+   "text": "Which uppercase letter remains unchanged in a vertical mirror?",
+   "opts": [
+    "A",
+    "F",
+    "G",
+    "R"
+   ],
+   "ans": "A"
+  },
+  {
+   "n": 458,
+   "id": "CG-CA-SPA-04",
+   "dim": "SPA",
+   "text": "On a cube, face 1 is opposite 6, face 2 is opposite 5, and face 3 is opposite 4. Which face is opposite 2?",
+   "opts": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 459,
+   "id": "CG-CA-SPA-05",
+   "dim": "SPA",
+   "text": "A library is east of a school. A park is north of the library. Where is the park relative to the school?",
+   "opts": [
+    "north-west",
+    "north-east",
+    "south-east",
+    "west"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 460,
+   "id": "CG-CA-SPA-06",
+   "dim": "SPA",
+   "text": "An arrow points up. It is rotated 90° clockwise. Which way does it point?",
+   "opts": [
+    "left",
+    "right",
+    "down",
+    "up"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 461,
+   "id": "CG-CA-SPA-07",
+   "dim": "SPA",
+   "text": "A sheet of paper is folded once exactly in half. One hole is punched through both layers. How many holes appear after the sheet is fully unfolded?",
+   "opts": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 462,
+   "id": "CG-CA-SPA-08",
+   "dim": "SPA",
+   "text": "From a starting point, move 3 steps east, 2 north, then 1 west. In which direction is the final point from the start?",
+   "opts": [
+    "north-east",
+    "north-west",
+    "south-east",
+    "south-west"
+   ],
+   "ans": "A"
+  },
+  {
+   "n": 463,
+   "id": "CG-CA-SPA-09",
+   "dim": "SPA",
+   "text": "Which shape has exactly two lines of symmetry?",
+   "opts": [
+    "a non-square rectangle",
+    "a scalene triangle",
+    "a circle",
+    "a slanted parallelogram"
+   ],
+   "ans": "A"
+  },
+  {
+   "n": 464,
+   "id": "CG-CA-SPA-10",
+   "dim": "SPA",
+   "text": "In a cube net, A is the centre face. B is above A, C is right of A, D is below A, and E is left of A. F is attached above B. Which face will be opposite A when folded?",
+   "opts": [
+    "B",
+    "C",
+    "E",
+    "F"
+   ],
+   "ans": "D"
+  },
+  {
+   "n": 465,
+   "id": "CG-CA-DAT-01",
+   "dim": "DAT",
+   "text": "Daily sales were Monday 120, Tuesday 150, and Wednesday 130 units. Which day had the highest sales?",
+   "opts": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "All were equal"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 466,
+   "id": "CG-CA-DAT-02",
+   "dim": "DAT",
+   "text": "A programme received 80 applications and selected 20 people. What percentage of applicants were selected?",
+   "opts": [
+    "20%",
+    "25%",
+    "40%",
+    "60%"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 467,
+   "id": "CG-CA-DAT-03",
+   "dim": "DAT",
+   "text": "Attendance was: Class A 40 of 50, Class B 45 of 60, Class C 54 of 60. Which class had the highest attendance rate?",
+   "opts": [
+    "Class A",
+    "Class B",
+    "Class C",
+    "A and B tied"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 468,
+   "id": "CG-CA-DAT-04",
+   "dim": "DAT",
+   "text": "A ₹50,000 budget assigns ₹20,000 to training, ₹15,000 to software, ₹10,000 to travel, and ₹5,000 to other costs. What percentage is for software?",
+   "opts": [
+    "20%",
+    "25%",
+    "30%",
+    "35%"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 469,
+   "id": "CG-CA-DAT-05",
+   "dim": "DAT",
+   "text": "Project hours were Week 1: 18, Week 2: 24, Week 3: 21, Week 4: 27. What was the total?",
+   "opts": [
+    "80",
+    "85",
+    "90",
+    "95"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 470,
+   "id": "CG-CA-DAT-06",
+   "dim": "DAT",
+   "text": "In a survey of 200 people, 120 chose online service, 50 chose in-person service, and 30 chose referral support. How many more chose online than referral support?",
+   "opts": [
+    "70",
+    "80",
+    "90",
+    "100"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 471,
+   "id": "CG-CA-DAT-07",
+   "dim": "DAT",
+   "text": "Monthly users were January 1,000, February 1,200, and March 1,500. What was the percentage increase from January to March?",
+   "opts": [
+    "20%",
+    "30%",
+    "50%",
+    "150%"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 472,
+   "id": "CG-CA-DAT-08",
+   "dim": "DAT",
+   "text": "Four scores are 78, 85, 82, and 91. What is the median?",
+   "opts": [
+    "82",
+    "83.5",
+    "85",
+    "84"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 473,
+   "id": "CG-CA-DAT-09",
+   "dim": "DAT",
+   "text": "Defects were Line 1: 4 of 200, Line 2: 6 of 300, Line 3: 3 of 100. Which line or lines had the lowest defect rate?",
+   "opts": [
+    "Line 1 only",
+    "Line 2 only",
+    "Lines 1 and 2",
+    "Line 3"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 474,
+   "id": "CG-CA-DAT-10",
+   "dim": "DAT",
+   "text": "Inventory opened at 500 units, received 250 units, and sold 600 units. What was the closing inventory?",
+   "opts": [
+    "100",
+    "150",
+    "250",
+    "350"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 475,
+   "id": "CG-CA-ATT-01",
+   "dim": "ATT",
+   "text": "Which code exactly matches CG7-KP29-41Q?",
+   "opts": [
+    "CG7-KP29-41Q",
+    "CG7-KP92-41Q",
+    "CG7-KP29-14Q",
+    "CGT-KP29-41Q"
+   ],
+   "ans": "A"
+  },
+  {
+   "n": 476,
+   "id": "CG-CA-ATT-02",
+   "dim": "ATT",
+   "text": "How many times does the letter A appear in CAREERGARAGE?",
+   "opts": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 477,
+   "id": "CG-CA-ATT-03",
+   "dim": "ATT",
+   "text": "Which list is in correct alphabetical order?",
+   "opts": [
+    "Angle, Anchor, Ant",
+    "Anchor, Angle, Ant",
+    "Ant, Anchor, Angle",
+    "Anchor, Ant, Angle"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 478,
+   "id": "CG-CA-ATT-04",
+   "dim": "ATT",
+   "text": "Which ID appears twice in this list: P184, P148, P814, P184, P418?",
+   "opts": [
+    "P148",
+    "P184",
+    "P418",
+    "P814"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 479,
+   "id": "CG-CA-ATT-05",
+   "dim": "ATT",
+   "text": "Which number differs from 5839201746 by exactly one digit?",
+   "opts": [
+    "5839201746",
+    "5839201748",
+    "5839021748",
+    "5839207148"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 480,
+   "id": "CG-CA-ATT-06",
+   "dim": "ATT",
+   "text": "Which email exactly matches careers.team24@example.org?",
+   "opts": [
+    "career.team24@example.org",
+    "careers.team24@example.com",
+    "careers.team24@example.org",
+    "careers-team24@example.org"
+   ],
+   "ans": "C"
+  },
+  {
+   "n": 481,
+   "id": "CG-CA-ATT-07",
+   "dim": "ATT",
+   "text": "Which sentence has no spelling error?",
+   "opts": [
+    "The report was recieved yesterday.",
+    "The report was received yesterday.",
+    "The repport was received yesterday.",
+    "The report was receved yesterday."
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 482,
+   "id": "CG-CA-ATT-08",
+   "dim": "ATT",
+   "text": "How many # symbols are in #@##$#@# ?",
+   "opts": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 483,
+   "id": "CG-CA-ATT-09",
+   "dim": "ATT",
+   "text": "Which order lists the dates from earliest to latest?",
+   "opts": [
+    "18 Aug, 2 Aug, 12 Sep",
+    "2 Aug, 18 Aug, 12 Sep",
+    "12 Sep, 2 Aug, 18 Aug",
+    "2 Aug, 12 Sep, 18 Aug"
+   ],
+   "ans": "B"
+  },
+  {
+   "n": 484,
+   "id": "CG-CA-ATT-10",
+   "dim": "ATT",
+   "text": "Which serial number is missing: 4101, 4102, ____, 4104, 4105?",
+   "opts": [
+    "4100",
+    "4103",
+    "4113",
+    "4203"
+   ],
+   "ans": "B"
+  }
+ ],
+ "CG-LP": [
+  {
+   "n": 485,
+   "id": "CG-LP-VIS-01",
+   "dim": "VIS",
+   "text": "I understand information better when I can see a diagram or layout."
+  },
+  {
+   "n": 486,
+   "id": "CG-LP-VIS-02",
+   "dim": "VIS",
+   "text": "I use colour, maps, charts, or spatial arrangement to organise ideas."
+  },
+  {
+   "n": 487,
+   "id": "CG-LP-VIS-03",
+   "dim": "VIS",
+   "text": "I remember where information appeared on a page or screen."
+  },
+  {
+   "n": 488,
+   "id": "CG-LP-VIS-04",
+   "dim": "VIS",
+   "text": "During study, projects, or work, I understand information better when I can see a diagram or layout."
+  },
+  {
+   "n": 489,
+   "id": "CG-LP-VIS-05",
+   "dim": "VIS",
+   "text": "During study, projects, or work, I use colour, maps, charts, or spatial arrangement to organise ideas."
+  },
+  {
+   "n": 490,
+   "id": "CG-LP-VIS-06",
+   "dim": "VIS",
+   "text": "During study, projects, or work, I remember where information appeared on a page or screen."
+  },
+  {
+   "n": 491,
+   "id": "CG-LP-VIS-07",
+   "dim": "VIS",
+   "text": "When a situation becomes demanding, I still understand information better when I can see a diagram or layout."
+  },
+  {
+   "n": 492,
+   "id": "CG-LP-VIS-08",
+   "dim": "VIS",
+   "text": "When a situation becomes demanding, I still use colour, maps, charts, or spatial arrangement to organise ideas."
+  },
+  {
+   "n": 493,
+   "id": "CG-LP-VIS-09",
+   "dim": "VIS",
+   "text": "When a situation becomes demanding, I still remember where information appeared on a page or screen."
+  },
+  {
+   "n": 494,
+   "id": "CG-LP-VIS-10",
+   "dim": "VIS",
+   "text": "I gain little from diagrams even when they explain a complex relationship.",
+   "rev": true
+  },
+  {
+   "n": 495,
+   "id": "CG-LP-VIS-11",
+   "dim": "VIS",
+   "text": "During study, projects, or work, I gain little from diagrams even when they explain a complex relationship.",
+   "rev": true
+  },
+  {
+   "n": 496,
+   "id": "CG-LP-VIS-12",
+   "dim": "VIS",
+   "text": "When a situation becomes demanding, I still gain little from diagrams even when they explain a complex relationship.",
+   "rev": true
+  },
+  {
+   "n": 497,
+   "id": "CG-LP-VER-01",
+   "dim": "VER",
+   "text": "I learn by reading a clear explanation in my own words."
+  },
+  {
+   "n": 498,
+   "id": "CG-LP-VER-02",
+   "dim": "VER",
+   "text": "I understand ideas by discussing or explaining them aloud."
+  },
+  {
+   "n": 499,
+   "id": "CG-LP-VER-03",
+   "dim": "VER",
+   "text": "I use notes, summaries, or questions to process information."
+  },
+  {
+   "n": 500,
+   "id": "CG-LP-VER-04",
+   "dim": "VER",
+   "text": "During study, projects, or work, I learn by reading a clear explanation in my own words."
+  },
+  {
+   "n": 501,
+   "id": "CG-LP-VER-05",
+   "dim": "VER",
+   "text": "During study, projects, or work, I understand ideas by discussing or explaining them aloud."
+  },
+  {
+   "n": 502,
+   "id": "CG-LP-VER-06",
+   "dim": "VER",
+   "text": "During study, projects, or work, I use notes, summaries, or questions to process information."
+  },
+  {
+   "n": 503,
+   "id": "CG-LP-VER-07",
+   "dim": "VER",
+   "text": "When a situation becomes demanding, I still learn by reading a clear explanation in my own words."
+  },
+  {
+   "n": 504,
+   "id": "CG-LP-VER-08",
+   "dim": "VER",
+   "text": "When a situation becomes demanding, I still understand ideas by discussing or explaining them aloud."
+  },
+  {
+   "n": 505,
+   "id": "CG-LP-VER-09",
+   "dim": "VER",
+   "text": "When a situation becomes demanding, I still use notes, summaries, or questions to process information."
+  },
+  {
+   "n": 506,
+   "id": "CG-LP-VER-10",
+   "dim": "VER",
+   "text": "I avoid using words to explain what I am learning.",
+   "rev": true
+  },
+  {
+   "n": 507,
+   "id": "CG-LP-VER-11",
+   "dim": "VER",
+   "text": "During study, projects, or work, I avoid using words to explain what I am learning.",
+   "rev": true
+  },
+  {
+   "n": 508,
+   "id": "CG-LP-VER-12",
+   "dim": "VER",
+   "text": "When a situation becomes demanding, I still avoid using words to explain what I am learning.",
+   "rev": true
+  },
+  {
+   "n": 509,
+   "id": "CG-LP-ACT-01",
+   "dim": "ACT",
+   "text": "I understand a skill by trying it in a realistic task."
+  },
+  {
+   "n": 510,
+   "id": "CG-LP-ACT-02",
+   "dim": "ACT",
+   "text": "I learn from practice, examples, experiments, or demonstrations."
+  },
+  {
+   "n": 511,
+   "id": "CG-LP-ACT-03",
+   "dim": "ACT",
+   "text": "I test my understanding by doing something with the information."
+  },
+  {
+   "n": 512,
+   "id": "CG-LP-ACT-04",
+   "dim": "ACT",
+   "text": "During study, projects, or work, I understand a skill by trying it in a realistic task."
+  },
+  {
+   "n": 513,
+   "id": "CG-LP-ACT-05",
+   "dim": "ACT",
+   "text": "During study, projects, or work, I learn from practice, examples, experiments, or demonstrations."
+  },
+  {
+   "n": 514,
+   "id": "CG-LP-ACT-06",
+   "dim": "ACT",
+   "text": "During study, projects, or work, I test my understanding by doing something with the information."
+  },
+  {
+   "n": 515,
+   "id": "CG-LP-ACT-07",
+   "dim": "ACT",
+   "text": "When a situation becomes demanding, I still understand a skill by trying it in a realistic task."
+  },
+  {
+   "n": 516,
+   "id": "CG-LP-ACT-08",
+   "dim": "ACT",
+   "text": "When a situation becomes demanding, I still learn from practice, examples, experiments, or demonstrations."
+  },
+  {
+   "n": 517,
+   "id": "CG-LP-ACT-09",
+   "dim": "ACT",
+   "text": "When a situation becomes demanding, I still test my understanding by doing something with the information."
+  },
+  {
+   "n": 518,
+   "id": "CG-LP-ACT-10",
+   "dim": "ACT",
+   "text": "I prefer never to practise until I feel completely certain.",
+   "rev": true
+  },
+  {
+   "n": 519,
+   "id": "CG-LP-ACT-11",
+   "dim": "ACT",
+   "text": "During study, projects, or work, I prefer never to practise until I feel completely certain.",
+   "rev": true
+  },
+  {
+   "n": 520,
+   "id": "CG-LP-ACT-12",
+   "dim": "ACT",
+   "text": "When a situation becomes demanding, I still prefer never to practise until I feel completely certain.",
+   "rev": true
+  },
+  {
+   "n": 521,
+   "id": "CG-LP-REF-01",
+   "dim": "REF",
+   "text": "I learn better when I have time to think before responding."
+  },
+  {
+   "n": 522,
+   "id": "CG-LP-REF-02",
+   "dim": "REF",
+   "text": "I organise a topic into a clear sequence before studying details."
+  },
+  {
+   "n": 523,
+   "id": "CG-LP-REF-03",
+   "dim": "REF",
+   "text": "I review mistakes to understand how my thinking can improve."
+  },
+  {
+   "n": 524,
+   "id": "CG-LP-REF-04",
+   "dim": "REF",
+   "text": "During study, projects, or work, I learn better when I have time to think before responding."
+  },
+  {
+   "n": 525,
+   "id": "CG-LP-REF-05",
+   "dim": "REF",
+   "text": "During study, projects, or work, I organise a topic into a clear sequence before studying details."
+  },
+  {
+   "n": 526,
+   "id": "CG-LP-REF-06",
+   "dim": "REF",
+   "text": "During study, projects, or work, I review mistakes to understand how my thinking can improve."
+  },
+  {
+   "n": 527,
+   "id": "CG-LP-REF-07",
+   "dim": "REF",
+   "text": "When a situation becomes demanding, I still learn better when I have time to think before responding."
+  },
+  {
+   "n": 528,
+   "id": "CG-LP-REF-08",
+   "dim": "REF",
+   "text": "When a situation becomes demanding, I still organise a topic into a clear sequence before studying details."
+  },
+  {
+   "n": 529,
+   "id": "CG-LP-REF-09",
+   "dim": "REF",
+   "text": "When a situation becomes demanding, I still review mistakes to understand how my thinking can improve."
+  },
+  {
+   "n": 530,
+   "id": "CG-LP-REF-10",
+   "dim": "REF",
+   "text": "I move to the next topic without reviewing what I understood.",
+   "rev": true
+  },
+  {
+   "n": 531,
+   "id": "CG-LP-REF-11",
+   "dim": "REF",
+   "text": "During study, projects, or work, I move to the next topic without reviewing what I understood.",
+   "rev": true
+  },
+  {
+   "n": 532,
+   "id": "CG-LP-REF-12",
+   "dim": "REF",
+   "text": "When a situation becomes demanding, I still move to the next topic without reviewing what I understood.",
+   "rev": true
+  }
+ ],
+ "CG-EM": [
+  {
+   "n": 533,
+   "id": "CG-EM-OPR-01",
+   "dim": "OPR",
+   "text": "I notice everyday problems that could become useful solutions."
+  },
+  {
+   "n": 534,
+   "id": "CG-EM-OPR-02",
+   "dim": "OPR",
+   "text": "I connect changing needs with possible products or services."
+  },
+  {
+   "n": 535,
+   "id": "CG-EM-OPR-03",
+   "dim": "OPR",
+   "text": "I ask what value could be created from an unmet need."
+  },
+  {
+   "n": 536,
+   "id": "CG-EM-OPR-04",
+   "dim": "OPR",
+   "text": "I look for patterns that signal a new opportunity."
+  },
+  {
+   "n": 537,
+   "id": "CG-EM-OPR-05",
+   "dim": "OPR",
+   "text": "During study, projects, or work, I notice everyday problems that could become useful solutions."
+  },
+  {
+   "n": 538,
+   "id": "CG-EM-OPR-06",
+   "dim": "OPR",
+   "text": "During study, projects, or work, I connect changing needs with possible products or services."
+  },
+  {
+   "n": 539,
+   "id": "CG-EM-OPR-07",
+   "dim": "OPR",
+   "text": "During study, projects, or work, I ask what value could be created from an unmet need."
+  },
+  {
+   "n": 540,
+   "id": "CG-EM-OPR-08",
+   "dim": "OPR",
+   "text": "During study, projects, or work, I look for patterns that signal a new opportunity."
+  },
+  {
+   "n": 541,
+   "id": "CG-EM-OPR-09",
+   "dim": "OPR",
+   "text": "I assume familiar problems cannot lead to worthwhile opportunities.",
+   "rev": true
+  },
+  {
+   "n": 542,
+   "id": "CG-EM-OPR-10",
+   "dim": "OPR",
+   "text": "During study, projects, or work, I assume familiar problems cannot lead to worthwhile opportunities.",
+   "rev": true
+  },
+  {
+   "n": 543,
+   "id": "CG-EM-INI-01",
+   "dim": "INI",
+   "text": "I take a useful first step without waiting for perfect conditions."
+  },
+  {
+   "n": 544,
+   "id": "CG-EM-INI-02",
+   "dim": "INI",
+   "text": "I turn ideas into small experiments or actions."
+  },
+  {
+   "n": 545,
+   "id": "CG-EM-INI-03",
+   "dim": "INI",
+   "text": "I seek resources and people needed to move forward."
+  },
+  {
+   "n": 546,
+   "id": "CG-EM-INI-04",
+   "dim": "INI",
+   "text": "I create my own next step when instructions are incomplete."
+  },
+  {
+   "n": 547,
+   "id": "CG-EM-INI-05",
+   "dim": "INI",
+   "text": "During study, projects, or work, I take a useful first step without waiting for perfect conditions."
+  },
+  {
+   "n": 548,
+   "id": "CG-EM-INI-06",
+   "dim": "INI",
+   "text": "During study, projects, or work, I turn ideas into small experiments or actions."
+  },
+  {
+   "n": 549,
+   "id": "CG-EM-INI-07",
+   "dim": "INI",
+   "text": "During study, projects, or work, I seek resources and people needed to move forward."
+  },
+  {
+   "n": 550,
+   "id": "CG-EM-INI-08",
+   "dim": "INI",
+   "text": "During study, projects, or work, I create my own next step when instructions are incomplete."
+  },
+  {
+   "n": 551,
+   "id": "CG-EM-INI-09",
+   "dim": "INI",
+   "text": "I wait for someone else to begin even when I can act safely.",
+   "rev": true
+  },
+  {
+   "n": 552,
+   "id": "CG-EM-INI-10",
+   "dim": "INI",
+   "text": "During study, projects, or work, I wait for someone else to begin even when I can act safely.",
+   "rev": true
+  },
+  {
+   "n": 553,
+   "id": "CG-EM-RJK-01",
+   "dim": "RJK",
+   "text": "I compare possible gains, losses, and safeguards before taking a risk."
+  },
+  {
+   "n": 554,
+   "id": "CG-EM-RJK-02",
+   "dim": "RJK",
+   "text": "I test an uncertain idea on a small scale first."
+  },
+  {
+   "n": 555,
+   "id": "CG-EM-RJK-03",
+   "dim": "RJK",
+   "text": "I distinguish a calculated risk from a careless gamble."
+  },
+  {
+   "n": 556,
+   "id": "CG-EM-RJK-04",
+   "dim": "RJK",
+   "text": "I prepare alternatives when an outcome is uncertain."
+  },
+  {
+   "n": 557,
+   "id": "CG-EM-RJK-05",
+   "dim": "RJK",
+   "text": "During study, projects, or work, I compare possible gains, losses, and safeguards before taking a risk."
+  },
+  {
+   "n": 558,
+   "id": "CG-EM-RJK-06",
+   "dim": "RJK",
+   "text": "During study, projects, or work, I test an uncertain idea on a small scale first."
+  },
+  {
+   "n": 559,
+   "id": "CG-EM-RJK-07",
+   "dim": "RJK",
+   "text": "During study, projects, or work, I distinguish a calculated risk from a careless gamble."
+  },
+  {
+   "n": 560,
+   "id": "CG-EM-RJK-08",
+   "dim": "RJK",
+   "text": "During study, projects, or work, I prepare alternatives when an outcome is uncertain."
+  },
+  {
+   "n": 561,
+   "id": "CG-EM-RJK-09",
+   "dim": "RJK",
+   "text": "I make high-stakes choices without checking the likely consequences.",
+   "rev": true
+  },
+  {
+   "n": 562,
+   "id": "CG-EM-RJK-10",
+   "dim": "RJK",
+   "text": "During study, projects, or work, I make high-stakes choices without checking the likely consequences.",
+   "rev": true
+  },
+  {
+   "n": 563,
+   "id": "CG-EM-RES-01",
+   "dim": "RES",
+   "text": "I learn from rejection instead of treating it as a final verdict."
+  },
+  {
+   "n": 564,
+   "id": "CG-EM-RES-02",
+   "dim": "RES",
+   "text": "I try a revised approach after an experiment fails."
+  },
+  {
+   "n": 565,
+   "id": "CG-EM-RES-03",
+   "dim": "RES",
+   "text": "I keep perspective when progress is uneven."
+  },
+  {
+   "n": 566,
+   "id": "CG-EM-RES-04",
+   "dim": "RES",
+   "text": "I use setbacks as information for the next attempt."
+  },
+  {
+   "n": 567,
+   "id": "CG-EM-RES-05",
+   "dim": "RES",
+   "text": "During study, projects, or work, I learn from rejection instead of treating it as a final verdict."
+  },
+  {
+   "n": 568,
+   "id": "CG-EM-RES-06",
+   "dim": "RES",
+   "text": "During study, projects, or work, I try a revised approach after an experiment fails."
+  },
+  {
+   "n": 569,
+   "id": "CG-EM-RES-07",
+   "dim": "RES",
+   "text": "During study, projects, or work, I keep perspective when progress is uneven."
+  },
+  {
+   "n": 570,
+   "id": "CG-EM-RES-08",
+   "dim": "RES",
+   "text": "During study, projects, or work, I use setbacks as information for the next attempt."
+  },
+  {
+   "n": 571,
+   "id": "CG-EM-RES-09",
+   "dim": "RES",
+   "text": "I abandon a promising goal after the first serious difficulty.",
+   "rev": true
+  },
+  {
+   "n": 572,
+   "id": "CG-EM-RES-10",
+   "dim": "RES",
+   "text": "During study, projects, or work, I abandon a promising goal after the first serious difficulty.",
+   "rev": true
+  },
+  {
+   "n": 573,
+   "id": "CG-EM-RSF-01",
+   "dim": "RSF",
+   "text": "I find workable alternatives when money or time is limited."
+  },
+  {
+   "n": 574,
+   "id": "CG-EM-RSF-02",
+   "dim": "RSF",
+   "text": "I combine available skills and contacts to solve a problem."
+  },
+  {
+   "n": 575,
+   "id": "CG-EM-RSF-03",
+   "dim": "RSF",
+   "text": "I learn enough to make progress before seeking specialist help."
+  },
+  {
+   "n": 576,
+   "id": "CG-EM-RSF-04",
+   "dim": "RSF",
+   "text": "I simplify an idea to test its most important part."
+  },
+  {
+   "n": 577,
+   "id": "CG-EM-RSF-05",
+   "dim": "RSF",
+   "text": "During study, projects, or work, I find workable alternatives when money or time is limited."
+  },
+  {
+   "n": 578,
+   "id": "CG-EM-RSF-06",
+   "dim": "RSF",
+   "text": "During study, projects, or work, I combine available skills and contacts to solve a problem."
+  },
+  {
+   "n": 579,
+   "id": "CG-EM-RSF-07",
+   "dim": "RSF",
+   "text": "During study, projects, or work, I learn enough to make progress before seeking specialist help."
+  },
+  {
+   "n": 580,
+   "id": "CG-EM-RSF-08",
+   "dim": "RSF",
+   "text": "During study, projects, or work, I simplify an idea to test its most important part."
+  },
+  {
+   "n": 581,
+   "id": "CG-EM-RSF-09",
+   "dim": "RSF",
+   "text": "I stop working when the ideal resource is unavailable.",
+   "rev": true
+  },
+  {
+   "n": 582,
+   "id": "CG-EM-RSF-10",
+   "dim": "RSF",
+   "text": "During study, projects, or work, I stop working when the ideal resource is unavailable.",
+   "rev": true
+  },
+  {
+   "n": 583,
+   "id": "CG-EM-CUS-01",
+   "dim": "CUS",
+   "text": "I ask users what problem they actually need solved."
+  },
+  {
+   "n": 584,
+   "id": "CG-EM-CUS-02",
+   "dim": "CUS",
+   "text": "I change an idea when evidence shows customers need something different."
+  },
+  {
+   "n": 585,
+   "id": "CG-EM-CUS-03",
+   "dim": "CUS",
+   "text": "I define value from the user's point of view."
+  },
+  {
+   "n": 586,
+   "id": "CG-EM-CUS-04",
+   "dim": "CUS",
+   "text": "I seek feedback before investing heavily in a solution."
+  },
+  {
+   "n": 587,
+   "id": "CG-EM-CUS-05",
+   "dim": "CUS",
+   "text": "During study, projects, or work, I ask users what problem they actually need solved."
+  },
+  {
+   "n": 588,
+   "id": "CG-EM-CUS-06",
+   "dim": "CUS",
+   "text": "During study, projects, or work, I change an idea when evidence shows customers need something different."
+  },
+  {
+   "n": 589,
+   "id": "CG-EM-CUS-07",
+   "dim": "CUS",
+   "text": "During study, projects, or work, I define value from the user's point of view."
+  },
+  {
+   "n": 590,
+   "id": "CG-EM-CUS-08",
+   "dim": "CUS",
+   "text": "During study, projects, or work, I seek feedback before investing heavily in a solution."
+  },
+  {
+   "n": 591,
+   "id": "CG-EM-CUS-09",
+   "dim": "CUS",
+   "text": "I assume I know what users want without speaking to them.",
+   "rev": true
+  },
+  {
+   "n": 592,
+   "id": "CG-EM-CUS-10",
+   "dim": "CUS",
+   "text": "During study, projects, or work, I assume I know what users want without speaking to them.",
+   "rev": true
+  }
+ ],
+ "CG-DR": [
+  {
+   "n": 593,
+   "id": "CG-DR-IDL-01",
+   "dim": "IDL",
+   "text": "I use focused search terms to find relevant information."
+  },
+  {
+   "n": 594,
+   "id": "CG-DR-IDL-02",
+   "dim": "IDL",
+   "text": "I compare multiple sources before trusting an online claim."
+  },
+  {
+   "n": 595,
+   "id": "CG-DR-IDL-03",
+   "dim": "IDL",
+   "text": "I organise digital files and data so I can retrieve them."
+  },
+  {
+   "n": 596,
+   "id": "CG-DR-IDL-04",
+   "dim": "IDL",
+   "text": "I recognise when data may be incomplete or misleading."
+  },
+  {
+   "n": 597,
+   "id": "CG-DR-IDL-05",
+   "dim": "IDL",
+   "text": "During study, projects, or work, I use focused search terms to find relevant information."
+  },
+  {
+   "n": 598,
+   "id": "CG-DR-IDL-06",
+   "dim": "IDL",
+   "text": "During study, projects, or work, I compare multiple sources before trusting an online claim."
+  },
+  {
+   "n": 599,
+   "id": "CG-DR-IDL-07",
+   "dim": "IDL",
+   "text": "During study, projects, or work, I organise digital files and data so I can retrieve them."
+  },
+  {
+   "n": 600,
+   "id": "CG-DR-IDL-08",
+   "dim": "IDL",
+   "text": "During study, projects, or work, I recognise when data may be incomplete or misleading."
+  },
+  {
+   "n": 601,
+   "id": "CG-DR-IDL-09",
+   "dim": "IDL",
+   "text": "I accept the first search result without checking its source.",
+   "rev": true
+  },
+  {
+   "n": 602,
+   "id": "CG-DR-IDL-10",
+   "dim": "IDL",
+   "text": "During study, projects, or work, I accept the first search result without checking its source.",
+   "rev": true
+  },
+  {
+   "n": 603,
+   "id": "CG-DR-DCC-01",
+   "dim": "DCC",
+   "text": "I choose an appropriate digital channel for the message."
+  },
+  {
+   "n": 604,
+   "id": "CG-DR-DCC-02",
+   "dim": "DCC",
+   "text": "I contribute clearly in shared documents or online workspaces."
+  },
+  {
+   "n": 605,
+   "id": "CG-DR-DCC-03",
+   "dim": "DCC",
+   "text": "I use respectful and secure practices in online groups."
+  },
+  {
+   "n": 606,
+   "id": "CG-DR-DCC-04",
+   "dim": "DCC",
+   "text": "I keep digital collaborators informed about progress and blockers."
+  },
+  {
+   "n": 607,
+   "id": "CG-DR-DCC-05",
+   "dim": "DCC",
+   "text": "During study, projects, or work, I choose an appropriate digital channel for the message."
+  },
+  {
+   "n": 608,
+   "id": "CG-DR-DCC-06",
+   "dim": "DCC",
+   "text": "During study, projects, or work, I contribute clearly in shared documents or online workspaces."
+  },
+  {
+   "n": 609,
+   "id": "CG-DR-DCC-07",
+   "dim": "DCC",
+   "text": "During study, projects, or work, I use respectful and secure practices in online groups."
+  },
+  {
+   "n": 610,
+   "id": "CG-DR-DCC-08",
+   "dim": "DCC",
+   "text": "During study, projects, or work, I keep digital collaborators informed about progress and blockers."
+  },
+  {
+   "n": 611,
+   "id": "CG-DR-DCC-09",
+   "dim": "DCC",
+   "text": "I share unclear messages without checking who will receive them.",
+   "rev": true
+  },
+  {
+   "n": 612,
+   "id": "CG-DR-DCC-10",
+   "dim": "DCC",
+   "text": "During study, projects, or work, I share unclear messages without checking who will receive them.",
+   "rev": true
+  },
+  {
+   "n": 613,
+   "id": "CG-DR-DCR-01",
+   "dim": "DCR",
+   "text": "I create and format digital content for a specific audience."
+  },
+  {
+   "n": 614,
+   "id": "CG-DR-DCR-02",
+   "dim": "DCR",
+   "text": "I combine text, visuals, or media without hiding the main message."
+  },
+  {
+   "n": 615,
+   "id": "CG-DR-DCR-03",
+   "dim": "DCR",
+   "text": "I credit sources and respect permissions when reusing content."
+  },
+  {
+   "n": 616,
+   "id": "CG-DR-DCR-04",
+   "dim": "DCR",
+   "text": "I revise digital content after testing how people understand it."
+  },
+  {
+   "n": 617,
+   "id": "CG-DR-DCR-05",
+   "dim": "DCR",
+   "text": "During study, projects, or work, I create and format digital content for a specific audience."
+  },
+  {
+   "n": 618,
+   "id": "CG-DR-DCR-06",
+   "dim": "DCR",
+   "text": "During study, projects, or work, I combine text, visuals, or media without hiding the main message."
+  },
+  {
+   "n": 619,
+   "id": "CG-DR-DCR-07",
+   "dim": "DCR",
+   "text": "During study, projects, or work, I credit sources and respect permissions when reusing content."
+  },
+  {
+   "n": 620,
+   "id": "CG-DR-DCR-08",
+   "dim": "DCR",
+   "text": "During study, projects, or work, I revise digital content after testing how people understand it."
+  },
+  {
+   "n": 621,
+   "id": "CG-DR-DCR-09",
+   "dim": "DCR",
+   "text": "I copy online content without checking ownership or accuracy.",
+   "rev": true
+  },
+  {
+   "n": 622,
+   "id": "CG-DR-DCR-10",
+   "dim": "DCR",
+   "text": "During study, projects, or work, I copy online content without checking ownership or accuracy.",
+   "rev": true
+  },
+  {
+   "n": 623,
+   "id": "CG-DR-DSP-01",
+   "dim": "DSP",
+   "text": "I use strong and different passwords or a password manager."
+  },
+  {
+   "n": 624,
+   "id": "CG-DR-DSP-02",
+   "dim": "DSP",
+   "text": "I check privacy and sharing settings before posting information."
+  },
+  {
+   "n": 625,
+   "id": "CG-DR-DSP-03",
+   "dim": "DSP",
+   "text": "I recognise common signs of phishing or unsafe links."
+  },
+  {
+   "n": 626,
+   "id": "CG-DR-DSP-04",
+   "dim": "DSP",
+   "text": "I protect sensitive data when using shared devices or networks."
+  },
+  {
+   "n": 627,
+   "id": "CG-DR-DSP-05",
+   "dim": "DSP",
+   "text": "During study, projects, or work, I use strong and different passwords or a password manager."
+  },
+  {
+   "n": 628,
+   "id": "CG-DR-DSP-06",
+   "dim": "DSP",
+   "text": "During study, projects, or work, I check privacy and sharing settings before posting information."
+  },
+  {
+   "n": 629,
+   "id": "CG-DR-DSP-07",
+   "dim": "DSP",
+   "text": "During study, projects, or work, I recognise common signs of phishing or unsafe links."
+  },
+  {
+   "n": 630,
+   "id": "CG-DR-DSP-08",
+   "dim": "DSP",
+   "text": "During study, projects, or work, I protect sensitive data when using shared devices or networks."
+  },
+  {
+   "n": 631,
+   "id": "CG-DR-DSP-09",
+   "dim": "DSP",
+   "text": "I share personal or account information before verifying a request.",
+   "rev": true
+  },
+  {
+   "n": 632,
+   "id": "CG-DR-DSP-10",
+   "dim": "DSP",
+   "text": "During study, projects, or work, I share personal or account information before verifying a request.",
+   "rev": true
+  },
+  {
+   "n": 633,
+   "id": "CG-DR-DPS-01",
+   "dim": "DPS",
+   "text": "I break a technical problem into smaller checks."
+  },
+  {
+   "n": 634,
+   "id": "CG-DR-DPS-02",
+   "dim": "DPS",
+   "text": "I search error messages and compare trustworthy solutions."
+  },
+  {
+   "n": 635,
+   "id": "CG-DR-DPS-03",
+   "dim": "DPS",
+   "text": "I try safe troubleshooting steps before giving up."
+  },
+  {
+   "n": 636,
+   "id": "CG-DR-DPS-04",
+   "dim": "DPS",
+   "text": "I learn a new digital tool by testing its core functions."
+  },
+  {
+   "n": 637,
+   "id": "CG-DR-DPS-05",
+   "dim": "DPS",
+   "text": "During study, projects, or work, I break a technical problem into smaller checks."
+  },
+  {
+   "n": 638,
+   "id": "CG-DR-DPS-06",
+   "dim": "DPS",
+   "text": "During study, projects, or work, I search error messages and compare trustworthy solutions."
+  },
+  {
+   "n": 639,
+   "id": "CG-DR-DPS-07",
+   "dim": "DPS",
+   "text": "During study, projects, or work, I try safe troubleshooting steps before giving up."
+  },
+  {
+   "n": 640,
+   "id": "CG-DR-DPS-08",
+   "dim": "DPS",
+   "text": "During study, projects, or work, I learn a new digital tool by testing its core functions."
+  },
+  {
+   "n": 641,
+   "id": "CG-DR-DPS-09",
+   "dim": "DPS",
+   "text": "I stop immediately when a digital tool behaves unexpectedly.",
+   "rev": true
+  },
+  {
+   "n": 642,
+   "id": "CG-DR-DPS-10",
+   "dim": "DPS",
+   "text": "During study, projects, or work, I stop immediately when a digital tool behaves unexpectedly.",
+   "rev": true
+  },
+  {
+   "n": 643,
+   "id": "CG-DR-AIL-01",
+   "dim": "AIL",
+   "text": "I check AI-generated information against reliable evidence."
+  },
+  {
+   "n": 644,
+   "id": "CG-DR-AIL-02",
+   "dim": "AIL",
+   "text": "I write clear instructions that include purpose, context, and constraints."
+  },
+  {
+   "n": 645,
+   "id": "CG-DR-AIL-03",
+   "dim": "AIL",
+   "text": "I avoid entering sensitive information into tools without permission."
+  },
+  {
+   "n": 646,
+   "id": "CG-DR-AIL-04",
+   "dim": "AIL",
+   "text": "I explain where human judgement is still needed after using AI."
+  },
+  {
+   "n": 647,
+   "id": "CG-DR-AIL-05",
+   "dim": "AIL",
+   "text": "During study, projects, or work, I check AI-generated information against reliable evidence."
+  },
+  {
+   "n": 648,
+   "id": "CG-DR-AIL-06",
+   "dim": "AIL",
+   "text": "During study, projects, or work, I write clear instructions that include purpose, context, and constraints."
+  },
+  {
+   "n": 649,
+   "id": "CG-DR-AIL-07",
+   "dim": "AIL",
+   "text": "During study, projects, or work, I avoid entering sensitive information into tools without permission."
+  },
+  {
+   "n": 650,
+   "id": "CG-DR-AIL-08",
+   "dim": "AIL",
+   "text": "During study, projects, or work, I explain where human judgement is still needed after using AI."
+  },
+  {
+   "n": 651,
+   "id": "CG-DR-AIL-09",
+   "dim": "AIL",
+   "text": "I treat AI output as correct simply because it sounds confident.",
+   "rev": true
+  },
+  {
+   "n": 652,
+   "id": "CG-DR-AIL-10",
+   "dim": "AIL",
+   "text": "During study, projects, or work, I treat AI output as correct simply because it sounds confident.",
+   "rev": true
+  }
+ ],
+ "CG-CR": [
+  {
+   "n": 653,
+   "id": "CG-CR-CSA-01",
+   "dim": "CSA",
+   "text": "I describe my strengths using real examples."
+  },
+  {
+   "n": 654,
+   "id": "CG-CR-CSA-02",
+   "dim": "CSA",
+   "text": "I identify skills I want to develop next."
+  },
+  {
+   "n": 655,
+   "id": "CG-CR-CSA-03",
+   "dim": "CSA",
+   "text": "I explain the work values that matter most to me."
+  },
+  {
+   "n": 656,
+   "id": "CG-CR-CSA-04",
+   "dim": "CSA",
+   "text": "I recognise environments in which I perform well."
+  },
+  {
+   "n": 657,
+   "id": "CG-CR-CSA-05",
+   "dim": "CSA",
+   "text": "During study, projects, or work, I describe my strengths using real examples."
+  },
+  {
+   "n": 658,
+   "id": "CG-CR-CSA-06",
+   "dim": "CSA",
+   "text": "During study, projects, or work, I identify skills I want to develop next."
+  },
+  {
+   "n": 659,
+   "id": "CG-CR-CSA-07",
+   "dim": "CSA",
+   "text": "During study, projects, or work, I explain the work values that matter most to me."
+  },
+  {
+   "n": 660,
+   "id": "CG-CR-CSA-08",
+   "dim": "CSA",
+   "text": "During study, projects, or work, I recognise environments in which I perform well."
+  },
+  {
+   "n": 661,
+   "id": "CG-CR-CSA-09",
+   "dim": "CSA",
+   "text": "I choose career options without considering what I know about myself.",
+   "rev": true
+  },
+  {
+   "n": 662,
+   "id": "CG-CR-CSA-10",
+   "dim": "CSA",
+   "text": "During study, projects, or work, I choose career options without considering what I know about myself.",
+   "rev": true
+  },
+  {
+   "n": 663,
+   "id": "CG-CR-CEX-01",
+   "dim": "CEX",
+   "text": "I research the daily tasks behind a career title."
+  },
+  {
+   "n": 664,
+   "id": "CG-CR-CEX-02",
+   "dim": "CEX",
+   "text": "I compare education, skills, demand, and conditions across options."
+  },
+  {
+   "n": 665,
+   "id": "CG-CR-CEX-03",
+   "dim": "CEX",
+   "text": "I speak with people who know a field first-hand."
+  },
+  {
+   "n": 666,
+   "id": "CG-CR-CEX-04",
+   "dim": "CEX",
+   "text": "I test interests through projects, courses, visits, or work exposure."
+  },
+  {
+   "n": 667,
+   "id": "CG-CR-CEX-05",
+   "dim": "CEX",
+   "text": "During study, projects, or work, I research the daily tasks behind a career title."
+  },
+  {
+   "n": 668,
+   "id": "CG-CR-CEX-06",
+   "dim": "CEX",
+   "text": "During study, projects, or work, I compare education, skills, demand, and conditions across options."
+  },
+  {
+   "n": 669,
+   "id": "CG-CR-CEX-07",
+   "dim": "CEX",
+   "text": "During study, projects, or work, I speak with people who know a field first-hand."
+  },
+  {
+   "n": 670,
+   "id": "CG-CR-CEX-08",
+   "dim": "CEX",
+   "text": "During study, projects, or work, I test interests through projects, courses, visits, or work exposure."
+  },
+  {
+   "n": 671,
+   "id": "CG-CR-CEX-09",
+   "dim": "CEX",
+   "text": "I rely only on a career's reputation when deciding whether it fits.",
+   "rev": true
+  },
+  {
+   "n": 672,
+   "id": "CG-CR-CEX-10",
+   "dim": "CEX",
+   "text": "During study, projects, or work, I rely only on a career's reputation when deciding whether it fits.",
+   "rev": true
+  },
+  {
+   "n": 673,
+   "id": "CG-CR-CDM-01",
+   "dim": "CDM",
+   "text": "I use clear criteria to compare career options."
+  },
+  {
+   "n": 674,
+   "id": "CG-CR-CDM-02",
+   "dim": "CDM",
+   "text": "I consider both short-term feasibility and long-term fit."
+  },
+  {
+   "n": 675,
+   "id": "CG-CR-CDM-03",
+   "dim": "CDM",
+   "text": "I separate useful advice from pressure to copy someone else's choice."
+  },
+  {
+   "n": 676,
+   "id": "CG-CR-CDM-04",
+   "dim": "CDM",
+   "text": "I make a decision when enough evidence is available."
+  },
+  {
+   "n": 677,
+   "id": "CG-CR-CDM-05",
+   "dim": "CDM",
+   "text": "During study, projects, or work, I use clear criteria to compare career options."
+  },
+  {
+   "n": 678,
+   "id": "CG-CR-CDM-06",
+   "dim": "CDM",
+   "text": "During study, projects, or work, I consider both short-term feasibility and long-term fit."
+  },
+  {
+   "n": 679,
+   "id": "CG-CR-CDM-07",
+   "dim": "CDM",
+   "text": "During study, projects, or work, I separate useful advice from pressure to copy someone else's choice."
+  },
+  {
+   "n": 680,
+   "id": "CG-CR-CDM-08",
+   "dim": "CDM",
+   "text": "During study, projects, or work, I make a decision when enough evidence is available."
+  },
+  {
+   "n": 681,
+   "id": "CG-CR-CDM-09",
+   "dim": "CDM",
+   "text": "I keep changing direction without identifying what new evidence matters.",
+   "rev": true
+  },
+  {
+   "n": 682,
+   "id": "CG-CR-CDM-10",
+   "dim": "CDM",
+   "text": "During study, projects, or work, I keep changing direction without identifying what new evidence matters.",
+   "rev": true
+  },
+  {
+   "n": 683,
+   "id": "CG-CR-CES-01",
+   "dim": "CES",
+   "text": "I communicate progress and problems clearly."
+  },
+  {
+   "n": 684,
+   "id": "CG-CR-CES-02",
+   "dim": "CES",
+   "text": "I work responsibly with people who have different views."
+  },
+  {
+   "n": 685,
+   "id": "CG-CR-CES-03",
+   "dim": "CES",
+   "text": "I meet agreed standards without constant supervision."
+  },
+  {
+   "n": 686,
+   "id": "CG-CR-CES-04",
+   "dim": "CES",
+   "text": "I use feedback to improve the next version of my work."
+  },
+  {
+   "n": 687,
+   "id": "CG-CR-CES-05",
+   "dim": "CES",
+   "text": "During study, projects, or work, I communicate progress and problems clearly."
+  },
+  {
+   "n": 688,
+   "id": "CG-CR-CES-06",
+   "dim": "CES",
+   "text": "During study, projects, or work, I work responsibly with people who have different views."
+  },
+  {
+   "n": 689,
+   "id": "CG-CR-CES-07",
+   "dim": "CES",
+   "text": "During study, projects, or work, I meet agreed standards without constant supervision."
+  },
+  {
+   "n": 690,
+   "id": "CG-CR-CES-08",
+   "dim": "CES",
+   "text": "During study, projects, or work, I use feedback to improve the next version of my work."
+  },
+  {
+   "n": 691,
+   "id": "CG-CR-CES-09",
+   "dim": "CES",
+   "text": "I ignore deadlines unless someone repeatedly reminds me.",
+   "rev": true
+  },
+  {
+   "n": 692,
+   "id": "CG-CR-CES-10",
+   "dim": "CES",
+   "text": "During study, projects, or work, I ignore deadlines unless someone repeatedly reminds me.",
+   "rev": true
+  },
+  {
+   "n": 693,
+   "id": "CG-CR-COP-01",
+   "dim": "COP",
+   "text": "I keep an updated record of projects, achievements, and evidence."
+  },
+  {
+   "n": 694,
+   "id": "CG-CR-COP-02",
+   "dim": "COP",
+   "text": "I adapt my resume or application to the opportunity."
+  },
+  {
+   "n": 695,
+   "id": "CG-CR-COP-03",
+   "dim": "COP",
+   "text": "I prepare examples that show how I used important skills."
+  },
+  {
+   "n": 696,
+   "id": "CG-CR-COP-04",
+   "dim": "COP",
+   "text": "I practise explaining my motivation in an interview or conversation."
+  },
+  {
+   "n": 697,
+   "id": "CG-CR-COP-05",
+   "dim": "COP",
+   "text": "During study, projects, or work, I keep an updated record of projects, achievements, and evidence."
+  },
+  {
+   "n": 698,
+   "id": "CG-CR-COP-06",
+   "dim": "COP",
+   "text": "During study, projects, or work, I adapt my resume or application to the opportunity."
+  },
+  {
+   "n": 699,
+   "id": "CG-CR-COP-07",
+   "dim": "COP",
+   "text": "During study, projects, or work, I prepare examples that show how I used important skills."
+  },
+  {
+   "n": 700,
+   "id": "CG-CR-COP-08",
+   "dim": "COP",
+   "text": "During study, projects, or work, I practise explaining my motivation in an interview or conversation."
+  },
+  {
+   "n": 701,
+   "id": "CG-CR-COP-09",
+   "dim": "COP",
+   "text": "I send the same unreviewed application to every opportunity.",
+   "rev": true
+  },
+  {
+   "n": 702,
+   "id": "CG-CR-COP-10",
+   "dim": "COP",
+   "text": "During study, projects, or work, I send the same unreviewed application to every opportunity.",
+   "rev": true
+  },
+  {
+   "n": 703,
+   "id": "CG-CR-CAP-01",
+   "dim": "CAP",
+   "text": "I turn a career goal into dated next steps."
+  },
+  {
+   "n": 704,
+   "id": "CG-CR-CAP-02",
+   "dim": "CAP",
+   "text": "I identify the resources and people needed for my plan."
+  },
+  {
+   "n": 705,
+   "id": "CG-CR-CAP-03",
+   "dim": "CAP",
+   "text": "I review progress and adjust actions when circumstances change."
+  },
+  {
+   "n": 706,
+   "id": "CG-CR-CAP-04",
+   "dim": "CAP",
+   "text": "I include a realistic alternative route for important goals."
+  },
+  {
+   "n": 707,
+   "id": "CG-CR-CAP-05",
+   "dim": "CAP",
+   "text": "During study, projects, or work, I turn a career goal into dated next steps."
+  },
+  {
+   "n": 708,
+   "id": "CG-CR-CAP-06",
+   "dim": "CAP",
+   "text": "During study, projects, or work, I identify the resources and people needed for my plan."
+  },
+  {
+   "n": 709,
+   "id": "CG-CR-CAP-07",
+   "dim": "CAP",
+   "text": "During study, projects, or work, I review progress and adjust actions when circumstances change."
+  },
+  {
+   "n": 710,
+   "id": "CG-CR-CAP-08",
+   "dim": "CAP",
+   "text": "During study, projects, or work, I include a realistic alternative route for important goals."
+  },
+  {
+   "n": 711,
+   "id": "CG-CR-CAP-09",
+   "dim": "CAP",
+   "text": "I keep career goals vague so I do not have to choose a next action.",
+   "rev": true
+  },
+  {
+   "n": 712,
+   "id": "CG-CR-CAP-10",
+   "dim": "CAP",
+   "text": "During study, projects, or work, I keep career goals vague so I do not have to choose a next action.",
+   "rev": true
+  }
+ ]
+}

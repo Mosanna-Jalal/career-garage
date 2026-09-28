@@ -17,7 +17,6 @@ import {
   legalLinks,
   programmeLinks,
   registerRoles,
-  roadMapLinks,
   type NavLink,
 } from "@/lib/site";
 
@@ -43,11 +42,6 @@ const menus: Menu[] = [
     label: "Organisation / Institutions",
     width: "w-[24rem]",
     groups: [{ links: programmeLinks }],
-  },
-  {
-    label: "Career Road Map",
-    width: "w-[24rem]",
-    groups: [{ links: roadMapLinks }],
   },
   {
     label: "Psychometric Assessment",

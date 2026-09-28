@@ -10,15 +10,24 @@ import {
   SparkIcon,
 } from "@/components/icons";
 import { getTest, tests } from "@/lib/tests";
+import { assessments, getAssessment } from "@/lib/assessments/catalog";
+import { getPageContent } from "@/lib/assessments/content";
+import { dimensionNames, getBankItems } from "@/lib/assessments/server";
+import { AssessmentLanding } from "@/components/assessment/landing";
 
 export function generateStaticParams() {
-  return tests.map((t) => ({ slug: t.slug }));
+  return [
+    ...assessments.map((a) => ({ slug: a.slug })),
+    ...tests.map((t) => ({ slug: t.slug })),
+  ];
 }
 
 export async function generateMetadata(
   props: PageProps<"/tests/[slug]">
 ): Promise<Metadata> {
   const { slug } = await props.params;
+  const meta = getAssessment(slug);
+  if (meta) return { title: meta.title, description: meta.tagline };
   const test = getTest(slug);
   if (!test) return {};
   return { title: test.name, description: test.tagline };
@@ -26,6 +35,20 @@ export async function generateMetadata(
 
 export default async function TestPage(props: PageProps<"/tests/[slug]">) {
   const { slug } = await props.params;
+
+  const meta = getAssessment(slug);
+  const page = meta && getPageContent(slug);
+  if (meta && page) {
+    return (
+      <AssessmentLanding
+        meta={meta}
+        page={page}
+        names={dimensionNames(meta)}
+        totalItems={getBankItems(meta).length}
+      />
+    );
+  }
+
   const test = getTest(slug);
   if (!test) notFound();
 

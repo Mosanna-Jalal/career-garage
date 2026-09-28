@@ -1,0 +1,3805 @@
+{
+ "learnerInstructions": [
+  "Read each statement carefully and answer according to your usual behaviour or preference.",
+  "Do not choose the answer that seems most impressive; choose the answer that is most accurate for you.",
+  "There are no good or bad personality, interest, value or learning-preference profiles.",
+  "For Cognitive Aptitude, select one best answer from options A–D."
+ ],
+ "listNotes": {
+  "CG-BF": {
+   "response": "5-point agreement scale",
+   "note": "Answer according to your usual behaviour, not the person you think you should be."
+  },
+  "CG-MB": {
+   "response": "5-point agreement scale",
+   "note": "Choose the response that best reflects your natural preference in ordinary situations."
+  },
+  "CG-EN": {
+   "response": "5-point agreement scale",
+   "note": "Focus on what usually motivates your behaviour, not only what others can see."
+  },
+  "CG-RI": {
+   "response": "1 Strongly Dislike · 2 Dislike · 3 Not Sure · 4 Like · 5 Strongly Like",
+   "note": "Rate how much you would enjoy each activity, even if you have not tried it yet."
+  },
+  "CG-DS": {
+   "response": "5-point agreement scale",
+   "note": "Answer based on how you usually respond while working with people and tasks."
+  },
+  "CG-EI": {
+   "response": "5-point agreement scale",
+   "note": "Think about your typical response across school, college, projects, home and community situations."
+  },
+  "CG-WV": {
+   "response": "1 Not Important · 2 Slightly Important · 3 Moderately Important · 4 Very Important · 5 Extremely Important",
+   "note": "Rate how important each condition would be when choosing or evaluating work."
+  },
+  "CG-CA": {
+   "response": "Select one best answer: A, B, C or D",
+   "note": "Work carefully without using the answer key. Skip a question and return later if needed."
+  },
+  "CG-LP": {
+   "response": "5-point agreement scale",
+   "note": "Answer based on methods that usually help you engage and understand; preferences are not fixed abilities."
+  },
+  "CG-EM": {
+   "response": "5-point agreement scale",
+   "note": "Think about how you approach opportunities, uncertainty, action and user needs."
+  },
+  "CG-DR": {
+   "response": "1 Not Confident · 2 Slightly Confident · 3 Moderately Confident · 4 Confident · 5 Very Confident",
+   "note": "Rate what you can do responsibly now, not what you hope to learn later."
+  },
+  "CG-CR": {
+   "response": "5-point agreement scale",
+   "note": "Think about actions you have taken or could explain with real evidence."
+  },
+  "CG-LD": {
+   "response": "5-point agreement scale",
+   "note": "Answer according to your behaviour when you influence, coordinate or support others."
+  }
+ },
+ "pages": {
+  "big-five": {
+   "sections": [
+    {
+     "id": "what",
+     "title": "What is the Big Five?",
+     "lead": "A research-based taxonomy of broad personality traits, commonly remembered by the acronym OCEAN.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The Big Five began as an effort to organise the many words people use to describe personality. Researchers proposed that socially important differences become represented in language, then used factor-analytic methods to identify clusters among trait descriptions. Across multiple approaches, five broad families repeatedly appeared. Goldberg's work helped establish the 'Big Five' label and factor structure; later reviews integrated the model with questionnaire research and personality theory (Goldberg, 1990; McCrae & John, 1992; John & Srivastava, 1999)."
+      },
+      {
+       "type": "p",
+       "text": "The framework is mainly descriptive: it summarises regularities in thought, feeling and behaviour. It does not, by itself, explain every cause of personality, every motivation or every individual difference. Narrower facets, values, interests, abilities, identity, culture and life circumstances still matter."
+      },
+      {
+       "type": "img",
+       "src": "/assessments/big-five/overview.png",
+       "w": 1589,
+       "h": 656,
+       "alt": "The five OCEAN continua: Openness, Conscientiousness, Extraversion, Agreeableness and Emotional Reactivity"
+      }
+     ]
+    },
+    {
+     "id": "how",
+     "title": "How personality assessment works",
+     "lead": "A valid interpretation depends on clear constructs, good items, transparent scoring and evidence from real users.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A student is not simply 'open' or 'not open', 'extrovert' or 'introvert'. Each domain represents a degree of typical expression. Middle scores can reflect genuine flexibility, context dependence or a mix of narrower tendencies. Extreme scores can be useful in some environments and costly in others."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Career Garage Big Five assessment architecture",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Design element",
+         "Career Garage specification"
+        ],
+        [
+         "Primary audience",
+         "Classes 8-12, college learners and graduates; younger versions require separate development"
+        ],
+        [
+         "Purpose",
+         "Self-understanding and career-environment exploration"
+        ],
+        [
+         "Total items",
+         "60"
+        ],
+        [
+         "Domains",
+         "5: Openness, Conscientiousness, Extraversion, Agreeableness and Emotional Reactivity"
+        ],
+        [
+         "Items per domain",
+         "12"
+        ],
+        [
+         "Response format",
+         "5-point agreement scale"
+        ],
+        [
+         "Opposite-direction items",
+         "15 total: 3 per domain, representing 25% of the bank"
+        ],
+        [
+         "Estimated time",
+         "Approximately 12-15 minutes after pilot confirmation"
+        ],
+        [
+         "Output",
+         "Five domain indices, narrative insights, career-environment prompts and a development plan"
+        ],
+        [
+         "Status",
+         "Development-stage original instrument; formal reliability, validity and norms not yet claimed"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "instructions",
+     "title": "Student instructions",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Read each statement and select the answer that best describes your usual behaviour. Answer as you generally are, not as you think you should be. Think across recent school, project, home and group experiences. There are no good or bad personality profiles. If a statement does not fit every situation, choose the answer that is true most often."
+      }
+     ]
+    },
+    {
+     "id": "analysis",
+     "title": "How your answers are analysed",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Field",
+         "Specification"
+        ],
+        [
+         "Response options",
+         "1 Strongly Disagree to 5 Strongly Agree"
+        ],
+        [
+         "Reverse-scored items",
+         "15 (25%); 3 per domain"
+        ],
+        [
+         "Domain score",
+         "Mean of available scored items, subject to minimum completion rule"
+        ],
+        [
+         "Display index",
+         "((mean - 1) / 4) × 100"
+        ],
+        [
+         "Minimum scored items",
+         "10 of 12 per domain"
+        ],
+        [
+         "Interpretation",
+         "Lower, middle/flexible, higher and very high self-reported expression"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Index",
+         "Label",
+         "Meaning"
+        ],
+        [
+         "0-39",
+         "Lower expression",
+         "The trait direction was endorsed less often in this item set."
+        ],
+        [
+         "40-59",
+         "Middle / flexible range",
+         "Responses suggest a mixed or context-dependent pattern."
+        ],
+        [
+         "60-79",
+         "Higher expression",
+         "The trait direction was endorsed relatively often."
+        ],
+        [
+         "80-100",
+         "Very high expression",
+         "The trait direction was endorsed very consistently."
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Is the Big Five a personality type test?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It gives five continuous scores. Career Garage should not turn the scores into rigid types."
+       }
+      ]
+     },
+     {
+      "q": "Is a high score always better?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Every level can support strengths and create trade-offs depending on the situation."
+       }
+      ]
+     },
+     {
+      "q": "Is lower Extraversion the same as poor communication?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It may reflect a preference for lower stimulation or more preparation. Communication is a skill that can be developed."
+       }
+      ]
+     },
+     {
+      "q": "Does high Emotional Reactivity mean a mental-health disorder?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. The score reflects self-reported stress sensitivity in this item set and is not diagnostic."
+       }
+      ]
+     },
+     {
+      "q": "Can personality change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Traits show meaningful stability, but average levels and individual patterns can change with development, roles, experience and intervention."
+       }
+      ]
+     },
+     {
+      "q": "Can the assessment choose a career for a student?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It can identify environment questions and development areas. Career decisions require multiple assessments and real evidence."
+       }
+      ]
+     },
+     {
+      "q": "Why are some items opposite in meaning?",
+      "a": [
+       {
+        "type": "p",
+        "text": "They help reduce automatic agreement and provide a basic response-quality check. They are reverse-scored."
+       }
+      ]
+     },
+     {
+      "q": "Why use 60 questions?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Twelve items per domain provide enough breadth for development-stage testing while keeping completion practical. Quality matters more than adding more items."
+       }
+      ]
+     },
+     {
+      "q": "Should all 13 Career Garage assessments be taken together?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Use separate sessions or a carefully designed combined pathway to prevent fatigue."
+       }
+      ]
+     },
+     {
+      "q": "Can teachers see raw answers?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Only if the published privacy, consent and role-access model authorises it. Default access should be limited to what is necessary."
+       }
+      ]
+     },
+     {
+      "q": "Can a student retake the assessment?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes, when there is a clear purpose. Record the version and date, and avoid treating small changes as major personality transformation."
+       }
+      ]
+     },
+     {
+      "q": "Can Career Garage compare a student with national norms?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Not until a representative norming study has been completed for the relevant age and language group."
+       }
+      ]
+     },
+     {
+      "q": "Can the English version simply be translated into Hindi?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It requires adaptation, cognitive interviewing and validation to show that meaning and scoring remain comparable."
+       }
+      ]
+     },
+     {
+      "q": "Is Career Garage using the official BFI or NEO?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Version 1 is an original Career Garage instrument aligned with the broad Big Five framework."
+       }
+      ]
+     },
+     {
+      "q": "When should a counsellor refer for additional support?",
+      "a": [
+       {
+        "type": "p",
+        "text": "When a learner reports persistent distress, impairment, risk or a need beyond career guidance. The personality score itself is not the referral diagnosis."
+       }
+      ]
+     },
+     {
+      "q": "Before public release, Career Garage should be able to answer",
+      "a": [
+       {
+        "type": "ul",
+        "items": [
+         "Who owns the assessment, scoring key and validation evidence?",
+         "Which ages, languages and uses have actually been tested?",
+         "What happens when a learner disputes a result or requests deletion?",
+         "How will a counsellor identify low-confidence or distress-related cases?",
+         "When will the item bank, norms and report language be reviewed again?"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "mbti": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Executive overview",
+     "lead": "A memorable preference language is useful only when it remains flexible, evidence-aware and non-deterministic.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/mbti/overview.png",
+       "w": 2056,
+       "h": 1000,
+       "alt": "The four paired preference dimensions: Social Energy, Information Focus, Decision Approach and Lifestyle Structure"
+      },
+      {
+       "type": "caption",
+       "text": "Figure 1. The four paired preference dimensions in the original Career Garage program."
+      },
+      {
+       "type": "h2",
+       "text": "The essential idea"
+      },
+      {
+       "type": "p",
+       "text": "People often find some ways of directing attention and organising behaviour more natural than others. A preference is the side that may feel more familiar or less effortful; it is not the only side a person can use. Education, roles, culture, expectations, maturity and deliberate practice all influence what behaviour appears in a particular setting."
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Dimension",
+         "Career Garage question",
+         "What it is not"
+        ],
+        [
+         "Social Energy",
+         "Do I usually process and recharge through outward engagement or inward reflection?",
+         "A measure of confidence, communication skill or sociability value"
+        ],
+        [
+         "Information Focus",
+         "Do I first trust concrete detail or notice patterns and possibilities?",
+         "A measure of intelligence, creativity or academic ability"
+        ],
+        [
+         "Decision Approach",
+         "Do I first emphasise analytical consistency or people-and-values impact?",
+         "A measure of kindness, rationality or moral quality"
+        ],
+        [
+         "Lifestyle Structure",
+         "Do I prefer planned closure or adaptable openness in managing activity?",
+         "A measure of discipline, productivity or reliability by itself"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "does",
+     "title": "What Career Garage does",
+     "blocks": [
+      {
+       "type": "ol",
+       "items": [
+        "Collects 64 original responses: eight statements for each of eight poles.",
+        "Reports both pole indices, the pair difference and preference clarity, including balanced results.",
+        "Uses an optional code for environment questions, then combines the profile with RIASEC, aptitude, values, readiness and real-world evidence."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What is a type-preference framework?",
+     "lead": "A type language describes recurring orientations; good assessment practice still preserves the continuous evidence underneath.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Carl Jung's Psychological Types, first published in 1921, described introverted and extraverted attitudes and four orienting functions: sensation, intuition, thinking and feeling. Isabel Briggs Myers and Katharine Cook Briggs later developed the official Myers-Briggs Type Indicator® system and added a Judging-Perceiving preference to support 16 four-letter combinations."
+      }
+     ]
+    },
+    {
+     "id": "patterns",
+     "title": "Sixteen original Career Garage pattern summaries",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Code",
+         "Original descriptor",
+         "May bring",
+         "Useful stretch question"
+        ],
+        [
+         "ISTJ",
+         "Methodical Implementer",
+         "Careful sequencing, factual follow-through and stable systems",
+         "Check when a new option is worth testing"
+        ],
+        [
+         "ISFJ",
+         "Dependable Supporter",
+         "Practical care, consistency and attention to people's needs",
+         "State boundaries and question inefficient routines"
+        ],
+        [
+         "INFJ",
+         "Reflective Developer",
+         "Long-range insight, values and thoughtful support for growth",
+         "Test interpretations against concrete evidence"
+        ],
+        [
+         "INTJ",
+         "Systems Strategist",
+         "Independent analysis, future structure and complex problem framing",
+         "Invite feedback before locking the model"
+        ],
+        [
+         "ISTP",
+         "Hands-on Diagnostician",
+         "Calm troubleshooting, technical observation and adaptive action",
+         "Make progress and communication visible"
+        ],
+        [
+         "ISFP",
+         "Considerate Improviser",
+         "Responsive practical work, personal values and situational awareness",
+         "Set milestones before options become delays"
+        ],
+        [
+         "INFP",
+         "Purpose-led Creator",
+         "Original possibilities guided by meaning and personal values",
+         "Translate ideals into evidence and deadlines"
+        ],
+        [
+         "INTP",
+         "Independent Model-Builder",
+         "Conceptual analysis, logical exploration and questioning assumptions",
+         "Decide when analysis is sufficient for action"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Code",
+         "Original descriptor",
+         "May bring",
+         "Useful stretch question"
+        ],
+        [
+         "ESTP",
+         "Rapid Problem-Solver",
+         "Immediate action, practical experimentation and social responsiveness",
+         "Pause for long-term consequence and documentation"
+        ],
+        [
+         "ESFP",
+         "Engaging Contributor",
+         "Visible energy, practical support and responsiveness to people",
+         "Protect focus and prepare for less stimulating tasks"
+        ],
+        [
+         "ENFP",
+         "Opportunity Explorer",
+         "Connecting people and possibilities with adaptable enthusiasm",
+         "Narrow priorities and finish the chosen experiment"
+        ],
+        [
+         "ENTP",
+         "Conceptual Experimenter",
+         "Inventive debate, pattern recognition and strategic alternatives",
+         "Separate useful challenge from endless novelty"
+        ],
+        [
+         "ESTJ",
+         "Execution Organiser",
+         "Clear standards, coordination and decisive practical implementation",
+         "Keep space for context, dissent and revision"
+        ],
+        [
+         "ESFJ",
+         "Relationship Coordinator",
+         "Organised service, communication and dependable group support",
+         "Address disagreement without over-owning harmony"
+        ],
+        [
+         "ENFJ",
+         "People-and-Vision Facilitator",
+         "Purposeful communication, development and coordinated momentum",
+         "Avoid assuming others share the same priorities"
+        ],
+        [
+         "ENTJ",
+         "Direction-setting Planner",
+         "Strategic structure, decisive mobilisation and objective prioritisation",
+         "Listen for human cost and emerging evidence"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Career Garage assessment architecture",
+     "lead": "Version 1 uses 64 original, positively worded items distributed evenly across four pairs and eight poles.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Design element",
+         "Career Garage specification"
+        ],
+        [
+         "Assessment name",
+         "Career Garage Four-Dimension Personality Preferences Assessment - Version 1.0"
+        ],
+        [
+         "Assessment ID",
+         "CG-MB"
+        ],
+        [
+         "Primary audience",
+         "Classes 8-12, college learners and graduates; younger versions require separate development"
+        ],
+        [
+         "Purpose",
+         "Self-understanding, learning preferences and career-environment exploration"
+        ],
+        [
+         "Total items",
+         "64"
+        ],
+        [
+         "Dimensions",
+         "Social Energy, Information Focus, Decision Approach and Lifestyle Structure"
+        ],
+        [
+         "Poles",
+         "E, I, S, N, T, F, J and P - eight items each"
+        ],
+        [
+         "Response format",
+         "5-point agreement scale"
+        ],
+        [
+         "Reverse-scored items",
+         "None in Version 1; the opposite pole is measured with separate positive statements"
+        ],
+        [
+         "Estimated time",
+         "Approximately 12-18 minutes after pilot confirmation"
+        ],
+        [
+         "Output",
+         "Eight pole indices, four pair differences, clarity labels, optional code and reflection plan"
+        ],
+        [
+         "Status",
+         "Development-stage original instrument; reliability, validity, fairness and norms not yet established"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Item blueprint within each pole"
+      },
+      {
+       "type": "p",
+       "text": "Each pole begins with four behavioural indicators. The same indicators are expressed once in general life and once in study, project or work context. This supports content coverage and context discussion, but repeated meaning can inflate internal consistency; pilot analysis must test redundancy."
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Context frame",
+         "Items per pole",
+         "Purpose"
+        ],
+        [
+         "General behaviour",
+         "4",
+         "How the learner usually recognises the preference in everyday life"
+        ],
+        [
+         "Study, project or work",
+         "4",
+         "How the preference appears in performance settings"
+        ],
+        [
+         "Total",
+         "8",
+         "Four indicators across two contexts"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Item identifiers"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Pole",
+         "Item range",
+         "Higher score means"
+        ],
+        [
+         "Outward Engagement",
+         "CG-MB-SE-E-01 to CG-MB-SE-E-08",
+         "More endorsement of outward engagement"
+        ],
+        [
+         "Inward Reflection",
+         "CG-MB-SE-I-01 to CG-MB-SE-I-08",
+         "More endorsement of inward reflection"
+        ],
+        [
+         "Concrete Detail",
+         "CG-MB-IF-S-01 to CG-MB-IF-S-08",
+         "More endorsement of concrete detail"
+        ],
+        [
+         "Pattern Possibility",
+         "CG-MB-IF-N-01 to CG-MB-IF-N-08",
+         "More endorsement of pattern possibility"
+        ],
+        [
+         "Analytical Logic",
+         "CG-MB-DA-T-01 to CG-MB-DA-T-08",
+         "More endorsement of analytical logic"
+        ],
+        [
+         "People Impact",
+         "CG-MB-DA-F-01 to CG-MB-DA-F-08",
+         "More endorsement of people impact"
+        ],
+        [
+         "Planned Closure",
+         "CG-MB-LS-J-01 to CG-MB-LS-J-08",
+         "More endorsement of planned closure"
+        ],
+        [
+         "Adaptive Openness",
+         "CG-MB-LS-P-01 to CG-MB-LS-P-08",
+         "More endorsement of adaptive openness"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Is this the official MBTI® assessment?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is an original Career Garage instrument informed by broad preference-pair concepts. It must not be sold or described as an official MBTI assessment."
+       }
+      ]
+     },
+     {
+      "q": "Why does the prompt mention Big Five?",
+      "a": [
+       {
+        "type": "p",
+        "text": "The Big Five is a separate trait framework. This handbook includes a comparison because Career Garage may use both instruments, but their scores are not interchangeable."
+       }
+      ]
+     },
+     {
+      "q": "Is one pole better than the other?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Every pole can support strengths and create trade-offs depending on the situation."
+       }
+      ]
+     },
+     {
+      "q": "Does E mean good communication?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. E concerns a reported preference for outward engagement. Communication is a learnable skill available at every score."
+       }
+      ]
+     },
+     {
+      "q": "Does T mean logical and F mean emotional?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Both can reason and care. The pair concerns which decision criteria a learner tends to foreground."
+       }
+      ]
+     },
+     {
+      "q": "Does J mean judgemental?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Planned Closure concerns structure and completion, not judging other people."
+       }
+      ]
+     },
+     {
+      "q": "Why are there no reverse-scored items?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Version 1 measures each opposite pole with its own positive statements. This improves readability but creates acquiescence risk that must be tested."
+       }
+      ]
+     },
+     {
+      "q": "Why use 64 questions?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Eight items per pole provide balanced coverage across eight poles while remaining practical for a pilot. Evidence, not item count alone, determines quality."
+       }
+      ]
+     },
+     {
+      "q": "Can the system always produce one of 16 codes?",
+      "a": [
+       {
+        "type": "p",
+        "text": "It can mechanically do so, but Career Garage should use X for pairs with very small differences or weak response quality."
+       }
+      ]
+     },
+     {
+      "q": "Can a learner's code change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Small differences, development, roles, language and context can change a code position. The underlying scores and examples matter more."
+       }
+      ]
+     },
+     {
+      "q": "Can the result choose a career?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It can suggest environment questions. Career decisions require interests, aptitude, values, qualifications, opportunity and lived evidence."
+       }
+      ]
+     },
+     {
+      "q": "Should all 13 assessments be taken together?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Use separate sessions or a carefully designed pathway to prevent fatigue and preserve informed consent."
+       }
+      ]
+     },
+     {
+      "q": "Can teachers see raw answers?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Only if the published privacy, consent and role-access model authorises it. Default access should be limited to what is necessary."
+       }
+      ]
+     },
+     {
+      "q": "When should a counsellor refer for support?",
+      "a": [
+       {
+        "type": "p",
+        "text": "When a learner reports persistent distress, impairment, risk or a need beyond career guidance. A preference score is not a referral diagnosis."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "enneagram": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Executive overview",
+     "lead": "Career Garage uses motivation patterns as a reflection language, not as a permanent identity system.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/enneagram/overview.png",
+       "w": 1537,
+       "h": 1428,
+       "alt": "Career Garage Nine Motivation Pattern Map"
+      },
+      {
+       "type": "caption",
+       "text": "Figure 1. Original Career Garage Nine Motivation Pattern Map. The map deliberately has no wings or directional arrows because those features are not scored in Version 1."
+      },
+      {
+       "type": "p",
+       "text": "Two learners can display the same behaviour for different reasons. One may lead a project to achieve a visible target; another may lead to protect a group; another may lead because standards are slipping. Behaviour matters, but motive, attention and context help explain what sustains it."
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What is an Enneagram-inspired framework?",
+     "lead": "A nine-pattern language for exploring recurring motivations, attention habits and coping strategies.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The modern Enneagram of personality is a nine-type typology. Contemporary schools commonly describe one dominant type and may add wings, centres, levels and directional movements. The personality system is a modern twentieth-century synthesis rather than an unchanged ancient psychological test; even the Enneagram Institute's history places the type system's development in the 1960s around Oscar Ichazo's teaching, with later contributions from Claudio Naranjo and others."
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Stage",
+         "Platform action",
+         "Human meaning"
+        ],
+        [
+         "1. Prepare",
+         "Age check, notice, consent or assent, language and accessibility choice",
+         "The learner understands the purpose and limits"
+        ],
+        [
+         "2. Respond",
+         "72 first-person statements on a five-point scale",
+         "Answers reflect usual behaviour, not an ideal self"
+        ],
+        [
+         "3. Score",
+         "Reverse key, pattern means and 0-100 indices",
+         "All nine themes remain visible"
+        ],
+        [
+         "4. Quality check",
+         "Completion, unusual response patterns and near ties",
+         "Flags invite review; they do not punish"
+        ],
+        [
+         "5. Interpret",
+         "Top three, strengths, pressure risks and growth actions",
+         "Patterns become hypotheses, not labels"
+        ],
+        [
+         "6. Integrate",
+         "RIASEC, Big Five, values, aptitude, readiness and experience",
+         "A career direction needs multiple sources"
+        ],
+        [
+         "7. Act",
+         "30- or 90-day evidence-building plan",
+         "The learner tests ideas in the real world"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Element",
+         "Version 1 specification"
+        ],
+        [
+         "Assessment ID",
+         "CG-EN"
+        ],
+        [
+         "Public product name",
+         "Career Garage Nine Motivation Patterns Assessment (Original)"
+        ],
+        [
+         "Audience",
+         "Classes 8-12, college learners and graduates"
+        ],
+        [
+         "Item count",
+         "72 original first-person statements"
+        ],
+        [
+         "Scales",
+         "Nine patterns, P1 through P9"
+        ],
+        [
+         "Items per scale",
+         "Eight: six direct and two reverse-scored"
+        ],
+        [
+         "Response scale",
+         "1 Strongly Disagree to 5 Strongly Agree"
+        ],
+        [
+         "Estimated time",
+         "12-16 minutes, subject to pilot evidence"
+        ],
+        [
+         "Primary output",
+         "Nine indices plus top three, ties, quality flags and development guidance"
+        ],
+        [
+         "Item exposure",
+         "Illustrative items may be public; full bank and keys remain controlled"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Is this an official Enneagram test?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is an original Career Garage instrument inspired by the broad idea of nine motivation patterns. It is not RHETI and is not affiliated with the Enneagram Institute or another school."
+       }
+      ]
+     },
+     {
+      "q": "Why does this handbook discuss Big Five?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Career Garage includes both programs. Big Five is a separate continuous trait framework; this handbook explains how the two can complement each other without converting scores."
+       }
+      ]
+     },
+     {
+      "q": "Why not assign one type?",
+      "a": [
+       {
+        "type": "p",
+        "text": "The evidence does not justify treating nine types as fixed categories, especially for young learners. All nine continuous scores preserve more information and reduce labelling."
+       }
+      ]
+     },
+     {
+      "q": "Why report the top three?",
+      "a": [
+       {
+        "type": "p",
+        "text": "The top three organise reflection while acknowledging that several motives can be active. They are discussion priorities, not a new three-type identity."
+       }
+      ]
+     },
+     {
+      "q": "Why are there no wings or arrows?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Research support for secondary features is limited, and those features are unnecessary for Version 1 career reflection."
+       }
+      ]
+     },
+     {
+      "q": "Are high scores good?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No pattern is automatically good or bad. Every theme can contribute when flexible and create trade-offs when overused."
+       }
+      ]
+     },
+     {
+      "q": "Can a low score improve?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Scores are not ability limits. A learner can practise behaviours associated with any pattern, whether or not the motive is strongly endorsed."
+       }
+      ]
+     },
+     {
+      "q": "Can results change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Context, development, language, current roles, item understanding and ordinary measurement error can affect scores."
+       }
+      ]
+     },
+     {
+      "q": "Why use reverse-scored items?",
+      "a": [
+       {
+        "type": "p",
+        "text": "They can reduce automatic agreement, but they can also confuse respondents. Career Garage must test their comprehension and method effects."
+       }
+      ]
+     },
+     {
+      "q": "Are 72 questions enough?",
+      "a": [
+       {
+        "type": "p",
+        "text": "The architecture gives eight items per pattern, but adequacy depends on content coverage and empirical evidence, not count alone."
+       }
+      ]
+     },
+     {
+      "q": "Can the test choose a school stream or career?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It can suggest questions about motivating environments. Interests, aptitude, values, readiness, qualifications and experience are also required."
+       }
+      ]
+     },
+     {
+      "q": "Can schools compare classrooms?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Only after fairness, aggregation, privacy and interpretation rules are established. Individual scores should not be used to label or rank classes."
+       }
+      ]
+     },
+     {
+      "q": "Can parents see every answer?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Access follows the published age, consent and role model. The learner's dignity, privacy and safety remain central."
+       }
+      ]
+     },
+     {
+      "q": "Can employers use the profile?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Career Garage should prohibit use for hiring, screening, promotion or exclusion."
+       }
+      ]
+     },
+     {
+      "q": "Can AI write the report?",
+      "a": [
+       {
+        "type": "p",
+        "text": "AI may personalise approved developmental language after deterministic scoring. It must not invent scores, cut-offs, diagnoses or career certainty."
+       }
+      ]
+     },
+     {
+      "q": "When is counsellor review essential?",
+      "a": [
+       {
+        "type": "p",
+        "text": "When scores conflict with experience, response-quality flags appear, distress is present or an important education or career decision is being considered."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "disc": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Overview",
+     "lead": "Four continuous work-style signals organised by pace and attention, with the complete profile preserved.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/disc/overview.png",
+       "w": 1895,
+       "h": 1587,
+       "alt": "Career Garage four work-style dimensions: Directing, Engaging, Stabilising and Systematic"
+      },
+      {
+       "type": "caption",
+       "text": "Figure 1. Original Career Garage organising map. The two lenses are discussion aids, not separately scored axes."
+      },
+      {
+       "type": "p",
+       "text": "The Career Garage model describes four ways a learner may approach shared work. Directing adds pace and ownership; Engaging adds energy and participation; Stabilising adds patience and continuity; Systematic adds evidence and standards. A learner has a score on every dimension and can use any behaviour deliberately."
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What is a work-style assessment?",
+     "lead": "It measures self-reported behavioural tendencies in defined work and learning contexts.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A work style is a recurring approach to tasks, communication, coordination, decisions and standards. The Career Garage assessment asks how often a learner recognises four broad approaches in usual situations and when demands increase. It does not observe the learner directly and cannot determine why a behaviour occurs."
+      }
+     ]
+    },
+    {
+     "id": "history",
+     "title": "Historical roots and the modern landscape",
+     "lead": "Marston proposed four emotional-behaviour patterns; modern DISC assessments were developed later by different publishers.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "William Moulton Marston's 1928 book Emotions of Normal People described Dominance, Inducement, Submission and Compliance as patterns of emotional expression in relation to a person's perception of the environment. Marston did not create the modern commercial questionnaires now sold under DISC-related names. Later developers translated, changed and commercialised the broad four-quadrant idea in different ways."
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "lead": "A transparent path from consent to a reviewed development experiment.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Stage",
+         "Platform action",
+         "Learner meaning"
+        ],
+        [
+         "1. Prepare",
+         "Purpose, notice, consent or assent, language and access needs",
+         "I understand the purpose and limits"
+        ],
+        [
+         "2. Respond",
+         "48 original statements on a five-point scale",
+         "I answer for usual behaviour, not an ideal image"
+        ],
+        [
+         "3. Score",
+         "Reverse key, four means and 0-100 indices",
+         "All four dimensions remain visible"
+        ],
+        [
+         "4. Review",
+         "Completion, near ties and pilot-calibrated quality flags",
+         "A flag invites review; it does not accuse"
+        ],
+        [
+         "5. Interpret",
+         "Contributions, trade-offs and context questions",
+         "Scores become hypotheses, not labels"
+        ],
+        [
+         "6. Integrate",
+         "Interests, traits, values, aptitude, readiness and experience",
+         "One tool cannot decide my future"
+        ],
+        [
+         "7. Act",
+         "Communication, teamwork or career experiment",
+         "I collect evidence and update the plan"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Explainable technology"
+      },
+      {
+       "type": "p",
+       "text": "Scoring belongs in deterministic, version-controlled code. A rules engine selects approved descriptions. AI may make language easier to understand or propose bounded development actions only when it preserves the input scores, uncertainty and prohibited-use rules. A learner and counsellor must be able to inspect the basis for every statement."
+      },
+      {
+       "type": "callout",
+       "label": "PLATFORM PROMISE",
+       "text": "No hidden type assignment, no proprietary algorithm imitation and no unexplained career-fit percentage."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "lead": "The handbook aligns exactly with the Career Garage 13-assessment master question bank.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Element",
+         "Version 1 specification"
+        ],
+        [
+         "Assessment ID",
+         "CG-DS"
+        ],
+        [
+         "Public product name",
+         "Career Garage Four Work-Style Dimensions Assessment (Original)"
+        ],
+        [
+         "Audience",
+         "Classes 8-12 and college learners"
+        ],
+        [
+         "Item count",
+         "48 original first-person statements"
+        ],
+        [
+         "Scales",
+         "Directing, Engaging, Stabilising and Systematic"
+        ],
+        [
+         "Items per scale",
+         "12: nine direct and three reverse-scored"
+        ],
+        [
+         "Response type",
+         "Five-point Likert: Strongly Disagree to Strongly Agree"
+        ],
+        [
+         "Estimated time",
+         "8-12 minutes, subject to pilot evidence"
+        ],
+        [
+         "Primary output",
+         "Four indices, ranking, near ties, quality flags and development guidance"
+        ],
+        [
+         "Development status",
+         "Pilot, item analysis, reliability and fairness review required"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Item blueprint"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Scale",
+         "Item range",
+         "Direct",
+         "Reverse"
+        ],
+        [
+         "Directing",
+         "CG-DS-DIR-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Engaging",
+         "CG-DS-ENG-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Stabilising",
+         "CG-DS-STA-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Systematic",
+         "CG-DS-SYS-01 to -12",
+         "9",
+         "3"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Parallel context structure"
+      },
+      {
+       "type": "p",
+       "text": "Each scale includes three core direct behaviours in general form, the same behaviours anchored in study/project/work, and the same behaviours under demand. One reverse behaviour is repeated across those three contexts. This structure supports context discussion but may create wording redundancy and method effects. Pilot studies should compare it with less repetitive alternatives before release."
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Is this an official DiSC assessment?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is an original Career Garage instrument with new scale names, items, scoring, figures and reports. It is not authorised or licensed by Wiley or another publisher."
+       }
+      ]
+     },
+     {
+      "q": "Why not call learners D, I, S or C types?",
+      "a": [
+       {
+        "type": "p",
+        "text": "A type label hides the complete profile and implies more certainty than Version 1 evidence supports. Career Garage reports four continuous scores."
+       }
+      ]
+     },
+     {
+      "q": "Are high scores good?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. High means the behaviour was endorsed more often, not that it is skilled, ethical or appropriate in every situation."
+       }
+      ]
+     },
+     {
+      "q": "Can a learner have two or more high scores?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Several approaches can be strongly expressed. Discuss how they combine and which situations call for each."
+       }
+      ]
+     },
+     {
+      "q": "Can results change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Context, development, role, safety, language, current demands and ordinary measurement variation can affect results."
+       }
+      ]
+     },
+     {
+      "q": "Does Directing mean leadership potential?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Leadership requires judgement, ethics, learning, communication and observed responsibility. No single style establishes potential."
+       }
+      ]
+     },
+     {
+      "q": "Does Systematic mean intelligence?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It reflects reported evidence and standards behaviour, not cognitive ability."
+       }
+      ]
+     },
+     {
+      "q": "Why are there reverse items?",
+      "a": [
+       {
+        "type": "p",
+        "text": "They reduce simple agreement patterns but may create confusion. Career Garage must test comprehension and wording effects."
+       }
+      ]
+     },
+     {
+      "q": "Can schools use the result to form teams?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Not as a sorting rule. Use voluntary discussion, observed skill, availability and development goals."
+       }
+      ]
+     },
+     {
+      "q": "Can AI write the report?",
+      "a": [
+       {
+        "type": "p",
+        "text": "AI may explain approved score-grounded content. Scoring remains deterministic and important guidance requires qualified human review."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "riasec": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Overview",
+     "lead": "RIASEC organises career interests into six connected themes while preserving the learner's complete profile.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/riasec/overview.png",
+       "w": 1738,
+       "h": 1615,
+       "alt": "Career Garage six-theme interest map"
+      },
+      {
+       "type": "caption",
+       "text": "Figure 1. Original Career Garage representation of the six-theme interest map."
+      },
+      {
+       "type": "p",
+       "text": "Holland's theory proposes that people and work environments can be described using six broad themes: Realistic, Investigative, Artistic, Social, Enterprising and Conventional. Career Garage turns those themes into six continuous interest scales. The result supports exploration of tasks, learning routes and work settings; it is not a label or a placement decision."
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What are vocational interests?",
+     "lead": "Interests concern attraction and engagement; they are distinct from ability, values and personality.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A vocational interest is a recurring preference for certain activities, subjects, problems or work environments. A learner may enjoy an activity before becoming skilled at it, or become skilled at a necessary activity without finding it energising. Interests are therefore useful for choosing what to explore and practise, but they cannot establish competence."
+      }
+     ]
+    },
+    {
+     "id": "theory",
+     "title": "Holland's RIASEC theory",
+     "lead": "A person-environment framework for understanding interests and occupational settings.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "John L. Holland developed a theory of vocational personalities and work environments in which both people and environments can be represented using the same six themes. A person's pattern summarises preferred activities and settings. An environment's pattern summarises the activities, demands and rewards that are prominent there. Career development involves exploring whether a learner and an environment can support one another, not locating a single perfect occupation."
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "lead": "A transparent seven-stage path from consent to a real-world career experiment.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Stage",
+         "Platform action",
+         "Learner meaning"
+        ],
+        [
+         "1. Prepare",
+         "Purpose, notice, consent or assent, language and access needs",
+         "I know why I am taking this and how data will be used"
+        ],
+        [
+         "2. Respond",
+         "60 original first-person statements on a five-point scale",
+         "I answer for my usual attraction, not what looks impressive"
+        ],
+        [
+         "3. Score",
+         "Reverse key, six means and 0-100 indices",
+         "All six interests remain visible"
+        ],
+        [
+         "4. Review quality",
+         "Completion, near ties and pilot-calibrated response flags",
+         "A flag invites review; it is not an accusation"
+        ],
+        [
+         "5. Interpret",
+         "Theme descriptions, top three and uncertainty notes",
+         "My code organises questions rather than defining me"
+        ],
+        [
+         "6. Integrate",
+         "Aptitude, traits, values, readiness, constraints and exposure",
+         "One result cannot decide my future"
+        ],
+        [
+         "7. Act",
+         "Course sample, project, interview, visit, shadowing or internship",
+         "I collect evidence and update the plan"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Deterministic scoring, governed narrative"
+      },
+      {
+       "type": "p",
+       "text": "Responses, keys, score calculations, missing-data rules and tie logic belong in version-controlled deterministic code. A rules engine selects approved interpretation blocks. Generative AI may improve readability or personalise an action plan only within approved boundaries, with the underlying scores and uncertainty visible to the learner and reviewer."
+      },
+      {
+       "type": "callout",
+       "label": "CAREER GARAGE PROMISE",
+       "text": "A learner should always be able to see which scores produced a recommendation, why a career environment is being explored and what evidence would confirm or challenge the idea."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "lead": "The handbook aligns with the Career Garage 13-assessment master question bank.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Element",
+         "Version 1 specification"
+        ],
+        [
+         "Assessment ID",
+         "CG-RI"
+        ],
+        [
+         "Public product name",
+         "Career Garage RIASEC Career Interests Assessment (Original)"
+        ],
+        [
+         "Audience",
+         "Classes 8-12 and college learners"
+        ],
+        [
+         "Item count",
+         "60 original first-person statements"
+        ],
+        [
+         "Scales",
+         "Six: R, I, A, S, E and C"
+        ],
+        [
+         "Items per scale",
+         "10: eight direct and two reverse-scored"
+        ],
+        [
+         "Response type",
+         "Five-point Likert: Strongly Disagree to Strongly Agree"
+        ],
+        [
+         "Estimated time",
+         "10-15 minutes, subject to pilot evidence"
+        ],
+        [
+         "Primary output",
+         "Six indices, top three, ties, quality flags and exploration guidance"
+        ],
+        [
+         "Development status",
+         "No reliability, validity, norms or predictive claims until supported"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Item blueprint"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Theme",
+         "Item range",
+         "Direct",
+         "Reverse"
+        ],
+        [
+         "R Realistic",
+         "CG-RI-R-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "I Investigative",
+         "CG-RI-I-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "A Artistic",
+         "CG-RI-A-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "S Social",
+         "CG-RI-S-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "E Enterprising",
+         "CG-RI-E-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "C Conventional",
+         "CG-RI-C-01 to -10",
+         "8",
+         "2"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Items 09 and 10 are reverse-scored in each theme. Reverse wording is intended to reduce simple agreement patterns, but it can also create comprehension and method effects; those effects must be studied, especially across age and language groups."
+      },
+      {
+       "type": "h2",
+       "text": "Content standard"
+      },
+      {
+       "type": "p",
+       "text": "Each scale should cover several activities and contexts rather than repeat one stereotyped image. For example, Realistic items should not be limited to heavy tools, Social items should not be feminised, Enterprising items should not equate influence with wealth, and Conventional items should not imply low creativity or status."
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Is RIASEC a personality test?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It measures self-reported attraction to career activities and environments. It should not be converted into a personality or ability label."
+       }
+      ]
+     },
+     {
+      "q": "What does a three-letter code mean?",
+      "a": [
+       {
+        "type": "p",
+        "text": "It summarises the three highest current interest scores. The full six-score profile, ties, context and uncertainty remain important."
+       }
+      ]
+     },
+     {
+      "q": "Is a high score good?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No theme is better than another. A high score means stronger reported attraction in this item set, not greater talent, maturity or career value."
+       }
+      ]
+     },
+     {
+      "q": "Can a learner have all high or all similar scores?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Broad exposure, broad attraction, central responding or item limitations can produce a flatter profile. Use examples and experiments rather than forcing differentiation."
+       }
+      ]
+     },
+     {
+      "q": "Can interests change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Interests can develop through exposure, learning, opportunity, identity and changing roles. Reports should include administration date, context and version."
+       }
+      ]
+     },
+     {
+      "q": "Does an opposite-theme combination make the profile invalid?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. R-S, I-E or A-C combinations may reflect varied tasks or contexts. Explore how both interests appear."
+       }
+      ]
+     },
+     {
+      "q": "Can RIASEC select a school stream or degree?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Not by itself. Use subject preparation, aptitude, values, access, course requirements and experience alongside interests."
+       }
+      ]
+     },
+     {
+      "q": "Why are there reverse items?",
+      "a": [
+       {
+        "type": "p",
+        "text": "They reduce simple agreement patterns, but may also confuse respondents. Career Garage must test comprehension and method effects."
+       }
+      ]
+     },
+     {
+      "q": "Is the Career Garage tool the O*NET Interest Profiler?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Career Garage uses an original item bank, scoring policy and report. It must not imply equivalence or affiliation."
+       }
+      ]
+     },
+     {
+      "q": "Can AI make career recommendations?",
+      "a": [
+       {
+        "type": "p",
+        "text": "AI may explain approved score-grounded hypotheses and actions. Deterministic scoring and qualified human review remain required for important decisions."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "emotional-intelligence": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Overview",
+     "lead": "Five self-reported emotional competencies kept visible as a complete profile.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/emotional-intelligence/overview.png",
+       "w": 1961,
+       "h": 1565,
+       "alt": "Career Garage five-competency emotional intelligence model"
+      },
+      {
+       "type": "caption",
+       "text": "Figure 1. Original Career Garage five-competency model. The connecting lines show interaction, not causal order."
+      },
+      {
+       "type": "p",
+       "text": "Career Garage treats emotions as information that can influence attention, judgement, action and relationships. The model asks what a learner usually notices and does with that information. The result is developmental: it should lead to a question, an observable practice and new evidence."
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What is emotional intelligence?",
+     "lead": "A broad label for reasoning about emotions, emotional self-perceptions and practical competencies.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Salovey and Mayer's early work described emotional intelligence as using information from one's own and others' emotions to guide thinking and action. Later ability models organised EI around perceiving, using, understanding and managing emotion. Other researchers developed trait models focused on emotional self-perceptions, while mixed models combined emotional skills with motives, dispositions and social competencies."
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "lead": "A transparent path from consent to a reviewed emotional-competency experiment.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Stage",
+         "Platform action",
+         "Learner meaning"
+        ],
+        [
+         "1. Prepare",
+         "Purpose, notice, consent or assent, access and support",
+         "I understand the purpose, privacy and limits"
+        ],
+        [
+         "2. Respond",
+         "60 original statements on a five-point scale",
+         "I answer for usual behaviour, not an ideal image"
+        ],
+        [
+         "3. Score",
+         "Reverse key, five means and 0-100 indices",
+         "Each competency remains visible"
+        ],
+        [
+         "4. Review",
+         "Completion and pilot-calibrated response-quality flags",
+         "A flag invites review; it does not accuse"
+        ],
+        [
+         "5. Interpret",
+         "Strength signals, limits, context and confidence",
+         "Scores become questions, not moral labels"
+        ],
+        [
+         "6. Integrate",
+         "Traits, interests, values, aptitude, readiness and experience",
+         "One tool cannot decide my future"
+        ],
+        [
+         "7. Act",
+         "One practice, one feedback source and one review date",
+         "I collect evidence and update the plan"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Explainable technology"
+      },
+      {
+       "type": "p",
+       "text": "Deterministic, version-controlled code performs scoring and quality checks. A rules engine selects approved interpretations. AI may simplify language or propose bounded activities only when it preserves the five scores, uncertainty, safeguarding and prohibited-use rules."
+      },
+      {
+       "type": "callout",
+       "label": "PLATFORM PROMISE",
+       "text": "No hidden EQ, no emotion diagnosis, no inferred trauma and no unexplained career-fit percentage."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "lead": "The handbook aligns exactly with the Career Garage 13-assessment master question bank.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Element",
+         "Version 1 specification"
+        ],
+        [
+         "Assessment ID",
+         "CG-EI"
+        ],
+        [
+         "Public product name",
+         "Career Garage Emotional Competencies Assessment"
+        ],
+        [
+         "Audience",
+         "Classes 8-12 and college learners"
+        ],
+        [
+         "Item count",
+         "60 original first-person statements"
+        ],
+        [
+         "Competencies",
+         "Self-Awareness, Self-Regulation, Internal Motivation, Empathy and Relationship Management"
+        ],
+        [
+         "Items per competency",
+         "12: nine direct and three reverse-scored"
+        ],
+        [
+         "Response type",
+         "Five-point Likert: Strongly Disagree to Strongly Agree"
+        ],
+        [
+         "Estimated time",
+         "10-15 minutes, subject to pilot evidence"
+        ],
+        [
+         "Primary output",
+         "Five indices, planning bands, quality flags and development guidance"
+        ],
+        [
+         "Development status",
+         "Pilot, item analysis, reliability and fairness review required"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Item blueprint"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Competency",
+         "Item range",
+         "Direct",
+         "Reverse"
+        ],
+        [
+         "Self-Awareness",
+         "CG-EI-SAW-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Self-Regulation",
+         "CG-EI-SRG-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Internal Motivation",
+         "CG-EI-IMO-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Empathy",
+         "CG-EI-EMP-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Relationship Management",
+         "CG-EI-RMG-01 to -12",
+         "9",
+         "3"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Parallel context structure"
+      },
+      {
+       "type": "p",
+       "text": "Each competency contains three direct behaviours in general form, the same behaviours in study/project/work and the same behaviours under demand. One reverse behaviour appears in those three contexts. Pilot work should examine repetition, reading burden, acquiescence and reverse-wording effects before release."
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Is this a clinical emotional-intelligence test?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is an original development-stage self-report competency tool for career and learning guidance."
+       }
+      ]
+     },
+     {
+      "q": "Does CG-EI measure emotional ability?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Ability EI requires performance tasks. CG-EI records self-perceptions of usual competency-related behaviour."
+       }
+      ]
+     },
+     {
+      "q": "Will learners receive an EQ?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Version 1 reports five indices and does not publish a global EQ, percentile or emotional age."
+       }
+      ]
+     },
+     {
+      "q": "Are high scores good?",
+      "a": [
+       {
+        "type": "p",
+        "text": "High means the behaviour was endorsed more often. It does not prove effectiveness, boundaries, ethics or skill."
+       }
+      ]
+     },
+     {
+      "q": "Can results change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Development, language, context, safety, current demands, self-understanding and measurement variation can affect results."
+       }
+      ]
+     },
+     {
+      "q": "Does high Empathy mean someone is kind?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. The scale reflects reported perspective and cue-related behaviour, not moral character."
+       }
+      ]
+     },
+     {
+      "q": "Does Self-Regulation mean staying calm?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Regulation can include healthy expression, boundaries, pausing, problem solving, rest or help-seeking."
+       }
+      ]
+     },
+     {
+      "q": "Why is Internal Motivation included?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Career Garage uses a mixed competency framework. Motivation supports purposeful emotional action but is not a pure emotional ability."
+       }
+      ]
+     },
+     {
+      "q": "Can the tool identify mental-health problems?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It must not diagnose or screen mental illness. Use safeguarding and qualified referral when a real concern arises."
+       }
+      ]
+     },
+     {
+      "q": "Can schools use the profile for teams or leadership selection?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Use voluntary development conversations and independent evidence of skill, responsibility and readiness."
+       }
+      ]
+     },
+     {
+      "q": "Can AI write the report?",
+      "a": [
+       {
+        "type": "p",
+        "text": "AI may simplify approved score-grounded content. Scoring remains deterministic and important guidance requires qualified human review."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "career-readiness": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Overview",
+     "lead": "A practical route from self-knowledge to evidence-based career action.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/career-readiness/overview.png",
+       "w": 1964,
+       "h": 1568,
+       "alt": "Career Garage six-domain career readiness model"
+      },
+      {
+       "type": "caption",
+       "text": "Figure 1. The six dimensions are reported separately and work as a repeatable career-management cycle."
+      },
+      {
+       "type": "callout",
+       "label": "OPERATING PRINCIPLE",
+       "text": "Preserve all six scores. Never convert the profile into a single employability label, pass/fail result or prediction of career success."
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What is career readiness?",
+     "lead": "Preparedness to explore, decide, demonstrate, pursue and adapt across education and work transitions.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Career readiness combines career-management knowledge, transferable behaviours, opportunity preparation and the capacity to turn goals into action. For Career Garage, readiness is developmental and contextual: it can grow through information, experience, feedback and structured practice, while access barriers remain separate from personal potential."
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "lead": "Assessment becomes useful through a readiness-to-evidence-to-action cycle.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Stage",
+         "Career Garage practice"
+        ],
+        [
+         "1. Prepare",
+         "Explain purpose, rights, scale, boundaries and no pass/fail."
+        ],
+        [
+         "2. Respond",
+         "Complete 60 original statements using recent typical behaviour."
+        ],
+        [
+         "3. Score",
+         "Apply the fixed reverse key and calculate six 0-100 indices."
+        ],
+        [
+         "4. Check",
+         "Review completeness, response quality, context, assistance and near ties."
+        ],
+        [
+         "5. Interpret",
+         "Read all dimensions and frame testable career-development hypotheses."
+        ],
+        [
+         "6. Evidence",
+         "Complete one artifact, exploration, simulation or planning task."
+        ],
+        [
+         "7. Act",
+         "Implement, review and adapt a 90-day plan with human support."
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Use inside the wider Career Garage profile"
+      },
+      {
+       "type": "p",
+       "text": "Combine CG-CR with interests, work values, personality, cognitive aptitude, learning preferences, emotional intelligence, digital readiness, leadership evidence, qualifications and opportunity context. Career readiness organises action; it does not replace the other evidence streams."
+      },
+      {
+       "type": "callout",
+       "label": "PRODUCT PROMISE",
+       "text": "A learner leaves with a clearer six-domain profile, one verified evidence task and a realistic next action—not a predetermined career destination."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "lead": "Sixty original items, six dimensions and one transparent agreement scale.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Field",
+         "Version 1 specification"
+        ],
+        [
+         "Product",
+         "Career Garage Career Readiness Assessment (CG-CR)"
+        ],
+        [
+         "Population",
+         "Classes 8-12 and college learners"
+        ],
+        [
+         "Items",
+         "60 total; 10 per dimension; global bank Questions 653-712"
+        ],
+        [
+         "Key balance",
+         "8 direct and 2 reverse items per dimension; 48 direct and 12 reverse overall"
+        ],
+        [
+         "Response scale",
+         "1 Strongly Disagree, 2 Disagree, 3 Not Sure, 4 Agree, 5 Strongly Agree"
+        ],
+        [
+         "Recall frame",
+         "Recent typical behaviour in study, projects, home, community or work-related settings"
+        ],
+        [
+         "Output",
+         "Six 0-100 readiness indices, provisional bands, quality flags and evidence tasks"
+        ],
+        [
+         "No output",
+         "No percentile, pass/fail, global score, job-ready label or outcome guarantee"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Item-writing controls"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "One behaviour per item; plain language and a clear career-management target.",
+        "Balance school, college, project, community, internship and early-work contexts.",
+        "Keep reverse items plain and avoid double negatives or shame-based wording.",
+        "Do not reward prestige knowledge, English fluency, income, elite networks or prior opportunity access.",
+        "Record item ID, key, rationale, version, similarity review and approval owner."
+       ]
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Does a high score prove job readiness?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It reports self-perceived readiness. Use relevant artifacts, observed activities and context to examine actual behaviour."
+       }
+      ]
+     },
+     {
+      "q": "Is CG-CR an employability certificate?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is an original development-stage guidance assessment, not a qualification or employer credential."
+       }
+      ]
+     },
+     {
+      "q": "Can readiness and performance differ?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Either may be higher; the discrepancy is useful for development planning."
+       }
+      ]
+     },
+     {
+      "q": "Can CG-CR select a stream or career?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It supports exploration and decision process inside broader assessment and counselling."
+       }
+      ]
+     },
+     {
+      "q": "Can scores change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Information, experience, skills, support, confidence and opportunity conditions change over time."
+       }
+      ]
+     },
+     {
+      "q": "Can all six scores be high?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Review comprehension, examples, artifacts and possible idealised responding."
+       }
+      ]
+     },
+     {
+      "q": "Does a lower score mean low potential?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It identifies a development or access priority, not fixed ability or worth."
+       }
+      ]
+     },
+     {
+      "q": "Can schools rank students?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Ranking, grading, admission, surveillance and exclusion are prohibited Version 1 uses."
+       }
+      ]
+     },
+     {
+      "q": "Does Opportunity Preparation guarantee selection?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It improves process and evidence; eligibility, competition and external decisions remain separate."
+       }
+      ]
+     },
+     {
+      "q": "Can learners use AI for applications?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Follow opportunity rules, protect data, disclose material help and never fabricate evidence or experience."
+       }
+      ]
+     },
+     {
+      "q": "Are job listings automatically trustworthy?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Verify organisations, contacts, fees, duties, conditions and official routes before sharing data or acting."
+       }
+      ]
+     },
+     {
+      "q": "Can AI write the report?",
+      "a": [
+       {
+        "type": "p",
+        "text": "AI may simplify approved content; scoring is fixed and consequential guidance requires human accountability."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "work-values": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Overview",
+     "lead": "Six current work priorities kept visible as a complete decision profile.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/work-values/overview.png",
+       "w": 1961,
+       "h": 1565,
+       "alt": "Career Garage six work-value priorities"
+      },
+      {
+       "type": "p",
+       "text": "Career Garage treats the result as a priority profile, not a ladder. A higher score means a work condition was rated as more important after keying. It does not make the value more worthy or prove that an occupation will provide it. The useful question is whether credible evidence shows that a real opportunity can supply the learner's important conditions."
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What are work values?",
+     "lead": "Desired rewards, conditions and consequences that make work worth choosing or sustaining.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Work values describe what a person wants work to provide or make possible. They may concern challenge, independence, stability, contribution, relationships, learning, recognition, income, conditions or other rewards. Values are different from whether a learner enjoys an activity, can perform it or already has access to it."
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "lead": "A transparent path from consent to a reviewed career-value experiment.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Stage",
+         "Platform action",
+         "Human responsibility"
+        ],
+        [
+         "1. Prepare",
+         "Show purpose, limits, time, privacy and access supports",
+         "Confirm voluntary, appropriate use"
+        ],
+        [
+         "2. Respond",
+         "Present 60 versioned items and one response scale",
+         "Provide neutral conditions and support"
+        ],
+        [
+         "3. Score",
+         "Apply deterministic keys and six value calculations",
+         "Monitor completeness and quality flags"
+        ],
+        [
+         "4. Report",
+         "Show six indices, bands, rank and score basis",
+         "Explain that higher means more important, not better"
+        ],
+        [
+         "5. Investigate",
+         "Link values to opportunity evidence questions",
+         "Check sources, context and trade-offs"
+        ],
+        [
+         "6. Experiment",
+         "Create one or two low-risk career tests",
+         "Protect safety, access and realistic constraints"
+        ],
+        [
+         "7. Review",
+         "Record learning and optional re-assessment",
+         "Revise the hypothesis rather than defend the score"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Deterministic scoring means identical approved responses and keys produce the same numeric result. AI may explain approved content and generate evidence questions, but it must not alter scores, invent opportunity facts or turn a value priority into a career instruction."
+      },
+      {
+       "type": "callout",
+       "label": "VERSION 1 RULE",
+       "text": "Report six indices and their relative order. Do not calculate or publish a global total, overall fit score, type, maturity level or percentile."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "lead": "Sixty original items, six values and one transparent importance scale.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Design field",
+         "Version 1.0 specification"
+        ],
+        [
+         "Assessment ID",
+         "CG-WV"
+        ],
+        [
+         "Public product name",
+         "Career Garage Work Values Assessment"
+        ],
+        [
+         "Audience",
+         "Classes 8-12 and college learners"
+        ],
+        [
+         "Purpose",
+         "Career-priority clarification and opportunity comparison"
+        ],
+        [
+         "Items",
+         "60 total; 10 per value"
+        ],
+        [
+         "Key balance",
+         "8 direct and 2 reverse per value"
+        ],
+        [
+         "Response scale",
+         "1 Not Important; 2 Slightly Important; 3 Moderately Important; 4 Very Important; 5 Extremely Important"
+        ],
+        [
+         "Output",
+         "Six priority indices, relative order, quality flags, evidence questions and action plan"
+        ],
+        [
+         "No Version 1 output",
+         "Global total, percentile, fixed type, maturity level or automatic career match"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Value",
+         "Item IDs",
+         "Direct",
+         "Reverse"
+        ],
+        [
+         "Achievement",
+         "CG-WV-ACH-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "Autonomy",
+         "CG-WV-AUT-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "Security",
+         "CG-WV-SEC-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "Service and Impact",
+         "CG-WV-IMP-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "Relationships",
+         "CG-WV-REL-01 to -10",
+         "8",
+         "2"
+        ],
+        [
+         "Growth and Variety",
+         "CG-WV-GRV-01 to -10",
+         "8",
+         "2"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Direct statements appear in general and study/project/work contexts. Reverse statements are plain opposites and are transformed during scoring. Because negatively framed conditions can be harder to rate on an importance scale, cognitive interviews must test understanding and response burden."
+      },
+      {
+       "type": "callout",
+       "label": "ITEM-BANK CONTROL",
+       "text": "The spreadsheet master is the source of truth for item text, ID, value, key, response scale, status and version. Production code must never infer a key from wording."
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Is one work value better than another?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Scores indicate current importance, not maturity, goodness, intelligence or employability."
+       }
+      ]
+     },
+     {
+      "q": "Does the highest value choose the learner's career?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It creates evidence questions. Interests, capability, constraints and experience remain essential."
+       }
+      ]
+     },
+     {
+      "q": "Is Security the same as fear of risk?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It concerns desired predictability and continuity; its meaning must be discussed in context."
+       }
+      ]
+     },
+     {
+      "q": "Does Autonomy mean working alone?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It concerns meaningful choice and judgement within accountability, and can exist in collaborative teams."
+       }
+      ]
+     },
+     {
+      "q": "Does Service and Impact require nonprofit work?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Positive contribution can appear in public, private, nonprofit, cooperative or entrepreneurial settings."
+       }
+      ]
+     },
+     {
+      "q": "Can all six values be high?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Use relative priorities and explicit trade-offs; also review whether the learner answered ideally or without enough exposure."
+       }
+      ]
+     },
+     {
+      "q": "Can results change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Experience, life stage, responsibilities, scarcity, culture, opportunity and self-knowledge can shift priorities."
+       }
+      ]
+     },
+     {
+      "q": "Will learners receive a match percentage?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Version 1 does not publish an overall fit score or automatic career match."
+       }
+      ]
+     },
+     {
+      "q": "Can schools use the profile for stream allocation?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Use voluntary developmental guidance and multiple independent evidence sources."
+       }
+      ]
+     },
+     {
+      "q": "Can employers use CG-WV for hiring?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. The instrument is not designed or validated for selection."
+       }
+      ]
+     },
+     {
+      "q": "Is CG-WV the MIQ or O*NET Work Importance Locator?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is a separate original Career Garage instrument and its scores are not interchangeable."
+       }
+      ]
+     },
+     {
+      "q": "Can AI write the report?",
+      "a": [
+       {
+        "type": "p",
+        "text": "AI may simplify approved score-grounded content. Scoring stays deterministic and important guidance requires qualified human review."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "learning-preferences": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Overview",
+     "lead": "Four flexible preferences kept visible inside a wider evidence-based learning process.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/learning-preferences/overview.png",
+       "w": 1964,
+       "h": 1436,
+       "alt": "Career Garage four learning preferences"
+      },
+      {
+       "type": "p",
+       "text": "CG-LP describes methods a learner currently finds useful or appealing. A score becomes valuable only when translated into a strategy, tested on a real learning goal and compared with evidence of understanding, retention and transfer."
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What are learning preferences?",
+     "lead": "Self-reported tendencies toward particular ways of organising and engaging with learning.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A learning preference is a learner's current inclination toward certain study activities, representations or working conditions. Preferences can affect engagement, confidence and willingness to begin, but they do not by themselves establish which method produces the best learning outcome."
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "lead": "A transparent cycle from consent to a tested learning-strategy plan.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Stage",
+         "Platform action",
+         "Human responsibility"
+        ],
+        [
+         "1. Prepare",
+         "Show purpose, limits, time, privacy and access supports",
+         "Confirm voluntary and appropriate use"
+        ],
+        [
+         "2. Respond",
+         "Present 48 versioned items and one response scale",
+         "Provide neutral conditions and support"
+        ],
+        [
+         "3. Score",
+         "Apply fixed keys and four preference calculations",
+         "Review completeness and quality flags"
+        ],
+        [
+         "4. Report",
+         "Show all four indices, bands and cautions",
+         "Prevent a dominant-style interpretation"
+        ],
+        [
+         "5. Design",
+         "Generate mixed strategy options for a real goal",
+         "Match strategy to content and access needs"
+        ],
+        [
+         "6. Test",
+         "Schedule retrieval and application evidence",
+         "Compare comfort with actual performance"
+        ],
+        [
+         "7. Review",
+         "Record outcomes and revise the plan",
+         "Build flexibility rather than defend the profile"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Deterministic scoring means identical approved responses and keys produce the same result. AI may explain approved content and propose strategy experiments, but it must not alter scores, infer a fixed learner type or claim that one method guarantees improvement."
+      },
+      {
+       "type": "callout",
+       "label": "VERSION 1 RULE",
+       "text": "Report four indices and flexible combinations. Do not calculate a global learning score, dominant-style label, ability estimate, percentile or teaching prescription."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "lead": "Forty-eight original items, four preferences and one transparent agreement scale.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Design field",
+         "Version 1.0 specification"
+        ],
+        [
+         "Assessment ID",
+         "CG-LP"
+        ],
+        [
+         "Public product name",
+         "Career Garage Learning Preferences Assessment"
+        ],
+        [
+         "Audience",
+         "Classes 8-12 and college learners"
+        ],
+        [
+         "Purpose",
+         "Flexible learning-strategy reflection and experiment planning"
+        ],
+        [
+         "Items",
+         "48 total; 12 per preference; global bank questions 485-532"
+        ],
+        [
+         "Key balance",
+         "9 direct and 3 reverse per preference"
+        ],
+        [
+         "Response scale",
+         "1 Strongly Disagree; 2 Disagree; 3 Not Sure; 4 Agree; 5 Strongly Agree"
+        ],
+        [
+         "Output",
+         "Four indices, provisional bands, blends, strategy experiments and quality flags"
+        ],
+        [
+         "No Version 1 output",
+         "Global total, fixed type, percentile, ability estimate or teaching prescription"
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Preference",
+         "Item IDs",
+         "Direct",
+         "Reverse"
+        ],
+        [
+         "Visual Organisation",
+         "CG-LP-VIS-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Verbal Explanation",
+         "CG-LP-VER-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Active Experience",
+         "CG-LP-ACT-01 to -12",
+         "9",
+         "3"
+        ],
+        [
+         "Reflective Structure",
+         "CG-LP-REF-01 to -12",
+         "9",
+         "3"
+        ]
+       ]
+      },
+      {
+       "type": "callout",
+       "label": "ITEM-BANK CONTROL",
+       "text": "The spreadsheet master is the source of truth for text, ID, dimension, key, response scale, status and version. Production code must never infer a key from wording."
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Is a learner's highest score their learning style?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is a current self-reported preference, not a fixed type or prescription."
+       }
+      ]
+     },
+     {
+      "q": "Should teachers match every lesson to the highest score?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Use task-appropriate, accessible instruction and multiple meaningful ways to engage and practise."
+       }
+      ]
+     },
+     {
+      "q": "Can preferences be real even if matching is unsupported?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Preferences can influence engagement and choice, but effectiveness must be tested with outcomes."
+       }
+      ]
+     },
+     {
+      "q": "Does a lower Visual score mean weak visual ability?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. CG-LP does not measure aptitude, perception or memory ability."
+       }
+      ]
+     },
+     {
+      "q": "Can all four preferences be high?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. This may indicate broad flexibility, idealised responding or strong endorsement; use examples and outcomes."
+       }
+      ]
+     },
+     {
+      "q": "Can scores change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Task, experience, language, access, motivation and strategy training can shift responses."
+       }
+      ]
+     },
+     {
+      "q": "Does Active Experience mean movement?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Not necessarily. It means purposeful application or rehearsal linked to the learning goal."
+       }
+      ]
+     },
+     {
+      "q": "Can schools group students by CG-LP profile?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Grouping or restricting instruction from preference scores is a prohibited Version 1 use."
+       }
+      ]
+     },
+     {
+      "q": "Can CG-LP diagnose dyslexia, ADHD or a learning disability?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is not a diagnostic or screening instrument."
+       }
+      ]
+     },
+     {
+      "q": "Does the profile choose a course or career?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It can inform learning plans inside broader career guidance, but not suitability."
+       }
+      ]
+     },
+     {
+      "q": "Is CG-LP VARK or Kolb LSI?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is a separate original Career Garage instrument and scores are not interchangeable."
+       }
+      ]
+     },
+     {
+      "q": "Can AI write the report?",
+      "a": [
+       {
+        "type": "p",
+        "text": "AI may simplify approved score-grounded content. Scoring remains fixed and important guidance requires human review."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "digital-skills-readiness": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Overview",
+     "lead": "A practical bridge from digital confidence to safe, demonstrated participation.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/digital-skills-readiness/overview.png",
+       "w": 1964,
+       "h": 1568,
+       "alt": "Career Garage six digital-readiness domains"
+      },
+      {
+       "type": "caption",
+       "text": "Figure 1. The six domains are reported separately. Readiness combines confidence, responsible judgement, access and evidence from real tasks."
+      },
+      {
+       "type": "callout",
+       "label": "OPERATING PRINCIPLE",
+       "text": "Preserve all six scores. Never convert the profile into a single 'digital person' label or global employability verdict."
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What is digital skills readiness?",
+     "lead": "Confidence and responsible practice for learning, work and participation in digital environments.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Digital competence includes the knowledge, skills and attitudes needed to engage confidently, critically, safely and responsibly with digital technologies. Readiness is narrower: it asks how prepared a learner currently feels to perform essential behaviours and where practical evidence or support should be added."
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "lead": "Assessment becomes useful through a confidence-to-evidence cycle.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Stage",
+         "Career Garage practice"
+        ],
+        [
+         "1. Prepare",
+         "Explain purpose, rights, confidence scale, boundaries and no pass/fail."
+        ],
+        [
+         "2. Respond",
+         "Complete 60 original items using recent typical digital situations."
+        ],
+        [
+         "3. Score",
+         "Apply the fixed reverse key and calculate six 0-100 indices."
+        ],
+        [
+         "4. Check",
+         "Review completeness, response quality, access, assistance and near ties."
+        ],
+        [
+         "5. Interpret",
+         "Read all domains and identify confidence-performance hypotheses."
+        ],
+        [
+         "6. Demonstrate",
+         "Complete one safe task with an observable rubric and support record."
+        ],
+        [
+         "7. Develop",
+         "Practise, recheck independent performance and update the evidence plan."
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Use inside the wider Career Garage profile"
+      },
+      {
+       "type": "p",
+       "text": "Combine CG-DR with cognitive aptitude, career readiness, interests, work values, personality, learning preferences, emotional intelligence, leadership evidence and opportunity context. Digital confidence can support almost every pathway but cannot replace field-specific capability."
+      },
+      {
+       "type": "callout",
+       "label": "PRODUCT PROMISE",
+       "text": "A learner leaves with clearer confidence, one verified task and a realistic next practice step—not a generic 'good with technology' label."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "lead": "Sixty original items, six domains and one transparent confidence scale.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Field",
+         "Version 1 specification"
+        ],
+        [
+         "Product",
+         "Career Garage Digital Skills Readiness Assessment (CG-DR)"
+        ],
+        [
+         "Population",
+         "Classes 8-12 and college learners"
+        ],
+        [
+         "Items",
+         "60 total; 10 per domain; global bank Questions 593-652"
+        ],
+        [
+         "Key balance",
+         "8 direct and 2 reverse items per domain; 48 direct and 12 reverse overall"
+        ],
+        [
+         "Response scale",
+         "1 Not Confident, 2 Slightly, 3 Moderately, 4 Confident, 5 Very Confident"
+        ],
+        [
+         "Recall frame",
+         "Typical recent school, project, home, community or work-related digital situations"
+        ],
+        [
+         "Output",
+         "Six 0-100 confidence indices, provisional bands, quality flags and evidence tasks"
+        ],
+        [
+         "No output",
+         "No percentile, pass/fail, global score, digital-native label or certification claim"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Item-writing controls"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "One behaviour per item; technology-neutral language wherever possible.",
+        "Balance search, collaboration, creation, safety, troubleshooting and AI contexts.",
+        "Keep reverse items plain and avoid double negatives or victim-blaming language.",
+        "Do not reward device ownership, paid software, fast connectivity or prior specialist access.",
+        "Record item ID, key, rationale, version, similarity review and approval owner."
+       ]
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Does a high score prove digital skill?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It reports confidence. Use a safe task to examine actual performance and support conditions."
+       }
+      ]
+     },
+     {
+      "q": "Is CG-DR a certification?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is an original development-stage guidance assessment, not a qualification or vendor credential."
+       }
+      ]
+     },
+     {
+      "q": "Can confidence and performance differ?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Either may be higher; the discrepancy is useful for development planning."
+       }
+      ]
+     },
+     {
+      "q": "Does frequent social-media use mean strong readiness?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Familiarity with one activity does not establish research, creation, safety, problem-solving or AI competence."
+       }
+      ]
+     },
+     {
+      "q": "Can scores change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Access, instruction, practice, confidence and technology change over time."
+       }
+      ]
+     },
+     {
+      "q": "Can all six scores be high?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Review comprehension, examples, independent tasks and possible idealised responding."
+       }
+      ]
+     },
+     {
+      "q": "Does a lower score mean a learner is unsafe?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It identifies a priority for supported practice and context review, not blame."
+       }
+      ]
+     },
+     {
+      "q": "Can schools rank students?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Ranking, grading, admission, surveillance and exclusion are prohibited Version 1 uses."
+       }
+      ]
+     },
+     {
+      "q": "Can CG-DR select a career?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It can guide evidence-building inside broader career assessment and counselling."
+       }
+      ]
+     },
+     {
+      "q": "Can performance tasks use real accounts?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Use dummy accounts and sample files wherever possible; never request passwords or authentication codes."
+       }
+      ]
+     },
+     {
+      "q": "Is CG-DR DigComp?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is an original Career Garage model informed by broad digital-competence frameworks."
+       }
+      ]
+     },
+     {
+      "q": "Can AI write the report?",
+      "a": [
+       {
+        "type": "p",
+        "text": "AI may simplify approved content; scoring is fixed and consequential guidance requires human accountability."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "entrepreneurial-mindset": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Overview",
+     "lead": "A practical bridge from opportunity awareness to responsible value creation.",
+     "blocks": [
+      {
+       "type": "img",
+       "src": "/assessments/entrepreneurial-mindset/overview.png",
+       "w": 1964,
+       "h": 1568,
+       "alt": "Career Garage six entrepreneurial-mindset dimensions"
+      },
+      {
+       "type": "caption",
+       "text": "Figure 1. The six dimensions are related but scored separately. A useful process connects need, action, judgement, learning, available means and user evidence."
+      },
+      {
+       "type": "callout",
+       "label": "OPERATING PRINCIPLE",
+       "text": "Do not convert the profile into one entrepreneur type. Preserve all six indices, near ties, context and evidence gaps."
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What is an entrepreneurial mindset?",
+     "lead": "A developable pattern of attention, judgement and action—not a job title.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Entrepreneurship can be understood as creating value by acting on ideas and opportunities while mobilising resources under uncertainty. Value may be financial, social, cultural or organisational. This makes entrepreneurial competence relevant not only to founders, but also to students, employees, freelancers, family enterprises and community innovators."
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "lead": "Assessment becomes useful through a repeatable evidence-and-action cycle.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Stage",
+         "Career Garage practice"
+        ],
+        [
+         "1. Prepare",
+         "Explain purpose, rights, scale, boundaries and the absence of pass/fail."
+        ],
+        [
+         "2. Respond",
+         "Complete 60 original items using a consistent recent-timeframe lens."
+        ],
+        [
+         "3. Score",
+         "Apply the fixed reverse key and calculate six 0-100 indices."
+        ],
+        [
+         "4. Check",
+         "Review completeness, response quality, near ties and contextual barriers."
+        ],
+        [
+         "5. Interpret",
+         "Read all six dimensions; test claims with examples and counter-evidence."
+        ],
+        [
+         "6. Act",
+         "Choose one safe experiment with a user, evidence signal and stop rule."
+        ],
+        [
+         "7. Review",
+         "Record learning, wellbeing and consequence; continue, revise, pause or stop."
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Use inside the wider Career Garage profile"
+      },
+      {
+       "type": "p",
+       "text": "Combine CG-EM with interests, work values, personality, emotional intelligence, cognitive aptitude, digital readiness, career readiness, leadership evidence and lived constraints. Entrepreneurial development can support employment and project work even when self-employment is not desired."
+      },
+      {
+       "type": "callout",
+       "label": "PRODUCT PROMISE",
+       "text": "A learner leaves with clearer evidence and one responsible next action—not a destiny label."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "lead": "Sixty original items, six dimensions and one transparent agreement scale.",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Field",
+         "Version 1 specification"
+        ],
+        [
+         "Product",
+         "Career Garage Entrepreneurial Mindset Assessment (CG-EM)"
+        ],
+        [
+         "Population",
+         "Classes 8-12 and college learners"
+        ],
+        [
+         "Items",
+         "60 total; 10 per dimension; global bank Questions 533-592"
+        ],
+        [
+         "Key balance",
+         "8 direct and 2 reverse items per dimension; 48 direct and 12 reverse overall"
+        ],
+        [
+         "Response scale",
+         "1 Strongly Disagree, 2 Disagree, 3 Neither, 4 Agree, 5 Strongly Agree"
+        ],
+        [
+         "Recall frame",
+         "Typical behaviour in recent school, project, work or community situations"
+        ],
+        [
+         "Output",
+         "Six continuous 0-100 indices, provisional bands, quality flags and action prompts"
+        ],
+        [
+         "No output",
+         "No percentile, pass/fail, founder type, global total or venture-success probability"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Item-writing controls"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "One behavioural idea per item; plain language; no technical startup jargon.",
+        "Balanced contexts so enterprise is not reduced to technology startups or selling.",
+        "Reverse items remain readable and avoid double negatives.",
+        "No protected-class, wealth, family-business or prior-access advantage embedded in the ideal answer.",
+        "Version, item ID, key, rationale, similarity check and approval owner recorded."
+       ]
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Does a high score mean I should start a business?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It suggests current tendencies to explore; career choice requires interests, values, capability, context and opportunity evidence."
+       }
+      ]
+     },
+     {
+      "q": "Does CG-EM predict success?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It does not estimate revenue, survival, funding, performance or future venture success."
+       }
+      ]
+     },
+     {
+      "q": "Is there a best profile?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Different tasks require different balances, teams and contextual resources."
+       }
+      ]
+     },
+     {
+      "q": "Is Risk Judgement the same as risk tolerance?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. CG-EM emphasises considered, testable decisions and safeguards, not appetite for danger."
+       }
+      ]
+     },
+     {
+      "q": "Does Resilience mean never giving up?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Responsible resilience includes recovery, support, pivoting and stopping when evidence or wellbeing requires it."
+       }
+      ]
+     },
+     {
+      "q": "Can scores change?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Experience, training, context, confidence and access can change responses and behaviour."
+       }
+      ]
+     },
+     {
+      "q": "Can a learner score high on all six?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Review comprehension, examples, counter-examples and possible idealised responding."
+       }
+      ]
+     },
+     {
+      "q": "Can low scores be caused by barriers?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Yes. Opportunity, language, psychological safety, resources and prior exposure may affect responses."
+       }
+      ]
+     },
+     {
+      "q": "Can schools rank students?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Ranking, admission, streaming, grading and exclusion are prohibited Version 1 uses."
+       }
+      ]
+     },
+     {
+      "q": "Can CG-EM replace a business plan?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It is a self-report assessment, not market, legal, operational or financial due diligence."
+       }
+      ]
+     },
+     {
+      "q": "Is CG-EM EntreComp?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. Career Garage draws on broad entrepreneurship scholarship but uses an original six-dimension instrument."
+       }
+      ]
+     },
+     {
+      "q": "Can AI write the report?",
+      "a": [
+       {
+        "type": "p",
+        "text": "AI may simplify approved score-grounded content; scoring is fixed and consequential guidance requires human accountability."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "cognitive-aptitude": {
+   "sections": [
+    {
+     "id": "overview",
+     "title": "Cognitive Aptitude Profile",
+     "lead": "See how you approach unfamiliar problems.",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The Career Garage Cognitive Aptitude Profile uses original objective questions to sample reasoning across several domains. The report shows current performance, strategy patterns and practice priorities - not a fixed measure of intelligence or potential."
+      },
+      {
+       "type": "img",
+       "src": "/assessments/cognitive-aptitude/overview.png",
+       "w": 1600,
+       "h": 720,
+       "alt": "Cognitive Aptitude Profile: six reasoning domains"
+      }
+     ]
+    },
+    {
+     "id": "what",
+     "title": "What this assessment helps you understand",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Aptitude performance reflects both reasoning and conditions such as familiarity, language, education, disability, fatigue and test anxiety. Career Garage therefore reports domain evidence and item explanations rather than reducing a learner to one global label."
+      },
+      {
+       "type": "p",
+       "text": "Objective items have one defensible answer, mapped skill and rationale. For operational use, Career Garage should maintain secure forms, accommodations, calibrated timing, item analysis and version-controlled norms based on relevant samples."
+      },
+      {
+       "type": "h2",
+       "text": "What it measures"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "DIMENSION",
+         "WHAT IT EXPLORES"
+        ],
+        [
+         "Verbal reasoning",
+         "Understanding relationships, arguments and meaning in written information."
+        ],
+        [
+         "Numerical reasoning",
+         "Interpreting quantities, ratios, patterns and numerical evidence."
+        ],
+        [
+         "Logical reasoning",
+         "Drawing valid conclusions from rules, conditions and sequences."
+        ],
+        [
+         "Abstract and spatial reasoning",
+         "Recognising transformations, structures and visual relationships."
+        ],
+        [
+         "Data interpretation",
+         "Reading tables, charts and multi-step quantitative information."
+        ],
+        [
+         "Attention and problem-solving",
+         "Maintaining accuracy, choosing strategies and checking work."
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "model",
+     "title": "How this Career Garage model works",
+     "lead": "Development-stage sampling of six reasoning and accuracy domains.",
+     "blocks": [
+      {
+       "type": "ol",
+       "items": [
+        "Select an age-appropriate form and any approved accessibility accommodations.",
+        "Complete original verbal, numerical, logical, spatial and data tasks.",
+        "Raw accuracy and, where appropriate, completion time are recorded separately.",
+        "Domain results are interpreted only against documented scoring rules or validated norms.",
+        "Worked explanations reveal strategy errors and practice opportunities.",
+        "Counsellors combine performance with interests, education and real achievements."
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "What your report includes"
+      },
+      {
+       "type": "ul",
+       "items": [
+        "Separate performance indicators for every reasoning domain",
+        "Accuracy and timing information kept conceptually distinct",
+        "Worked answers and common error patterns",
+        "Practice priorities and sample skill-building activities",
+        "Career and course demands to investigate",
+        "Accommodation and interpretation notes for professionals"
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Career connection"
+      },
+      {
+       "type": "p",
+       "text": "Aptitude can inform preparation, but it should not close doors. Many capabilities grow through teaching and practice, and real careers rely on knowledge, motivation, collaboration, creativity and opportunity as well as reasoning tests."
+      }
+     ]
+    },
+    {
+     "id": "architecture",
+     "title": "Assessment architecture",
+     "blocks": [
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Specification field",
+         "Controlled value"
+        ],
+        [
+         "Assessment ID / item range",
+         "CG-CA / Q425-Q484"
+        ],
+        [
+         "Item count",
+         "60"
+        ],
+        [
+         "Response format",
+         "Four-option objective response"
+        ],
+        [
+         "Primary output",
+         "Six domain raw scores/percentages and total raw score/percentage; never IQ"
+        ],
+        [
+         "Minimum completion",
+         "Domain result requires at least 8 of 10 attempted. Operational total requires all 60 attempted; no imputation."
+        ],
+        [
+         "Evidence status",
+         "Development-stage; pilot, reliability, validity and fairness studies required"
+        ],
+        [
+         "Primary use",
+         "Career-development reflection, counselling and learner-owned action planning"
+        ],
+        [
+         "Prohibited use",
+         "Sole or high-stakes basis for diagnosis, admission, hiring, scholarship, exclusion or eligibility"
+        ]
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Domain and key map"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Code",
+         "Dimension / pole",
+         "Items",
+         "Direct / reverse or key"
+        ],
+        [
+         "VER",
+         "Verbal",
+         "10",
+         "Key A-D"
+        ],
+        [
+         "NUM",
+         "Numerical",
+         "10",
+         "Key A-D"
+        ],
+        [
+         "LOG",
+         "Logical / Abstract",
+         "10",
+         "Key A-D"
+        ],
+        [
+         "SPA",
+         "Spatial",
+         "10",
+         "Key A-D"
+        ],
+        [
+         "DAT",
+         "Data Interpretation",
+         "10",
+         "Key A-D"
+        ],
+        [
+         "ATT",
+         "Attention / Accuracy",
+         "10",
+         "Key A-D"
+        ]
+       ]
+      },
+      {
+       "type": "callout",
+       "label": "INTERPRETATION BOUNDARY",
+       "text": "No IQ, percentile, ability label or high-stakes decision until timing, reliability, validity, forms and norms are supported."
+      }
+     ]
+    }
+   ],
+   "faq": {
+    "items": [
+     {
+      "q": "Is this an IQ test?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No. It samples defined reasoning domains for career-development purposes and does not claim to measure global intelligence."
+       }
+      ]
+     },
+     {
+      "q": "Can I improve my performance?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Strategy, familiarity, knowledge and practice can improve performance. Large decisions should consider broader evidence."
+       }
+      ]
+     },
+     {
+      "q": "What happens if I skip a question?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Unanswered objective items remain missing, not automatically incorrect, unless a timed-administration policy was pre-specified, communicated and supported by validation. Version 1 totals require all 60 attempted."
+       }
+      ]
+     },
+     {
+      "q": "Will I get an IQ score or percentile?",
+      "a": [
+       {
+        "type": "p",
+        "text": "No IQ, percentile, ability label or high-stakes decision until timing, reliability, validity, forms and norms are supported."
+       }
+      ]
+     },
+     {
+      "q": "Can this score be used for admission or selection?",
+      "a": [
+       {
+        "type": "p",
+        "text": "Aptitude testing can become high stakes. Use age-appropriate secure forms, trained oversight, fair accommodations, relevant norms and documented validity before any selection use. Never interpret one score in isolation."
+       }
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

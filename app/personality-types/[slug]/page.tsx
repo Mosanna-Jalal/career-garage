@@ -144,7 +144,7 @@ export default async function TypePage(
         <p className="mt-6 max-w-2xl text-sm text-ink/60">
           Wondering how your interests line up? The{" "}
           <Link
-            href="/tests/career-explorer"
+            href="/tests/riasec"
             className="font-semibold text-brand-600 underline decoration-brand-300 underline-offset-2 hover:text-brand-700"
           >
             Career Interest Explorer
@@ -163,7 +163,7 @@ export default async function TypePage(
             Take the free assessment and find out in about ten minutes.
           </p>
           <Link
-            href="/tests/personality-type"
+            href="/tests/mbti"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 font-bold text-brand-700 transition hover:bg-brand-50"
           >
             Take the test <ArrowRightIcon className="h-5 w-5" />

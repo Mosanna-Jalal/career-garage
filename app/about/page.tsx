@@ -43,8 +43,8 @@ const values = [
 
 const faqs = [
   {
-    q: "Are the tests really free?",
-    a: "Yes. Every assessment on Career Garage is free to take, and you see your full results immediately — no account, no email address, no trial that quietly becomes a subscription. We offer paid tools for teams, which is how the lights stay on.",
+    q: "Are the tests free?",
+    a: "Every assessment has a free demo: a short set of questions and a few points of your report, with no account or email needed. The full-length assessments and complete reports are part of a Career Garage subscription.",
   },
   {
     q: "How accurate are the results?",

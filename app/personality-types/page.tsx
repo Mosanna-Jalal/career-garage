@@ -31,7 +31,7 @@ export default function PersonalityTypesPage() {
             Sixteen four-letter types. Nine Enneagram types. One of each is
             yours. Start exploring — or{" "}
             <Link
-              href="/tests/personality-type"
+              href="/tests/mbti"
               className="font-semibold text-brand-600 underline decoration-brand-300 underline-offset-2 hover:text-brand-700"
             >
               take the test
