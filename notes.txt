@@ -122,3 +122,20 @@ This section doesnt inlude many overviews like other sections so put it as per y
 
 17. use animations like rockets moving in background/ children running/ or getting award and things like that in negative spaces so that if a user is not doing anything it makes him/her engaged in the website.
 
+20/10/2026
+
+18. https://drive.google.com/drive/folders/1JQ_Vhc1iHmgHQUp4NBxtWxox0VJoQkal USE august 12 name like file to make design for the community who will subscribe in the career garage just like slack like Features. see the picture to get what will be in the community panel.
+
+19. make different dashboard designs for different logins like student/ teacher / Parents
+
+20. https://drive.google.com/drive/folders/1DyqT8NLt1xBnyLiJW4pGnkRGjceqWF2O here in Community CG.pdf make feature in which student can choose the different option combinations to join with similar or matching candidate/ student/ teacher etc also one can make a community by choosing these combinations so that other people can get an idea of the community before joining. request will be sent to community owner/ friend request of individual. 
+
+21. from career_garage_master_570.json file use this to add courses counselling interest areas i think there is a sections regarding this please add relevant photo and animations for each.
+
+22. add faq in about section in dropdown using file which contains around 400 faq and answers please categorise them too. 
+
+23. https://drive.google.com/drive/folders/1DyqT8NLt1xBnyLiJW4pGnkRGjceqWF2O use point system use career_garage_universal_point pdf use the codes to make points for the user. 
+
+24. Career_Garage_Partner_Earnings_and_Payout_System_India_2026.pdf use this to make the instructors and related members know their perks. join as an instructor / sign up page should show this informations. 
+
+25. to see full sample report as an owner of career garage give a button which says see report as an admin and set the password to King@2026. so that we as an owner doesn't require subscription to see the full report. 

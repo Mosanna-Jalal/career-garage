@@ -1,0 +1,1896 @@
+{
+ "position": "Use a verified partner marketplace with role-specific rates, one-level referrals, quality-gated CGC earnings and a transparent monthly payout ledger. Students and parents receive only non-cash points, benefits, awards, scholarships or discounts under separate rules.",
+ "chapters": [
+  {
+   "id": "1",
+   "title": "Recommended earning architecture",
+   "lead": "Use one platform experience with separate ledgers for professional earnings, institutional earnings and non-cash learner benefits.",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Three separate value systems"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Ledger",
+       "Who uses it",
+       "What it holds",
+       "Withdrawal"
+      ],
+      [
+       "Partner Earnings Wallet",
+       "Verified 18+ professionals and approved businesses",
+       "INR earnings, reserves, deductions, statements and payouts",
+       "Yes, after KYC and payout clearance"
+      ],
+      [
+       "Institution Wallet",
+       "Schools, colleges, universities, training organisations and employers",
+       "Contract revenue share, delivery fees, event share and adjustments",
+       "Yes, to the institution bank account"
+      ],
+      [
+       "Career Points and Benefits",
+       "Students, parents and optionally all users",
+       "Status points, badges, discounts, access, scholarships and rewards",
+       "No cash conversion"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Commercial principles"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Earn for verified value: a payable event requires delivery, acceptance, quality evidence or a completed commercial milestone.",
+      "No income for clicks: logins, profile views, link sharing, likes and free signups do not create cash earnings.",
+      "One action, one earning: every transaction uses an idempotency key so retries and duplicate events cannot double-pay.",
+      "Role-based visibility: a user sees only rates and actions available to the verified professional or institution role.",
+      "No outcome manipulation: counsellors, psychologists and assessment professionals are never paid for steering a learner toward a product, course, career or assessment result.",
+      "No hidden deductions: each statement separates gross value, provider share, platform fee, refunds, reserve, taxes, adjustments and final payout.",
+      "Prospective changes only: rate changes apply to future bookings unless a signed order form says otherwise."
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Earning methods"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Code",
+       "Method",
+       "Best use",
+       "Calculation"
+      ],
+      [
+       "RS",
+       "Revenue share",
+       "Sessions, courses, programmes",
+       "Eligible net revenue x provider share"
+      ],
+      [
+       "FF",
+       "Fixed fee",
+       "Content, reviews, speaking, moderation",
+       "Approved units x approved fee"
+      ],
+      [
+       "MS",
+       "Milestone",
+       "Partner activation, institution conversion",
+       "Fixed amount after all evidence clears"
+      ],
+      [
+       "QP",
+       "Quality pool",
+       "CGC answers and community contribution",
+       "Monthly pool x verified impact share, subject to cap"
+      ],
+      [
+       "RR",
+       "Referral revenue",
+       "Paid memberships, courses, events",
+       "Eligible first-level referred net revenue x referral rate"
+      ],
+      [
+       "LR",
+       "Licence or royalty",
+       "Reusable courses and intellectual property",
+       "Net licence revenue x contracted royalty"
+      ],
+      [
+       "RT",
+       "Retainer",
+       "Moderation, programme coordination",
+       "Approved periodic fee against service levels"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "Eligible earners and exclusions",
+   "lead": "Cash earnings are available only to verified adults and legal entities that can lawfully deliver the relevant service.",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Role",
+       "Wallet type",
+       "Minimum verification",
+       "Eligible earning areas"
+      ],
+      [
+       "Career counsellor",
+       "Individual",
+       "Identity, bank, PAN, qualifications, experience, safeguarding",
+       "Sessions, reports, roadmaps, group guidance"
+      ],
+      [
+       "Psychologist",
+       "Individual/practice",
+       "Role-appropriate credentials; clinical titles require applicable registration",
+       "Psychological services within verified scope"
+      ],
+      [
+       "Mentor / industry professional",
+       "Individual/business",
+       "Identity, employment or expertise evidence, conflict disclosure",
+       "Mentoring, interviews, portfolio reviews, projects"
+      ],
+      [
+       "Teacher / educator",
+       "Individual/institution",
+       "Employment/qualification evidence and institution approval where required",
+       "Classes, resources, questions, educator programmes"
+      ],
+      [
+       "Tutor / trainer",
+       "Individual/business",
+       "Identity, expertise, demo/quality review, safeguarding",
+       "Tutoring, workshops, bootcamps, evaluation"
+      ],
+      [
+       "Course / content creator",
+       "Individual/business",
+       "Identity, authorship/IP declaration and content review",
+       "Courses, videos, articles, question banks, royalties"
+      ],
+      [
+       "Event / Olympiad partner",
+       "Individual/institution",
+       "Operational capability, safeguarding and event approval",
+       "Organisation, speaking, judging, coordination"
+      ],
+      [
+       "School / college / university",
+       "Legal entity",
+       "Authorised signatory, bank, tax and contract verification",
+       "Delivery, hosting, licence, referral and implementation"
+      ],
+      [
+       "Employer / recruiter",
+       "Legal entity",
+       "Business and opportunity verification",
+       "Paid career events, challenges, expert delivery"
+      ],
+      [
+       "Affiliate / ambassador / alumni",
+       "18+ individual/business",
+       "Identity, promotion approval and conflict declaration",
+       "One-level paid conversion referrals"
+      ],
+      [
+       "Moderator / evaluator / translator",
+       "Individual/business",
+       "Competency test, confidentiality and conflict controls",
+       "Approved review, moderation, translation and evaluation"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Never eligible as a cash earning event"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Student activity: assessments, course completion, event participation, CGC questions, contests and referrals by students remain under non-cash points, awards or scholarship rules.",
+      "Parent activity: guardian onboarding, consent, attendance, feedback and referrals remain under non-cash points or benefits.",
+      "Minor professional profile: no person under 18 may open or withdraw from a Partner Earnings Wallet.",
+      "Free signup: neither a learner signup nor a professional signup creates cash until a defined paid or delivered milestone is verified.",
+      "Purchase-only reward: paying for membership, courses or events does not create earnings for the purchaser.",
+      "Sensitive assessment response: no one earns for selecting a particular psychometric, aptitude or career response.",
+      "Unapproved off-platform work: payments arranged outside Career Garage are not recorded or protected by this system."
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Dual-role rule"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "A parent or former student who is also a verified adult professional must create a separate professional profile.",
+      "Earnings are attributed only to the professional profile and verified partner activity, never to learner or guardian behaviour.",
+      "Institution employees cannot receive personal commissions for procurement or student routing unless the institution gives written approval and the conflict is disclosed.",
+      "Career Garage employees are paid through payroll or an approved contract, not through the marketplace wallet for their assigned duties."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "Partner onboarding and activation",
+   "lead": "No earning action becomes payable until identity, bank, tax, role and safety checks are complete.",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Activation workflow"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Create partner profile and select one or more earning roles.",
+      "Complete identity, age, address, bank and tax details; institutions submit authorised entity documents.",
+      "Upload qualifications, licences, experience proof and role-specific samples.",
+      "Complete child-safeguarding, privacy, conduct and platform training.",
+      "Pass competency, content or demo review where the role requires it.",
+      "Accept the partner agreement, current rate card, cancellation policy and intellectual-property terms.",
+      "Receive a verified badge, permitted action codes, payout settings and any probationary reserve.",
+      "Complete the first monitored activity before full marketplace visibility."
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Verification status"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Status",
+       "Can list services?",
+       "Can accrue?",
+       "Can withdraw?",
+       "Typical reason"
+      ],
+      [
+       "Draft",
+       "No",
+       "No",
+       "No",
+       "Profile incomplete"
+      ],
+      [
+       "Under review",
+       "No",
+       "No",
+       "No",
+       "KYC, credentials or content being checked"
+      ],
+      [
+       "Verified - probation",
+       "Yes, limited",
+       "Yes",
+       "After reserve and cutoff",
+       "First 60 days or first 10 completed paid transactions"
+      ],
+      [
+       "Verified",
+       "Yes",
+       "Yes",
+       "Yes",
+       "All controls active"
+      ],
+      [
+       "Restricted",
+       "Limited",
+       "Pending only",
+       "Usually no",
+       "Missing renewal, quality or risk issue"
+      ],
+      [
+       "Suspended",
+       "No",
+       "No",
+       "No",
+       "Safety, fraud, legal or serious quality review"
+      ],
+      [
+       "Closed",
+       "No",
+       "No new accrual",
+       "Final cleared balance only",
+       "Agreement ended"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Role-specific checks"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Counsellors: career-guidance training, interview/demo and report-quality review.",
+      "Psychologists: exact title and scope check, applicable registration, consent and escalation protocol.",
+      "Teachers, tutors and trainers: subject evidence, demo class and child-safety screening.",
+      "Mentors and professionals: identity, current expertise and employer/conflict disclosure.",
+      "Institutions and employers: entity, bank, tax, authorised signatory and beneficiary-owner checks as applicable.",
+      "Affiliates: promotion training, approved claims, source disclosure and one-level referral acceptance."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "Recommended rate card - services",
+   "lead": "The approved live rate card controls the transaction. These defaults balance provider motivation, platform operations, customer support, quality review and payment risk.",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Role",
+       "Paid activity",
+       "Mode",
+       "Default share",
+       "Allowed range",
+       "Payable evidence"
+      ],
+      [
+       "Counsellor",
+       "1:1 career counselling",
+       "RS",
+       "70%",
+       "60-80%",
+       "Completed session + notes + learner acknowledgement"
+      ],
+      [
+       "Counsellor",
+       "Assessment interpretation",
+       "RS",
+       "65%",
+       "60-75%",
+       "Approved report + interpretation session"
+      ],
+      [
+       "Counsellor",
+       "Career roadmap review",
+       "RS",
+       "70%",
+       "65-80%",
+       "Roadmap approved and delivered"
+      ],
+      [
+       "Counsellor",
+       "Group counselling",
+       "RS",
+       "60%",
+       "50-70%",
+       "Attendance + session record"
+      ],
+      [
+       "Psychologist",
+       "1:1 psychology service",
+       "RS",
+       "75%",
+       "70-85%",
+       "Verified scope, consent and completed record"
+      ],
+      [
+       "Psychologist",
+       "Assessment interpretation",
+       "RS",
+       "75%",
+       "70-85%",
+       "Approved instrument process + signed report"
+      ],
+      [
+       "Psychologist",
+       "Group well-being session",
+       "RS",
+       "70%",
+       "60-80%",
+       "Attendance + safeguarding record"
+      ],
+      [
+       "Mentor",
+       "1:1 mentoring",
+       "RS",
+       "70%",
+       "60-80%",
+       "Attendance + action note"
+      ],
+      [
+       "Industry professional",
+       "Mock interview",
+       "RS",
+       "70%",
+       "60-80%",
+       "Interview + rubric feedback"
+      ],
+      [
+       "Industry professional",
+       "Portfolio/CV review",
+       "RS",
+       "70%",
+       "60-80%",
+       "Annotated review delivered"
+      ],
+      [
+       "Tutor",
+       "1:1 tutoring",
+       "RS",
+       "70%",
+       "60-80%",
+       "Attendance + lesson evidence"
+      ],
+      [
+       "Trainer",
+       "Live workshop",
+       "RS",
+       "65%",
+       "55-75%",
+       "Attendance + materials + feedback"
+      ],
+      [
+       "Trainer",
+       "Cohort bootcamp",
+       "RS",
+       "65%",
+       "55-75%",
+       "Milestone completion + learner records"
+      ],
+      [
+       "Teacher",
+       "Live masterclass",
+       "RS",
+       "65%",
+       "55-75%",
+       "Attendance + approved lesson plan"
+      ],
+      [
+       "Any verified expert",
+       "Provider-sourced paid session",
+       "RS",
+       "85%",
+       "80-90%",
+       "Tracked provider link + completed service"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Pricing guardrails"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Control",
+       "Recommended rule"
+      ],
+      [
+       "Price ownership",
+       "Career Garage publishes a permitted price band; partners select within the band or submit an exception."
+      ],
+      [
+       "Platform-funded discount",
+       "Does not reduce the provider's eligible value unless explicitly agreed."
+      ],
+      [
+       "Provider-funded discount",
+       "Reduces eligible value before the revenue share is calculated."
+      ],
+      [
+       "Taxes",
+       "GST and other indirect taxes are excluded from the revenue-share base unless the contract states otherwise."
+      ],
+      [
+       "Direct third-party cost",
+       "May be deducted before sharing only when disclosed in the booking or programme order."
+      ],
+      [
+       "Bundled services",
+       "Allocate the bundle price across deliverables using the approved bundle schedule; do not choose the allocation after delivery."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "title": "Recommended rate card - courses, content and assessment work",
+   "lead": "Reusable intellectual property needs a separate commercial method from live services. Every asset must pass originality, accuracy and rights review before payment.",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Activity",
+       "Mode",
+       "Recommended default",
+       "Rate band",
+       "Payable evidence"
+      ],
+      [
+       "On-demand course - platform sourced",
+       "RS",
+       "40% of eligible net revenue",
+       "30-50%",
+       "Sale clears refund period; course remains compliant"
+      ],
+      [
+       "On-demand course - creator sourced",
+       "RS",
+       "70% of eligible net revenue",
+       "60-80%",
+       "Tracked creator link; sale clears refund period"
+      ],
+      [
+       "Institution/course licence",
+       "LR",
+       "50% of net licence revenue",
+       "30-70%",
+       "Licence invoice collected; rights remain valid"
+      ],
+      [
+       "Course production buyout",
+       "FF",
+       "INR 10,000-150,000",
+       "By scope",
+       "Approved modules, source files and IP assignment"
+      ],
+      [
+       "Career article",
+       "FF",
+       "INR 500-3,000",
+       "By depth",
+       "Editorial approval and originality check"
+      ],
+      [
+       "Career profile / pathway guide",
+       "FF",
+       "INR 750-5,000",
+       "By depth",
+       "Fact check and editorial approval"
+      ],
+      [
+       "Short educational video",
+       "FF",
+       "INR 1,500-10,000",
+       "By duration",
+       "Approved script, media rights and final file"
+      ],
+      [
+       "Question-bank item",
+       "FF",
+       "INR 25-75 per approved item",
+       "By level",
+       "Unique item, answer, rationale and review"
+      ],
+      [
+       "Assessment item",
+       "FF",
+       "INR 40-150 per approved item",
+       "By method",
+       "Blueprint fit, bias review and psychometric approval"
+      ],
+      [
+       "Assignment / portfolio evaluation",
+       "FF",
+       "INR 30-250 per item",
+       "By depth",
+       "Completed rubric and conflict check"
+      ],
+      [
+       "Translation / localisation",
+       "FF",
+       "INR 0.75-2.50 per word",
+       "By language",
+       "QA-approved translation and terminology check"
+      ],
+      [
+       "Content moderation",
+       "FF/RT",
+       "INR 5-50 per item or retainer",
+       "By risk",
+       "Decision logged against moderation policy"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Content rights models"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Model",
+       "Creator keeps IP?",
+       "Career Garage rights",
+       "Best use"
+      ],
+      [
+       "Marketplace licence",
+       "Yes",
+       "Non-exclusive hosting, marketing and delivery licence",
+       "Independent creator courses"
+      ],
+      [
+       "Exclusive term licence",
+       "Yes",
+       "Exclusive use for the contracted term/territory",
+       "Strategic programmes"
+      ],
+      [
+       "Commissioned buyout",
+       "Usually no, as contracted",
+       "Assigned rights after full payment",
+       "Platform curriculum and assessment banks"
+      ],
+      [
+       "Co-created",
+       "Shared/allocated by schedule",
+       "Specific channels, term and derivative-work rights",
+       "Institution or expert collaborations"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "label": "ASSESSMENT SAFEGUARD",
+     "text": "Never pay an item writer or evaluator based on a learner choosing a preferred answer or receiving a particular career outcome. Pay for approved construction, administration and interpretation quality only."
+    }
+   ]
+  },
+  {
+   "id": "6",
+   "title": "Events, Olympiads and opportunity earnings",
+   "lead": "Use a defined revenue waterfall for each event and a fixed milestone schedule for opportunities. Do not promise a percentage before direct costs and refund rules are known.",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Recommended paid-event waterfall"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Step",
+       "Calculation",
+       "Default allocation"
+      ],
+      [
+       "1. Collected revenue",
+       "Ticket, registration and sponsorship cash actually received",
+       "100% starting value"
+      ],
+      [
+       "2. Exclusions",
+       "GST, refunds, chargebacks and approved direct third-party costs",
+       "Deduct first"
+      ],
+      [
+       "3. Speaker pool",
+       "Approved speakers and experts",
+       "30% of event net revenue or fixed fees"
+      ],
+      [
+       "4. Organiser pool",
+       "Programme design, delivery and operations",
+       "20%"
+      ],
+      [
+       "5. Host institution",
+       "Venue, local coordination and verified facilities",
+       "10%"
+      ],
+      [
+       "6. Referral pool",
+       "One-level paid registrations",
+       "Up to 10%"
+      ],
+      [
+       "7. Platform and risk",
+       "Technology, support, marketing, reserves and margin",
+       "At least 30%; receives unused pools"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Event and opportunity rate card"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Activity",
+       "Mode",
+       "Recommended rate",
+       "Evidence"
+      ],
+      [
+       "Event speaker",
+       "FF",
+       "INR 2,000-25,000 per session",
+       "Attendance + approved delivery"
+      ],
+      [
+       "Event organiser",
+       "RS",
+       "20% of event net revenue",
+       "Run sheet, delivery and reconciliation"
+      ],
+      [
+       "Host institution",
+       "RS/FF",
+       "10% of event net or contracted fixed fee",
+       "Venue/facility evidence and completion"
+      ],
+      [
+       "Event referral",
+       "RR",
+       "10% of eligible net ticket value",
+       "Paid registration clears cooling period"
+      ],
+      [
+       "Olympiad coordinator",
+       "MS",
+       "8% of eligible fee OR INR 20-50 per paid participant",
+       "Verified participants and completed centre duties"
+      ],
+      [
+       "Judge / evaluator",
+       "FF",
+       "INR 500-5,000 per session",
+       "Scorecard, conflict declaration and sign-off"
+      ],
+      [
+       "Internship mentor",
+       "FF",
+       "INR 500-3,000 per intern/month when funded",
+       "Mentoring log and final evaluation"
+      ],
+      [
+       "Internship programme coordinator",
+       "RS/FF",
+       "10-15% of coordination fee",
+       "Verified onboarding, monitoring and completion"
+      ],
+      [
+       "Employer challenge creator",
+       "FF",
+       "INR 2,000-25,000",
+       "Approved brief, rubric, evaluation and rights"
+      ],
+      [
+       "Opportunity verifier",
+       "FF",
+       "INR 50-250 per approved listing",
+       "Employer and opportunity checks completed"
+      ]
+     ]
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Use either percentage or per-participant compensation for an Olympiad coordinator, never both for the same registration.",
+      "Pay school or college coordination income to the institution wallet unless written policy authorises an individual recipient.",
+      "Do not charge an internship seeker for a job offer, guaranteed selection or access to an employer decision-maker.",
+      "Unpaid internships do not create an automatic payment to the host; any coordination or mentoring fee must be transparent and separately contracted."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "8",
+   "title": "Referral and affiliate earnings",
+   "lead": "Referrals are one-level, attributable, capped and payable only after a genuine paid or delivered milestone. Sharing a link or creating a free account earns no cash.",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Referral milestone",
+       "Recommended earning",
+       "Payable condition"
+      ],
+      [
+       "Free learner/parent signup",
+       "INR 0",
+       "Non-cash points may apply under a separate policy"
+      ],
+      [
+       "Free professional signup",
+       "INR 0",
+       "No earning for account creation"
+      ],
+      [
+       "Verified partner activation",
+       "INR 500 once",
+       "Referred partner completes KYC and 3 paid services; 30-day cooling"
+      ],
+      [
+       "First paid individual membership",
+       "10% of eligible first payment",
+       "Payment collected, refund window closed, not self-referred"
+      ],
+      [
+       "Membership renewal",
+       "5% of one renewal only",
+       "Partner remains assigned and active; maximum 12-month attribution"
+      ],
+      [
+       "Paid course",
+       "10% of eligible net order",
+       "Refund period closed; creator self-source rule overrides if higher"
+      ],
+      [
+       "Paid event",
+       "10% of eligible net ticket",
+       "Attendance or non-refundable milestone verified"
+      ],
+      [
+       "Institutional contract",
+       "5% of first-year collected net revenue OR fixed INR 5,000-25,000",
+       "Signed contract, collected cash, approved source and no conflict"
+      ],
+      [
+       "Paid employer plan",
+       "INR 1,000 milestone",
+       "First payment cleared and one approved opportunity published"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Attribution sequence"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Partner shares a tagged link, code or staff-recorded lead with source evidence.",
+      "The recipient accepts referral disclosure and creates the relevant account or opportunity.",
+      "Career Garage deduplicates identity, device, bank, PAN, payment and organisation signals.",
+      "The qualifying paid or activation milestone is completed.",
+      "The earning remains pending through the refund, chargeback and fraud-cooling period.",
+      "The first valid referrer receives the earning; later or duplicate claims are rejected."
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Referral caps and prohibitions"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Default individual cap: INR 25,000 referral earnings per month unless a separate affiliate agreement is approved.",
+      "No second-level, downline or team commission; no payment for recruiting another referrer.",
+      "No self-referral, circular referral, duplicate household scheme, purchased leads, forced consent or unauthorised bulk messaging.",
+      "No income promise or claim that membership, recruitment or course purchase guarantees earnings.",
+      "No combining institutional procurement influence with a personal referral payment.",
+      "A refunded, charged-back, fraudulent or cancelled conversion reverses the related referral earning."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "9",
+   "title": "Career Garage Connect expert earnings",
+   "lead": "CGC should reward trustworthy problem-solving, not answer volume. Use a capped monthly quality pool based on verified impact units rather than cash for every post.",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Quality event",
+       "Impact units",
+       "Rule"
+      ],
+      [
+       "Approved original answer",
+       "1",
+       "Passes moderation, relevance and originality checks"
+      ],
+      [
+       "Asker accepts answer",
+       "+2",
+       "One accepted answer per question; no self/linked account"
+      ],
+      [
+       "Verified expert endorsement",
+       "+2",
+       "Independent expert with no conflict"
+      ],
+      [
+       "Five unique helpful votes",
+       "+1 once",
+       "Fraud-filtered users; no vote trading"
+      ],
+      [
+       "Question marked resolved",
+       "+2",
+       "Answer materially resolves the issue"
+      ],
+      [
+       "Answer cited in approved Career Library content",
+       "+3",
+       "Editorially verified reuse"
+      ],
+      [
+       "Removed, copied or unsafe answer",
+       "0 and reversal",
+       "Prior units and pending earnings reverse"
+      ],
+      [
+       "Plagiarism or coordinated manipulation",
+       "-5 units + review",
+       "May trigger suspension and earning hold"
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "label": "MONTHLY FORMULA",
+     "text": "CGC payout = MIN(individual cap, monthly CGC pool x contributor eligible impact units / total eligible impact units). Recommended initial cap: INR 5,000 per contributor per month."
+    },
+    {
+     "type": "h2",
+     "text": "Eligible contributors"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Verified counsellors, psychologists, mentors, professionals, teachers, tutors, trainers, course creators and approved moderators.",
+      "Institution experts may contribute through a named verified profile; payout routes to the contracted individual or institution wallet.",
+      "Students and parents may ask, answer and receive points or badges, but they are excluded from CGC cash earnings."
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Quality and safety rules"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "A moderator cannot approve, endorse or resolve their own contribution.",
+      "AI assistance must follow platform disclosure rules; fabricated expertise, copied content and mass-generated answers are ineligible.",
+      "Medical, mental-health, legal, financial or safeguarding risk must be escalated instead of answered outside the contributor's scope.",
+      "Votes from linked accounts, referral rings, repeated devices or suspicious bursts are excluded before pool calculation.",
+      "The monthly pool is published before the period and cannot be reduced retrospectively after eligible work is accepted."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "10",
+   "title": "Partner levels, quality bonuses and visibility",
+   "lead": "Status should improve discoverability and platform economics only when quality, reliability and safety are sustained. Partners cannot buy an earning level.",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Level",
+       "Minimum evidence",
+       "Commercial benefit",
+       "Review"
+      ],
+      [
+       "Verified",
+       "Approved KYC, role and training",
+       "Base rate and normal listing",
+       "Reviewed continuously"
+      ],
+      [
+       "Pro",
+       "20 completed jobs in 90 days; rating >=4.5; completion >=95%; cancellation <=5%; no serious breach",
+       "Up to 2 percentage-point platform-fee reduction",
+       "Quarterly"
+      ],
+      [
+       "Elite",
+       "75 completed jobs in 180 days; rating >=4.7; completion >=97%; cancellation <=3%; quality score >=90",
+       "Up to 5 percentage-point platform-fee reduction and priority opportunities",
+       "Quarterly"
+      ],
+      [
+       "Institution Impact Partner",
+       "Contract targets, safety, reporting and learner outcomes met",
+       "Preferred tenders, co-branding and negotiated programme margin",
+       "Per contract/quarter"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Recommended quality score"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Component",
+       "Weight",
+       "Measurement"
+      ],
+      [
+       "Verified participant rating",
+       "35%",
+       "Fraud-filtered, minimum sample and recency weighted"
+      ],
+      [
+       "Completion and attendance",
+       "25%",
+       "Completed eligible activities / accepted bookings"
+      ],
+      [
+       "Documentation and content quality",
+       "20%",
+       "Approved notes, reports, rubrics and audit samples"
+      ],
+      [
+       "Response/service level",
+       "10%",
+       "Timely confirmations, delivery and support responses"
+      ],
+      [
+       "Learner progress evidence",
+       "10%",
+       "Action completion or competency progress; never product sales"
+      ]
+     ]
+    },
+    {
+     "type": "ol",
+     "items": [
+      "A quarterly quality bonus of 2-5% may apply to eligible earnings when all safety and documentation gates pass.",
+      "Do not base bonuses on assessment outcomes, career choice, course upsell, counselling conversion or sensitive learner data.",
+      "Suspend level benefits immediately for credible safety, fraud, plagiarism or credential concerns while the underlying case is reviewed.",
+      "Show partners the factors, evidence window and appeal route; do not use an unexplained black-box score for payouts."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "11",
+   "title": "Wallet, transaction states and payout cycle",
+   "lead": "The wallet must show an auditable journey from activity to payout, with reversible pending states and a permanent transaction history.",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "State",
+       "Meaning",
+       "Withdrawable?"
+      ],
+      [
+       "Created",
+       "Activity received but not yet evaluated",
+       "No"
+      ],
+      [
+       "Pending verification",
+       "Awaiting delivery, attendance, content or milestone evidence",
+       "No"
+      ],
+      [
+       "Pending cooling",
+       "Verified but refund/chargeback/fraud window remains open",
+       "No"
+      ],
+      [
+       "Available",
+       "All earning gates passed",
+       "Yes, at next payout cutoff"
+      ],
+      [
+       "Reserved",
+       "Risk reserve withheld temporarily",
+       "Not until release date"
+      ],
+      [
+       "On hold",
+       "KYC, tax, dispute, safety or fraud review",
+       "No"
+      ],
+      [
+       "Paid",
+       "Included in completed payout batch",
+       "Already settled"
+      ],
+      [
+       "Reversed",
+       "Cancelled/refunded/fraudulent or corrected transaction",
+       "No; offsets balance"
+      ],
+      [
+       "Expired",
+       "Only for unclaimed balances where contract/law permits after notice",
+       "No"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Recommended monthly cycle"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Cutoff: include transactions that became Available by 23:59 on the last calendar day.",
+      "Statement: issue gross-to-net partner statement by day 5 of the next month.",
+      "Invoice/tax document: partner submits a valid document by day 7 where required.",
+      "Payout: transfer cleared balance by day 10, subject to bank holidays, KYC and minimum threshold.",
+      "Low balance: if payable is below INR 1,000, roll it forward without penalty.",
+      "Dispute: partner raises a line-item dispute within 15 calendar days of statement issue.",
+      "Correction: approved corrections appear as a labelled adjustment, never as silent deletion."
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "New-partner reserve"
+    },
+    {
+     "type": "callout",
+     "label": "RECOMMENDED CONTROL",
+     "text": "Hold 5% of eligible partner earnings during the first 60 days or first 10 completed paid transactions, whichever is later. Release cleared reserves automatically at the next payout unless a documented dispute, refund or risk hold exists."
+    }
+   ]
+  },
+  {
+   "id": "12",
+   "title": "Calculation rules and examples",
+   "lead": "Every payout must be reproducible from visible inputs. Platform-funded promotions protect the provider; provider-funded discounts reduce the sharing base.",
+   "blocks": [
+    {
+     "type": "h2",
+     "text": "Core calculation"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Line",
+       "Formula"
+      ],
+      [
+       "Eligible net revenue (ENR)",
+       "List price excluding GST - provider-funded discount - allocated refund - disclosed deductible direct cost"
+      ],
+      [
+       "Revenue-share earning",
+       "ENR x provider share percentage"
+      ],
+      [
+       "Fixed-fee earning",
+       "Approved quantity x approved unit fee"
+      ],
+      [
+       "Quality bonus",
+       "Eligible base earning x approved quality bonus percentage"
+      ],
+      [
+       "Referral earning",
+       "Eligible referred net revenue x referral rate, after cooling period"
+      ],
+      [
+       "Gross partner earning",
+       "Base earning + quality bonus + referral earning + approved adjustments"
+      ],
+      [
+       "Current payout",
+       "Gross partner earning - reserve - applicable withholding - deductions + released reserve"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Example A - counselling session"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Item",
+       "INR"
+      ],
+      [
+       "Session list price excluding GST",
+       "1,000.00"
+      ],
+      [
+       "Provider-funded discount / refund",
+       "0.00"
+      ],
+      [
+       "Eligible net revenue",
+       "1,000.00"
+      ],
+      [
+       "Provider share at 70%",
+       "700.00"
+      ],
+      [
+       "Quality bonus at 5%",
+       "35.00"
+      ],
+      [
+       "New-partner reserve at 5%",
+       "(36.75)"
+      ],
+      [
+       "Illustrative withholding at 10%",
+       "(73.50)"
+      ],
+      [
+       "Current payout",
+       "624.75"
+      ],
+      [
+       "Reserve released later if clear",
+       "36.75"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Other examples"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Course: INR 50,000 eligible platform-sourced sales x 40% creator share = INR 20,000 before withholding and adjustments.",
+      "Membership referral: INR 3,000 eligible first payment x 10% = INR 300 after the refund/cooling window.",
+      "CGC pool: INR 100,000 pool x 150 contributor units / 10,000 total units = INR 1,500, below the INR 5,000 cap.",
+      "Olympiad: 400 verified paid participants x INR 30 coordinator fee = INR 12,000. Do not also apply the 8% option.",
+      "Provider-sourced session: INR 2,000 eligible value x 85% = INR 1,700 provider earning; platform share is INR 300 before its costs."
+     ]
+    },
+    {
+     "type": "callout",
+     "label": "TAX NOTE",
+     "text": "The 10% withholding in Example A is illustrative only. The applicable section, rate, GST treatment, invoice model and threshold depend on the actual contract, partner status and prevailing law."
+    }
+   ]
+  },
+  {
+   "id": "13",
+   "title": "Cancellations, refunds, no-shows and chargebacks",
+   "lead": "The rule must be visible at booking and applied consistently. Ordinary cancellation usually cancels or reduces the earning; fraud and chargebacks can reverse a previously credited amount.",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Event",
+       "Customer treatment",
+       "Partner earning"
+      ],
+      [
+       "Learner cancels >=24 hours before 1:1 service",
+       "Full refund under default rule",
+       "INR 0"
+      ],
+      [
+       "Learner cancels 6-24 hours before",
+       "Partial refund",
+       "25% of provider base fee"
+      ],
+      [
+       "Learner cancels <6 hours or no-shows",
+       "Limited/no refund per displayed policy",
+       "50% of provider base fee"
+      ],
+      [
+       "Partner cancels",
+       "Full refund or free reschedule",
+       "INR 0; reliability impact unless approved emergency"
+      ],
+      [
+       "Platform outage prevents delivery",
+       "Full refund or free reschedule",
+       "Case-based inconvenience credit; no automatic full fee"
+      ],
+      [
+       "Group course/event cancellation",
+       "Published event terms",
+       "Only completed milestones and approved non-recoverable work"
+      ],
+      [
+       "Content rejected before approval",
+       "No customer charge",
+       "INR 0 unless commissioned draft milestone exists"
+      ],
+      [
+       "Refund after payout",
+       "Customer refund/chargeback",
+       "Negative adjustment against future earnings or reserve"
+      ],
+      [
+       "Fraud or policy breach",
+       "Transaction invalid",
+       "Full reversal and possible hold/suspension"
+      ]
+     ]
+    },
+    {
+     "type": "ol",
+     "items": [
+      "The booking confirmation must show the exact cancellation window and time zone.",
+      "A provider no-show, late arrival, incomplete notes or missing deliverable can delay or reduce payment after review.",
+      "Platform-funded refunds granted for goodwill should not reduce the partner earning unless the partner caused the issue.",
+      "Chargebacks remain contestable; keep attendance, delivery, acceptance and communication evidence.",
+      "Do not create punitive negative balances for ordinary learner outcomes, low marks or an honest unsuccessful application."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "15",
+   "title": "Fraud, safeguarding and professional integrity",
+   "lead": "Earnings create strong incentives. Risk controls must protect minors, prevent fake activity and keep professional advice independent.",
+   "blocks": [
+    {
+     "type": "table",
+     "rows": [
+      [
+       "Risk",
+       "Signals",
+       "Default response"
+      ],
+      [
+       "Self/circular referral",
+       "Same identity, bank, device, tax ID, household or payment loop",
+       "Reject, reverse and freeze referral capability"
+      ],
+      [
+       "Fake attendance",
+       "Impossible overlaps, repeated device/location, no evidence",
+       "Hold and investigate"
+      ],
+      [
+       "CGC answer ring",
+       "Reciprocal votes, burst voting, linked accounts",
+       "Exclude votes/units; reverse pool credit"
+      ],
+      [
+       "Content plagiarism",
+       "Similarity, rights claim or missing source",
+       "Reject/reverse; IP review and possible suspension"
+      ],
+      [
+       "Credential misrepresentation",
+       "Expired/false qualification or protected-title misuse",
+       "Immediate listing suspension"
+      ],
+      [
+       "Off-platform payment",
+       "Solicitation, hidden fee or payment diversion",
+       "Warning/suspension; no platform protection"
+      ],
+      [
+       "Upsell conflict",
+       "Advice linked to commission or product steering",
+       "Remove incentive; case review"
+      ],
+      [
+       "Minor-safety breach",
+       "Unapproved contact, recording, content or meeting channel",
+       "Immediate safety escalation and hold"
+      ],
+      [
+       "Institution kickback",
+       "Undisclosed personal payment for procurement/routing",
+       "Reject and escalate to compliance"
+      ]
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Deductions policy"
+    },
+    {
+     "type": "ol",
+     "items": [
+      "Use deductions only for a documented correction, refund, chargeback, fraud finding, contract fee or tax item.",
+      "Do not deduct earnings because a learner did not choose a recommended career, buy a course, win a contest or obtain a job.",
+      "Give the partner a reason code, evidence summary, affected transaction and appeal route.",
+      "For safety and fraud, Career Garage may hold funds during investigation; undisputed cleared amounts should be released where practicable.",
+      "Maintain an audit log for every manual rate override, hold, reversal and appeal decision."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "title": "Partner earnings terms - summary",
+   "lead": "These clauses should be reflected in the full partner agreement and public policy. The signed agreement and live rate card prevail where they differ.",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "No guaranteed income. Marketplace demand, eligibility and earnings vary; Career Garage does not promise minimum work or income unless a written retainer does."
+    },
+    {
+     "type": "p",
+     "text": "Eligibility. Partner must maintain identity, bank, tax, credentials, safeguarding and role approval."
+    },
+    {
+     "type": "p",
+     "text": "Rates. The rate locked to the booking, order or commission applies. Future rates may change prospectively with notice."
+    },
+    {
+     "type": "p",
+     "text": "Evidence. An activity is payable only after required delivery and verification evidence is accepted."
+    },
+    {
+     "type": "p",
+     "text": "Refunds and reversals. Refunds, chargebacks, fraud and corrections may reverse pending or paid earnings under the published policy."
+    },
+    {
+     "type": "p",
+     "text": "Taxes. Partner is responsible for its tax compliance; Career Garage may deduct and report applicable withholding."
+    },
+    {
+     "type": "p",
+     "text": "Off-platform payments. Partners may not divert platform customers or collect hidden fees for platform-booked services."
+    },
+    {
+     "type": "p",
+     "text": "Professional independence. Advice must remain within scope and cannot be influenced by referral, course or membership commission."
+    },
+    {
+     "type": "p",
+     "text": "Safeguarding and privacy. All minor contact, consent, recording, data access and escalation must follow approved controls."
+    },
+    {
+     "type": "p",
+     "text": "Intellectual property. Partner warrants originality and grants/assigns only the rights stated in the content order or agreement."
+    },
+    {
+     "type": "p",
+     "text": "Suspension. Career Garage may restrict listings and hold disputed earnings for credible safety, fraud, legal or credential concerns."
+    },
+    {
+     "type": "p",
+     "text": "Disputes. Partner must dispute a statement line within 15 calendar days; records remain visible and corrections post as adjustments."
+    },
+    {
+     "type": "p",
+     "text": "Termination. No new earning accrues after closure; cleared undisputed balances follow the final settlement process."
+    },
+    {
+     "type": "callout",
+     "label": "CONTRACTING RULE",
+     "text": "Use separate agreements for employees, independent professionals, affiliates and institutions. Do not use one hybrid document to create a relationship that behaves differently in practice."
+    }
+   ]
+  }
+ ],
+ "rateCard": [
+  [
+   "Role",
+   "Paid activity",
+   "Mode",
+   "Default share",
+   "Allowed range",
+   "Payable evidence"
+  ],
+  [
+   "Counsellor",
+   "1:1 career counselling",
+   "RS",
+   "70%",
+   "60-80%",
+   "Completed session + notes + learner acknowledgement"
+  ],
+  [
+   "Counsellor",
+   "Assessment interpretation",
+   "RS",
+   "65%",
+   "60-75%",
+   "Approved report + interpretation session"
+  ],
+  [
+   "Counsellor",
+   "Career roadmap review",
+   "RS",
+   "70%",
+   "65-80%",
+   "Roadmap approved and delivered"
+  ],
+  [
+   "Counsellor",
+   "Group counselling",
+   "RS",
+   "60%",
+   "50-70%",
+   "Attendance + session record"
+  ],
+  [
+   "Psychologist",
+   "1:1 psychology service",
+   "RS",
+   "75%",
+   "70-85%",
+   "Verified scope, consent and completed record"
+  ],
+  [
+   "Psychologist",
+   "Assessment interpretation",
+   "RS",
+   "75%",
+   "70-85%",
+   "Approved instrument process + signed report"
+  ],
+  [
+   "Psychologist",
+   "Group well-being session",
+   "RS",
+   "70%",
+   "60-80%",
+   "Attendance + safeguarding record"
+  ],
+  [
+   "Mentor",
+   "1:1 mentoring",
+   "RS",
+   "70%",
+   "60-80%",
+   "Attendance + action note"
+  ],
+  [
+   "Industry professional",
+   "Mock interview",
+   "RS",
+   "70%",
+   "60-80%",
+   "Interview + rubric feedback"
+  ],
+  [
+   "Industry professional",
+   "Portfolio/CV review",
+   "RS",
+   "70%",
+   "60-80%",
+   "Annotated review delivered"
+  ],
+  [
+   "Tutor",
+   "1:1 tutoring",
+   "RS",
+   "70%",
+   "60-80%",
+   "Attendance + lesson evidence"
+  ],
+  [
+   "Trainer",
+   "Live workshop",
+   "RS",
+   "65%",
+   "55-75%",
+   "Attendance + materials + feedback"
+  ],
+  [
+   "Trainer",
+   "Cohort bootcamp",
+   "RS",
+   "65%",
+   "55-75%",
+   "Milestone completion + learner records"
+  ],
+  [
+   "Teacher",
+   "Live masterclass",
+   "RS",
+   "65%",
+   "55-75%",
+   "Attendance + approved lesson plan"
+  ],
+  [
+   "Any verified expert",
+   "Provider-sourced paid session",
+   "RS",
+   "85%",
+   "80-90%",
+   "Tracked provider link + completed service"
+  ]
+ ],
+ "matrix": [
+  {
+   "earner": "Counsellor",
+   "activity": "1:1 session",
+   "mode": "RS",
+   "default": "70%",
+   "evidence": "Completed + notes"
+  },
+  {
+   "earner": "Counsellor",
+   "activity": "Assessment interpretation",
+   "mode": "RS",
+   "default": "65%",
+   "evidence": "Report + session"
+  },
+  {
+   "earner": "Counsellor",
+   "activity": "Roadmap review",
+   "mode": "RS",
+   "default": "70%",
+   "evidence": "Accepted roadmap"
+  },
+  {
+   "earner": "Psychologist",
+   "activity": "Verified service",
+   "mode": "RS",
+   "default": "75%",
+   "evidence": "Scope + consent + record"
+  },
+  {
+   "earner": "Mentor",
+   "activity": "1:1 mentoring",
+   "mode": "RS",
+   "default": "70%",
+   "evidence": "Attendance + action note"
+  },
+  {
+   "earner": "Professional",
+   "activity": "Mock interview",
+   "mode": "RS",
+   "default": "70%",
+   "evidence": "Rubric feedback"
+  },
+  {
+   "earner": "Professional",
+   "activity": "CV/portfolio review",
+   "mode": "RS",
+   "default": "70%",
+   "evidence": "Annotated deliverable"
+  },
+  {
+   "earner": "Tutor",
+   "activity": "1:1 tutoring",
+   "mode": "RS",
+   "default": "70%",
+   "evidence": "Attendance + lesson"
+  },
+  {
+   "earner": "Trainer",
+   "activity": "Workshop/bootcamp",
+   "mode": "RS",
+   "default": "65%",
+   "evidence": "Attendance + materials"
+  },
+  {
+   "earner": "Teacher",
+   "activity": "Masterclass",
+   "mode": "RS",
+   "default": "65%",
+   "evidence": "Approved lesson + delivery"
+  },
+  {
+   "earner": "Course creator",
+   "activity": "Platform-sourced course sale",
+   "mode": "RS",
+   "default": "40%",
+   "evidence": "Refund cleared"
+  },
+  {
+   "earner": "Course creator",
+   "activity": "Creator-sourced course sale",
+   "mode": "RS",
+   "default": "70%",
+   "evidence": "Tracked source + refund cleared"
+  },
+  {
+   "earner": "Creator",
+   "activity": "Course licence",
+   "mode": "LR",
+   "default": "50%",
+   "evidence": "Invoice collected"
+  },
+  {
+   "earner": "Writer",
+   "activity": "Career article",
+   "mode": "FF",
+   "default": "INR 500-3,000",
+   "evidence": "Editorial approval"
+  },
+  {
+   "earner": "Writer",
+   "activity": "Career pathway guide",
+   "mode": "FF",
+   "default": "INR 750-5,000",
+   "evidence": "Fact + editorial approval"
+  },
+  {
+   "earner": "Video creator",
+   "activity": "Educational video",
+   "mode": "FF",
+   "default": "INR 1,500-10,000",
+   "evidence": "Rights + final approval"
+  },
+  {
+   "earner": "Question writer",
+   "activity": "Question-bank item",
+   "mode": "FF",
+   "default": "INR 25-75",
+   "evidence": "Original item + rationale"
+  },
+  {
+   "earner": "Assessment expert",
+   "activity": "Assessment item",
+   "mode": "FF",
+   "default": "INR 40-150",
+   "evidence": "Blueprint + bias review"
+  },
+  {
+   "earner": "Evaluator",
+   "activity": "Assignment/portfolio",
+   "mode": "FF",
+   "default": "INR 30-250",
+   "evidence": "Rubric completed"
+  },
+  {
+   "earner": "Translator",
+   "activity": "Localisation",
+   "mode": "FF",
+   "default": "INR 0.75-2.50/word",
+   "evidence": "QA approval"
+  },
+  {
+   "earner": "Speaker",
+   "activity": "Event session",
+   "mode": "FF",
+   "default": "INR 2,000-25,000",
+   "evidence": "Completed delivery"
+  },
+  {
+   "earner": "Organiser",
+   "activity": "Paid event",
+   "mode": "RS",
+   "default": "20% event net",
+   "evidence": "Reconciled event"
+  },
+  {
+   "earner": "Institution",
+   "activity": "Event host",
+   "mode": "RS/FF",
+   "default": "10% or fixed",
+   "evidence": "Host duties complete"
+  },
+  {
+   "earner": "Olympiad coordinator",
+   "activity": "Paid participant",
+   "mode": "MS",
+   "default": "INR 20-50 or 8%",
+   "evidence": "Verified paid participant"
+  },
+  {
+   "earner": "Judge",
+   "activity": "Evaluation session",
+   "mode": "FF",
+   "default": "INR 500-5,000",
+   "evidence": "Scorecards + conflict check"
+  },
+  {
+   "earner": "Institution",
+   "activity": "Programme delivery",
+   "mode": "RS",
+   "default": "70%",
+   "evidence": "Contract milestone"
+  },
+  {
+   "earner": "Institution",
+   "activity": "Marketing/coordination",
+   "mode": "RS",
+   "default": "10-20%",
+   "evidence": "Cohort + operations evidence"
+  },
+  {
+   "earner": "Employer",
+   "activity": "Challenge/programme",
+   "mode": "FF/RS",
+   "default": "Contracted",
+   "evidence": "Approved delivery"
+  },
+  {
+   "earner": "Affiliate",
+   "activity": "First paid membership",
+   "mode": "RR",
+   "default": "10%",
+   "evidence": "Cooling cleared"
+  },
+  {
+   "earner": "Affiliate",
+   "activity": "Institution contract",
+   "mode": "RR/MS",
+   "default": "5% first year or fixed",
+   "evidence": "Collected cash + approval"
+  },
+  {
+   "earner": "CGC expert",
+   "activity": "Monthly impact share",
+   "mode": "QP",
+   "default": "Pool formula",
+   "evidence": "Eligible impact units"
+  },
+  {
+   "earner": "Moderator",
+   "activity": "Answer/content moderation",
+   "mode": "FF/RT",
+   "default": "INR 5-50/item",
+   "evidence": "Logged policy decision"
+  },
+  {
+   "earner": "Verifier",
+   "activity": "Opportunity verification",
+   "mode": "FF",
+   "default": "INR 50-250",
+   "evidence": "All checks complete"
+  },
+  {
+   "earner": "Internship mentor",
+   "activity": "Funded mentoring",
+   "mode": "FF",
+   "default": "INR 500-3,000/month",
+   "evidence": "Logs + evaluation"
+  },
+  {
+   "earner": "Coordinator",
+   "activity": "Internship programme",
+   "mode": "RS/FF",
+   "default": "10-15%",
+   "evidence": "Onboarding + completion"
+  },
+  {
+   "earner": "Partner referrer",
+   "activity": "Partner activation",
+   "mode": "MS",
+   "default": "INR 500",
+   "evidence": "KYC + 3 paid services"
+  },
+  {
+   "earner": "Institution",
+   "activity": "Impact report",
+   "mode": "FF",
+   "default": "INR 5,000-50,000",
+   "evidence": "Approved report"
+  },
+  {
+   "earner": "Reviewer",
+   "activity": "Credential/content audit",
+   "mode": "FF/RT",
+   "default": "Contracted",
+   "evidence": "Independent approval"
+  },
+  {
+   "earner": "Employee",
+   "activity": "Assigned platform work",
+   "mode": "Payroll",
+   "default": "Not wallet",
+   "evidence": "Employment process"
+  },
+  {
+   "earner": "Student/parent",
+   "activity": "Any activity",
+   "mode": "Points only",
+   "default": "INR 0",
+   "evidence": "No cash earnings"
+  }
+ ]
+}

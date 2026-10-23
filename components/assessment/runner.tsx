@@ -156,6 +156,7 @@ export function AssessmentRunner(props: Props) {
       <ReportView
         report={report}
         color={color}
+        onOwnerUnlock={() => submit(answers)}
         onRetake={() => {
           setAnswers({});
           setCurrent(0);

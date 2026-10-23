@@ -8,6 +8,8 @@ import {
   logResult,
 } from "@/lib/assessments/server";
 import { isSubscriber } from "@/lib/subscription";
+import { currentMember } from "@/lib/members";
+import { awardPoints } from "@/lib/points-engine";
 
 /**
  * POST /api/assessments/[slug]/score — score answers on the server so the
@@ -36,7 +38,8 @@ export async function POST(
   const body = (raw ?? {}) as Record<string, unknown>;
   const mode = body.mode === "full" ? "full" : "demo";
 
-  if (mode === "full" && !(await isSubscriber())) {
+  const subscriber = await isSubscriber();
+  if (mode === "full" && !subscriber) {
     return NextResponse.json(
       { error: "The full assessment is available to subscribers." },
       { status: 403 }
@@ -49,7 +52,14 @@ export async function POST(
     return NextResponse.json({ error: "No valid answers" }, { status: 400 });
   }
 
-  const report = buildReport(meta, items, answers, mode);
-  after(() => logResult(report));
+  const report = buildReport(meta, items, answers, mode, subscriber);
+  const member = await currentMember();
+  after(async () => {
+    await logResult(report, member?._id.toString());
+    // Career Points reward authentic completion only — never the result itself
+    if (member && mode === "full" && report.status === "complete") {
+      await awardPoints(member, "ASM_COMPLETE", { ref: meta.slug });
+    }
+  });
   return NextResponse.json(report);
 }

@@ -1,0 +1,1346 @@
+{
+ "architecture": {
+  "purpose": "Reward useful progress and trusted contribution without encouraging spam, unsafe competition or pay-to-win behaviour.",
+  "components": [
+   [
+    "Lifetime CP",
+    "All valid points ever earned",
+    "A verified action clears",
+    "Only for reversal, fraud or correction"
+   ],
+   [
+    "Available CP",
+    "Unspent, unexpired redemption balance",
+    "Points earn, redeem, expire or reverse",
+    "Yes"
+   ],
+   [
+    "Level",
+    "Long-term recognition band",
+    "Lifetime CP crosses a threshold",
+    "Only if invalid points reverse"
+   ],
+   [
+    "Badge",
+    "Evidence of a specific verified achievement",
+    "Badge criteria are completed",
+    "Yes, if the evidence is invalidated"
+   ],
+   [
+    "Streak",
+    "Consistency over a defined period",
+    "Qualified activity occurs in consecutive periods",
+    "Resets without penalty"
+   ],
+   [
+    "Reputation",
+    "Quality and trust indicator",
+    "Ratings, acceptance, safety and reliability change",
+    "Yes; not redeemable"
+   ]
+  ],
+  "multipliers": [
+   [
+    "0.00",
+    "Rejected, duplicate, unsafe, copied or incomplete",
+    "No points; pending points reverse"
+   ],
+   [
+    "0.50",
+    "Partially accepted or late, where the rule permits",
+    "Half base points"
+   ],
+   [
+    "1.00",
+    "Completed and verified to standard",
+    "Base points"
+   ],
+   [
+    "1.25",
+    "Exceptional quality under a published rubric",
+    "25% bonus within cap"
+   ]
+  ],
+  "principles": [
+   "Points follow learning: completion and reflection matter more than purchase or registration.",
+   "Quality beats volume: CGC and content points are capped and moderated.",
+   "No hidden trade: CP cannot be sold, gifted, pooled between households or withdrawn.",
+   "No academic distortion: assessment answers, career choices and contest judging never change to increase points.",
+   "No minor monetisation: student and parent activity stays in the benefits ledger.",
+   "Explain every change: the user can open a points line to see action, date, rule version and status."
+  ],
+  "formula": "Career Points awarded  min(activity cap, base points x verified quantity x quality multiplier + approved bonus) - reversals. A pending event shows estimated points but does not change the available balance."
+ },
+ "roles": [
+  [
+   "Students",
+   "Learning, assessments, roadmap, CGC, projects, events, contests, internships, scholarships",
+   "Student + class/stage"
+  ],
+  [
+   "Parents/guardians",
+   "Orientation, consent, progress support, webinars, feedback, verified referrals",
+   "Parent/guardian"
+  ],
+  [
+   "Teachers/educators",
+   "Learning, lesson resources, answers, moderation, mentoring, events, referrals",
+   "Educator"
+  ],
+  [
+   "Counsellors",
+   "Credentialing, sessions, reports, CGC answers, webinars, peer learning",
+   "Counsellor"
+  ],
+  [
+   "Psychologists",
+   "Credentialing, approved practice, safeguarding learning, CGC expert contribution",
+   "Psychologist"
+  ],
+  [
+   "Mentors/professionals",
+   "Mentoring, mock interviews, content, industry events, opportunities",
+   "Expert"
+  ],
+  [
+   "Tutors/trainers",
+   "Learning delivery, course creation, assignments, workshops, verified answers",
+   "Learning provider"
+  ],
+  [
+   "Creators/evaluators",
+   "Original content, question banks, translations, review, moderation",
+   "Contributor"
+  ],
+  [
+   "Schools/colleges/universities",
+   "Cohort onboarding, programmes, events, educator participation, outcomes",
+   "Institution"
+  ],
+  [
+   "Employers/partners",
+   "Internships, challenges, talks, opportunity verification, feedback",
+   "Employer/partner"
+  ],
+  [
+   "Affiliates/alumni/ambassadors",
+   "Verified outreach, orientation, referrals and community activation",
+   "Ambassador"
+  ],
+  [
+   "Moderators/verifiers",
+   "Policy decisions, safety escalation, opportunity and credential checks",
+   "Operations"
+  ]
+ ],
+ "sections": [
+  {
+   "title": "Onboarding, profile and membership points",
+   "purpose": "Reward completed setup and genuine activation, not account creation or payment by itself."
+  },
+  {
+   "title": "Assessments and career-roadmap points",
+   "purpose": "Reward authentic completion, reflection and action while protecting assessment validity."
+  },
+  {
+   "title": "Courses, training and certification points",
+   "purpose": "Make mastery, application and persistence more valuable than video-watching volume."
+  },
+  {
+   "title": "Career Garage Connect points",
+   "purpose": "Encourage useful questions, verified answers and safe community support without turning CGC into a volume contest."
+  },
+  {
+   "title": "Events, Olympiads, contests and competitions",
+   "purpose": "Reward attendance, submission, improvement, service and achievement without creating an unfair advantage for paid access."
+  },
+  {
+   "title": "Internships, scholarships and opportunities",
+   "purpose": "Reward readiness, verified application quality and completion while preventing mass-application farming."
+  },
+  {
+   "title": "Parent and guardian points",
+   "purpose": "Recognise informed, supportive participation without pressuring parents to monitor every learner action."
+  },
+  {
+   "title": "Educator, expert and contributor points",
+   "purpose": "Provide professional recognition for learning, service quality and community contribution, separate from cash compensation."
+  },
+  {
+   "title": "Institution, employer and ecosystem points",
+   "purpose": "Recognise verified institutional participation and outcomes without letting large organisations dominate individual leaderboards."
+  }
+ ],
+ "actions": [
+  {
+   "code": "GEN_PROFILE_80",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Profile reaches 80% with required fields",
+   "role": "All individuals",
+   "cp": 20,
+   "limit": "Once",
+   "evidence": "Field validation"
+  },
+  {
+   "code": "GEN_ID_VERIFY",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Identity/age verification where required",
+   "role": "Adults",
+   "cp": 50,
+   "limit": "Once",
+   "evidence": "Successful verification"
+  },
+  {
+   "code": "GEN_ROLE_VERIFY",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Role credential verified",
+   "role": "Professional roles",
+   "cp": 100,
+   "limit": "Per approved role; max 2",
+   "evidence": "Credential check"
+  },
+  {
+   "code": "GEN_ORIENTATION",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Platform orientation completed",
+   "role": "All",
+   "cp": 25,
+   "limit": "Once per major role",
+   "evidence": "Completion + quiz"
+  },
+  {
+   "code": "GEN_SAFETY",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Safety/privacy micro-course completed",
+   "role": "All",
+   "cp": 40,
+   "limit": "Annual",
+   "evidence": "Passing score"
+  },
+  {
+   "code": "GEN_PROFILE_REFRESH",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Annual profile and preference refresh",
+   "role": "All",
+   "cp": 20,
+   "limit": "Annual",
+   "evidence": "Meaningful updates"
+  },
+  {
+   "code": "MEMBER_ACTIVATE",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Membership activated plus onboarding checklist completed",
+   "role": "Member",
+   "cp": 100,
+   "limit": "Once per tier",
+   "evidence": "Payment cleared + usage gate"
+  },
+  {
+   "code": "MEMBER_RENEW_USE",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Renewal plus one qualified activity in 30 days",
+   "role": "Member",
+   "cp": 50,
+   "limit": "Annual",
+   "evidence": "Payment and activity clear"
+  },
+  {
+   "code": "GEN_WEEK_STREAK",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Qualified activity in 5 of 7 days",
+   "role": "Individuals",
+   "cp": 25,
+   "limit": "Weekly",
+   "evidence": "Unique-day events"
+  },
+  {
+   "code": "GEN_MONTH_STREAK",
+   "section": "Onboarding, profile and membership points",
+   "activity": "Qualified activity in 3 consecutive weeks",
+   "role": "Individuals",
+   "cp": 75,
+   "limit": "Monthly",
+   "evidence": "No duplicate stacking"
+  },
+  {
+   "code": "ASM_COMPLETE",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Complete an eligible assessment with validity checks",
+   "cp": 60,
+   "limit": "First valid attempt per instrument per cycle",
+   "evidence": "Completed response set"
+  },
+  {
+   "code": "ASM_REFLECTION",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Complete post-assessment reflection",
+   "cp": 20,
+   "limit": "Once per report",
+   "evidence": "Meaningful reflection"
+  },
+  {
+   "code": "ASM_COUNSELLING",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Attend interpretation session",
+   "cp": 30,
+   "limit": "Once per report",
+   "evidence": "Attendance"
+  },
+  {
+   "code": "ASM_ACTION",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Complete one report action",
+   "cp": 25,
+   "limit": "Max 3 per report",
+   "evidence": "Evidence or confirmation"
+  },
+  {
+   "code": "ASM_RETAKE",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Approved retake after eligible interval",
+   "cp": 20,
+   "limit": "No practice farming",
+   "evidence": "Retake rule clears"
+  },
+  {
+   "code": "ROADMAP_CREATE",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Create first Plan A/B/C career roadmap",
+   "cp": 75,
+   "limit": "Once",
+   "evidence": "Required fields"
+  },
+  {
+   "code": "ROADMAP_GOAL",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Set a specific verified goal",
+   "cp": 15,
+   "limit": "Max 5 active",
+   "evidence": "Goal quality check"
+  },
+  {
+   "code": "ROADMAP_MILESTONE",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Complete roadmap milestone",
+   "cp": 40,
+   "limit": "Max 8/month",
+   "evidence": "Evidence/mentor approval"
+  },
+  {
+   "code": "ROADMAP_REVIEW",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Monthly roadmap review",
+   "cp": 20,
+   "limit": "Once/month",
+   "evidence": "Updated plan"
+  },
+  {
+   "code": "ROADMAP_SHARE",
+   "section": "Assessments and career-roadmap points",
+   "activity": "Share roadmap with authorised parent/educator",
+   "cp": 10,
+   "limit": "Once per recipient type",
+   "evidence": "Consent + share"
+  },
+  {
+   "code": "CRS_MODULE",
+   "section": "Courses, training and certification points",
+   "activity": "Complete one substantive module",
+   "cp": 5,
+   "limit": "25/day",
+   "evidence": "Time + activity gate"
+  },
+  {
+   "code": "CRS_QUIZ_PASS",
+   "section": "Courses, training and certification points",
+   "activity": "Pass a scored quiz",
+   "cp": 10,
+   "limit": "First passing attempt; max 5/day",
+   "evidence": "Passing score"
+  },
+  {
+   "code": "CRS_MASTERY",
+   "section": "Courses, training and certification points",
+   "activity": "Score 80%+ on final assessment",
+   "cp": 30,
+   "limit": "Once/course",
+   "evidence": "Proctored or validated"
+  },
+  {
+   "code": "CRS_COMPLETE_SHORT",
+   "section": "Courses, training and certification points",
+   "activity": "Complete course under 3 hours",
+   "cp": 50,
+   "limit": "Once/course",
+   "evidence": "All requirements"
+  },
+  {
+   "code": "CRS_COMPLETE_STD",
+   "section": "Courses, training and certification points",
+   "activity": "Complete 3-20 hour course",
+   "cp": 100,
+   "limit": "Once/course",
+   "evidence": "All requirements"
+  },
+  {
+   "code": "CRS_COMPLETE_LONG",
+   "section": "Courses, training and certification points",
+   "activity": "Complete course above 20 hours",
+   "cp": 175,
+   "limit": "Once/course",
+   "evidence": "All requirements"
+  },
+  {
+   "code": "CRS_PROJECT",
+   "section": "Courses, training and certification points",
+   "activity": "Submit and pass applied project",
+   "cp": 75,
+   "limit": "Once/project",
+   "evidence": "Rubric accepted"
+  },
+  {
+   "code": "CRS_PEER_REVIEW",
+   "section": "Courses, training and certification points",
+   "activity": "Complete useful peer review",
+   "cp": 15,
+   "limit": "3/week",
+   "evidence": "Rubric + moderation"
+  },
+  {
+   "code": "CRS_LIVE",
+   "section": "Courses, training and certification points",
+   "activity": "Attend 80%+ of live workshop",
+   "cp": 40,
+   "limit": "Per event",
+   "evidence": "Attendance"
+  },
+  {
+   "code": "CRS_CERT",
+   "section": "Courses, training and certification points",
+   "activity": "Earn verified certificate",
+   "cp": 50,
+   "limit": "Once/credential",
+   "evidence": "Certificate issued"
+  },
+  {
+   "code": "CRS_APPLY",
+   "section": "Courses, training and certification points",
+   "activity": "Document real-world skill application",
+   "cp": 100,
+   "limit": "2/month",
+   "evidence": "Mentor/educator verification"
+  },
+  {
+   "code": "CGC_QUESTION",
+   "section": "Career Garage Connect points",
+   "activity": "Question passes quality and safety review",
+   "cp": 2,
+   "limit": "5/day",
+   "evidence": "Not duplicate/searchable spam"
+  },
+  {
+   "code": "CGC_ANSWER",
+   "section": "Career Garage Connect points",
+   "activity": "Answer remains approved for 72 hours",
+   "cp": 10,
+   "limit": "5/day",
+   "evidence": "Original and relevant"
+  },
+  {
+   "code": "CGC_ACCEPTED",
+   "section": "Career Garage Connect points",
+   "activity": "Questioner accepts an approved answer",
+   "cp": 15,
+   "limit": "One/answer",
+   "evidence": "Acceptance integrity check"
+  },
+  {
+   "code": "CGC_EXPERT",
+   "section": "Career Garage Connect points",
+   "activity": "Verified expert answer passes rubric",
+   "cp": 20,
+   "limit": "5/day",
+   "evidence": "Credential + rubric"
+  },
+  {
+   "code": "CGC_HELPFUL",
+   "section": "Career Garage Connect points",
+   "activity": "Verified unique helpful vote",
+   "cp": 1,
+   "limit": "10/answer; 25/day/user",
+   "evidence": "Vote integrity"
+  },
+  {
+   "code": "CGC_SOURCE",
+   "section": "Career Garage Connect points",
+   "activity": "High-quality answer includes verified source",
+   "cp": 5,
+   "limit": "3/day",
+   "evidence": "Source check"
+  },
+  {
+   "code": "CGC_BEST",
+   "section": "Career Garage Connect points",
+   "activity": "Moderator-selected solution of the week",
+   "cp": 50,
+   "limit": "One/week/category",
+   "evidence": "Independent moderation"
+  },
+  {
+   "code": "CGC_MOD",
+   "section": "Career Garage Connect points",
+   "activity": "Moderator completes logged decision",
+   "cp": 5,
+   "limit": "50/day",
+   "evidence": "Policy code + audit"
+  },
+  {
+   "code": "CGC_RESOLVE",
+   "section": "Career Garage Connect points",
+   "activity": "Author marks question resolved after useful answer",
+   "cp": 5,
+   "limit": "3/day",
+   "evidence": "Valid resolution"
+  },
+  {
+   "code": "CGC_REPORT",
+   "section": "Career Garage Connect points",
+   "activity": "Good-faith report is substantiated",
+   "cp": 10,
+   "limit": "5/month",
+   "evidence": "Moderator confirms"
+  },
+  {
+   "code": "EVT_ATTEND",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Attend 80%+ of eligible event",
+   "cp": 30,
+   "limit": "Per event",
+   "evidence": "Attendance"
+  },
+  {
+   "code": "EVT_FEEDBACK",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Submit useful event feedback",
+   "cp": 5,
+   "limit": "One/event; 5/month",
+   "evidence": "Minimum-quality check"
+  },
+  {
+   "code": "EVT_VOLUNTEER",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Complete approved volunteer duty",
+   "cp": 60,
+   "limit": "Per assignment",
+   "evidence": "Coordinator sign-off"
+  },
+  {
+   "code": "EVT_SPEAKER",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Deliver approved session",
+   "cp": 100,
+   "limit": "Per session",
+   "evidence": "Delivery + feedback"
+  },
+  {
+   "code": "OLY_PARTICIPATE",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Complete valid Olympiad attempt",
+   "cp": 50,
+   "limit": "Per subject/season",
+   "evidence": "Submission valid"
+  },
+  {
+   "code": "OLY_IMPROVE",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Meaningful score-band improvement",
+   "cp": 50,
+   "limit": "Once/season",
+   "evidence": "Comparable attempts"
+  },
+  {
+   "code": "OLY_TOP25",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Reach top 25% in eligible cohort",
+   "cp": 75,
+   "limit": "Per competition",
+   "evidence": "Final result"
+  },
+  {
+   "code": "OLY_FINALIST",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Advance to final level",
+   "cp": 150,
+   "limit": "Per competition",
+   "evidence": "Official result"
+  },
+  {
+   "code": "OLY_WINNER",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Place 1st/2nd/3rd",
+   "cp": 300250200,
+   "limit": "Per competition",
+   "evidence": "Official result"
+  },
+  {
+   "code": "CONTEST_SUBMIT",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Submit compliant original entry",
+   "cp": 40,
+   "limit": "Per contest",
+   "evidence": "Originality + rules"
+  },
+  {
+   "code": "CONTEST_PEER",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Complete structured peer feedback",
+   "cp": 15,
+   "limit": "3/contest",
+   "evidence": "Rubric accepted"
+  },
+  {
+   "code": "EVENT_HOST",
+   "section": "Events, Olympiads, contests and competitions",
+   "activity": "Institution hosts completed event",
+   "cp": 500,
+   "limit": "Per event; contracted cap",
+   "evidence": "Reconciliation"
+  },
+  {
+   "code": "OPP_PROFILE",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Complete opportunity-ready profile",
+   "cp": 40,
+   "limit": "Once/6 months",
+   "evidence": "Required evidence"
+  },
+  {
+   "code": "OPP_APPLICATION",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Submit complete tailored application",
+   "cp": 10,
+   "limit": "5/month",
+   "evidence": "Completeness check"
+  },
+  {
+   "code": "OPP_SHORTLIST",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Receive verified shortlist",
+   "cp": 40,
+   "limit": "Per opportunity",
+   "evidence": "Host confirmation"
+  },
+  {
+   "code": "INT_ACCEPT",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Accept verified internship offer",
+   "cp": 75,
+   "limit": "Per placement",
+   "evidence": "Offer + consent"
+  },
+  {
+   "code": "INT_MILESTONE",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Complete internship milestone",
+   "cp": 50,
+   "limit": "4/placement",
+   "evidence": "Supervisor sign-off"
+  },
+  {
+   "code": "INT_COMPLETE",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Complete internship successfully",
+   "cp": 250,
+   "limit": "Per placement",
+   "evidence": "Final evaluation"
+  },
+  {
+   "code": "INT_EXCELLENCE",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Supervisor excellence rating",
+   "cp": 100,
+   "limit": "Per placement",
+   "evidence": "Rubric + review"
+  },
+  {
+   "code": "SCH_PROFILE",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Complete scholarship eligibility profile",
+   "cp": 40,
+   "limit": "Annual",
+   "evidence": "Required fields"
+  },
+  {
+   "code": "SCH_APPLICATION",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Submit verified eligible application",
+   "cp": 15,
+   "limit": "5/month",
+   "evidence": "Application evidence"
+  },
+  {
+   "code": "SCH_AWARD",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Receive verified external scholarship",
+   "cp": 100,
+   "limit": "Per award",
+   "evidence": "Issuer confirmation"
+  },
+  {
+   "code": "OPP_LIST",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Employer posts approved opportunity",
+   "cp": 100,
+   "limit": "Per listing; monthly cap",
+   "evidence": "Employer verification"
+  },
+  {
+   "code": "OPP_HOST",
+   "section": "Internships, scholarships and opportunities",
+   "activity": "Employer completes internship cohort",
+   "cp": 500,
+   "limit": "Per cohort",
+   "evidence": "Outcome report"
+  },
+  {
+   "code": "PAR_ONBOARD",
+   "section": "Parent and guardian points",
+   "activity": "Complete guardian orientation",
+   "cp": 30,
+   "limit": "Once",
+   "evidence": "Orientation completion"
+  },
+  {
+   "code": "PAR_CONSENT",
+   "section": "Parent and guardian points",
+   "activity": "Complete required consent and privacy choices",
+   "cp": 20,
+   "limit": "Per material update",
+   "evidence": "Valid consent record"
+  },
+  {
+   "code": "PAR_WEBINAR",
+   "section": "Parent and guardian points",
+   "activity": "Attend approved parent webinar",
+   "cp": 40,
+   "limit": "2/month",
+   "evidence": "Attendance"
+  },
+  {
+   "code": "PAR_GOAL",
+   "section": "Parent and guardian points",
+   "activity": "Complete monthly support check-in with learner",
+   "cp": 20,
+   "limit": "Once/month",
+   "evidence": "Learner confirms"
+  },
+  {
+   "code": "PAR_COUNSELLING",
+   "section": "Parent and guardian points",
+   "activity": "Attend invited counselling review",
+   "cp": 30,
+   "limit": "Per plan cycle",
+   "evidence": "Attendance"
+  },
+  {
+   "code": "PAR_FEEDBACK",
+   "section": "Parent and guardian points",
+   "activity": "Submit useful programme feedback",
+   "cp": 10,
+   "limit": "3/month",
+   "evidence": "Quality check"
+  },
+  {
+   "code": "PAR_SAFETY",
+   "section": "Parent and guardian points",
+   "activity": "Complete child-safety/digital-safety learning",
+   "cp": 60,
+   "limit": "Annual",
+   "evidence": "Passing score"
+  },
+  {
+   "code": "PAR_REFERRAL",
+   "section": "Parent and guardian points",
+   "activity": "Verified referral reaches activation",
+   "cp": 25,
+   "limit": "10/month",
+   "evidence": "Activation + dedupe"
+  },
+  {
+   "code": "PRO_CREDENTIAL",
+   "section": "Educator, expert and contributor points",
+   "activity": "Role credential approved",
+   "cp": 100,
+   "limit": "Per role",
+   "evidence": "Independent verification"
+  },
+  {
+   "code": "PRO_CPD",
+   "section": "Educator, expert and contributor points",
+   "activity": "Complete approved professional learning",
+   "cp": 100,
+   "limit": "4/quarter",
+   "evidence": "Certificate + validation"
+  },
+  {
+   "code": "PRO_SESSION",
+   "section": "Educator, expert and contributor points",
+   "activity": "Complete approved learner session",
+   "cp": 20,
+   "limit": "10/day",
+   "evidence": "Attendance + record"
+  },
+  {
+   "code": "PRO_RATING",
+   "section": "Educator, expert and contributor points",
+   "activity": "Maintain 4.5+ monthly quality rating",
+   "cp": 150,
+   "limit": "Monthly",
+   "evidence": "Minimum 10 cases"
+  },
+  {
+   "code": "PRO_CGC",
+   "section": "Educator, expert and contributor points",
+   "activity": "Approved expert CGC answer",
+   "cp": 20,
+   "limit": "5/day",
+   "evidence": "Rubric + moderation"
+  },
+  {
+   "code": "PRO_RESOURCE",
+   "section": "Educator, expert and contributor points",
+   "activity": "Publish approved original resource",
+   "cp": 75,
+   "limit": "8/month",
+   "evidence": "Editorial approval"
+  },
+  {
+   "code": "PRO_COURSE",
+   "section": "Educator, expert and contributor points",
+   "activity": "Publish approved course",
+   "cp": 500,
+   "limit": "Per course",
+   "evidence": "Quality + rights review"
+  },
+  {
+   "code": "PRO_MENTOR",
+   "section": "Educator, expert and contributor points",
+   "activity": "Complete mentoring cycle",
+   "cp": 150,
+   "limit": "Per cycle",
+   "evidence": "Milestones + feedback"
+  },
+  {
+   "code": "PRO_EVENT",
+   "section": "Educator, expert and contributor points",
+   "activity": "Deliver approved event session",
+   "cp": 100,
+   "limit": "Per session",
+   "evidence": "Completion"
+  },
+  {
+   "code": "PRO_MOD",
+   "section": "Educator, expert and contributor points",
+   "activity": "Complete quality/safety review",
+   "cp": 5,
+   "limit": "50/day",
+   "evidence": "Logged decision"
+  },
+  {
+   "code": "PRO_REFER",
+   "section": "Educator, expert and contributor points",
+   "activity": "Verified professional referral activates",
+   "cp": 50,
+   "limit": "10/month",
+   "evidence": "KYC + orientation"
+  },
+  {
+   "code": "PRO_IMPACT",
+   "section": "Educator, expert and contributor points",
+   "activity": "Verified quarterly learner-impact milestone",
+   "cp": 300,
+   "limit": "Quarterly",
+   "evidence": "Cohort evidence"
+  },
+  {
+   "code": "INS_VERIFY",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Institution verification and authorised profile",
+   "cp": 300,
+   "limit": "Once",
+   "evidence": "Authorisation check"
+  },
+  {
+   "code": "INS_COHORT",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Activate verified learner cohort",
+   "cp": 2,
+   "limit": "2,000/term",
+   "evidence": "Unique activated users"
+  },
+  {
+   "code": "INS_ORIENT",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Complete staff/learner orientation",
+   "cp": 200,
+   "limit": "Per cohort",
+   "evidence": "Attendance"
+  },
+  {
+   "code": "INS_EVENT",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Host completed career event",
+   "cp": 500,
+   "limit": "4/month",
+   "evidence": "Event evidence"
+  },
+  {
+   "code": "INS_PROGRAM",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Complete contracted programme milestone",
+   "cp": 1000,
+   "limit": "Per milestone",
+   "evidence": "Acceptance record"
+  },
+  {
+   "code": "INS_EDUCATOR",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "80% educator participation in training",
+   "cp": 500,
+   "limit": "Per programme",
+   "evidence": "Attendance"
+  },
+  {
+   "code": "INS_REPORT",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Submit approved outcome/impact report",
+   "cp": 400,
+   "limit": "Quarterly",
+   "evidence": "Data-quality check"
+  },
+  {
+   "code": "INS_SCHOLAR",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Fund verified scholarship opportunity",
+   "cp": 500,
+   "limit": "Per campaign",
+   "evidence": "Award evidence"
+  },
+  {
+   "code": "EMP_OPP",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Post approved internship/job project",
+   "cp": 100,
+   "limit": "20/month",
+   "evidence": "Verified listing"
+  },
+  {
+   "code": "EMP_COHORT",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Complete internship/challenge cohort",
+   "cp": 500,
+   "limit": "Per cohort",
+   "evidence": "Outcome + feedback"
+  },
+  {
+   "code": "EMP_MENTOR",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Provide approved industry mentoring hours",
+   "cp": 25,
+   "limit": "500/month",
+   "evidence": "Attendance"
+  },
+  {
+   "code": "PARTNER_REFER",
+   "section": "Institution, employer and ecosystem points",
+   "activity": "Institution referral becomes active contract",
+   "cp": 500,
+   "limit": "5/quarter",
+   "evidence": "Contract + cooling"
+  }
+ ],
+ "referrals": [
+  {
+   "milestone": "Referral link clicked",
+   "cp": "0",
+   "condition": "Never rewarded"
+  },
+  {
+   "milestone": "Account created",
+   "cp": "0 pending",
+   "condition": "No points until activation gate"
+  },
+  {
+   "milestone": "Verified learner/parent activation",
+   "cp": "25",
+   "condition": "Profile 80% + orientation/first qualified activity within 30 days"
+  },
+  {
+   "milestone": "Verified professional activation",
+   "cp": "50",
+   "condition": "Role verification + orientation within 45 days"
+  },
+  {
+   "milestone": "First paid membership activated",
+   "cp": "150",
+   "condition": "Payment cleared + onboarding usage + 15-day cooling"
+  },
+  {
+   "milestone": "Paid course completed",
+   "cp": "75",
+   "condition": "Course completion + refund period cleared"
+  },
+  {
+   "milestone": "Paid event attended",
+   "cp": "50",
+   "condition": "Attendance + refund period cleared"
+  },
+  {
+   "milestone": "Institution contract activated",
+   "cp": "500",
+   "condition": "Contract signed + first collection + 30-day cooling"
+  },
+  {
+   "milestone": "Membership renewal with use",
+   "cp": "50",
+   "condition": "One renewal only; activity gate clears"
+  }
+ ],
+ "levels": [
+  {
+   "band": "Level 1",
+   "name": "Starter",
+   "min": 0,
+   "max": 499,
+   "recognition": "Core profile and orientation"
+  },
+  {
+   "band": "Level 2",
+   "name": "Explorer",
+   "min": 500,
+   "max": 1499,
+   "recognition": "Explorer frame + starter catalogue"
+  },
+  {
+   "band": "Level 3",
+   "name": "Builder",
+   "min": 1500,
+   "max": 3499,
+   "recognition": "Builder badge + selected community privileges"
+  },
+  {
+   "band": "Level 4",
+   "name": "Achiever",
+   "min": 3500,
+   "max": 7499,
+   "recognition": "Achievement showcase + priority learning drops"
+  },
+  {
+   "band": "Level 5",
+   "name": "Pathfinder",
+   "min": 7500,
+   "max": 14999,
+   "recognition": "Pathfinder recognition + advanced challenges"
+  },
+  {
+   "band": "Level 6",
+   "name": "Leader",
+   "min": 15000,
+   "max": 29999,
+   "recognition": "Leadership badge + invite-only contribution opportunities"
+  },
+  {
+   "band": "Level 7",
+   "name": "Champion",
+   "min": 30000,
+   "max": 59999,
+   "recognition": "Champion recognition + annual showcase eligibility"
+  },
+  {
+   "band": "Level 8",
+   "name": "Icon",
+   "min": 60000,
+   "max": null,
+   "recognition": "Highest status; manual integrity and impact review"
+  }
+ ],
+ "badges": [
+  {
+   "name": "Explorer",
+   "criterion": "Complete first assessment + reflection",
+   "group": "Students/learners"
+  },
+  {
+   "name": "Course Finisher",
+   "criterion": "Complete 3 eligible courses",
+   "group": "All learners"
+  },
+  {
+   "name": "Project Builder",
+   "criterion": "Pass 3 applied projects",
+   "group": "Learners/professionals"
+  },
+  {
+   "name": "Helpful Voice",
+   "criterion": "10 approved CGC answers; quality threshold",
+   "group": "All eligible users"
+  },
+  {
+   "name": "Trusted Expert",
+   "criterion": "Verified role + 25 accepted expert answers",
+   "group": "Professionals"
+  },
+  {
+   "name": "Career Ally",
+   "criterion": "Complete 3 parent support activities",
+   "group": "Parents"
+  },
+  {
+   "name": "Mentor Impact",
+   "criterion": "Complete 5 mentoring cycles with quality gate",
+   "group": "Mentors"
+  },
+  {
+   "name": "Learning Institution",
+   "criterion": "Complete approved cohort programme",
+   "group": "Institutions"
+  },
+  {
+   "name": "Opportunity Partner",
+   "criterion": "Complete 3 verified opportunity cohorts",
+   "group": "Employers"
+  },
+  {
+   "name": "Safety Champion",
+   "criterion": "Safety learning + 5 substantiated helpful reports",
+   "group": "All"
+  }
+ ],
+ "boards": [
+  [
+   "Student learning",
+   "Class/stage + institution or region",
+   "Weekly/monthly",
+   "Eligible learning CP"
+  ],
+  [
+   "CGC helpfulness",
+   "Role/category",
+   "Monthly",
+   "Moderated helpfulness CP"
+  ],
+  [
+   "Educator impact",
+   "Educator role",
+   "Quarterly",
+   "Quality-weighted contribution"
+  ],
+  [
+   "Institution impact",
+   "Comparable institution size band",
+   "Term/annual",
+   "Normalised participation + outcomes"
+  ],
+  [
+   "Employer opportunity",
+   "Employer/partner",
+   "Quarterly",
+   "Completed opportunity impact"
+  ],
+  [
+   "Personal best",
+   "Only the user",
+   "Rolling 30/90 days",
+   "Progress against own prior period"
+  ]
+ ],
+ "rewards": [
+  {
+   "reward": "Digital profile frame",
+   "cp": "250-500",
+   "group": "All",
+   "control": "Non-transferable cosmetic benefit"
+  },
+  {
+   "reward": "Premium career-library access",
+   "cp": "750",
+   "group": "All",
+   "control": "30-day content access"
+  },
+  {
+   "reward": "Group expert session seat",
+   "cp": "1,000",
+   "group": "Eligible users",
+   "control": "Capacity controlled"
+  },
+  {
+   "reward": "Course/event discount voucher",
+   "cp": "1,000-2,500",
+   "group": "All",
+   "control": "Defined maximum discount; no cash balance"
+  },
+  {
+   "reward": "Assessment interpretation webinar",
+   "cp": "1,500",
+   "group": "Learners/parents",
+   "control": "Group format"
+  },
+  {
+   "reward": "Skills workshop seat",
+   "cp": "2,500",
+   "group": "Eligible users",
+   "control": "Selected catalogue only"
+  },
+  {
+   "reward": "Olympiad/contest fee waiver",
+   "cp": "3,000",
+   "group": "Eligible learners",
+   "control": "Limited inventory; rules apply"
+  },
+  {
+   "reward": "Mentor group clinic",
+   "cp": "4,000",
+   "group": "Learners",
+   "control": "Group session, not 1:1 guarantee"
+  },
+  {
+   "reward": "Scholarship application fee support",
+   "cp": "5,000",
+   "group": "Eligible learner",
+   "control": "Never direct cash; documented payment/waiver"
+  },
+  {
+   "reward": "Annual recognition nomination",
+   "cp": "7,500",
+   "group": "Role-specific",
+   "control": "Eligibility review; no guaranteed award"
+  },
+  {
+   "reward": "Institution programme credit",
+   "cp": "10,000+",
+   "group": "Institutions",
+   "control": "Contracted cap; not withdrawable"
+  },
+  {
+   "reward": "Donate points to platform scholarship pool",
+   "cp": "500+",
+   "group": "Adults/institutions",
+   "control": "Irreversible; platform-set conversion budget"
+  }
+ ],
+ "wallet": [
+  [
+   "Estimated",
+   "Activity is underway",
+   "None",
+   "Complete required step"
+  ],
+  [
+   "Pending",
+   "Evidence/cooling/moderation remains",
+   "Shown separately",
+   "Wait or supply evidence"
+  ],
+  [
+   "Available",
+   "All rules clear",
+   "Adds Lifetime and Available CP",
+   "Hold or redeem"
+  ],
+  [
+   "Reserved",
+   "Redemption checkout initiated",
+   "Temporarily reduces spendable balance",
+   "Complete or cancel checkout"
+  ],
+  [
+   "Redeemed",
+   "Benefit issued",
+   "Reduces Available CP only",
+   "Use benefit"
+  ],
+  [
+   "Expired",
+   "Expiry rule reached after notices",
+   "Reduces Available CP only",
+   "No action; lifetime remains"
+  ],
+  [
+   "Reversed",
+   "Duplicate, refund, fraud or correction",
+   "Removes affected points",
+   "View reason/dispute"
+  ],
+  [
+   "Adjusted",
+   "Approved manual correction",
+   "Increase or decrease",
+   "View audit reference"
+  ]
+ ],
+ "caps": [
+  [
+   "General daily CP",
+   "500 per individual",
+   "Excess eligible activity can record progress but no additional CP"
+  ],
+  [
+   "CGC daily CP",
+   "150 per individual",
+   "Hold excess contributions for quality review, not retroactive pay"
+  ],
+  [
+   "Free referral CP",
+   "10 activations/month",
+   "Additional activations earn 0 unless campaign-approved"
+  ],
+  [
+   "All referral CP",
+   "2,500/month individual",
+   "Cap automatically; disclose before sharing"
+  ],
+  [
+   "Institution points",
+   "Action-specific term/quarter caps",
+   "Size-normalised reporting"
+  ],
+  [
+   "Manual adjustment",
+   "Two-person approval above 500 CP",
+   "Reason and evidence required"
+  ],
+  [
+   "Unusual velocity",
+   "Device/time/identity rules",
+   "Pending state + risk review"
+  ],
+  [
+   "Account linkage",
+   "Device, payment, contact and institution signals",
+   "Block self/circular/duplicate referrals"
+  ]
+ ],
+ "neverReward": [
+  "Bot, scripted, purchased, copied or coordinated activity.",
+  "Multiple accounts, impersonation, fabricated credentials, circular referrals or household duplication intended to farm CP.",
+  "Unsafe, discriminatory, plagiarised, promotional or personally identifying CGC content.",
+  "Assessment manipulation, answer sharing, contest cheating or attempts to influence judges.",
+  "Mass applications, low-quality feedback, meaningless replies, artificial helpful votes or repeated event check-ins.",
+  "Activity by a suspended user or action outside the verified role."
+ ],
+ "terms": [
+  "No money value. Career Points are not money, wages, stored value, a deposit, a security or a guaranteed discount.",
+  "No transfer. CP may not be sold, gifted, inherited, pooled or transferred except a platform-approved donation feature.",
+  "Eligibility. The account, role and activity must meet the rule effective when the event occurred.",
+  "Pending points. Estimated or pending CP are not available for redemption until all stated gates clear.",
+  "Caps. Daily, monthly, campaign, action and account caps may limit CP even when activity continues.",
+  "Reversal. Career Garage may reverse duplicate, refunded, cancelled, unsafe, fraudulent or incorrectly awarded CP.",
+  "Expiry. Available CP may expire under the published notice rule; Lifetime CP ordinarily remain.",
+  "Rewards. Benefits depend on eligibility, inventory and stated terms and are not exchangeable for cash.",
+  "Changes. Rates and catalogue items may change prospectively; material changes should be notified.",
+  "Account closure. Unused CP end when an account closes unless applicable law or published terms require otherwise.",
+  "Minors. Age-appropriate privacy, guardian consent and leaderboard protections apply.",
+  "Disputes. Users can challenge a ledger line through the published support process within 30 days.",
+  "Separate earnings. Professional cash earnings are governed by a separate wallet, agreement and payout policy."
+ ]
+}

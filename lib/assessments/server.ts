@@ -148,7 +148,9 @@ export function buildReport(
   meta: AssessmentMeta,
   items: BankItem[],
   answers: Answers,
-  mode: "demo" | "full"
+  mode: "demo" | "full",
+  /** owner/subscriber: show the demo report in full */
+  unlocked = false
 ): ReportPayload {
   const set = narratives[meta.slug];
   const demo = mode === "demo";
@@ -245,7 +247,7 @@ export function buildReport(
     payload.headline = { eyebrow: "Your profile", title: "Not enough answers to score yet" };
   }
 
-  if (demo) return redactForDemo(payload, lead?.code);
+  if (demo && !unlocked) return redactForDemo(payload, lead?.code);
   return payload;
 }
 
@@ -298,13 +300,15 @@ function redactForDemo(p: ReportPayload, leadCode?: string): ReportPayload {
 /* Anonymous result log                                                 */
 /* ------------------------------------------------------------------ */
 
-export async function logResult(report: ReportPayload) {
+export async function logResult(report: ReportPayload, memberId?: string) {
   if (!process.env.MONGODB_URI) return;
   try {
     const db = await getDb();
     await db.collection("assessmentResults").insertOne({
       slug: report.slug,
+      memberId,
       mode: report.mode,
+      headline: report.headline.title,
       status: report.status,
       code: report.code,
       indices: Object.fromEntries(report.dims.filter((d) => d.index !== null).map((d) => [d.code, d.index])),

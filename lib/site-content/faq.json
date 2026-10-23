@@ -1,0 +1,2148 @@
+{
+ "sections": [
+  {
+   "id": 1,
+   "title": "Concept, Vision and Positioning",
+   "items": [
+    {
+     "n": 1,
+     "q": "What exactly is Career Garage?",
+     "a": "Career Garage is an integrated career-development ecosystem that helps learners discover who they are, understand career options, make informed choices and build real-world readiness. It connects assessment, counselling, learning, mentorship and opportunities in one guided journey."
+    },
+    {
+     "n": 2,
+     "q": "What problem does Career Garage solve?",
+     "a": "It solves fragmentation and guesswork. Students often receive isolated tests, advice or courses without a connected action plan; Career Garage brings evidence, human guidance and practical exposure together so each learner can move from confusion to a realistic next step."
+    },
+    {
+     "n": 3,
+     "q": "Why is it called Career Garage?",
+     "a": "A garage is where ideas are examined, built, tested and improved. The name signals a practical place where learners can diagnose strengths, experiment safely, develop skills and tune their career plan over time."
+    },
+    {
+     "n": 4,
+     "q": "What is the vision of Career Garage?",
+     "a": "The vision is that every learner—regardless of geography, income or family background—can access trustworthy career discovery, guidance and opportunity before making high-impact education or work decisions."
+    },
+    {
+     "n": 5,
+     "q": "What is the mission of Career Garage?",
+     "a": "Its mission is to convert self-awareness into career action through credible assessments, qualified guidance, experiential learning, mentor access and measurable progress."
+    },
+    {
+     "n": 6,
+     "q": "How is Career Garage different from a career counselling company?",
+     "a": "Traditional counselling may end after a test and a few sessions. Career Garage is designed as a continuing system: the learner receives a living profile, action plan, courses, projects, internships, communities, mentors and progress reviews."
+    },
+    {
+     "n": 7,
+     "q": "How is Career Garage different from an online course platform?",
+     "a": "A course platform mainly answers, ‘What can I study?’ Career Garage first helps answer, ‘What suits me, why, and what should I do next?’ Courses are then recommended as part of a personalised roadmap and linked to evidence of skill."
+    },
+    {
+     "n": 8,
+     "q": "How is Career Garage different from a job portal?",
+     "a": "A job portal begins near application time and matches profiles to vacancies. Career Garage begins much earlier, helping users build clarity, capability, experience and proof before they pursue internships, further study or employment."
+    },
+    {
+     "n": 9,
+     "q": "Is Career Garage a product, service or platform?",
+     "a": "It is a platform-enabled service ecosystem. Technology manages profiles, recommendations, content and progress, while trained counsellors, experts, mentors, educators and partners provide the human judgement and real-world opportunities."
+    },
+    {
+     "n": 10,
+     "q": "What is the one-line pitch for Career Garage?",
+     "a": "Career Garage helps learners discover their direction, build relevant skills and connect with real opportunities—all through one trusted career journey."
+    },
+    {
+     "n": 11,
+     "q": "What is the core promise to students?",
+     "a": "You will not be handed a label or a guaranteed career; you will receive clearer evidence about yourself, understandable options and a practical, supported plan for your next decisions."
+    },
+    {
+     "n": 12,
+     "q": "What is the core promise to institutions?",
+     "a": "Career Garage gives institutions a structured, scalable career-readiness system with student-level guidance, engagement programmes, opportunity access and outcome reporting."
+    },
+    {
+     "n": 13,
+     "q": "What is the core promise to parents?",
+     "a": "Parents receive a balanced view of the learner’s strengths and options, a realistic pathway discussion and constructive ways to support decisions without imposing a single outcome."
+    },
+    {
+     "n": 14,
+     "q": "What is the core promise to employers?",
+     "a": "Employers gain access to better-prepared emerging talent, structured project and internship programmes, verified participation evidence and a responsible way to engage learners early."
+    },
+    {
+     "n": 15,
+     "q": "What does success look like for Career Garage?",
+     "a": "Success means learners make better-informed choices, complete meaningful career actions, build demonstrable skills and experience, and transition with greater confidence. At platform level, it means measurable progression—not merely registrations or test completions."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "Target Users, Access and Inclusion",
+   "items": [
+    {
+     "n": 16,
+     "q": "Who can use Career Garage?",
+     "a": "The platform is designed for students in Classes 8–12, college and university learners, fresh graduates, early professionals, parents, teachers, counsellors, institutions, mentors and employers, with age-appropriate experiences for each group."
+    },
+    {
+     "n": 17,
+     "q": "What is the minimum age for students?",
+     "a": "The recommended starting point is Class 8, typically around age 13, because career awareness becomes useful before major subject choices. Younger users should be served only through specifically designed content, parental consent and enhanced safeguarding."
+    },
+    {
+     "n": 18,
+     "q": "Is Career Garage useful for Class 8 students?",
+     "a": "Yes. At this stage the focus is exploration, interests, strengths, learning habits and exposure—not choosing a permanent occupation. The output should be broad career clusters and simple experiments rather than a fixed recommendation."
+    },
+    {
+     "n": 19,
+     "q": "How does Career Garage help Class 10 students?",
+     "a": "It supports subject and stream decisions by combining interests, aptitude, performance, values, constraints and future pathways. A counsellor should translate the evidence into two or three viable options plus a preparation plan."
+    },
+    {
+     "n": 20,
+     "q": "How does Career Garage help Class 12 students?",
+     "a": "It helps compare courses, institutions, entrance routes, costs, alternatives and career outcomes. The learner leaves with a primary route, backup routes, deadlines and skill-building actions."
+    },
+    {
+     "n": 21,
+     "q": "How does Career Garage help college students?",
+     "a": "College learners can clarify specialisations and roles, assess skill gaps, complete projects and courses, find mentors and internships, and build a portfolio that demonstrates readiness beyond academic marks."
+    },
+    {
+     "n": 22,
+     "q": "How does Career Garage help fresh graduates?",
+     "a": "It converts a degree into an employability plan: target roles, required skills, portfolio evidence, internship or apprenticeship options, application materials, interview preparation and job-search accountability."
+    },
+    {
+     "n": 23,
+     "q": "How does Career Garage help working professionals?",
+     "a": "Professionals can use it for career reviews, skill-gap analysis, role transitions, leadership development and mentor access. Recommendations should account for experience, financial obligations and the cost of changing direction."
+    },
+    {
+     "n": 24,
+     "q": "Can parents use Career Garage directly?",
+     "a": "Yes, through a parent experience that explains the learner’s report, key decision points, affordability and supportive behaviours. Student privacy and age-appropriate consent must still govern what parents can see."
+    },
+    {
+     "n": 25,
+     "q": "Can teachers use Career Garage?",
+     "a": "Yes. Teachers can nominate learners, support workshops, view authorised cohort insights and reinforce action plans. They should not receive sensitive individual data unless their role and the learner’s consent clearly require it."
+    },
+    {
+     "n": 26,
+     "q": "Can schools and colleges use Career Garage institution-wide?",
+     "a": "Yes. Institutions can deploy it by class, department or campus using a phased calendar for orientation, assessment, counselling, activities and outcome reviews."
+    },
+    {
+     "n": 27,
+     "q": "Can rural students use Career Garage?",
+     "a": "Yes, if the programme is built for low bandwidth, mobile access, local-language support, assisted school delivery and offline follow-up. Rural inclusion must be an operating design requirement, not only a marketing statement."
+    },
+    {
+     "n": 28,
+     "q": "How will low-income students access the platform?",
+     "a": "Use a mix of institution-sponsored seats, need-based scholarships, CSR-funded programmes, free foundational resources and transparent subsidies. Eligibility and selection criteria should be published and auditable."
+    },
+    {
+     "n": 29,
+     "q": "Is Career Garage accessible to students with disabilities?",
+     "a": "It should meet recognised accessibility standards, offer keyboard and screen-reader support, captions and transcripts, accessible formats, additional time where appropriate and reasonable accommodations without distorting what an assessment measures."
+    },
+    {
+     "n": 30,
+     "q": "Can international students use Career Garage?",
+     "a": "The model can extend internationally, but recommendations, data rules, qualifications and career information must be localised by country. International availability should be announced only after those requirements are validated."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "Assessments",
+   "items": [
+    {
+     "n": 31,
+     "q": "What assessments does Career Garage offer?",
+     "a": "The planned framework includes 13 modules covering career interests, personality traits, work values, aptitude, emotional intelligence, multiple-intelligence preferences, learning preferences, study skills, motivation, employability skills, entrepreneurial orientation, digital readiness and career adaptability."
+    },
+    {
+     "n": 32,
+     "q": "Why are there 13 assessments?",
+     "a": "Career decisions are multidimensional. Thirteen modules allow the platform to examine different evidence without pretending one score explains a person; users take only the modules relevant to their age and decision."
+    },
+    {
+     "n": 33,
+     "q": "Does every student need to take all 13 assessments?",
+     "a": "No. A routing questionnaire and counsellor judgement should select a core set and optional modules. Forcing every user through all 13 would add fatigue without necessarily improving the decision."
+    },
+    {
+     "n": 34,
+     "q": "How long does the complete assessment take?",
+     "a": "A full battery should be split into short sittings and may take roughly two to three hours in total after validation. Each module must display an expected time, allow breaks where valid and avoid speed pressure unless speed is being measured."
+    },
+    {
+     "n": 35,
+     "q": "Can the assessments be taken on a mobile phone?",
+     "a": "Yes, once each module has been tested for mobile usability and score equivalence. Complex aptitude items may require a larger screen or supervised setting, which should be stated before the learner begins."
+    },
+    {
+     "n": 36,
+     "q": "Are the assessments available in Hindi and regional languages?",
+     "a": "The goal should be multilingual access beginning with English and Hindi, followed by priority regional languages. Every translation requires forward translation, expert review, back-translation, learner testing and score-equivalence analysis before release."
+    },
+    {
+     "n": 37,
+     "q": "Are the assessments scientifically valid?",
+     "a": "Scientific validity must be demonstrated module by module through documented evidence for the intended users and decisions. Until reliability, validity, fairness and norm studies are complete, Career Garage should describe results as developmental insights—not as validated predictions.  [R4–R6]"
+    },
+    {
+     "n": 38,
+     "q": "Who develops the assessment questions?",
+     "a": "Items should be developed by qualified psychologists, psychometricians, educators and career practitioners, with language and accessibility review. Subject-matter experts alone are not enough; each item also needs technical testing."
+    },
+    {
+     "n": 39,
+     "q": "How are assessments validated?",
+     "a": "Use content review, cognitive interviews, pilots, item analysis, reliability studies, factor analysis where appropriate, criterion evidence, bias checks and ongoing outcome research. A technical manual should report samples, limitations and version history.  [R4–R6]"
+    },
+    {
+     "n": 40,
+     "q": "Which psychometric frameworks are used?",
+     "a": "The framework can use established constructs such as RIASEC interests, Big Five traits, work values, career adaptability and evidence-based aptitude domains. Career Garage should use original or properly licensed items and publish exactly which framework supports each module.  [R4–R6]"
+    },
+    {
+     "n": 41,
+     "q": "Is the personality assessment based on MBTI?",
+     "a": "It should not be presented as MBTI unless Career Garage licenses that instrument and meets its requirements. A stronger default is an original trait-based assessment grounded in the Big Five, using continua rather than fixed personality boxes."
+    },
+    {
+     "n": 42,
+     "q": "How is the Enneagram used?",
+     "a": "If included, the Enneagram should be an optional reflective conversation tool, not a scientific selection instrument or career determinant. Its evidentiary limits must be stated clearly, and it should never override aptitude, interests, values or lived experience."
+    },
+    {
+     "n": 43,
+     "q": "What is the Big Five personality assessment?",
+     "a": "It examines five broad trait dimensions—openness, conscientiousness, extraversion, agreeableness and emotional stability/neuroticism. Results describe tendencies on continua and should be interpreted as context-sensitive patterns, not permanent identities."
+    },
+    {
+     "n": 44,
+     "q": "What is a career interest assessment?",
+     "a": "It identifies the kinds of activities and work environments a learner currently finds attractive, often using RIASEC-style clusters. Interests guide exploration but do not prove ability or guarantee satisfaction."
+    },
+    {
+     "n": 45,
+     "q": "What is an aptitude assessment?",
+     "a": "It estimates current performance in abilities relevant to learning and work, such as verbal, numerical, abstract, spatial or mechanical reasoning. Scores are meaningful only with standard administration, suitable norms and careful interpretation.  [R4–R6]"
+    },
+    {
+     "n": 46,
+     "q": "What is a learning style assessment?",
+     "a": "Career Garage should call this a learning-preferences profile, not claim that every learner has one fixed ‘style.’ It can prompt experimentation with study methods, but teaching should not be restricted to a supposed visual, auditory or kinaesthetic type."
+    },
+    {
+     "n": 47,
+     "q": "What is emotional intelligence assessment?",
+     "a": "It explores skills such as recognising emotions, self-management, empathy and relationship management. Results should be developmental and paired with behavioural practice, not used as a clinical diagnosis or a stand-alone hiring filter."
+    },
+    {
+     "n": 48,
+     "q": "What is multiple intelligence assessment?",
+     "a": "It is best used as a broad reflection on preferred ways of engaging—such as linguistic, logical, spatial or interpersonal activities. It should not be described as a fixed IQ profile or used to limit subject choices."
+    },
+    {
+     "n": 49,
+     "q": "What is the study skills assessment?",
+     "a": "It reviews practical habits such as planning, concentration, note-making, revision, test preparation and help-seeking. The output should recommend small, observable habit changes and allow reassessment after practice."
+    },
+    {
+     "n": 50,
+     "q": "What is the employability skills assessment?",
+     "a": "It examines workplace-ready behaviours such as communication, teamwork, problem solving, digital fluency, professionalism and self-management. Self-report should be supplemented by projects, mentor feedback or demonstrations whenever possible."
+    },
+    {
+     "n": 51,
+     "q": "What is the entrepreneurial mindset assessment?",
+     "a": "It explores initiative, opportunity recognition, calculated risk, persistence, customer empathy and resourcefulness. It identifies development areas; it cannot declare that someone will or will not become a successful entrepreneur."
+    },
+    {
+     "n": 52,
+     "q": "What is digital readiness assessment?",
+     "a": "It measures practical comfort with devices, online collaboration, information literacy, digital safety and responsible use of AI. Results guide training and access support rather than ranking learners by device ownership."
+    },
+    {
+     "n": 53,
+     "q": "What is career adaptability assessment?",
+     "a": "It considers concern for the future, control over choices, curiosity about possibilities and confidence in taking action. It is particularly useful for planning transitions and responding to changing work."
+    },
+    {
+     "n": 54,
+     "q": "Can assessment results change over time?",
+     "a": "Yes. Interests, values, skills and confidence can change with age and experience; even trait scores vary with context and measurement. The platform should time-stamp every result and show development rather than treating the first profile as permanent."
+    },
+    {
+     "n": 55,
+     "q": "How often should a student retake an assessment?",
+     "a": "Retesting should follow a real decision or developmental interval, not curiosity alone. Six to twelve months may suit changeable developmental modules, while aptitude retesting should follow technical guidance and account for practice effects."
+    },
+    {
+     "n": 56,
+     "q": "Can students manipulate their answers?",
+     "a": "Self-report can be influenced by impression management or misunderstanding. Clear instructions, validity checks, pattern review and counsellor discussion reduce the risk; high-stakes decisions should never rely on self-report alone."
+    },
+    {
+     "n": 57,
+     "q": "What happens if a student gives random answers?",
+     "a": "The system should flag inconsistent, excessively fast or patterned responding and avoid issuing a confident interpretation. The learner can receive a supportive explanation and retake under better conditions."
+    },
+    {
+     "n": 58,
+     "q": "Are there right or wrong answers?",
+     "a": "Personality, interest and value items have no right answer; aptitude and knowledge items do. The platform must explain this distinction so learners answer honestly and understand what each score means."
+    },
+    {
+     "n": 59,
+     "q": "How is assessment bias controlled?",
+     "a": "Use diverse item writers and pilot samples, accessibility review, differential item functioning and subgroup outcome monitoring. Biased items should be revised or removed, and users need a clear process to question results.  [R4–R6]"
+    },
+    {
+     "n": 60,
+     "q": "Are the assessments suitable for Indian students?",
+     "a": "They can be only after development and validation with relevant Indian age, language, region and education groups. Imported norms or translated foreign items should not be assumed to fit.  [R4–R6]"
+    },
+    {
+     "n": 61,
+     "q": "Are the assessments norm-referenced?",
+     "a": "Aptitude and selected scales should use documented age- or grade-appropriate norms once adequate samples exist. Where norms are not yet established, the report should use descriptive results and clearly state that limitation.  [R4–R6]"
+    },
+    {
+     "n": 62,
+     "q": "How large is the norm sample?",
+     "a": "Career Garage should publish the exact sample for each assessment version, including age, region, language and relevant demographics. No number should be quoted until the study is complete and independently reviewed.  [R4–R6]"
+    },
+    {
+     "n": 63,
+     "q": "Are the assessments reviewed by psychologists?",
+     "a": "They should be reviewed and governed by qualified psychologists and psychometricians, while career practitioners contribute practical relevance. Credentials, roles and conflicts of interest should be documented.  [R4–R6]"
+    },
+    {
+     "n": 64,
+     "q": "Can an assessment diagnose a mental-health condition?",
+     "a": "No. Career Garage assessments are for career development and education, not clinical diagnosis. Any wellbeing concern should trigger a careful referral to an appropriately licensed mental-health professional or emergency service.  [R4–R6]"
+    },
+    {
+     "n": 65,
+     "q": "Can assessment scores be used for admission or hiring?",
+     "a": "Not by default. Developmental assessments should not become selection gates; any high-stakes use would require separate validation, fairness evidence, legal review, informed disclosure and an appeal process.  [R4–R6]"
+    },
+    {
+     "n": 66,
+     "q": "Can a school compare students using the scores?",
+     "a": "Schools may view authorised, anonymised cohort patterns for programme planning. Public rankings or simplistic comparisons should be prohibited because they can stigmatise learners and exceed the purpose of developmental assessment."
+    },
+    {
+     "n": 67,
+     "q": "Can a student fail an assessment?",
+     "a": "No one fails a developmental profile. Aptitude tasks can show stronger and weaker current areas, but the result is a starting point for options and improvement—not a pass/fail verdict on potential."
+    },
+    {
+     "n": 68,
+     "q": "Can a student take only one assessment?",
+     "a": "Yes, if one module matches the question being addressed. The platform should explain what that module can and cannot conclude and recommend additional evidence only when it materially improves the decision."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Assessment Report and Recommendations",
+   "items": [
+    {
+     "n": 69,
+     "q": "What does the assessment report include?",
+     "a": "The report should include a plain-language profile, confidence and limitations, career-cluster hypotheses, skill priorities, education routes, reflection prompts and a time-bound action plan. It should distinguish observed evidence from AI or counsellor interpretation."
+    },
+    {
+     "n": 70,
+     "q": "How many career recommendations are given?",
+     "a": "A useful report normally presents three to five well-explained career clusters plus adjacent alternatives, not a long undifferentiated list. The number should reflect evidence strength and the learner’s decision stage."
+    },
+    {
+     "n": 71,
+     "q": "Does the report recommend one final career?",
+     "a": "No. It offers a ranked set of hypotheses to explore. A responsible career decision combines assessment evidence with achievement, experience, constraints, opportunities, family context and the learner’s own informed choice."
+    },
+    {
+     "n": 72,
+     "q": "How are career matches calculated?",
+     "a": "A transparent rules-and-evidence model should compare interests, aptitudes, traits, values, skills and constraints with documented occupation requirements. Weightings need expert review, empirical testing and an explanation the user can understand."
+    },
+    {
+     "n": 73,
+     "q": "Does AI generate the report?",
+     "a": "AI may help summarise authorised data and draft personalised explanations, but validated scoring and governance rules must remain controlled. Qualified humans should review high-impact recommendations, exceptions and safeguarding concerns."
+    },
+    {
+     "n": 74,
+     "q": "Can a counsellor edit the AI recommendations?",
+     "a": "Yes, with an audit trail. Counsellors should add context, correct errors and explain changes, but never alter raw scores or make unsupported claims."
+    },
+    {
+     "n": 75,
+     "q": "How accurate is the career recommendation?",
+     "a": "There is no honest universal accuracy percentage for a person’s future career. Quality should be judged by psychometric evidence, explanation quality, user understanding, action completion and longer-term outcome studies—not a marketing claim."
+    },
+    {
+     "n": 76,
+     "q": "What if the report conflicts with the student’s dream career?",
+     "a": "Treat the conflict as a useful inquiry. Explore why the career matters, identify any readiness gaps, test the option through projects or conversations and create both a development route and credible alternatives."
+    },
+    {
+     "n": 77,
+     "q": "What if parents disagree with the report?",
+     "a": "Invite a structured discussion around evidence, aspirations, affordability and risk. The report is not an authority over the family; the goal is a jointly understood plan that preserves the learner’s voice."
+    },
+    {
+     "n": 78,
+     "q": "Does the report include subject or stream selection?",
+     "a": "For relevant age groups, it should compare subject or stream options against prerequisites, interests, aptitude evidence and backup pathways. Final rules must be verified with the learner’s board and institutions."
+    },
+    {
+     "n": 79,
+     "q": "Does the report include course recommendations?",
+     "a": "Yes, but recommendations should explain the skill gap or goal each course addresses, expected effort, cost and alternatives. Commercial relationships must be disclosed and must not override suitability."
+    },
+    {
+     "n": 80,
+     "q": "Does the report include college recommendations?",
+     "a": "It may provide a research shortlist based on programme fit, eligibility, location, cost and outcomes, but it should not guarantee admission or present outdated rankings as fact. Current details must be verified from official institution sources."
+    },
+    {
+     "n": 81,
+     "q": "Does the report include job-role recommendations?",
+     "a": "Yes, especially for college learners and professionals. Each role should include typical responsibilities, entry routes, required skills, realistic constraints and a small next experiment."
+    },
+    {
+     "n": 82,
+     "q": "Does the report include a skill-gap analysis?",
+     "a": "Yes. It should separate foundational, technical and employability gaps; show the evidence behind each gap; and recommend prioritised learning or practice rather than an overwhelming course list."
+    },
+    {
+     "n": 83,
+     "q": "Can students download the report?",
+     "a": "Yes, as an accessible PDF or equivalent, subject to identity and permission controls. Users should also retain a secure online version with version dates and updated action plans."
+    },
+    {
+     "n": 84,
+     "q": "Can the report be shared with parents or teachers?",
+     "a": "Yes, through explicit, age-appropriate permissions and role-based views. Sensitive notes should remain restricted, and the learner should understand exactly what will be shared."
+    },
+    {
+     "n": 85,
+     "q": "How long is the report valid?",
+     "a": "The report records the learner at a particular date; it is not an expiry-based certificate. Review it after major experiences or decisions, and refresh key assessments when the underlying evidence may have changed."
+    },
+    {
+     "n": 86,
+     "q": "Can users get a revised report after retesting?",
+     "a": "Yes. The system should issue a new version, preserve prior versions, explain meaningful changes and avoid implying that small score differences represent real development."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "Career Counselling",
+   "items": [
+    {
+     "n": 87,
+     "q": "What happens in a career counselling session?",
+     "a": "The counsellor clarifies the decision, reviews relevant evidence, listens to the learner’s context, explores options and agrees on concrete next steps. A good session is collaborative, not a lecture or a sales call."
+    },
+    {
+     "n": 88,
+     "q": "Who are the Career Garage counsellors?",
+     "a": "They should be screened professionals with relevant education, career-guidance training, supervised practice and knowledge of current pathways. Public profiles should show verified qualifications, languages, experience and scope of practice."
+    },
+    {
+     "n": 89,
+     "q": "What qualifications must a counsellor have?",
+     "a": "Minimum standards should combine an appropriate degree, a recognised career-guidance or counselling credential, assessment-literacy training, safeguarding training and supervised competence. Clinical issues must be handled only by professionals legally qualified for that work."
+    },
+    {
+     "n": 90,
+     "q": "Are counselling sessions online or offline?",
+     "a": "Both models can be offered. Online sessions expand access; institution-based or partner-centre sessions support learners who need devices, privacy or face-to-face help. Quality and safeguarding standards must be equivalent."
+    },
+    {
+     "n": 91,
+     "q": "How long is one counselling session?",
+     "a": "A standard session can be 45–60 minutes, with shorter orientation or follow-up sessions where appropriate. The package should state the purpose and duration before booking."
+    },
+    {
+     "n": 92,
+     "q": "How many counselling sessions are included?",
+     "a": "The right number depends on the decision. A responsible core package usually includes one interpretation session and one action-plan follow-up, with additional sessions available for complex transitions and disclosed before purchase."
+    },
+    {
+     "n": 93,
+     "q": "Can parents join the counselling session?",
+     "a": "Yes, particularly for minors, but part of the conversation may remain learner-only when safe and appropriate. The counsellor should set confidentiality boundaries at the start and bring parents into decisions constructively."
+    },
+    {
+     "n": 94,
+     "q": "Can a student choose the counsellor?",
+     "a": "Yes, subject to availability and suitability. Filters can include language, learner stage, expertise, gender preference and format, while matching rules prevent conflicts of interest."
+    },
+    {
+     "n": 95,
+     "q": "Can a student change the counsellor?",
+     "a": "Yes. A simple rematch process should be available if communication or fit is poor, without requiring the learner to criticise the professional. Urgent safety concerns follow a separate escalation route."
+    },
+    {
+     "n": 96,
+     "q": "Are counselling sessions recorded?",
+     "a": "The safest default is no recording. If recording is needed for quality or supervision, it requires explicit informed consent, a stated purpose, restricted access, a retention deadline and an equally usable no-recording option."
+    },
+    {
+     "n": 97,
+     "q": "How is confidentiality maintained?",
+     "a": "Use private sessions, role-based access, minimal notes, encrypted storage, defined retention, counsellor confidentiality agreements and clear limits for imminent safety or legal obligations. Learners should receive this explanation in plain language."
+    },
+    {
+     "n": 98,
+     "q": "What if a counsellor gives harmful advice?",
+     "a": "Users need an accessible complaint and second-opinion process. Career Garage should pause the counsellor if necessary, review records, protect the learner, correct the plan and apply supervision, retraining or removal based on evidence."
+    },
+    {
+     "n": 99,
+     "q": "Is there a counsellor rating system?",
+     "a": "Yes, but ratings should be one signal among several. Quality monitoring should also include session audits with consent, action-plan quality, complaints, supervision and learner-reported understanding—not popularity alone."
+    },
+    {
+     "n": 100,
+     "q": "Can counselling happen without an assessment?",
+     "a": "Yes. Some questions can be addressed through structured conversation, academic history and experience. The counsellor should recommend an assessment only when it adds decision value."
+    },
+    {
+     "n": 101,
+     "q": "Can a student receive counselling in a local language?",
+     "a": "That should be a priority. The platform should publish which counsellors and materials support each language and avoid machine-only translation for sensitive guidance without human review."
+    },
+    {
+     "n": 102,
+     "q": "What if the student is confused after counselling?",
+     "a": "The learner should receive a written summary, a small action plan and a follow-up channel. If confusion remains, offer clarification or a second opinion rather than pressuring the learner to choose immediately."
+    },
+    {
+     "n": 103,
+     "q": "Does the counsellor make the final decision?",
+     "a": "No. The counsellor improves the quality of the decision; the learner and family make it, subject to age, law and institutional rules. Recommendations must remain advisory."
+    },
+    {
+     "n": 104,
+     "q": "Can Career Garage counsel students with mental-health concerns?",
+     "a": "Career counsellors can provide supportive career conversations within their competence, but they should not diagnose or treat mental-health conditions. A documented referral and crisis protocol must connect learners to qualified services."
+    },
+    {
+     "n": 105,
+     "q": "How are counsellors trained and supervised?",
+     "a": "Use a standard curriculum, observed practice, calibration cases, safeguarding certification, assessment-literacy checks, regular supervision and continuing professional development. Access to the platform should depend on maintaining competence."
+    },
+    {
+     "n": 106,
+     "q": "How do you ensure consistent counselling quality?",
+     "a": "Combine standard session frameworks with professional judgement, structured notes, outcome checks, calibration, supervision, complaints analysis and periodic re-certification. Consistency means reliable safeguards and decision quality—not scripted conversations."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "Career Library and Exploration",
+   "items": [
+    {
+     "n": 107,
+     "q": "What is the Career Library?",
+     "a": "It is a structured, searchable knowledge base that explains careers, roles, sectors, education routes, skills, work environments and progression. Every page should show its source and last-review date."
+    },
+    {
+     "n": 108,
+     "q": "How many careers are covered?",
+     "a": "Coverage should be reported as a live, auditable number only after publication. Quality matters more than an inflated count: begin with high-demand and locally relevant pathways, then expand through a governed editorial process."
+    },
+    {
+     "n": 109,
+     "q": "How often is career information updated?",
+     "a": "High-change fields should be reviewed at least quarterly and all content on a defined annual cycle. User flags, regulatory changes and employer feedback should trigger earlier updates."
+    },
+    {
+     "n": 110,
+     "q": "Who writes the career profiles?",
+     "a": "A research and editorial team should draft them using official education, occupation and industry sources; practitioners then review role reality. Each profile needs an owner, evidence links and a review date."
+    },
+    {
+     "n": 111,
+     "q": "Does each career profile include salary information?",
+     "a": "It can include salary ranges with geography, experience level, source date and uncertainty. Salary should never be presented as a promise, and take-home pay, freelance variability and non-salary factors should be explained."
+    },
+    {
+     "n": 112,
+     "q": "Does it include qualification and entrance-exam requirements?",
+     "a": "Yes, with links to the official authority and a clear ‘verify current rules’ notice. Eligibility and exam patterns change, so no student should rely on an undated summary."
+    },
+    {
+     "n": 113,
+     "q": "Does it include future-demand information?",
+     "a": "Yes, as sourced trends and scenarios rather than predictions. Profiles should explain which tasks are growing or changing, what may be automated and which transferable skills improve resilience."
+    },
+    {
+     "n": 114,
+     "q": "Does it cover vocational and skill-based careers?",
+     "a": "Absolutely. The library should give equal dignity and practical detail to vocational, apprenticeship, creative, technical, service, entrepreneurial and degree-led paths."
+    },
+    {
+     "n": 115,
+     "q": "Does it cover government career options?",
+     "a": "Yes, with role families, qualification routes, official recruitment sources and preparation considerations. Vacancy, age and reservation rules must be verified from the relevant current notification."
+    },
+    {
+     "n": 116,
+     "q": "Does it cover emerging careers?",
+     "a": "Yes, when reliable role evidence exists. Emerging profiles should distinguish established jobs from speculative titles and show the underlying tasks and transferable skills."
+    },
+    {
+     "n": 117,
+     "q": "Can users compare careers?",
+     "a": "Yes. A side-by-side view should compare work tasks, entry routes, time and cost, skills, work environment, constraints, earnings evidence and next experiments—using comparable definitions."
+    },
+    {
+     "n": 118,
+     "q": "Can users save careers to a shortlist?",
+     "a": "Yes. Learners should be able to save, rank, annotate and share selected careers, then connect each option to questions and action steps."
+    },
+    {
+     "n": 119,
+     "q": "Can institutions add local career information?",
+     "a": "Yes, through a reviewed contribution workflow. Local opportunities can enrich the library, but claims, links and conflicts of interest must be verified before publication."
+    },
+    {
+     "n": 120,
+     "q": "How do you prevent outdated career data?",
+     "a": "Use source metadata, scheduled reviews, automated link checks, owner alerts and visible ‘last verified’ dates. Content that misses its review window should be flagged or temporarily unpublished."
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "Experts and Professional Guidance",
+   "items": [
+    {
+     "n": 121,
+     "q": "Who are the experts on Career Garage?",
+     "a": "Experts are verified practitioners, educators, researchers, recruiters, founders and domain specialists who explain real work and pathways. They are distinct from counsellors unless they separately meet counselling standards."
+    },
+    {
+     "n": 122,
+     "q": "How are experts selected?",
+     "a": "Selection should verify identity, qualifications or experience, relevance, communication ability, references where needed, safeguarding checks and conflicts of interest. A famous title alone is not sufficient."
+    },
+    {
+     "n": 123,
+     "q": "Are expert profiles verified?",
+     "a": "Yes. Profiles should visibly separate verified facts—identity, employment, education or licences—from self-described information, and show the date of the latest verification."
+    },
+    {
+     "n": 124,
+     "q": "What kind of professional guidance can users receive?",
+     "a": "Users can ask about role realities, skill expectations, education routes, portfolios, interviews, entrepreneurship and workplace transitions. Experts must avoid regulated advice outside their competence."
+    },
+    {
+     "n": 125,
+     "q": "Can students book one-to-one sessions with experts?",
+     "a": "Yes, where age and safety controls permit. The platform should define the agenda, price, communication channel, cancellation policy and whether a parent or moderator must be present."
+    },
+    {
+     "n": 126,
+     "q": "Can experts conduct webinars?",
+     "a": "Yes. Webinars should have learning objectives, moderated questions, accessible materials, conflict disclosures and feedback. Promotional sessions must be labelled clearly."
+    },
+    {
+     "n": 127,
+     "q": "Can experts create courses?",
+     "a": "Yes, after content, credential and rights review. Expert-created courses should meet the same instructional, accessibility and update standards as internally produced courses."
+    },
+    {
+     "n": 128,
+     "q": "How are expert fees decided?",
+     "a": "Use transparent bands based on format, preparation, duration, expertise and market context. The platform fee and expert payout should be documented, and sponsored or free sessions should be labelled."
+    },
+    {
+     "n": 129,
+     "q": "Can institutions invite experts for campus events?",
+     "a": "Yes. Career Garage can match the brief, manage verification and logistics, and provide participation and feedback reporting under a clear event agreement."
+    },
+    {
+     "n": 130,
+     "q": "Can experts promote their services?",
+     "a": "Only in designated, disclosed areas and within platform rules. Advice sessions should not become undisclosed sales funnels, and minors should never be directly solicited."
+    },
+    {
+     "n": 131,
+     "q": "What if an expert gives incorrect information?",
+     "a": "Users should be able to flag it; the platform should investigate, correct the record visibly, notify affected users when material and restrict the expert where necessary. High-stakes facts should link to primary sources."
+    },
+    {
+     "n": 132,
+     "q": "Can experts access student assessment data?",
+     "a": "Only the minimum information needed for an authorised service, with informed consent and role-based access. An expert giving a general webinar needs no individual assessment data."
+    },
+    {
+     "n": 133,
+     "q": "Are expert sessions recorded?",
+     "a": "Only with informed consent, a stated purpose, controlled access and a retention schedule. For minors or sensitive topics, recording should be exceptional rather than automatic."
+    },
+    {
+     "n": 134,
+     "q": "How are conflicts of interest handled?",
+     "a": "Experts must disclose paid affiliations, referral benefits and products they recommend. Career Garage should separate educational guidance from sponsored content and remove undisclosed incentives."
+    },
+    {
+     "n": 135,
+     "q": "Can international experts join?",
+     "a": "Yes, subject to identity, credential, tax, payment, data-transfer and child-safety requirements. Guidance must also clarify when a pathway is country-specific."
+    },
+    {
+     "n": 136,
+     "q": "How is expert quality monitored?",
+     "a": "Monitor preparation, relevance, learner feedback, complaint patterns, content accuracy and repeated engagement outcomes. Review should reward clarity and integrity, not simply audience size."
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Mentorship",
+   "items": [
+    {
+     "n": 137,
+     "q": "What is the Career Garage mentorship programme?",
+     "a": "It is a structured, time-bound relationship in which a verified mentor helps a learner set goals, understand a field, practise professional habits and reflect on progress. It is not informal unlimited access."
+    },
+    {
+     "n": 138,
+     "q": "Who can become a mentor?",
+     "a": "Professionals, entrepreneurs, researchers, alumni and trained senior learners may qualify if they meet experience, communication, safeguarding and conflict-of-interest standards for the assigned mentee group."
+    },
+    {
+     "n": 139,
+     "q": "How are mentors verified?",
+     "a": "Verify identity, employment or experience, references where appropriate, and background checks for work with minors. Reverification and conduct training should be periodic."
+    },
+    {
+     "n": 140,
+     "q": "How are mentors matched with mentees?",
+     "a": "Match on goals, field, experience level, language, availability and preferences while screening conflicts and safeguarding constraints. The learner should be able to decline or request a rematch."
+    },
+    {
+     "n": 141,
+     "q": "How long does mentorship last?",
+     "a": "A standard cycle can run eight to twelve weeks with a defined start, goals and closure. Longer relationships should be renewed deliberately rather than continuing without oversight."
+    },
+    {
+     "n": 142,
+     "q": "How often do mentors and mentees meet?",
+     "a": "Typically every two to four weeks, supported by agreed tasks. Frequency should match the goal and never create unrestricted access for minors."
+    },
+    {
+     "n": 143,
+     "q": "Is mentorship free or paid?",
+     "a": "Both models can exist: volunteer, institution-sponsored and paid specialist mentorship. The fee, expectations and any sponsorship should be visible before matching."
+    },
+    {
+     "n": 144,
+     "q": "Can a student change a mentor?",
+     "a": "Yes. A no-fault rematch should be available for poor fit, and an immediate safety route should handle boundary violations or misconduct."
+    },
+    {
+     "n": 145,
+     "q": "Can mentors assign projects?",
+     "a": "Yes, when projects are age-appropriate, scoped, safe and genuinely developmental. Ownership, feedback, confidentiality and any use by an organisation must be agreed in advance."
+    },
+    {
+     "n": 146,
+     "q": "Can mentorship lead to an internship?",
+     "a": "It can create awareness or a referral, but no internship should be promised. Any opportunity must use a separate fair selection and safeguarding process."
+    },
+    {
+     "n": 147,
+     "q": "How is mentorship progress tracked?",
+     "a": "Use a shared goal plan, meeting confirmations, milestone evidence, reflections and an end-of-cycle review. Avoid monitoring private conversation beyond what safety and quality require."
+    },
+    {
+     "n": 148,
+     "q": "Are mentor conversations private?",
+     "a": "They are confidential within stated limits, not secret. Platform safety rules, mandatory reporting obligations and escalation conditions must be explained—especially for minors."
+    },
+    {
+     "n": 149,
+     "q": "Can parents monitor a minor’s mentorship?",
+     "a": "Parents should see the programme structure, mentor identity, meeting schedule and progress summary. They should not automatically receive every conversation detail unless safety or consent requires it."
+    },
+    {
+     "n": 150,
+     "q": "What is the mentor code of conduct?",
+     "a": "It should cover role boundaries, respectful communication, no exploitation or romantic contact, no off-platform solicitation, confidentiality, conflicts, gifts, safeguarding and reporting duties."
+    },
+    {
+     "n": 151,
+     "q": "What happens if a mentor violates the rules?",
+     "a": "Career Garage should prioritise learner safety, preserve evidence, suspend access where warranted, investigate promptly, notify relevant parties and report to authorities when legally required."
+    },
+    {
+     "n": 152,
+     "q": "How is mentorship quality evaluated?",
+     "a": "Evaluate goal completion, relationship safety, usefulness of feedback, learner agency and consistency—not whether the mentor produced a particular career outcome."
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "title": "Workshops",
+   "items": [
+    {
+     "n": 153,
+     "q": "What types of workshops does Career Garage offer?",
+     "a": "The portfolio can cover self-discovery, career exploration, subject choices, communication, problem solving, digital and AI literacy, portfolios, interviews, entrepreneurship, financial basics and workplace readiness."
+    },
+    {
+     "n": 154,
+     "q": "Who conducts the workshops?",
+     "a": "Trained facilitators, counsellors or verified domain experts conduct them using reviewed lesson plans and safeguarding rules. The facilitator type should match the subject."
+    },
+    {
+     "n": 155,
+     "q": "Are workshops online or offline?",
+     "a": "Both. Online workshops improve reach; campus sessions support collaboration and access. Learning objectives, activities and assessment should be adapted to the format rather than simply streaming the same lecture."
+    },
+    {
+     "n": 156,
+     "q": "How long is a workshop?",
+     "a": "Most can run 60–120 minutes; deeper labs may span several sessions. Duration should follow the learning objective and age group, with breaks for longer formats."
+    },
+    {
+     "n": 157,
+     "q": "Do participants receive certificates?",
+     "a": "They may receive a participation or completion certificate when attendance and required work are verified. The certificate must state what was completed and must not imply accreditation that does not exist."
+    },
+    {
+     "n": 158,
+     "q": "Can schools request customised workshops?",
+     "a": "Yes. Customisation can reflect grade, curriculum, location, learner needs and institutional goals while preserving core quality and safeguarding standards."
+    },
+    {
+     "n": 159,
+     "q": "Can workshops be delivered in local languages?",
+     "a": "Yes, using trained facilitators and reviewed materials. Translation must preserve examples and concepts, not merely replace words."
+    },
+    {
+     "n": 160,
+     "q": "What is the minimum group size?",
+     "a": "There should be no universal number. The format can be designed for a classroom, small cohort or large webinar; proposals should state the effective range and facilitator ratio."
+    },
+    {
+     "n": 161,
+     "q": "How are workshop outcomes measured?",
+     "a": "Use pre/post checks, practice tasks, learner reflection, attendance and a short follow-through action. Satisfaction alone is not evidence of learning."
+    },
+    {
+     "n": 162,
+     "q": "Can parents and teachers attend workshops?",
+     "a": "Yes, through role-specific sessions or selected joint modules. Separate sessions often allow more candid discussion and clearer action responsibilities."
+    },
+    {
+     "n": 163,
+     "q": "Can a workshop be sponsored?",
+     "a": "Yes, if the sponsor, purpose and influence are disclosed. Sponsorship must not permit lead harvesting, biased recommendations or direct marketing to minors."
+    },
+    {
+     "n": 164,
+     "q": "How can an institution book a workshop?",
+     "a": "The institution submits its audience, objectives, date, format, language, access needs and budget. Career Garage then confirms scope, facilitator, safeguarding, deliverables and terms in writing."
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "title": "Training and Certification",
+   "items": [
+    {
+     "n": 165,
+     "q": "What training programmes are available?",
+     "a": "The planned portfolio includes career-practitioner training, teacher and parent orientation, student employability programmes, mentor onboarding, assessment literacy, facilitation, digital readiness and specialist career modules."
+    },
+    {
+     "n": 166,
+     "q": "Who can enrol in training?",
+     "a": "Eligibility depends on the programme. Some modules are open to learners and parents; practitioner or assessment-use programmes require defined education, experience and identity verification."
+    },
+    {
+     "n": 167,
+     "q": "What is CGCCP?",
+     "a": "CGCCP is the proposed Career Garage Certified Career Professional pathway: a private professional-development certificate for people who complete defined learning, supervised practice and assessment. The final name, level and credential claims require governance approval."
+    },
+    {
+     "n": 168,
+     "q": "Is CGCCP government recognised?",
+     "a": "Not unless Career Garage obtains and can document formal recognition from the relevant authority. It should currently be described as a private professional certificate, not a government degree, licence or UGC-recognised qualification.  [R3]"
+    },
+    {
+     "n": 169,
+     "q": "Who can become a certified career counsellor?",
+     "a": "Candidates should meet published entry criteria, complete theory and skills training, demonstrate ethical practice, pass assessment, complete supervised cases and agree to continuing professional development. Certification does not expand legal scope beyond a person’s underlying qualifications."
+    },
+    {
+     "n": 170,
+     "q": "How long does certification take?",
+     "a": "A credible pathway should publish learning hours, supervised-practice requirements and the typical completion window. The duration should be determined by competence evidence, not selected only for marketing convenience."
+    },
+    {
+     "n": 171,
+     "q": "Is there an exam?",
+     "a": "Yes, the recommended model combines knowledge checks, case analysis, observed practice and a portfolio. A single multiple-choice exam would not adequately establish counselling competence."
+    },
+    {
+     "n": 172,
+     "q": "Is practical training included?",
+     "a": "It should be mandatory for practitioner certification through role-plays, supervised sessions, report interpretation and feedback. Safeguards must protect any real learners used in practice."
+    },
+    {
+     "n": 173,
+     "q": "Is the certificate permanent?",
+     "a": "No. A renewable credential is stronger: holders should maintain conduct, continuing education and periodic competence checks. Expiry and renewal requirements must appear on the certificate registry."
+    },
+    {
+     "n": 174,
+     "q": "Can certified professionals work independently?",
+     "a": "They can offer services within applicable law, their underlying qualifications and the certificate’s published scope. Career Garage certification alone should not be presented as a statutory licence or a clinical credential."
+    },
+    {
+     "n": 175,
+     "q": "Does Career Garage help certified counsellors find work?",
+     "a": "It may offer marketplace access, referrals, supervised projects and partner opportunities based on quality and demand. Placement should be described as support, never a job guarantee."
+    },
+    {
+     "n": 176,
+     "q": "Can institutions train their teachers?",
+     "a": "Yes. Cohort programmes can prepare teachers for career awareness, referral, basic facilitation and platform use while preserving the boundary between teaching support and professional counselling."
+    },
+    {
+     "n": 177,
+     "q": "Are there refresher courses?",
+     "a": "Yes. Annual updates should cover pathway changes, assessment versions, AI use, ethics, safeguarding and case calibration, with urgent updates when law or policy changes."
+    },
+    {
+     "n": 178,
+     "q": "Can training be delivered to corporate teams?",
+     "a": "Yes, for mentoring, early-talent engagement, employability education, career conversations and inclusive selection. Corporate content should be tailored to the organisation’s roles and policies."
+    },
+    {
+     "n": 179,
+     "q": "How are trainers selected?",
+     "a": "Trainers need verified subject expertise, facilitation competence, ethical conduct and evidence that they can assess learning. Trainer performance should be observed and recalibrated."
+    },
+    {
+     "n": 180,
+     "q": "Can a participant fail certification?",
+     "a": "Yes. If required competence is not demonstrated, the candidate should receive specific feedback, remediation and a fair reassessment route. Paying a fee must never guarantee certification."
+    },
+    {
+     "n": 181,
+     "q": "How is certification quality assured?",
+     "a": "Use published standards, assessment blueprints, trained evaluators, moderation, identity checks, appeals, audit trails, periodic review and an independent advisory mechanism. Pass rates and complaints should be monitored."
+    },
+    {
+     "n": 182,
+     "q": "Can the certification be revoked?",
+     "a": "Yes, under a published due-process policy for fraud, serious misconduct, safeguarding breaches or persistent non-compliance. The holder must be notified, allowed to respond and given an appeal route except where urgent suspension is required."
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "title": "Online Courses",
+   "items": [
+    {
+     "n": 183,
+     "q": "What kinds of online courses are available?",
+     "a": "Courses can cover career exploration, employability, communication, digital and AI literacy, entrepreneurship, study skills, portfolio building, job search and role-specific foundations."
+    },
+    {
+     "n": 184,
+     "q": "Are courses self-paced or live?",
+     "a": "Both formats can be offered. Every listing should state schedule, workload, support, prerequisites, assessment and the period of access."
+    },
+    {
+     "n": 185,
+     "q": "Who creates the courses?",
+     "a": "Career Garage instructional designers can develop courses with verified experts, educators and industry reviewers. Authorship, sources, update ownership and commercial sponsorship should be disclosed."
+    },
+    {
+     "n": 186,
+     "q": "Do courses include assignments?",
+     "a": "Yes, where practice is necessary. Assignments should produce useful evidence—such as a project, reflection, presentation or portfolio item—not only passive completion."
+    },
+    {
+     "n": 187,
+     "q": "Are certificates provided?",
+     "a": "Completion certificates may be issued after identity, participation and required work are verified. They should state learning outcomes and evidence, not imply a degree, licence or guaranteed employer acceptance."
+    },
+    {
+     "n": 188,
+     "q": "Are the certificates recognised by employers?",
+     "a": "Recognition depends on the employer and the quality of the evidence. Career Garage should build relevance through employer-reviewed curricula and authentic projects, but never promise universal acceptance."
+    },
+    {
+     "n": 189,
+     "q": "Can learners access courses on mobile devices?",
+     "a": "Yes, with responsive lessons, low-data modes, downloadable resources and captions. Tasks requiring specialised software should be disclosed before enrolment."
+    },
+    {
+     "n": 190,
+     "q": "Can course content be downloaded?",
+     "a": "Selected resources can be downloadable for offline learning, subject to copyright and licence limits. Access terms must be clear at purchase."
+    },
+    {
+     "n": 191,
+     "q": "Are courses available in Hindi?",
+     "a": "English and Hindi should be prioritised, with additional languages based on demand and quality capacity. Translated courses require human review, not subtitles alone."
+    },
+    {
+     "n": 192,
+     "q": "How is course quality reviewed?",
+     "a": "Use instructional-design standards, expert review, learner testing, assessment alignment, accessibility checks, outcome data and scheduled content updates. Low-performing courses should be revised or retired."
+    },
+    {
+     "n": 193,
+     "q": "Can institutions buy bulk course access?",
+     "a": "Yes, through transparent seat-based or cohort licensing with administrator reporting and data-minimisation controls. Unused-seat and renewal terms should be explicit."
+    },
+    {
+     "n": 194,
+     "q": "Are there free courses?",
+     "a": "A free foundational layer is valuable for inclusion, while advanced, live or assessed programmes can be paid. Free should still meet quality and privacy standards."
+    },
+    {
+     "n": 195,
+     "q": "What is the refund policy for courses?",
+     "a": "Publish a simple policy based on purchase date, content consumed, cohort start and technical failure, consistent with applicable consumer law. Users should see it before payment."
+    },
+    {
+     "n": 196,
+     "q": "How long does course access remain active?",
+     "a": "Each course should state a fixed access period or lifetime-of-course policy. ‘Lifetime’ should not be used unless the service and update obligation are defined precisely."
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "title": "Internships and Experiential Learning",
+   "items": [
+    {
+     "n": 197,
+     "q": "What internship opportunities are available?",
+     "a": "The platform can offer employer-hosted internships, micro-internships, job-shadowing, community projects, research assignments and virtual industry challenges. Listings should state whether the opportunity is exploratory, project-based or employment-like."
+    },
+    {
+     "n": 198,
+     "q": "Who can apply for internships?",
+     "a": "Eligibility follows age, education, skill, location and legal requirements stated on each listing. School learners should generally receive safe educational exposure rather than being treated as employees."
+    },
+    {
+     "n": 199,
+     "q": "Are internships paid or unpaid?",
+     "a": "Both may appear, but compensation, expenses and benefits must be disclosed prominently. Career Garage should favour paid opportunities and permit unpaid formats only when lawful, genuinely educational and free of exploitation."
+    },
+    {
+     "n": 200,
+     "q": "Are internships online or offline?",
+     "a": "They may be remote, on-site or hybrid. The listing must describe supervision, equipment, hours, accessibility, safety and data or confidentiality needs."
+    },
+    {
+     "n": 201,
+     "q": "How are employers verified?",
+     "a": "Verify legal identity, contact people, workplace address, role legitimacy, supervision plan and safeguarding readiness. Enhanced checks are required before minors can participate."
+    },
+    {
+     "n": 202,
+     "q": "Does Career Garage guarantee an internship?",
+     "a": "No. It can improve access and readiness, but selection belongs to the host and depends on eligibility and availability. Any guaranteed-placement product must define an equivalent alternative or refund in enforceable terms."
+    },
+    {
+     "n": 203,
+     "q": "How are students selected?",
+     "a": "Use published criteria tied to the work—such as motivation, prerequisite skill, portfolio or a fair task. Avoid opaque rankings and provide reasonable accommodations."
+    },
+    {
+     "n": 204,
+     "q": "Can school students do internships?",
+     "a": "Yes, where the experience is age-appropriate, educational, safe and lawful. For minors, use consent, verified supervision, limited hours and tasks that comply with child-labour and safeguarding requirements.  [R9]"
+    },
+    {
+     "n": 205,
+     "q": "Do interns receive certificates?",
+     "a": "A verified completion record can state dates, hours, tasks, supervisor and evidence produced. It should not substitute for a fair performance evaluation."
+    },
+    {
+     "n": 206,
+     "q": "Do interns receive a letter of recommendation?",
+     "a": "The host may issue one when it has sufficient direct evidence. It should be truthful and never automatic or sold as part of the internship."
+    },
+    {
+     "n": 207,
+     "q": "How is internship performance evaluated?",
+     "a": "Use a pre-agreed rubric covering deliverables, reliability, learning, collaboration and professional conduct, with midpoint feedback and an end review."
+    },
+    {
+     "n": 208,
+     "q": "What if an employer exploits an intern?",
+     "a": "Provide rapid reporting, emergency contacts, the right to stop unsafe work and an investigation process. Career Garage should suspend listings, support the learner and report serious matters where required."
+    },
+    {
+     "n": 209,
+     "q": "Who handles workplace safety?",
+     "a": "The host is responsible for a safe workplace and lawful supervision; Career Garage must verify the plan, educate participants, document escalation and avoid presenting platform screening as a substitute for employer duty."
+    },
+    {
+     "n": 210,
+     "q": "Can internships convert into jobs?",
+     "a": "They may, but conversion depends on performance, vacancies and a separate employment decision. No conversion rate should be promised without verified cohort data."
+    },
+    {
+     "n": 211,
+     "q": "Can institutions track student internships?",
+     "a": "Yes, with authorised dashboards showing applications, selection, attendance, milestones and completion. Sensitive employer feedback should be shared only under agreed rules."
+    },
+    {
+     "n": 212,
+     "q": "Can employers post internships directly?",
+     "a": "Yes, after verification and listing review. Every post must include role, tasks, skills, duration, hours, location, compensation, supervisor and selection process."
+    },
+    {
+     "n": 213,
+     "q": "Are internship opportunities location-specific?",
+     "a": "Many are; users should filter by location, remote status, travel, accessibility and language. The platform should avoid showing inaccessible opportunities as personalised matches."
+    },
+    {
+     "n": 214,
+     "q": "How are fake internships prevented?",
+     "a": "Combine organisation verification, listing moderation, no off-platform payment demands, user reporting, communication controls and periodic rechecks. Prominent warnings should teach learners to recognise scams."
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "title": "Contests and Challenges",
+   "items": [
+    {
+     "n": 215,
+     "q": "What contests does Career Garage conduct?",
+     "a": "Contests can include career research, essays, pitches, case challenges, design, coding, communication, innovation and social-impact projects, each linked to a defined learning objective."
+    },
+    {
+     "n": 216,
+     "q": "Who can participate?",
+     "a": "Eligibility should be published by age or education level, geography, team size and prerequisite. Categories should prevent unfair comparison between very different learner stages."
+    },
+    {
+     "n": 217,
+     "q": "Are contests free or paid?",
+     "a": "Both are possible, but fees must reflect delivery and judging costs and never imply that payment improves the chance of winning. Sponsored free access should be used to broaden inclusion."
+    },
+    {
+     "n": 218,
+     "q": "What prizes are offered?",
+     "a": "Prizes may include scholarships, learning credits, mentorship, equipment, recognition or cash where lawful. Value, conditions, taxes and delivery dates must be disclosed in the rules."
+    },
+    {
+     "n": 219,
+     "q": "How are winners selected?",
+     "a": "Independent or disclosed judges score entries against a published rubric, with conflict declarations and moderation. Public voting, if used, should not be the sole quality measure."
+    },
+    {
+     "n": 220,
+     "q": "Who are the judges?",
+     "a": "Verified experts selected for subject knowledge and impartiality. Their names or judging roles, affiliations and conflicts should be disclosed where feasible."
+    },
+    {
+     "n": 221,
+     "q": "How is plagiarism detected?",
+     "a": "Use originality declarations, source requirements, similarity checks and oral verification for finalists. AI use rules should distinguish permitted assistance from misrepresentation."
+    },
+    {
+     "n": 222,
+     "q": "Can teams participate?",
+     "a": "Yes, when the rules permit. Teams should declare member roles, ownership and consent, and prizes should be allocated transparently."
+    },
+    {
+     "n": 223,
+     "q": "Can schools register students in bulk?",
+     "a": "Yes, using a school coordinator and consent workflow. Bulk registration must not expose student data or remove individual acceptance of rules."
+    },
+    {
+     "n": 224,
+     "q": "Do all participants receive certificates?",
+     "a": "A participation certificate should require a valid submission or defined engagement, not registration alone. Winner and finalist recognition should be clearly different."
+    },
+    {
+     "n": 225,
+     "q": "Can contest work be used by sponsors?",
+     "a": "Only under explicit, fair intellectual-property terms accepted before entry. Learners should retain ownership by default; any licence must be limited and clearly explained, especially for minors."
+    },
+    {
+     "n": 226,
+     "q": "How are disputes handled?",
+     "a": "Publish a query window, evidence process, independent review and final decision authority. Material corrections should be communicated to all affected participants."
+    },
+    {
+     "n": 227,
+     "q": "Can international students participate?",
+     "a": "Yes where the rules, age protections, prize delivery, tax and sanctions requirements permit. Eligible countries should be listed rather than implied."
+    },
+    {
+     "n": 228,
+     "q": "How do contests improve career readiness?",
+     "a": "Well-designed challenges produce practice, feedback and portfolio evidence under constraints. Career readiness comes from the task and reflection—not from a certificate alone."
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "title": "Olympiads",
+   "items": [
+    {
+     "n": 229,
+     "q": "What is a Career Garage Olympiad?",
+     "a": "It is a structured learning competition that assesses career awareness, applied skills or age-appropriate domain knowledge. It should be educational and transparent, not marketed as a government examination."
+    },
+    {
+     "n": 230,
+     "q": "Which Olympiads are planned?",
+     "a": "Possible tracks include career awareness, aptitude and problem solving, digital literacy, entrepreneurship, financial literacy, communication and future skills. Final tracks should follow pilots and curriculum review."
+    },
+    {
+     "n": 231,
+     "q": "Which age groups can participate?",
+     "a": "Use separate, developmentally appropriate categories—for example Classes 8–10, Classes 11–12 and college learners—rather than one common ranking."
+    },
+    {
+     "n": 232,
+     "q": "What is the Olympiad syllabus?",
+     "a": "Each Olympiad should publish a bounded syllabus, sample competencies, format and preparation resources early enough for fair participation."
+    },
+    {
+     "n": 233,
+     "q": "What is the exam pattern?",
+     "a": "The pattern may combine objective questions, scenarios and applied tasks. Duration, marks, negative marking, accessibility and proctoring rules must be stated in advance."
+    },
+    {
+     "n": 234,
+     "q": "Is the Olympiad online or offline?",
+     "a": "It can be delivered in either mode with comparable security and access. Remote formats need device checks, contingency rules and proportionate proctoring."
+    },
+    {
+     "n": 235,
+     "q": "How are results calculated?",
+     "a": "Use a published scoring key and moderation process, with tie rules and quality checks. Scaled scores or percentiles require adequate samples and technical documentation."
+    },
+    {
+     "n": 236,
+     "q": "What is the ranking method?",
+     "a": "Ranks should be calculated only among clearly defined eligible participants using announced rules. Where cohort sizes are small, performance bands may be fairer than precise ranks."
+    },
+    {
+     "n": 237,
+     "q": "Are there city, state or national ranks?",
+     "a": "Only if participation is broad enough and the rules define each population. Career Garage should not imply representativeness beyond the actual entrants."
+    },
+    {
+     "n": 238,
+     "q": "What prizes and scholarships are offered?",
+     "a": "The official notification should specify award value, eligibility, number of recipients, conditions, taxes and fulfilment timeline. Marketing should never exceed the funded commitment."
+    },
+    {
+     "n": 239,
+     "q": "How are Olympiads proctored?",
+     "a": "Use age-appropriate identity checks, trained invigilators or proportionate online controls, incident logs and an appeal route. Privacy-intrusive monitoring should be minimised."
+    },
+    {
+     "n": 240,
+     "q": "How is cheating prevented?",
+     "a": "Combine multiple question forms, secure item banks, timed access, randomisation, anomaly review and candidate declarations. No automated flag should determine misconduct without human review."
+    },
+    {
+     "n": 241,
+     "q": "Can schools become examination centres?",
+     "a": "Yes, after agreement on facilities, trained personnel, security, accessibility and audit rights. Centre approval should be renewable and monitored."
+    },
+    {
+     "n": 242,
+     "q": "Is the Olympiad recognised by the government?",
+     "a": "Not unless a specific authority provides written recognition. It should be presented as a private educational competition and never use government logos or claims without authorisation.  [R3]"
+    },
+    {
+     "n": 243,
+     "q": "Can the Olympiad certificate be used in a portfolio?",
+     "a": "Yes, as evidence of participation or performance. The certificate should include the track, year, level and verification link so viewers understand what it represents."
+    },
+    {
+     "n": 244,
+     "q": "How can institutions register?",
+     "a": "An authorised coordinator submits institution details, categories, candidate count and delivery preference, then completes agreement, consent and payment steps through a documented portal."
+    },
+    {
+     "n": 245,
+     "q": "Can an Olympiad be sponsored?",
+     "a": "Yes, with disclosed sponsor involvement and protected assessment independence. Sponsors must not receive participant data or influence winners outside the published rules."
+    },
+    {
+     "n": 246,
+     "q": "How are result disputes resolved?",
+     "a": "Provide a defined review period, permissible grounds, record checks, expert adjudication and correction protocol. Secure items should not be released in a way that compromises future exams."
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "title": "Scholarships and Reward Points",
+   "items": [
+    {
+     "n": 247,
+     "q": "What scholarships are available?",
+     "a": "Career Garage can curate external scholarships and fund its own need-, merit- or participation-based awards. Each listing must identify the actual sponsor and official application source."
+    },
+    {
+     "n": 248,
+     "q": "Who is eligible for scholarships?",
+     "a": "Eligibility should be specific to each award—such as income, merit, geography, course, age or category—and supported by proportionate verification."
+    },
+    {
+     "n": 249,
+     "q": "How are scholarship winners selected?",
+     "a": "Use a published rubric, conflict-free reviewers, documented moderation and an appeal or query route. Selection evidence should be retained for audit."
+    },
+    {
+     "n": 250,
+     "q": "Are scholarships guaranteed?",
+     "a": "No, unless a learner has already received a formal award letter and fulfilled its conditions. The platform should describe the number and value of funded awards, not use ‘up to’ figures without context."
+    },
+    {
+     "n": 251,
+     "q": "What are Career Garage reward points?",
+     "a": "They are proposed non-transferable platform credits that recognise verified learning and engagement. They should have no cash value unless a legally reviewed programme explicitly says otherwise."
+    },
+    {
+     "n": 252,
+     "q": "How can users earn reward points?",
+     "a": "Award points for meaningful actions such as completing a profile, course, project, reflection, event or feedback—not for endless clicking, referrals by minors or sharing personal data."
+    },
+    {
+     "n": 253,
+     "q": "How can reward points be redeemed?",
+     "a": "Users may redeem them for eligible courses, assessments, events, mentoring discounts or approved benefits. The catalogue, conversion rules and availability must be visible before effort is spent."
+    },
+    {
+     "n": 254,
+     "q": "Do reward points expire?",
+     "a": "A reasonable expiry may apply, but users should receive clear notice at earning, in the wallet and before expiry. Changes should not remove value already earned without fair transition."
+    },
+    {
+     "n": 255,
+     "q": "Can reward points be transferred?",
+     "a": "The safest default is no, which reduces fraud and keeps rewards tied to learning. Any family or institution transfer feature would need explicit rules and abuse controls."
+    },
+    {
+     "n": 256,
+     "q": "Can reward points be converted to cash?",
+     "a": "Not under the recommended model. Keeping them as non-cash, closed-loop credits reduces financial, tax and gaming risk; this position should be confirmed through legal review."
+    },
+    {
+     "n": 257,
+     "q": "How is reward-point fraud prevented?",
+     "a": "Use event verification, limits, duplicate detection, anomaly monitoring, account security and manual review before large redemptions. Learners must have an appeal route for false flags."
+    },
+    {
+     "n": 258,
+     "q": "Can institutions sponsor scholarships?",
+     "a": "Yes, under an agreement defining eligibility, selection independence, funding, branding, data access and reporting. Sponsors should not receive applicant data beyond what is consented and necessary."
+    },
+    {
+     "n": 259,
+     "q": "Can companies fund scholarships through CSR?",
+     "a": "Potentially, subject to the company’s CSR policy and applicable Indian requirements. Career Garage should provide transparent programme design, beneficiary criteria, utilisation records and impact reporting; legal and tax treatment must be reviewed."
+    },
+    {
+     "n": 260,
+     "q": "Are scholarships paid to students or institutions?",
+     "a": "Either route may be appropriate. The award rules should specify whether funds go to the student, a verified education provider or an approved expense, with controls that do not create unnecessary barriers."
+    },
+    {
+     "n": 261,
+     "q": "What documents are required for scholarship applications?",
+     "a": "Collect only documents necessary for the stated criteria—such as identity, enrolment, marks or income evidence—and publish retention and deletion rules for sensitive copies."
+    },
+    {
+     "n": 262,
+     "q": "How is scholarship transparency maintained?",
+     "a": "Publish the funder, total pool, number and value of awards, eligibility, rubric, timeline, reviewer governance and final fulfilment status while protecting applicants’ privacy."
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "title": "Career Garage Connect",
+   "items": [
+    {
+     "n": 263,
+     "q": "What is Career Garage Connect?",
+     "a": "It is the community and opportunity layer where verified learners, mentors, experts, educators, institutions and employers can join moderated, purpose-based groups and events."
+    },
+    {
+     "n": 264,
+     "q": "Who can join the community?",
+     "a": "Access should depend on a verified role and age-appropriate terms. Minors require stronger privacy settings, consent and communication restrictions."
+    },
+    {
+     "n": 265,
+     "q": "What types of communities are available?",
+     "a": "Examples include career clusters, skills, projects, exam pathways, regions, institutions, alumni, internships and mentor cohorts, each with a named purpose and moderator."
+    },
+    {
+     "n": 266,
+     "q": "Can users create their own groups?",
+     "a": "Adults and authorised institution leaders may propose groups; student-created groups should use age-appropriate approval and moderation. Every group needs rules, ownership and a closure mechanism."
+    },
+    {
+     "n": 267,
+     "q": "How are groups moderated?",
+     "a": "Use trained human moderators, automated risk signals, member reporting, clear response times and escalation. Automation may prioritise review but should not be the sole judge of serious conduct."
+    },
+    {
+     "n": 268,
+     "q": "Can users post jobs and internships?",
+     "a": "Verified employers and authorised partners can post reviewed opportunities. Open member posting should be restricted to prevent scams and unlawful or unsafe roles."
+    },
+    {
+     "n": 269,
+     "q": "Can experts host live sessions?",
+     "a": "Yes, in scheduled, moderated rooms with verified hosts, participation controls, reporting and clear recording status."
+    },
+    {
+     "n": 270,
+     "q": "Can institutions create private communities?",
+     "a": "Yes, with designated administrators, membership rules and role-based data access. Platform-wide safeguarding and privacy standards still apply."
+    },
+    {
+     "n": 271,
+     "q": "Can employers create talent communities?",
+     "a": "Yes, for transparent learning events, challenges and talent engagement. They should not gain unrestricted access to minors or hidden profiling data."
+    },
+    {
+     "n": 272,
+     "q": "How is spam prevented?",
+     "a": "Use verification, posting limits, link and pattern checks, moderator tools, user blocking and escalating sanctions. Commercial messages must be labelled and permission-based."
+    },
+    {
+     "n": 273,
+     "q": "How is cyberbullying handled?",
+     "a": "Provide simple blocking and reporting, rapid human review, evidence preservation, victim support and proportionate sanctions. Serious threats or child-safety concerns require specialist escalation."
+    },
+    {
+     "n": 274,
+     "q": "Are minors allowed to chat privately?",
+     "a": "Minors should not have unrestricted direct messaging with unknown adults. Any one-to-one programme communication should occur in controlled, logged, consented channels with reporting safeguards.  [R1–R2]"
+    },
+    {
+     "n": 275,
+     "q": "Can users report inappropriate content?",
+     "a": "Yes, from every relevant screen. Reports should receive acknowledgement, priority based on risk, human review and outcome communication where appropriate."
+    },
+    {
+     "n": 276,
+     "q": "Are community guidelines public?",
+     "a": "Yes. They should use plain language, examples, age-appropriate summaries, enforcement levels and appeal routes, and be accepted before participation."
+    },
+    {
+     "n": 277,
+     "q": "Can users block other users?",
+     "a": "Yes. Blocking should immediately limit interaction without notifying the blocked user, while preserving evidence needed for an active safety review."
+    },
+    {
+     "n": 278,
+     "q": "How is misinformation controlled?",
+     "a": "Use source prompts, expert verification for high-stakes posts, moderator correction labels, reduced distribution and removal when harmful. Career discussion should distinguish personal experience from verified requirements."
+    },
+    {
+     "n": 279,
+     "q": "Can companies advertise in the community?",
+     "a": "Only through clearly labelled placements and age-appropriate targeting rules. Advertising must not use sensitive assessment data or resemble independent guidance."
+    },
+    {
+     "n": 280,
+     "q": "How is community engagement measured?",
+     "a": "Measure meaningful participation, helpful responses, completed collaborations, safety, diversity and downstream actions—not screen time or posting volume alone."
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "title": "Parents and Teachers",
+   "items": [
+    {
+     "n": 281,
+     "q": "How can parents support a student through Career Garage?",
+     "a": "They can help the learner reflect, test options, review affordability and complete agreed actions while keeping the learner’s voice central. Parent guidance should model questions rather than prescribe a career."
+    },
+    {
+     "n": 282,
+     "q": "What information can parents see?",
+     "a": "For minors, parents can receive age-appropriate results, action plans, schedules and safety information. Private notes or community content should be shared only according to consent, necessity and safeguarding policy."
+    },
+    {
+     "n": 283,
+     "q": "Can parents book counselling?",
+     "a": "Yes, for a family session, report explanation or parent-only guidance. The booking should clarify whether the learner must attend and what can remain confidential."
+    },
+    {
+     "n": 284,
+     "q": "Can parents override the student’s career choice?",
+     "a": "Career Garage cannot decide legal family authority, but its process should protect learner participation and informed consent. Counsellors facilitate evidence-based dialogue and escalate coercion or safety concerns when appropriate."
+    },
+    {
+     "n": 285,
+     "q": "How does Career Garage handle parent–student disagreement?",
+     "a": "Surface the underlying concerns—interest, status, income, cost, location or risk—then compare evidence, run low-risk career experiments and create primary and backup pathways."
+    },
+    {
+     "n": 286,
+     "q": "What role do teachers play?",
+     "a": "Teachers reinforce exploration, refer learners, facilitate activities and observe strengths in context. They do not diagnose personality or make irreversible decisions from a dashboard score."
+    },
+    {
+     "n": 287,
+     "q": "Can teachers view student reports?",
+     "a": "Only with a defined educational purpose, appropriate consent and least-privilege access. Cohort insights should be anonymised wherever individual detail is unnecessary."
+    },
+    {
+     "n": 288,
+     "q": "Can teachers become certified counsellors?",
+     "a": "They may enter the certification pathway if they meet eligibility and competence requirements. Teaching experience is valuable but does not automatically establish counselling or assessment competence."
+    },
+    {
+     "n": 289,
+     "q": "Are parent orientation sessions available?",
+     "a": "Yes. They should cover changing careers, interpreting reports, subject and education choices, financial planning, communication and avoiding harmful comparison."
+    },
+    {
+     "n": 290,
+     "q": "Are teacher training programmes available?",
+     "a": "Yes, for career awareness, referral, activity facilitation, bias reduction, platform use and safeguarding, with separate advanced pathways for formal career guidance."
+    },
+    {
+     "n": 291,
+     "q": "Can parents restrict community access?",
+     "a": "For minors, guardians should have age-appropriate controls over community participation, while the learner receives clear explanations. Safety defaults should not depend solely on parent configuration."
+    },
+    {
+     "n": 292,
+     "q": "How do you protect student independence?",
+     "a": "Use learner-friendly consent, separate reflection space, transparent sharing controls and counsellors trained to balance family involvement with developmentally appropriate autonomy."
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "title": "School and College Partnerships",
+   "items": [
+    {
+     "n": 293,
+     "q": "Why should a school partner with Career Garage?",
+     "a": "It gains a structured career-development pathway, specialist capacity and measurable student actions without building every component internally. The programme should complement—not replace—educators’ relationships with students."
+    },
+    {
+     "n": 294,
+     "q": "What does an institutional package include?",
+     "a": "A package may include orientation, assessments, reports, counselling, workshops, courses, opportunity access, parent sessions, staff training and dashboards. The contract should specify volumes, service levels and exclusions."
+    },
+    {
+     "n": 295,
+     "q": "How is the programme implemented in a school?",
+     "a": "Start with readiness and safeguarding review, appoint coordinators, obtain consent, orient stakeholders, run a pilot cohort, deliver the journey in phases and hold an outcome review."
+    },
+    {
+     "n": 296,
+     "q": "How much staff time is required?",
+     "a": "The requirement depends on scope, but institutions should appoint one coordinator, provide timetable and device access, support consent and escalations, and join review meetings. Career Garage handles specialised delivery defined in the agreement."
+    },
+    {
+     "n": 297,
+     "q": "Does Career Garage integrate with the school calendar?",
+     "a": "Yes. The annual plan should map assessments, counselling, workshops and applications to examination periods and education decision points, with contingency windows."
+    },
+    {
+     "n": 298,
+     "q": "Can the programme be customised?",
+     "a": "Yes, for grade mix, language, location, curriculum and objectives, while preserving validated assessment use, privacy, safeguarding and core outcome definitions."
+    },
+    {
+     "n": 299,
+     "q": "Can the school use its own counsellors?",
+     "a": "Yes, after role, credential and platform training checks. Career Garage can provide tools, supervision and quality standards while the institution retains agreed responsibilities."
+    },
+    {
+     "n": 300,
+     "q": "What reports do institutions receive?",
+     "a": "They can receive implementation status, participation, completion, authorised cohort trends, action metrics, feedback and risk flags. Reports should avoid exposing unnecessary individual sensitive data."
+    },
+    {
+     "n": 301,
+     "q": "Can institutions track outcomes?",
+     "a": "Yes, through agreed indicators such as plan completion, exposure, skill evidence, applications and transitions. Long-term outcomes require consented follow-up and careful attribution."
+    },
+    {
+     "n": 302,
+     "q": "Is there an annual partnership model?",
+     "a": "Yes. An annual agreement supports a full learner cycle, service calendar, capacity planning and outcome review, with renewal based on evidence and updated scope."
+    },
+    {
+     "n": 303,
+     "q": "Can multiple campuses use one account?",
+     "a": "Yes, through a hierarchy of organisation, campus, programme and cohort permissions. Administrators should see only the units they manage."
+    },
+    {
+     "n": 304,
+     "q": "How is student consent collected?",
+     "a": "Use clear notices and digital or documented consent suited to age and law, including parental consent where required. Consent records should be auditable and withdrawal operationally possible."
+    },
+    {
+     "n": 305,
+     "q": "Who owns student data?",
+     "a": "Career Garage should avoid simplistic ownership language. The contract must define the institution and platform roles, learner rights, permitted use, retention, return and deletion under applicable data law."
+    },
+    {
+     "n": 306,
+     "q": "Can schools export student data?",
+     "a": "Yes, for authorised administrative needs in secure, documented formats, subject to role controls, minimisation and the rights of learners and parents. Bulk exports should be logged."
+    },
+    {
+     "n": 307,
+     "q": "What technical support is provided?",
+     "a": "Support should cover onboarding, roster and login issues, device checks, accessibility, incident escalation and administrator guidance, with published service hours and response targets."
+    },
+    {
+     "n": 308,
+     "q": "Is training provided to school staff?",
+     "a": "Yes. Coordinators and relevant staff need platform, privacy, safeguarding, referral and implementation training before student launch."
+    },
+    {
+     "n": 309,
+     "q": "Can an institution run a pilot first?",
+     "a": "Yes, and that is recommended. A representative pilot tests fit, logistics, consent, language, report interpretation and outcome measures before scaling."
+    },
+    {
+     "n": 310,
+     "q": "How is partnership impact reviewed?",
+     "a": "Hold a joint review against agreed baseline and targets, examine participation and subgroup equity, capture qualitative feedback, identify risks and approve a documented improvement plan."
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "title": "Employers and Opportunity Partners",
+   "items": [
+    {
+     "n": 311,
+     "q": "Why should an employer partner with Career Garage?",
+     "a": "Employers can build an early-talent pipeline, offer authentic career exposure, test future-skill programmes and contribute to employability while receiving structured coordination and feedback."
+    },
+    {
+     "n": 312,
+     "q": "What types of employers can join?",
+     "a": "Companies, startups, nonprofits, professional firms, public bodies and verified small businesses may join if their opportunities, conduct and legal status meet platform standards."
+    },
+    {
+     "n": 313,
+     "q": "Can employers post jobs?",
+     "a": "Yes, for age-appropriate and lawful roles after organisation and listing verification. Career Garage should not post vague, discriminatory, fee-charging or commission-only roles without clear disclosure and review."
+    },
+    {
+     "n": 314,
+     "q": "Can employers conduct campus hiring?",
+     "a": "Yes, through institution-approved drives with published eligibility, selection stages, accessibility and data-sharing terms. The platform should preserve auditability and candidate communication."
+    },
+    {
+     "n": 315,
+     "q": "Can employers run skill challenges?",
+     "a": "Yes, when the task has a learning purpose, reasonable effort, transparent evaluation and fair intellectual-property terms. Challenges must not replace paid production work."
+    },
+    {
+     "n": 316,
+     "q": "Can employers access assessment results?",
+     "a": "Only with explicit candidate consent and only when the specific assessment is valid and lawful for that decision. Developmental career results should not become hidden hiring filters."
+    },
+    {
+     "n": 317,
+     "q": "How is candidate data shared?",
+     "a": "Through purpose-limited, role-based access to the minimum data required, with consent records, security controls, retention limits and a way for candidates to exercise their rights."
+    },
+    {
+     "n": 318,
+     "q": "Can employers sponsor courses or events?",
+     "a": "Yes, with clear labelling and editorial independence. Sponsorship should expand access or relevance without purchasing favourable recommendations or learner data."
+    },
+    {
+     "n": 319,
+     "q": "Can employers provide mentors?",
+     "a": "Yes, after mentor verification, safeguarding training, programme orientation and conflict checks. Employee participation should have defined time and escalation support."
+    },
+    {
+     "n": 320,
+     "q": "How does Career Garage improve hiring quality?",
+     "a": "It can improve role awareness, preparedness and evidence through projects and structured profiles. Any claim about hiring efficiency or retention must be supported by verified employer outcomes."
+    },
+    {
+     "n": 321,
+     "q": "What analytics do employers receive?",
+     "a": "They may receive funnel, event, challenge and aggregate skill insights relevant to their programme. Sensitive traits, minors’ data and individual assessment results require stronger justification and consent."
+    },
+    {
+     "n": 322,
+     "q": "How are employer partnerships monitored?",
+     "a": "Track listing accuracy, response times, participant feedback, selection fairness, compensation, safety incidents and completion. Partners that breach standards should be corrected, suspended or removed."
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "title": "Technology, AI, Data Privacy and Security",
+   "items": [
+    {
+     "n": 323,
+     "q": "What technology powers Career Garage?",
+     "a": "A secure web and mobile architecture should combine identity, assessment, content, booking, learning, community and analytics services. The final stack should be selected for reliability, accessibility, interoperability and data governance."
+    },
+    {
+     "n": 324,
+     "q": "How is AI used?",
+     "a": "AI can support search, summarisation, recommendation drafts, content tagging, translations and risk triage. It should not make unreviewed high-impact decisions, diagnose users or fabricate current career facts.  [R7]"
+    },
+    {
+     "n": 325,
+     "q": "Does AI make the final career decision?",
+     "a": "No. AI may organise evidence and suggest possibilities, but the learner makes the decision with human guidance and real-world information. The interface must make that limitation visible.  [R7]"
+    },
+    {
+     "n": 326,
+     "q": "How are AI recommendations checked?",
+     "a": "Use approved source data, rule constraints, human review for high-impact cases, test sets, bias and safety evaluation, logging, incident review and ongoing outcome monitoring.  [R7]"
+    },
+    {
+     "n": 327,
+     "q": "Can users understand why AI made a recommendation?",
+     "a": "They should see the principal factors, evidence, uncertainty and alternative options in plain language. Proprietary complexity is not an excuse for an unexplained high-impact suggestion.  [R7]"
+    },
+    {
+     "n": 328,
+     "q": "What happens if the AI is wrong?",
+     "a": "Users need a simple correction and human-review route. Material errors should be traced, corrected, communicated where necessary and used to improve the model or source system.  [R7]"
+    },
+    {
+     "n": 329,
+     "q": "What data does Career Garage collect?",
+     "a": "Only data needed for the stated service—such as identity and contact details, education profile, assessment responses, activity, bookings and authorised outcome evidence. Every category should appear in a privacy notice and retention schedule.  [R1–R2]"
+    },
+    {
+     "n": 330,
+     "q": "Why is this data needed?",
+     "a": "Each field must map to a service purpose, legal basis and retention period. Optional personalisation data should be clearly optional, and collection should stop when the purpose can be met without it.  [R1–R2]"
+    },
+    {
+     "n": 331,
+     "q": "Is student data sold?",
+     "a": "The recommended policy is no. Career Garage should not sell personal data or sensitive assessment profiles; any partner access must be purpose-limited, consented where required and contractually controlled.  [R1–R2]"
+    },
+    {
+     "n": 332,
+     "q": "Who can access assessment results?",
+     "a": "The learner, authorised guardian where appropriate, assigned qualified professionals and specifically authorised institution users—each through least-privilege, logged access. Employers do not receive results by default.  [R1–R2]"
+    },
+    {
+     "n": 333,
+     "q": "How long is personal data stored?",
+     "a": "Retention should be purpose- and age-specific, with shorter periods for raw recordings, identity documents and inactive accounts. The public schedule must explain deletion, legal holds and anonymised research data.  [R1–R2]"
+    },
+    {
+     "n": 334,
+     "q": "Can users delete their data?",
+     "a": "Users should be able to request deletion, subject to lawful exceptions and records needed to protect rights or resolve disputes. The process should state what was deleted, retained and why.  [R1–R2]"
+    },
+    {
+     "n": 335,
+     "q": "How is data secured?",
+     "a": "Use encryption in transit and at rest, strong authentication, least privilege, secure development, vendor review, backups, monitoring, vulnerability management and an incident-response plan. Security claims should be tested, not assumed.  [R1–R2]"
+    },
+    {
+     "n": 336,
+     "q": "What happens during a data breach?",
+     "a": "Contain and investigate the incident, protect accounts, preserve evidence, assess harm, notify authorities and affected users as required, remediate causes and document lessons. A named incident team and rehearsal are essential.  [R1–R2]"
+    },
+    {
+     "n": 337,
+     "q": "Does Career Garage comply with India’s data-protection law?",
+     "a": "The platform must be designed for the Digital Personal Data Protection Act, 2023 and the phased Digital Personal Data Protection Rules, 2025, including clear notices, valid consent, user rights, child safeguards, grievance handling and processor controls. Formal compliance requires ongoing legal review.  [R1–R2]"
+    },
+    {
+     "n": 338,
+     "q": "How is children’s data protected?",
+     "a": "Apply age assurance, verifiable parental consent where required, privacy-protective defaults, minimal collection, restricted profiling and messaging, careful vendor access and rapid safety escalation. Commercial design should never exploit children’s data.  [R1–R2]"
+    },
+    {
+     "n": 339,
+     "q": "Can data be used for research?",
+     "a": "Yes only under a defined protocol with consent or another lawful basis, minimisation, de-identification, access controls, ethics review where appropriate and publication rules that prevent re-identification.  [R1–R2]"
+    },
+    {
+     "n": 340,
+     "q": "Are third-party tools used?",
+     "a": "Likely yes for hosting, payments, communications or analytics, but every processor requires due diligence, contractual controls, security review, data-location analysis and a public disclosure where relevant.  [R1–R2]"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "title": "Pricing and Revenue Model",
+   "items": [
+    {
+     "n": 341,
+     "q": "Is Career Garage free?",
+     "a": "A free foundational tier can provide career information, basic exploration and selected events. Deeper assessment, professional counselling, live programmes and verified services may be paid or institution-sponsored."
+    },
+    {
+     "n": 342,
+     "q": "What does the free plan include?",
+     "a": "The final plan should list exact entitlements, but a responsible baseline includes profile creation, selected career-library access, introductory tools and safety-support access—without harvesting data as hidden payment."
+    },
+    {
+     "n": 343,
+     "q": "What are the paid plans?",
+     "a": "Use simple plans aligned to outcomes: assessment and report, guidance package, learner journey, institution programme and professional training. Exact inclusions and limits must be visible before purchase."
+    },
+    {
+     "n": 344,
+     "q": "How much does an assessment cost?",
+     "a": "Pricing should follow validation, delivery, interpretation and support costs, with regional affordability testing. Until approved, quote only an official current price sheet—not an improvised number during a presentation."
+    },
+    {
+     "n": 345,
+     "q": "How much does counselling cost?",
+     "a": "Fees can vary by counsellor level, duration, language and package. Display the total price, taxes, included follow-up and cancellation terms before booking."
+    },
+    {
+     "n": 346,
+     "q": "Are there student discounts?",
+     "a": "Yes, through transparent school, need-based, scholarship or campaign programmes with published eligibility. Discounts should not create artificial list prices."
+    },
+    {
+     "n": 347,
+     "q": "Are there institutional packages?",
+     "a": "Yes, using cohort, per-learner, annual licence or managed-programme models. Proposals should separate platform access, professional services, events and optional modules."
+    },
+    {
+     "n": 348,
+     "q": "Can companies sponsor student access?",
+     "a": "Yes, through CSR, scholarship, community or talent programmes with clear beneficiary criteria, impact reporting and strict limits on data and marketing access."
+    },
+    {
+     "n": 349,
+     "q": "What is Career Garage’s revenue model?",
+     "a": "A balanced model can combine B2C guidance, B2B institution programmes, professional training, opportunity and expert services, and sponsored access. Revenue sources must not distort career recommendations."
+    },
+    {
+     "n": 350,
+     "q": "Does Career Garage charge employers?",
+     "a": "It may charge for verified listings, programme management, challenges, events or talent services. Charging should never allow an employer to bypass quality or safety review."
+    },
+    {
+     "n": 351,
+     "q": "Does Career Garage earn commission on courses?",
+     "a": "It may, if disclosed clearly. Recommendations should use suitability and quality criteria, show alternatives and separate commercial ranking from guidance."
+    },
+    {
+     "n": 352,
+     "q": "Does Career Garage charge experts or mentors?",
+     "a": "A transparent platform or service fee may apply to paid engagements; volunteer programmes should not hide participation charges. Payout, cancellation and tax terms must be agreed before activation."
+    },
+    {
+     "n": 353,
+     "q": "What is the refund policy?",
+     "a": "The policy should specify eligibility by product, cancellation timing, service consumption, technical failure and statutory rights, with a defined processing timeline and escalation contact."
+    },
+    {
+     "n": 354,
+     "q": "How will Career Garage remain affordable?",
+     "a": "Use tiered services, shared institution delivery, low-bandwidth design, scholarships, sponsored seats, group formats and disciplined costs while protecting quality-critical counselling and safety functions."
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "title": "Implementation and Operations",
+   "items": [
+    {
+     "n": 355,
+     "q": "Where will Career Garage launch first?",
+     "a": "The recommended approach is a phased India launch, beginning where institutional partners, counsellors, language support and operations are strongest. Bihar, Jharkhand and Uttar Pradesh can be priority markets if readiness data confirms the strategy."
+    },
+    {
+     "n": 356,
+     "q": "What is the launch timeline?",
+     "a": "Publish a timeline only after product, assessment, legal, safety and service-readiness gates are passed. A credible roadmap separates pilot, limited release, evaluation and scale rather than announcing one symbolic date."
+    },
+    {
+     "n": 357,
+     "q": "What is included in the pilot?",
+     "a": "A representative pilot should test onboarding, consent, selected assessments, report interpretation, counselling, at least one action programme, support, safety and outcome measurement—not every future feature."
+    },
+    {
+     "n": 358,
+     "q": "How many students are needed for a pilot?",
+     "a": "Choose enough learners to test workflows and important subgroups, not a vanity number. Psychometric validation may require a much larger, separately designed sample than an operational pilot."
+    },
+    {
+     "n": 359,
+     "q": "How are pilot institutions selected?",
+     "a": "Select for leadership commitment, learner diversity, device and timetable feasibility, safeguarding readiness, data agreement and willingness to provide honest feedback."
+    },
+    {
+     "n": 360,
+     "q": "What infrastructure does an institution need?",
+     "a": "At minimum, a coordinator, secure learner roster, consent process, suitable devices or lab access, stable-enough connectivity, private counselling space and an escalation contact. Low-connectivity alternatives should be planned."
+    },
+    {
+     "n": 361,
+     "q": "What support is available during implementation?",
+     "a": "Provide an implementation manager, staff training, learner and parent orientation, technical help, counsellor scheduling, issue escalation and regular progress reviews."
+    },
+    {
+     "n": 362,
+     "q": "How long does institutional onboarding take?",
+     "a": "A standard implementation may require several weeks depending on data, consent, calendar and customisation. The proposal should use readiness milestones rather than promise the same date for every institution."
+    },
+    {
+     "n": 363,
+     "q": "Who is responsible for student communication?",
+     "a": "Use a joint communication plan: the institution provides trusted local channels and context, while Career Garage supplies approved messages, consent information, schedules and support details."
+    },
+    {
+     "n": 364,
+     "q": "How are service complaints handled?",
+     "a": "Offer one visible intake route, acknowledgement and severity-based response targets, independent escalation, documented resolution and trend review. Safety and data complaints must follow specialist protocols."
+    },
+    {
+     "n": 365,
+     "q": "What service-level commitments are provided?",
+     "a": "Contracts should define platform availability, support hours, response and restoration targets, session rescheduling, data incident notice and exclusions. Commitments must match actual operating capacity."
+    },
+    {
+     "n": 366,
+     "q": "How will Career Garage scale quality?",
+     "a": "Standardise high-risk processes, automate administration, train and supervise practitioners, audit samples, monitor outcomes and expand only when capacity and safeguards meet thresholds."
+    },
+    {
+     "n": 367,
+     "q": "How are partners onboarded?",
+     "a": "Verify the organisation and people, complete contracts and data terms, train users, test the workflow, assign owners and approve a limited launch before full access."
+    },
+    {
+     "n": 368,
+     "q": "What are the main operational risks?",
+     "a": "Key risks include weak assessment evidence, variable counselling, child-safety failures, outdated information, fake opportunities, data incidents, overclaiming, poor partner delivery and unaffordable support. Each needs an owner, preventive control and response plan."
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "title": "Outcomes, Measurement and Impact",
+   "items": [
+    {
+     "n": 369,
+     "q": "How does Career Garage measure student success?",
+     "a": "Measure informed decision quality, completed action plans, career exploration, skill evidence, confidence without overconfidence, applications and transitions. Use baselines and follow-up rather than a single satisfaction score."
+    },
+    {
+     "n": 370,
+     "q": "What are the key impact metrics?",
+     "a": "Core metrics can include equitable reach, assessment completion quality, counselling action completion, projects or courses completed, mentorship and internship outcomes, transition progress, wellbeing safeguards and stakeholder satisfaction."
+    },
+    {
+     "n": 371,
+     "q": "How quickly can a student see results?",
+     "a": "A learner can gain initial clarity after assessment and counselling, but durable outcomes require weeks or months of action. Present immediate, intermediate and long-term outcomes separately."
+    },
+    {
+     "n": 372,
+     "q": "Can Career Garage prove that its recommendations work?",
+     "a": "It should build evidence through validation studies, user comprehension, action completion, comparative pilots and longitudinal outcomes. Until then, it must state evidence honestly and avoid causal claims."
+    },
+    {
+     "n": 373,
+     "q": "How are long-term outcomes tracked?",
+     "a": "With consented follow-ups at defined intervals, education and work transitions, portfolio evidence and partner confirmations where appropriate. Attrition and self-report limitations should be reported."
+    },
+    {
+     "n": 374,
+     "q": "Can institutions compare cohort outcomes?",
+     "a": "Yes, when definitions, time periods and learner mix are comparable. Dashboards should show context and uncertainty and avoid punitive league tables."
+    },
+    {
+     "n": 375,
+     "q": "How is inclusion measured?",
+     "a": "Track access, completion, experience and outcomes by relevant geography, gender, disability, language, income proxy and institution type, using privacy-safe minimum group sizes."
+    },
+    {
+     "n": 376,
+     "q": "How is learner satisfaction measured?",
+     "a": "Use short, age-appropriate surveys after key services plus open feedback and complaint data. Ask about understanding, usefulness, respect and next-step confidence—not only likelihood to recommend."
+    },
+    {
+     "n": 377,
+     "q": "How is counsellor impact measured?",
+     "a": "Review learner understanding, plan quality, action completion, safety and sustained progress while adjusting for case complexity. Avoid rewarding counsellors for steering users toward paid products."
+    },
+    {
+     "n": 378,
+     "q": "How is internship impact measured?",
+     "a": "Track access, selection fairness, completion, supervisor feedback, skill evidence, learner reflection, safety and subsequent opportunity. Job conversion is useful but not the only goal."
+    },
+    {
+     "n": 379,
+     "q": "How is workshop impact measured?",
+     "a": "Use objective-aligned pre/post evidence, observed practice and later action, alongside satisfaction. Report what changed and for whom."
+    },
+    {
+     "n": 380,
+     "q": "Will impact reports be published?",
+     "a": "Career Garage should publish periodic, privacy-safe reports with methods, sample sizes, limitations and both positive and negative findings. Independent review improves credibility."
+    },
+    {
+     "n": 381,
+     "q": "How will feedback improve the platform?",
+     "a": "Route feedback into named product, content, practitioner and safety owners; prioritise by severity and frequency; test changes; and close the loop with affected users."
+    },
+    {
+     "n": 382,
+     "q": "What is the ultimate social impact?",
+     "a": "The intended impact is greater career agency and fairer access to guidance, skills and opportunity—especially for learners excluded by geography, income, language or networks."
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "title": "Difficult and Critical Questions",
+   "items": [
+    {
+     "n": 383,
+     "q": "Why should anyone trust Career Garage?",
+     "a": "Trust should be earned through transparent methods, verified people and partners, clear limits, strong privacy and safety, published evidence, accessible complaints and correction when the platform is wrong."
+    },
+    {
+     "n": 384,
+     "q": "What evidence shows that the model works?",
+     "a": "The model is plausible because it integrates established career-development components, but Career Garage-specific effectiveness must be demonstrated through pilots, validation and longitudinal outcomes. Do not substitute testimonials for evidence."
+    },
+    {
+     "n": 385,
+     "q": "What if the assessments are inaccurate?",
+     "a": "No assessment is error-free. Use multiple evidence sources, report uncertainty, allow retesting and human review, monitor bias and outcomes, and stop using any module that lacks adequate validity for its purpose."
+    },
+    {
+     "n": 386,
+     "q": "What if AI reinforces social bias?",
+     "a": "Measure subgroup performance, remove proxy variables where inappropriate, constrain use cases, include human review and appeals, document model changes and involve affected communities. If fairness cannot be established, do not automate the decision.  [R7]"
+    },
+    {
+     "n": 387,
+     "q": "What prevents Career Garage from becoming a course-selling funnel?",
+     "a": "Separate guidance governance from commercial teams, disclose commissions, rank by suitability, show non-commercial alternatives, audit recommendations and never reward counsellors for sales."
+    },
+    {
+     "n": 388,
+     "q": "What prevents employers from exploiting student data?",
+     "a": "Default-deny access, explicit purpose and consent, contractual prohibitions, technical controls, audit logs, short retention, sanctions and no hidden assessment-data sharing."
+    },
+    {
+     "n": 389,
+     "q": "How will Career Garage protect minors from unsafe adults?",
+     "a": "Use verified adults, background checks where appropriate, no unrestricted adult–minor messaging, moderated channels, parental controls, conduct rules, rapid reporting, specialist response and law-enforcement escalation when required.  [R1–R2]"
+    },
+    {
+     "n": 390,
+     "q": "What happens if Career Garage gives a harmful recommendation?",
+     "a": "Pause the affected workflow, provide human review and support, correct the record, notify impacted users where material, investigate root cause and publish governance improvements. Terms should not be used to avoid accountability."
+    },
+    {
+     "n": 391,
+     "q": "Is Career Garage replacing parents, teachers or counsellors?",
+     "a": "No. It gives each stakeholder better tools, information and coordination. Human relationships and contextual judgement remain central."
+    },
+    {
+     "n": 392,
+     "q": "Is Career Garage trying to decide a child’s future?",
+     "a": "No. It expands informed choice and encourages exploration. Its most important safeguard is refusing to convert a profile into a fixed destiny."
+    },
+    {
+     "n": 393,
+     "q": "Why not use a free online career test?",
+     "a": "A free test may be a useful prompt, but it rarely provides validated local interpretation, contextual counselling, an action plan, opportunities, safety and longitudinal support. Career Garage’s value must come from this connected quality—not the existence of a quiz."
+    },
+    {
+     "n": 394,
+     "q": "Why pay when schools already have counsellors?",
+     "a": "Career Garage can extend capacity with specialised assessments, content, opportunity networks, supervision and reporting. Where a school already has strong provision, the platform should complement it rather than duplicate services."
+    },
+    {
+     "n": 395,
+     "q": "What is the biggest risk to the business?",
+     "a": "The biggest risk is losing trust through overclaiming or inconsistent delivery. The response is staged scale, evidence gates, practitioner governance, child safety, data discipline and transparent correction."
+    },
+    {
+     "n": 396,
+     "q": "What stops a competitor from copying the idea?",
+     "a": "The concept can be copied; trusted execution is harder. Defensibility comes from validated tools, protected content, quality professionals, institutional workflows, safe opportunity networks, longitudinal data and a respected brand."
+    },
+    {
+     "n": 397,
+     "q": "How will Career Garage remain independent?",
+     "a": "Adopt conflict-of-interest rules, disclose revenue relationships, keep recommendation criteria separate from sales, diversify funding and establish external advisory oversight for assessment, ethics and safeguarding."
+    },
+    {
+     "n": 398,
+     "q": "What approvals are required before launch?",
+     "a": "Complete legal, privacy, consumer, tax, child-safety, assessment-IP, contracting and sector-specific review; obtain institution and partner approvals; and secure any licences triggered by actual services. Do not claim government approval unless formally granted.  [R1–R3, R9]"
+    },
+    {
+     "n": 399,
+     "q": "What has to be validated before public claims are made?",
+     "a": "At minimum: assessment reliability and validity, norm samples, counsellor and mentor credentials, launch geography, language coverage, prices, partner counts, service levels, certificate status, opportunity volume, security controls and outcome claims."
+    },
+    {
+     "n": 400,
+     "q": "Why is now the right time for Career Garage?",
+     "a": "Learners face more pathways, faster skill change and unequal access to reliable guidance. India’s education direction also emphasises holistic development, career guidance, vocational exposure, internships and mentorship; Career Garage can serve that need if it earns trust through evidence and execution.  [R8]"
+    }
+   ]
+  }
+ ]
+}

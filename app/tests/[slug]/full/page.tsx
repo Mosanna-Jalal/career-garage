@@ -8,6 +8,7 @@ import { getAssessment, optionLabels } from "@/lib/assessments/catalog";
 import { learnerInstructions, listNote } from "@/lib/assessments/content";
 import { getBankItems, toPublic } from "@/lib/assessments/server";
 import { isSubscriber } from "@/lib/subscription";
+import { OwnerUnlock } from "@/components/assessment/owner-unlock";
 
 export const dynamic = "force-dynamic";
 
@@ -71,6 +72,9 @@ export default async function FullAssessmentPage(
             >
               Try the free demo first
             </Link>
+          </div>
+          <div className="mx-auto mt-6 w-fit">
+            <OwnerUnlock />
           </div>
           <p className="mt-8 text-xs text-ink/50">
             Career Garage team?{" "}

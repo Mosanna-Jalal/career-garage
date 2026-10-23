@@ -51,6 +51,24 @@ export const audienceLinks: NavLink[] = [
     blurb: "154 career profiles across 21 families — pathways, courses, skills",
     icon: "compass",
   },
+  {
+    href: "/careers",
+    label: "Interest Areas & Courses",
+    blurb: "570 careers in 57 areas — courses, exams and counselling notes",
+    icon: "book",
+  },
+  {
+    href: "/connect",
+    label: "Career Garage Connect",
+    blurb: "Communities, mentors and Q&A with verified experts",
+    icon: "users",
+  },
+  {
+    href: "/points",
+    label: "Career Points",
+    blurb: "Earn points, levels and badges for real progress",
+    icon: "star",
+  },
 ];
 
 export const programmeLinks: NavLink[] = [
@@ -89,6 +107,7 @@ export const aboutLinks: NavLink[] = [
   { href: "/about/brand", label: "Brand Foundation" },
   { href: "/about/why-career-garage", label: "Why Career Garage?" },
   { href: "/about/team", label: "Our Team" },
+  { href: "/about/faq", label: "FAQs" },
 ];
 
 export const legalLinks: NavLink[] = [

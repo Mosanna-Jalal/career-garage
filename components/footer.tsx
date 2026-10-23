@@ -29,6 +29,8 @@ const columns = [
       { href: "/about", label: "About Us" },
       { href: "/tests", label: "Assessments" },
       { href: "/articles", label: "Articles" },
+      { href: "/partners", label: "Partner perks" },
+      { href: "/about/faq", label: "FAQs" },
       { href: "/register", label: "Sign Up" },
     ],
   },

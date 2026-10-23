@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { CheckIcon, ShieldIcon, SparkIcon } from "@/components/icons";
 import { getRoleForm, roleForms, type Field } from "@/lib/registration";
 import { registerRoles } from "@/lib/site";
+import { PartnerPerks } from "@/components/partner-perks";
 
 export function generateStaticParams() {
   return roleForms.map((r) => ({ role: r.slug }));
@@ -138,6 +139,9 @@ export default async function RoleRegisterPage(
       </div>
 
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
+        <div className="-mt-12 mb-16">
+          <PartnerPerks role={form.slug} roleLabel={form.label.toLowerCase()} />
+        </div>
         {form.flows.map((flow) => (
           <section key={flow.name} className="mb-16">
             {form.flows.length > 1 && (

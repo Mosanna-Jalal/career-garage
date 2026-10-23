@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { ArrowRightIcon, CheckIcon, ShieldIcon } from "@/components/icons";
 import { KidWithTrophy, StarDoodle, Squiggle } from "@/components/doodles";
 import type { ReportDim, ReportPair, ReportPayload } from "@/lib/assessments/report-types";
+import { OwnerUnlock } from "@/components/assessment/owner-unlock";
 
 function LockIcon({ className = "" }: { className?: string }) {
   return (
@@ -256,7 +257,18 @@ const flagText: Record<string, string> = {
     "Your answers were very similar throughout. That can be genuine, but it can also make a profile less informative — consider discussing the result with a counsellor.",
 };
 
-export function ReportView({ report, color, onRetake }: { report: ReportPayload; color: string; onRetake: () => void }) {
+export function ReportView({
+  report,
+  color,
+  onRetake,
+  onOwnerUnlock,
+}: {
+  report: ReportPayload;
+  color: string;
+  onRetake: () => void;
+  /** re-score the same answers once the owner has unlocked full reports */
+  onOwnerUnlock?: () => void;
+}) {
   const demo = report.mode === "demo";
   const top = new Set(report.topThree ?? []);
   const narrativeDims = (() => {
@@ -415,6 +427,7 @@ export function ReportView({ report, color, onRetake }: { report: ReportPayload;
                 <Link href={`/tests/${report.slug}/full`} className="text-sm font-semibold text-brand-700 hover:underline">
                   Already subscribed? Take the full assessment
                 </Link>
+                <OwnerUnlock onUnlocked={onOwnerUnlock} className="mt-2" />
               </div>
             </div>
           </div>

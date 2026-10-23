@@ -19,6 +19,7 @@ import {
   registerRoles,
   type NavLink,
 } from "@/lib/site";
+import { AccountMenu } from "@/components/account-menu";
 
 type MenuLink = NavLink & { available?: boolean };
 
@@ -165,12 +166,7 @@ export function Header() {
         </nav>
 
         <div className="hidden shrink-0 items-center gap-3 xl:flex">
-          <Link
-            href="/register"
-            className="rounded-full bg-accent-500 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-accent-500/25 transition hover:bg-accent-600"
-          >
-            Sign up free
-          </Link>
+          <AccountMenu />
         </div>
 
         {/* Mobile toggle */}
@@ -221,12 +217,7 @@ export function Header() {
                 )}
             </div>
           ))}
-          <Link
-            href="/register"
-            className="mt-5 block rounded-full bg-accent-500 px-5 py-3 text-center text-sm font-semibold text-white"
-          >
-            Sign up free
-          </Link>
+          <AccountMenu mobile />
         </nav>
       )}
     </header>
